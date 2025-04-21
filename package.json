@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build-cf-types": "wrangler types",
+    "build-cf-types": "wrangler types && biome format --write .",
     "dev": "waku dev",
     "build": "waku build --with-cloudflare",
     "predeploy": "bun run build",
@@ -19,9 +19,11 @@
     "wrangler": "4.11.1"
   },
   "imports": {
-    "#utils/*": "./src/utils/*"
+    "#utils/*": "./src/utils/*",
+    "#mdx/*": "./src/mdx/*"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@mdx-js/mdx": "3.1.0",
     "@mdx-js/rollup": "3.1.0",
     "@shikijs/rehype": "3.2.2",
