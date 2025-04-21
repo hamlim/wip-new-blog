@@ -4,11 +4,13 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build-cf-types": "wrangler types && biome format --write .",
+    "build-cf-types": "wrangler types && bun run format",
     "dev": "waku dev",
     "build": "waku build --with-cloudflare",
     "predeploy": "bun run build",
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler deploy",
+    "format": "biome format --write .",
+    "check": "biome ci ."
   },
   "dependencies": {
     "hono": "4.7.7",
