@@ -1,4 +1,4 @@
-# Waku Template App
+# WIP New Blog
 
 Things to change after using this template:
 

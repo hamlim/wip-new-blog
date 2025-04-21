@@ -17,7 +17,7 @@ export default function Root({ children }: { children: ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head suppressHydrationWarning>
-        <title>Waku Template</title>
+        <title>WIP New Blog</title>
       </head>
       <body>
         <script
