@@ -1,6 +1,6 @@
+/// <reference types="bun" />
 import watcher from "@parcel/watcher";
 import matter from "gray-matter";
-/// <reference types="bun" />
 import { glob } from "tinyglobby";
 
 type RawFrontmatter = {
