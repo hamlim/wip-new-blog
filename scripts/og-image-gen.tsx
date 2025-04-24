@@ -1,14 +1,4 @@
 /// <reference types="bun" />
-// import { Resvg } from "@resvg/resvg-js";
-// import satori from "satori";
-
-// let inter = {
-//   name: "Inter",
-//   data: await Bun.file("./public/inter-regular.ttf").arrayBuffer(),
-//   weight: 400,
-//   style: "normal",
-// } as const;
-
 import { generateImage as generateBaseImage } from "pikitia";
 
 export async function generateImage({
@@ -44,25 +34,8 @@ export async function generateImage({
     {
       width: 1200,
       height: 630,
-      // fonts: [inter],
-      // async loadAdditionalAsset(code: string, segment: string) {
-      //   if (code === "emoji") {
-      //     // if segment is an emoji
-      //     let svgText = await Bun.file(
-      //       `./assets/svg/${segment.codePointAt(0)?.toString(16)}.svg`,
-      //     ).text();
-      //     let svgBuf = Buffer.from(svgText).toString("base64");
-      //     return `data:image/svg+xml;base64,${svgBuf}`;
-      //   }
-
-      //   return `missing-segment - ${code} - ${segment}`;
-      // },
     },
   );
-
-  // let resvg = new Resvg(svg, {});
-  // let pngData = resvg.render();
-  // let pngBuffer = pngData.asPng();
 
   return pngBuffer;
 }
