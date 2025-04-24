@@ -38,6 +38,7 @@
     "@types/react-dom": "19.0.3",
     "@vercel/og": "0.6.8",
     "miniflare": "4.20250410.1",
+    "pikitia": "0.0.1",
     "rehype-mdx-code-props": "3.0.1",
     "remark-flexible-markers": "1.2.1",
     "remark-frontmatter": "5.0.0",
