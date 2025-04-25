@@ -32,7 +32,7 @@ async function generateMetadata() {
   );
 
   contents += `
-export const metadata = ${JSON.stringify(metadata, null, 2)};`;
+export let metadata = ${JSON.stringify(metadata, null, 2)};`;
 
   await Bun.write(metadataPath, contents);
   await Bun.$`bun run format`;
