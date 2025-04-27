@@ -10,6 +10,7 @@ import type { getConfig as Mdx_getConfig } from './pages/mdx';
 
 // prettier-ignore
 type Page =
+| { path: '/__sandbox'; render: 'dynamic' }
 | { path: '/_root'; render: 'dynamic' }
 | ({ path: '/' } & GetConfigResponse<typeof Index_getConfig>)
 | ({ path: '/mdx' } & GetConfigResponse<typeof Mdx_getConfig>);
