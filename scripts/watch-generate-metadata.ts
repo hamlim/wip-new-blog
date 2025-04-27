@@ -1,7 +1,7 @@
 import watcher from "@parcel/watcher";
-import { generateMetadata, mdxDir } from "./generate-metadata";
+import { generateMetadata, mdxRootDir } from "./generate-metadata";
 
-let subscription = await watcher.subscribe(mdxDir, async (err, events) => {
+let subscription = await watcher.subscribe(mdxRootDir, async (err, events) => {
   await generateMetadata();
 });
 

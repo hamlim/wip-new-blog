@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "build-cf-types": "wrangler types && bun run format",
+    "check-tags": "bun run scripts/check-tags.ts",
     "metadata:dev": "bun run scripts/watch-generate-metadata.ts",
     "site:dev": "waku dev",
     "dev": "concurrently \"bun run metadata:dev\" \"bun run site:dev\"",
