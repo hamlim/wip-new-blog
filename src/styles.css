@@ -18,3 +18,13 @@ html.dark .shiki span {
   font-weight: var(--shiki-dark-font-weight) !important;
   text-decoration: var(--shiki-dark-text-decoration) !important;
 }
+
+html {
+  background-color: white;
+  color: black;
+}
+
+html.dark {
+  background-color: black;
+  color: white;
+}

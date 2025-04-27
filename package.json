@@ -5,7 +5,10 @@
   "private": true,
   "scripts": {
     "build-cf-types": "wrangler types && bun run format",
-    "dev": "waku dev",
+    "metadata:dev": "bun run scripts/watch-generate-metadata.ts",
+    "site:dev": "waku dev",
+    "dev": "concurrently \"bun run metadata:dev\" \"bun run site:dev\"",
+    "prebuild": "bun run scripts/generate-metadata.ts",
     "build": "waku build --with-cloudflare",
     "predeploy": "bun run build",
     "deploy": "wrangler deploy",
@@ -21,6 +24,7 @@
     "wrangler": "4.11.1"
   },
   "imports": {
+    "#/*": "./src/*",
     "#utils/*": "./src/utils/*",
     "#mdx/*": "./src/mdx/*"
   },
@@ -38,6 +42,7 @@
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
     "@vercel/og": "0.6.8",
+    "concurrently": "9.1.2",
     "gray-matter": "4.0.3",
     "miniflare": "4.20250410.1",
     "pikitia": "0.0.1",

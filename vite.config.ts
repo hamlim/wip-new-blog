@@ -11,6 +11,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   resolve: {
     alias: {
+      "#/*": "./src/*",
       "#utils/*": "./src/utils/*",
       "#mdx/*": "./src/mdx/*",
     },
