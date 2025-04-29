@@ -6,10 +6,10 @@
   "scripts": {
     "build-cf-types": "wrangler types && bun run format",
     "check-tags": "bun run scripts/check-tags.ts",
-    "metadata:dev": "bun run scripts/watch-generate-metadata.ts",
+    "generate:dev": "bun run scripts/watch-generate.ts",
     "site:dev": "waku dev",
-    "dev": "concurrently \"bun run metadata:dev\" \"bun run site:dev\"",
-    "prebuild": "bun run scripts/generate-metadata.ts",
+    "dev": "concurrently \"bun run generate:dev\" \"bun run site:dev\"",
+    "prebuild": "bun run scripts/generate.ts",
     "build": "waku build --with-cloudflare",
     "predeploy": "bun run build",
     "deploy": "wrangler deploy",
@@ -17,6 +17,7 @@
     "check": "biome ci ."
   },
   "dependencies": {
+    "feed": "4.2.2",
     "hono": "4.7.7",
     "react": "experimental",
     "react-dom": "experimental",

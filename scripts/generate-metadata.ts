@@ -12,6 +12,7 @@ type RawFrontmatter = {
   description: string;
   month: string;
   year: number;
+  ogImage: string;
 };
 
 export let mdxRootDir = "./src/mdx";
@@ -53,8 +54,4 @@ export let metadata = ${JSON.stringify(metadata, null, 2)};`;
 
   await Bun.write(metadataPath, contents);
   await Bun.$`bun run format`;
-}
-
-if (import.meta.main) {
-  await generateMetadata();
 }
