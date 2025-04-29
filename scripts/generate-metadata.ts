@@ -5,9 +5,13 @@ import { glob } from "tinyglobby";
 type RawFrontmatter = {
   title: string;
   slug: string;
+  path: string;
+  date: number;
+  status: "draft" | "public";
   tags: Array<string>;
   description: string;
-  date: number;
+  month: string;
+  year: number;
 };
 
 export let mdxRootDir = "./src/mdx";
@@ -29,7 +33,9 @@ export async function collectMetadata(files: Array<string>) {
     }),
   );
 
-  return metadata;
+  return Object.fromEntries(
+    Object.entries(metadata).sort((a, b) => a[1].date - b[1].date),
+  );
 }
 
 let metadataPath = "./src/metadata.gen.ts";
