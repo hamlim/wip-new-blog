@@ -1,7 +1,7 @@
 import type { ComponentProps } from "react";
-import { Abbr } from "../components/abbr";
-import { Heading } from "../components/heading";
-import { Spacer } from "../components/spacer";
+import { Abbr } from "#/components/abbr";
+import { Heading } from "#/components/heading";
+import { Spacer } from "#/components/spacer";
 
 export function useMDXComponents() {
   return {
