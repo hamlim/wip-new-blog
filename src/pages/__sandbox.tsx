@@ -39,7 +39,11 @@ export default function Sandbox() {
       </DemoWrap>
       <Heading level={2}>Abbr:</Heading>
       <DemoWrap>
-        <Abbr title="HyperText Markup Language">HTML</Abbr>
+        <p>
+          Some content here about{" "}
+          <Abbr title="HyperText Markup Language">HTML</Abbr> which is
+          interesting
+        </p>
       </DemoWrap>
       <Heading level={2}>Spacer:</Heading>
       <DemoWrap>

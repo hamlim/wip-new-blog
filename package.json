@@ -17,11 +17,13 @@
     "check": "biome ci ."
   },
   "dependencies": {
+    "clsx": "2.1.1",
     "feed": "4.2.2",
     "hono": "4.7.7",
     "react": "experimental",
     "react-dom": "experimental",
     "react-server-dom-webpack": "experimental",
+    "tailwind-merge": "3.2.0",
     "waku": "0.22.3",
     "wrangler": "4.11.1"
   },
@@ -39,6 +41,7 @@
     "@shikijs/rehype": "3.2.2",
     "@tailwindcss/typography": "0.5.16",
     "@tailwindcss/vite": "4.1.4",
+    "@toolwind/anchors": "0.0.10",
     "@types/bun": "1.2.10",
     "@types/node": "22.13.0",
     "@types/react": "19.0.8",
