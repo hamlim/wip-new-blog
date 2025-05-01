@@ -79,5 +79,8 @@ export function useMDXComponents() {
       // @TODO: Add in a tooltip component here!
       return <abbr {...props} />;
     },
+    Callout(props: ComponentProps<"div">) {
+      return <div className="rounded-md bg-blue-50 p-4" {...props} />;
+    },
   };
 }
