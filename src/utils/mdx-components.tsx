@@ -1,49 +1,27 @@
 import type { ComponentProps } from "react";
+import { Abbr } from "../components/abbr";
+import { Heading } from "../components/heading";
+import { Spacer } from "../components/spacer";
 
 export function useMDXComponents() {
   return {
     h1(props: ComponentProps<"h1">) {
-      return (
-        <h1
-          className="text-4xl font-bold text-gray-900 dark:text-gray-100"
-          {...props}
-        />
-      );
+      return <Heading level={1} {...props} />;
     },
     h2(props: ComponentProps<"h2">) {
-      return (
-        <h2
-          className="text-3xl font-semibold text-gray-800 dark:text-gray-200"
-          {...props}
-        />
-      );
+      return <Heading level={2} {...props} />;
     },
     h3(props: ComponentProps<"h3">) {
-      return (
-        <h3
-          className="text-2xl font-medium text-gray-700 dark:text-gray-300"
-          {...props}
-        />
-      );
+      return <Heading level={3} {...props} />;
     },
     h4(props: ComponentProps<"h4">) {
-      return (
-        <h4
-          className="text-xl font-medium text-gray-600 dark:text-gray-400"
-          {...props}
-        />
-      );
+      return <Heading level={4} {...props} />;
     },
     h5(props: ComponentProps<"h5">) {
-      return <h5 className="text-lg font-medium text-gray-500" {...props} />;
+      return <Heading level={5} {...props} />;
     },
     h6(props: ComponentProps<"h6">) {
-      return (
-        <h6
-          className="text-base font-medium text-gray-400 dark:text-gray-600"
-          {...props}
-        />
-      );
+      return <Heading level={6} {...props} />;
     },
     a(props: ComponentProps<"a">) {
       return (
@@ -70,15 +48,8 @@ export function useMDXComponents() {
     },
 
     // custom components
-    Spacer(props: ComponentProps<"div">) {
-      // @ts-ignore
-      // biome-ignore lint/a11y/noDistractingElements: <explanation>
-      return <marquee {...props} className="mt-4" />;
-    },
-    Abbr(props: ComponentProps<"abbr">) {
-      // @TODO: Add in a tooltip component here!
-      return <abbr {...props} />;
-    },
+    Spacer,
+    Abbr,
     Callout(props: ComponentProps<"div">) {
       return <div className="rounded-md bg-blue-50 p-4" {...props} />;
     },
