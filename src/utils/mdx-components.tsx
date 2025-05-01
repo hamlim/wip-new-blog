@@ -75,5 +75,9 @@ export function useMDXComponents() {
       // biome-ignore lint/a11y/noDistractingElements: <explanation>
       return <marquee {...props} className="mt-4" />;
     },
+    Abbr(props: ComponentProps<"abbr">) {
+      // @TODO: Add in a tooltip component here!
+      return <abbr {...props} />;
+    },
   };
 }
