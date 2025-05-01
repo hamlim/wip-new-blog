@@ -9,7 +9,11 @@
     "skipLibCheck": true,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
-    "types": ["react/experimental", "./worker-configuration.d.ts"],
+    "types": [
+      "react/experimental",
+      "./worker-configuration.d.ts",
+      "./shared-types.d.ts"
+    ],
     "jsx": "react-jsx",
     "paths": {
       "#/*": ["./src/*"],

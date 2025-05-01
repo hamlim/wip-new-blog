@@ -1,6 +1,7 @@
 import { Feed } from "feed";
 import matter from "gray-matter";
 import { collectMetadata, getMDXFiles } from "./generate-metadata";
+import { transformMdx } from "./transform-mdx";
 
 export async function generateRSS() {
   let mdxFiles = await getMDXFiles();
@@ -32,7 +33,13 @@ export async function generateRSS() {
     Object.entries(metadata).map(async ([slug, meta]) => {
       let rawContent = await Bun.file(`./src/mdx/${slug}.mdx`).text();
       let { content } = matter(rawContent);
-      return { ...meta, content };
+      try {
+        let transformedContent = await transformMdx(content);
+        return { ...meta, content: transformedContent };
+      } catch (error) {
+        console.error(`Error transforming content for ${slug}:`, error);
+        throw error;
+      }
     }),
   );
 
