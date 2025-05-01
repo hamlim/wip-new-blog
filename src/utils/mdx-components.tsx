@@ -48,6 +48,7 @@ export function useMDXComponents() {
     },
 
     // custom components
+    Heading,
     Spacer,
     Abbr,
     Callout(props: ComponentProps<"div">) {
