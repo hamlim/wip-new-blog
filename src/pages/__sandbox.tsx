@@ -22,6 +22,16 @@ export default function Sandbox() {
         site.
       </p>
       <hr />
+      <Heading level={2}>Abbr:</Heading>
+      <DemoWrap>
+        <p>Some more content above it</p>
+        <p>
+          Some content here about{" "}
+          <Abbr title="HyperText Markup Language">HTML</Abbr> which is
+          interesting
+        </p>
+        <p>Some more content below it</p>
+      </DemoWrap>
       <Heading level={2}>Headings:</Heading>
       <DemoWrap>
         <Heading level={1}>Heading 1</Heading>
@@ -36,14 +46,6 @@ export default function Sandbox() {
         <Marquee>This is a default (scroll) marquee.</Marquee>
         <Marquee behavior="slide">This is a slide marquee.</Marquee>
         <Marquee behavior="alternate">This is an alternate marquee.</Marquee>
-      </DemoWrap>
-      <Heading level={2}>Abbr:</Heading>
-      <DemoWrap>
-        <p>
-          Some content here about{" "}
-          <Abbr title="HyperText Markup Language">HTML</Abbr> which is
-          interesting
-        </p>
       </DemoWrap>
       <Heading level={2}>Spacer:</Heading>
       <DemoWrap>

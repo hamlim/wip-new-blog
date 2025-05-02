@@ -9,7 +9,12 @@ export function Abbr(props: ComponentProps<"abbr">) {
       <abbr
         {...props}
         // Add the `peer` class to mark this element as a peer
-        className={cn(props.className, `anchor/abbr-${id}`, "peer")}
+        className={cn(
+          props.className,
+          `anchor/abbr-${id}`,
+          "peer",
+          "inline-flex",
+        )}
         // Add tabIndex to make the abbr focusable if it doesn't naturally receive focus
         tabIndex={0}
       />
@@ -18,13 +23,12 @@ export function Abbr(props: ComponentProps<"abbr">) {
         // Add `peer-hover:inline-flex` to show on hover of the peer
         // Add `peer-focus:inline-flex` to show on focus of the peer
         className={cn(
-          `anchor`, // Keep anchor class if needed by toolwind/anchors or other logic
           `hidden`,
           "absolute",
           `peer-hover:inline-flex`,
           `peer-focus:inline-flex`, // Show on focus as well
           `anchored/abbr-${id}`,
-          `anchored-bottom-span-right`,
+          `anchored-bottom-right`,
           // "top-anchor-bottom-4",
           "top-[calc(anchor(bottom)+4rem)]",
           // "left-anchor-right-4",
