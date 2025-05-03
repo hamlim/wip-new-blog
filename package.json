@@ -41,7 +41,7 @@
     "@shikijs/rehype": "3.2.2",
     "@tailwindcss/typography": "0.5.16",
     "@tailwindcss/vite": "4.1.4",
-    "@toolwind/anchors": "0.0.10",
+    "@toolwind/anchors": "0.0.11",
     "@types/bun": "1.2.10",
     "@types/node": "22.13.0",
     "@types/react": "19.0.8",

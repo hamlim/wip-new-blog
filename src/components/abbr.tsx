@@ -3,36 +3,42 @@ import type { ComponentProps } from "react";
 import { cn } from "#/utils/cn";
 
 export function Abbr(props: ComponentProps<"abbr">) {
-  let id = useId();
+  let id = useId().replace(/:/g, "-");
   return (
     <>
       <abbr
         {...props}
-        // Add the `peer` class to mark this element as a peer
+        style={{
+          ...props.style,
+          // @ts-ignore - TS doesn't recognize anchorName as a valid property
+          anchorName: `--abbr-${id}`,
+        }}
         className={cn(
           props.className,
-          `anchor/abbr-${id}`,
+          // - can't add this in because it's a dynamic classname which
+          // - tailwind doesn't support
+          // `anchor/abbr`,
+          // - peer used to handle the hover/focus state
           "peer",
           "inline-flex",
         )}
-        // Add tabIndex to make the abbr focusable if it doesn't naturally receive focus
         tabIndex={0}
       />
       <span
-        // Keep `hidden` for the default state
-        // Add `peer-hover:inline-flex` to show on hover of the peer
-        // Add `peer-focus:inline-flex` to show on focus of the peer
+        style={{
+          // @ts-ignore - TS doesn't recognize positionAnchor as a valid property
+          positionAnchor: `--abbr-${id}`,
+        }}
         className={cn(
           `hidden`,
           "absolute",
           `peer-hover:inline-flex`,
-          `peer-focus:inline-flex`, // Show on focus as well
-          `anchored/abbr-${id}`,
-          `anchored-bottom-right`,
-          // "top-anchor-bottom-4",
-          "top-[calc(anchor(bottom)+4rem)]",
-          // "left-anchor-right-4",
-          "left-[calc(anchor(right)+4rem)]",
+          `peer-focus:inline-flex`,
+          // - can't add this in because it's a dynamic classname which
+          // - tailwind doesn't support
+          // `anchored/abbr`,
+          "top-anchor-bottom-1",
+          "left-anchor-left-0",
           `p-2`,
           `bg-slate-600`,
           `text-white`,

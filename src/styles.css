@@ -2,6 +2,7 @@
 @import "@toolwind/anchors";
 
 @plugin "@tailwindcss/typography";
+/* @plugin "@toolwind/anchors/index"; */
 
 @theme {
   --color-primary: var(--color-emerald-500);
