@@ -1,5 +1,6 @@
 import watcher from "@parcel/watcher";
-import { generateMetadata, mdxRootDir } from "./generate-metadata";
+import { mdxRootDir } from "./collect-metadata";
+import { generateMetadata } from "./generate-metadata";
 import { generateRSS } from "./generate-rss";
 
 let subscription = await watcher.subscribe(mdxRootDir, async (err, events) => {

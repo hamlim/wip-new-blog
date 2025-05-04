@@ -1,4 +1,4 @@
-import { collectMetadata, getMDXFiles } from "./generate-metadata";
+import { collectMetadata, getMDXFiles } from "./collect-metadata";
 
 let metadata = await collectMetadata(await getMDXFiles());
 

@@ -1,6 +1,6 @@
 import { Feed } from "feed";
 import matter from "gray-matter";
-import { collectMetadata, getMDXFiles } from "./generate-metadata";
+import { collectMetadata, getMDXFiles } from "./collect-metadata";
 import { transformMdx } from "./transform-mdx";
 
 export async function generateRSS() {
