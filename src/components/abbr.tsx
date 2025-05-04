@@ -4,6 +4,7 @@ import { cn } from "#/utils/cn";
 
 export function Abbr(props: ComponentProps<"abbr">) {
   let id = useId().replace(/:/g, "-");
+
   return (
     <>
       <abbr
