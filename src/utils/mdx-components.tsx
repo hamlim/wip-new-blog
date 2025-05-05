@@ -1,5 +1,6 @@
 import type { ComponentProps } from "react";
 import { Abbr } from "#/components/abbr";
+import { Footnote, FootnoteRef } from "#/components/footnote";
 import { Heading } from "#/components/heading";
 import { Spacer } from "#/components/spacer";
 
@@ -54,5 +55,7 @@ export function useMDXComponents() {
     Callout(props: ComponentProps<"div">) {
       return <div className="rounded-md bg-blue-50 p-4" {...props} />;
     },
+    FootnoteRef,
+    Footnote,
   };
 }

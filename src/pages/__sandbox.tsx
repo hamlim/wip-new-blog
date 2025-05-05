@@ -1,5 +1,6 @@
 import type { ComponentProps } from "react";
 import { Abbr } from "#/components/abbr";
+import { Footnote, FootnoteRef } from "#/components/footnote";
 import { Heading } from "#/components/heading";
 import { Marquee } from "#/components/marquee";
 import { Spacer } from "#/components/spacer";
@@ -52,6 +53,14 @@ export default function Sandbox() {
         <p>Some text</p>
         <Spacer />
         <p>Some more text</p>
+      </DemoWrap>
+      <Heading level={2}>Footnote:</Heading>
+      <DemoWrap>
+        <p>
+          Some text here about HTML
+          <FootnoteRef id="fn-1" /> which is interesting
+        </p>
+        <Footnote id="fn-1">HTML is a markup language.</Footnote>
       </DemoWrap>
     </main>
   );
