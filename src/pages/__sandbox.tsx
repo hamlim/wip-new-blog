@@ -18,10 +18,7 @@ export default function Sandbox() {
   return (
     <main className="mx-auto max-w-screen-lg px-4 py-12 gap-6 flex flex-col">
       <Heading level={1}>Component Sandbox</Heading>
-      <p>
-        This is a sandbox for testing components. It is not part of the main
-        site.
-      </p>
+      <p>This is a sandbox for testing components.</p>
       <hr />
       <Heading level={2}>Abbr:</Heading>
       <DemoWrap>
@@ -58,9 +55,10 @@ export default function Sandbox() {
       <DemoWrap>
         <p>
           Some text here about HTML
-          <FootnoteRef id="fn-1" /> which is interesting
+          <FootnoteRef id="1">HTML is a markup language</FootnoteRef> which is
+          interesting
         </p>
-        <Footnote id="fn-1">HTML is a markup language.</Footnote>
+        <Footnote id="1">HTML is a markup language.</Footnote>
       </DemoWrap>
     </main>
   );
