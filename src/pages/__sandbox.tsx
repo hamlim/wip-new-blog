@@ -68,14 +68,14 @@ export default function Sandbox() {
       <DemoWrap>
         <Image
           alt="A beautiful image"
-          src="/bridge.webp"
+          src="/sandbox/bridge.webp"
           height={1_000}
           width={750}
         />
         <Spacer />
         <Image
           alt="A beautiful image"
-          src="/mountain-panarama.webp"
+          src="/sandbox/mountain-panarama.webp"
           height={269}
           width={1_080}
         />
@@ -84,7 +84,7 @@ export default function Sandbox() {
       <DemoWrap>
         <Figure
           alt="A beautiful image"
-          src="/bridge.webp"
+          src="/sandbox/bridge.webp"
           height={1_000}
           width={750}
           caption="A nice little bridge"
@@ -92,7 +92,7 @@ export default function Sandbox() {
         <Spacer />
         <Figure
           alt="A beautiful image"
-          src="/mountain-panarama.webp"
+          src="/sandbox/mountain-panarama.webp"
           height={269}
           width={1_080}
           caption="A nice view of the mountains"
