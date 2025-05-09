@@ -11,8 +11,6 @@ month: "august"
 year: 2024
 ---
 
-import NextImage from 'next/image';
-
 There's a _"secret"_ implicit prop contract that comes along with all React components, and in fact with most "pure functions" and their arguments! Most React developers may not realize this contract is there, but they often follow it out of convention anyway. In this post I wanted to dig into this implicit prop contract, and specifically spend some time outlining why you shouldn't break it!
 
 ### What is this about an implicit prop contract?!?
@@ -25,7 +23,7 @@ This is the implicit prop contract that I'm referring to, and it's not even spec
 
 Let's look an example; imagine we had a function called `square`, maybe we don't know the internals or implementation details of the function - it might even look like this:
 
-<NextImage
+<Image
   priority={true}
   alt="TypeScript code defining a function that returns the square of a number using a while loop with a comment saying that the code works and it shouldn't be modified"
   src="/images/dont-break-the-implicit-prop-contract/square.png"
