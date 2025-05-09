@@ -1,8 +1,11 @@
+import { AspectRatio } from "./ui/aspect-ratio";
+
 export function Image({
-  alt,
+  alt = "",
   src,
   height,
   width,
+  ...props
 }: {
   alt: string;
   src: string;
@@ -10,8 +13,15 @@ export function Image({
   width: number;
 }) {
   return (
-    <div className="relative">
-      <img src={src} alt={alt} height={height} width={width} />
-    </div>
+    <AspectRatio ratio={width / height} className="flex justify-center">
+      <img
+        src={src}
+        height={height}
+        width={width}
+        {...props}
+        alt={alt}
+        loading="lazy"
+      />
+    </AspectRatio>
   );
 }

@@ -17,6 +17,7 @@
     "check": "biome ci ."
   },
   "dependencies": {
+    "@radix-ui/react-aspect-ratio": "1.1.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "feed": "4.2.2",

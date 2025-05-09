@@ -2,6 +2,7 @@ import type { ComponentProps } from "react";
 import { Abbr } from "#/components/abbr";
 import { Footnote, FootnoteRef } from "#/components/footnote";
 import { Heading } from "#/components/heading";
+import { Image } from "#/components/image";
 import { Marquee } from "#/components/marquee";
 import { Spacer } from "#/components/spacer";
 
@@ -59,6 +60,22 @@ export default function Sandbox() {
           interesting
         </p>
         <Footnote id="1">HTML is a markup language.</Footnote>
+      </DemoWrap>
+      <Heading level={2}>Image:</Heading>
+      <DemoWrap>
+        <Image
+          alt="A beautiful image"
+          src="/bridge.webp"
+          height={1_000}
+          width={750}
+        />
+        <Spacer />
+        <Image
+          alt="A beautiful image"
+          src="/mountain-panarama.webp"
+          height={269}
+          width={1_080}
+        />
       </DemoWrap>
     </main>
   );
