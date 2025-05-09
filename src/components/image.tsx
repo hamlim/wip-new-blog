@@ -11,6 +11,7 @@ export function Image({
   src: string;
   height: number;
   width: number;
+  className?: string;
 }) {
   return (
     <AspectRatio ratio={width / height} className="flex justify-center">
@@ -18,9 +19,9 @@ export function Image({
         src={src}
         height={height}
         width={width}
+        loading="lazy"
         {...props}
         alt={alt}
-        loading="lazy"
       />
     </AspectRatio>
   );

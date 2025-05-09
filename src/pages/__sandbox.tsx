@@ -1,5 +1,6 @@
 import type { ComponentProps } from "react";
 import { Abbr } from "#/components/abbr";
+import { Figure } from "#/components/figure";
 import { Footnote, FootnoteRef } from "#/components/footnote";
 import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
@@ -75,6 +76,24 @@ export default function Sandbox() {
           src="/mountain-panarama.webp"
           height={269}
           width={1_080}
+        />
+      </DemoWrap>
+      <Heading level={2}>Figure:</Heading>
+      <DemoWrap>
+        <Figure
+          alt="A beautiful image"
+          src="/bridge.webp"
+          height={1_000}
+          width={750}
+          caption="A nice little bridge"
+        />
+        <Spacer />
+        <Figure
+          alt="A beautiful image"
+          src="/mountain-panarama.webp"
+          height={269}
+          width={1_080}
+          caption="A nice view of the mountains"
         />
       </DemoWrap>
     </main>

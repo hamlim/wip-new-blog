@@ -1,5 +1,6 @@
 import type { ComponentProps } from "react";
 import { Abbr } from "#/components/abbr";
+import { Figure } from "#/components/figure";
 import { Footnote, FootnoteRef } from "#/components/footnote";
 import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
@@ -59,5 +60,6 @@ export function useMDXComponents() {
     FootnoteRef,
     Footnote,
     Image,
+    Figure,
   };
 }
