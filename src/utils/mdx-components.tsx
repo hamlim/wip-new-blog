@@ -1,10 +1,13 @@
 import type { ComponentProps } from "react";
+import { Link } from "waku";
 import { Abbr } from "#/components/abbr";
+import { Anchor, anchorClassName } from "#/components/anchor";
 import { Figure } from "#/components/figure";
 import { Footnote, FootnoteRef } from "#/components/footnote";
 import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Spacer } from "#/components/spacer";
+import { cn } from "./cn";
 
 export function useMDXComponents() {
   return {
@@ -61,5 +64,35 @@ export function useMDXComponents() {
     Footnote,
     Image,
     Figure,
+
+    Link(props: ComponentProps<"a">) {
+      let linkType: "a" | "Link" = "a";
+
+      let href: string | undefined;
+      if ("to" in props && typeof props.to === "string") {
+        linkType = "Link";
+        href = props.to;
+      } else if ("href" in props && typeof props.href === "string") {
+        href = props.href;
+      }
+
+      // for local links, prefer the Link component
+      if (linkType === "a" && href?.startsWith("/")) {
+        linkType = "Link";
+      }
+
+      if (linkType === "Link") {
+        return (
+          <Link
+            // @ts-expect-error - loosly typed since the to is referenced in source MDX
+            to={href}
+            {...props}
+            className={cn(anchorClassName, props.className)}
+          />
+        );
+      }
+
+      return <Anchor {...props} />;
+    },
   };
 }

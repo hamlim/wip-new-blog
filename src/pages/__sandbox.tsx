@@ -7,6 +7,8 @@ import { Image } from "#/components/image";
 import { Marquee } from "#/components/marquee";
 import { Spacer } from "#/components/spacer";
 
+import SandboxMDX from "#/mdx/__sandbox.mdx";
+
 function DemoWrap(props: ComponentProps<"div">) {
   return (
     <div
@@ -95,6 +97,10 @@ export default function Sandbox() {
           width={1_080}
           caption="A nice view of the mountains"
         />
+      </DemoWrap>
+      <Heading level={2}>MDX:</Heading>
+      <DemoWrap>
+        <SandboxMDX />
       </DemoWrap>
     </main>
   );

@@ -17,7 +17,8 @@ export type RawFrontmatter = {
 };
 
 export async function getMDXFiles(): Promise<Array<string>> {
-  return await glob(`${mdxRootDir}/**/*.mdx`);
+  let filePaths = await glob(`${mdxRootDir}/**/*.mdx`);
+  return filePaths.filter((path) => !path.includes("__sandbox"));
 }
 
 export async function collectMetadata(files: Array<string>) {
