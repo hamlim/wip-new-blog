@@ -100,7 +100,9 @@ export default function Sandbox() {
       </DemoWrap>
       <Heading level={2}>MDX:</Heading>
       <DemoWrap>
-        <SandboxMDX />
+        <div>
+          <SandboxMDX />
+        </div>
       </DemoWrap>
     </main>
   );
