@@ -1,12 +1,13 @@
 import type { ComponentProps } from "react";
 import { Abbr } from "#/components/abbr";
+import { BlueskyMentions } from "#/components/bluesky-mentions";
+import { BlueskyShareLink } from "#/components/bluesky-share-link";
 import { Figure } from "#/components/figure";
 import { Footnote, FootnoteRef } from "#/components/footnote";
 import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Marquee } from "#/components/marquee";
 import { Spacer } from "#/components/spacer";
-
 import SandboxMDX from "#/mdx/__sandbox.mdx";
 
 function DemoWrap(props: ComponentProps<"div">) {
@@ -103,6 +104,16 @@ export default function Sandbox() {
         <div>
           <SandboxMDX />
         </div>
+      </DemoWrap>
+      <Heading level={2}>Bluesky Share Link:</Heading>
+      <DemoWrap>
+        <BlueskyShareLink title="Hello, world!">
+          Share to Bluesky!
+        </BlueskyShareLink>
+      </DemoWrap>
+      <Heading level={2}>Bluesky Mentions:</Heading>
+      <DemoWrap>
+        <BlueskyMentions>See discussion on Bluesky</BlueskyMentions>
       </DemoWrap>
     </main>
   );
