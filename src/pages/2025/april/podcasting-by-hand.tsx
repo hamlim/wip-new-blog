@@ -4,6 +4,16 @@ import PodcastByHandMDX, {
   frontmatter,
 } from "#/mdx/2025/april/podcasting-by-hand.mdx";
 
+///
+
+// utils
+
+let dateFormatter = new Intl.DateTimeFormat("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+}).format;
+
 function Post({
   frontmatter,
   children,
@@ -26,9 +36,22 @@ function Post({
       <meta property="og:type" content="article" />
       <meta property="og:site_name" content="Matt's Blog" />
 
-      <Heading level={1}>{frontmatter.title}</Heading>
       <pre>{JSON.stringify(frontmatter, null, 2)}</pre>
-      {children}
+      <article className="prose prose-sm prose-slate dark:prose-invert mx-auto max-w-prose">
+        <Heading level={1}>{frontmatter.title}</Heading>
+        <p className="text-sm text-slate-500 dark:text-slate-400">
+          Published: {dateFormatter(frontmatter.date)}
+          <br />
+          {/* @TODO: fetch last modified date from GitHub */}
+        </p>
+        <p>
+          {/* Share link to Bluesky */}
+          {/* See discussion on Bluesky */}
+        </p>
+        {children}
+        {/* tags */}
+        {/* Comments */}
+      </article>
     </main>
   );
 }
