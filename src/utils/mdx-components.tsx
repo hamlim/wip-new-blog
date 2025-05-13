@@ -1,3 +1,4 @@
+// import { BlueskyPost } from "@hamstack/bluesky-embed-rsc";
 import type { ComponentProps } from "react";
 import { Link } from "waku";
 import { Abbr } from "#/components/abbr";
@@ -83,8 +84,8 @@ export function useMDXComponents() {
 
       if (linkType === "Link") {
         return (
+          // @ts-expect-error - loosly typed since the to is referenced in source MDX
           <Link
-            // @ts-expect-error - loosly typed since the to is referenced in source MDX
             to={href}
             {...props}
             className={cn(anchorClassName, props.className)}
@@ -94,5 +95,6 @@ export function useMDXComponents() {
 
       return <Anchor {...props} />;
     },
+    // BlueskyPost,
   };
 }
