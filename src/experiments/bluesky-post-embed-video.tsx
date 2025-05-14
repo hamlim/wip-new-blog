@@ -1,7 +1,7 @@
 "use client";
 
 import Hls from "hls.js";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { AspectRatio } from "#/components/ui/aspect-ratio";
 
 export function Video({
@@ -24,16 +24,16 @@ export function Video({
         let hls = new Hls();
         hls.loadSource(playlist);
         hls.attachMedia(videoRef.current);
-        hls.on(Hls.Events.MANIFEST_PARSED, () => {
-          videoRef.current?.play();
-        });
+        // hls.on(Hls.Events.MANIFEST_PARSED, () => {
+        //   videoRef.current?.play();
+        // });
       } else if (
         videoRef.current.canPlayType("application/vnd.apple.mpegurl")
       ) {
         videoRef.current.src = playlist;
-        videoRef.current.addEventListener("loadedmetadata", () => {
-          videoRef.current?.play();
-        });
+        // videoRef.current.addEventListener("loadedmetadata", () => {
+        //   videoRef.current?.play();
+        // });
       }
     }
   }, [playlist]);
