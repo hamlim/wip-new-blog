@@ -30,14 +30,7 @@ export function useMDXComponents() {
     h6(props: ComponentProps<"h6">) {
       return <Heading level={6} {...props} />;
     },
-    a(props: ComponentProps<"a">) {
-      return (
-        <a
-          className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 [&.state-disabled]:text-gray-400 [&.state-disabled]:cursor-not-allowed text-primary underline-offset-4 hover:underline focus:underline"
-          {...props}
-        />
-      );
-    },
+    a: Anchor,
     p(props: ComponentProps<"p">) {
       return <p {...props} />;
     },

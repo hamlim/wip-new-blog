@@ -4,6 +4,10 @@
     "": {
       "name": "waku-template",
       "dependencies": {
+        "@atcute/bluesky": "3.0.0",
+        "@atcute/bluesky-richtext-segmenter": "2.0.1",
+        "@atcute/client": "4.0.0",
+        "@atcute/lexicons": "1.0.0",
         "@atproto/api": "0.13.18",
         "@hamstack/bluesky-comments": "0.1.1",
         "@hamstack/bluesky-embed-rsc": "0.1.1",
@@ -12,6 +16,7 @@
         "clsx": "2.1.1",
         "date-fns": "4.1.0",
         "feed": "4.2.2",
+        "hls.js": "1.6.2",
         "hono": "4.7.7",
         "lucide-react": "0.510.0",
         "react": "experimental",
@@ -55,6 +60,18 @@
   },
   "packages": {
     "@ampproject/remapping": ["@ampproject/remapping@2.3.0", "", { "dependencies": { "@jridgewell/gen-mapping": "^0.3.5", "@jridgewell/trace-mapping": "^0.3.24" } }, "sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw=="],
+
+    "@atcute/atproto": ["@atcute/atproto@3.0.0", "", { "dependencies": { "@atcute/lexicons": "^1.0.0" } }, "sha512-qfgW5Eph+FR1abdbyDbvqEi7RizkEwMBtz0bheraKP3jZmiEY468s3yx840fdkCk5pwe9IixElINk1XhyLmFPA=="],
+
+    "@atcute/bluesky": ["@atcute/bluesky@3.0.0", "", { "dependencies": { "@atcute/atproto": "^3.0.0", "@atcute/lexicons": "^1.0.0" } }, "sha512-EX7SOs4XAUgIqcqbj526fmLEuAIlQuBTkNd7mmovC+DQhEQDZY/JdVOnnI0hmPp2nRS3qqYtKB6O/ZraFr89LQ=="],
+
+    "@atcute/bluesky-richtext-segmenter": ["@atcute/bluesky-richtext-segmenter@2.0.1", "", { "dependencies": { "@atcute/bluesky": "^3.0.0", "@atcute/lexicons": "^1.0.0" } }, "sha512-txyTQ/6MvZN2D3ycNT/tsx5kOvKLx3kaqIVMkbdGVvXpiUmpvobWEHGlhKaWlmhuxhxvAJdXFr4iR6zBFNcC6Q=="],
+
+    "@atcute/client": ["@atcute/client@4.0.0", "", { "dependencies": { "@atcute/identity": "^1.0.0", "@atcute/lexicons": "^1.0.0" } }, "sha512-SajmgxE+78gDgqV0ps1JmPBuU04I7INp6WxLt3/1cXm1sFXDjYeWTgM6XuiMHeiErAIEdtLyJ/BVfc0KAnX2TQ=="],
+
+    "@atcute/identity": ["@atcute/identity@1.0.0", "", { "dependencies": { "@atcute/lexicons": "^1.0.0", "@badrap/valita": "^0.4.4" } }, "sha512-m2cKNBS3DZCz0722OSCJfpTpoYoOyCb0dJqg5HmqJTJaIkKHoCEXe4hou4RnMZ2JI+KXWbfKE6tg/jAq7D1JKw=="],
+
+    "@atcute/lexicons": ["@atcute/lexicons@1.0.0", "", {}, "sha512-PWw+WNVOTYOQBLmgwoIK0kjI2rRGD0d6HHsenjq0+iWYFqOdrM8LQ4EJpZ5hT5sEwwXXEPcaUD1UHWptXCfe+A=="],
 
     "@atproto/api": ["@atproto/api@0.13.18", "", { "dependencies": { "@atproto/common-web": "^0.3.1", "@atproto/lexicon": "^0.4.3", "@atproto/syntax": "^0.3.1", "@atproto/xrpc": "^0.6.4", "await-lock": "^2.2.2", "multiformats": "^9.9.0", "tlds": "^1.234.0", "zod": "^3.23.8" } }, "sha512-rrl5HhzGYWZ7fiC965TPBUOVItq9M4dxMb6qz8IvAVQliSkrJrKc7UD0QWL89QiiXaOBuX8w+4i5r4wrfBGddg=="],
 
@@ -101,6 +118,8 @@
     "@babel/traverse": ["@babel/traverse@7.27.0", "", { "dependencies": { "@babel/code-frame": "^7.26.2", "@babel/generator": "^7.27.0", "@babel/parser": "^7.27.0", "@babel/template": "^7.27.0", "@babel/types": "^7.27.0", "debug": "^4.3.1", "globals": "^11.1.0" } }, "sha512-19lYZFzYVQkkHkl4Cy4WrAVcqBkgvV2YM2TU3xG6DIwO7O3ecbDPfW3yM3bjAGcqcQHi+CCtjMR3dIEHxsd6bA=="],
 
     "@babel/types": ["@babel/types@7.27.0", "", { "dependencies": { "@babel/helper-string-parser": "^7.25.9", "@babel/helper-validator-identifier": "^7.25.9" } }, "sha512-H45s8fVLYjbhFH62dIJ3WtmJ6RSPt/3DRO0ZcT2SUiYiQyz3BLVb9ADEnLl91m74aQPS3AzzeajZHYOalWe3bg=="],
+
+    "@badrap/valita": ["@badrap/valita@0.4.4", "", {}, "sha512-GEhUCk9c4XbNxi+0YZHZsV4fYNd6HejfWuN4Ti4c02DauX+LyX5WY1Y3WfyZ8Pxxl0zqhs+MLtW98cMh86vv6g=="],
 
     "@biomejs/biome": ["@biomejs/biome@1.9.4", "", { "optionalDependencies": { "@biomejs/cli-darwin-arm64": "1.9.4", "@biomejs/cli-darwin-x64": "1.9.4", "@biomejs/cli-linux-arm64": "1.9.4", "@biomejs/cli-linux-arm64-musl": "1.9.4", "@biomejs/cli-linux-x64": "1.9.4", "@biomejs/cli-linux-x64-musl": "1.9.4", "@biomejs/cli-win32-arm64": "1.9.4", "@biomejs/cli-win32-x64": "1.9.4" }, "bin": { "biome": "bin/biome" } }, "sha512-1rkd7G70+o9KkTn5KLmDYXihGoTaIGO9PIIN2ZB7UJxFrWw04CZHPYiMRjYsaDvVV7hP1dYNRLxSANLaBFGpog=="],
 
@@ -759,6 +778,8 @@
     "hast-util-whitespace": ["hast-util-whitespace@3.0.0", "", { "dependencies": { "@types/hast": "^3.0.0" } }, "sha512-88JUN06ipLwsnv+dVn+OIYOvAuvBMy/Qoi6O7mQHxdPXpjy+Cd6xRkWwux7DKO+4sYILtLBRIKgsdpS2gQc7qw=="],
 
     "hex-rgb": ["hex-rgb@4.3.0", "", {}, "sha512-Ox1pJVrDCyGHMG9CFg1tmrRUMRPRsAWYc/PinY0XzJU4K7y7vjNoLKIQ7BR5UJMCxNN8EM1MNDmHWA/B3aZUuw=="],
+
+    "hls.js": ["hls.js@1.6.2", "", {}, "sha512-rx+pETSCJEDThm/JCm8CuadcAC410cVjb1XVXFNDKFuylaayHk1+tFxhkjvnMDAfqsJHxZXDAJ3Uc2d5xQyWlQ=="],
 
     "hono": ["hono@4.7.7", "", {}, "sha512-2PCpQRbN87Crty8/L/7akZN3UyZIAopSoRxCwRbJgUuV1+MHNFHzYFxZTg4v/03cXUm+jce/qa2VSBZpKBm3Qw=="],
 

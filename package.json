@@ -17,6 +17,10 @@
     "check": "biome ci ."
   },
   "dependencies": {
+    "@atcute/bluesky": "3.0.0",
+    "@atcute/bluesky-richtext-segmenter": "2.0.1",
+    "@atcute/client": "4.0.0",
+    "@atcute/lexicons": "1.0.0",
     "@atproto/api": "0.13.18",
     "@hamstack/bluesky-comments": "0.1.1",
     "@hamstack/bluesky-embed-rsc": "0.1.1",
@@ -25,6 +29,7 @@
     "clsx": "2.1.1",
     "date-fns": "4.1.0",
     "feed": "4.2.2",
+    "hls.js": "1.6.2",
     "hono": "4.7.7",
     "lucide-react": "0.510.0",
     "react": "experimental",

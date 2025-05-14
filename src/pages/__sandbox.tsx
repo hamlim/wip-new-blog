@@ -8,7 +8,15 @@ import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Marquee } from "#/components/marquee";
 import { Spacer } from "#/components/spacer";
+import {
+  BlueskyPostEmbed,
+  updateConfig,
+} from "#/experiments/bluesky-post-embed";
 import SandboxMDX from "#/mdx/__sandbox.mdx";
+
+updateConfig({
+  linkClassName: "text-primary focus-visible:underline",
+});
 
 function DemoWrap(props: ComponentProps<"div">) {
   return (
@@ -114,6 +122,91 @@ export default function Sandbox() {
       <Heading level={2}>Bluesky Mentions:</Heading>
       <DemoWrap>
         <BlueskyMentions>See discussion on Bluesky</BlueskyMentions>
+      </DemoWrap>
+      <Heading level={2}>Bluesky Post Embed:</Heading>
+      <DemoWrap>
+        <BlueskyPostEmbed src="https://bsky.app/profile/matthamlin.me/post/3layiwns2kk2h">
+          <blockquote
+            className="bluesky-embed"
+            data-bluesky-uri="at://did:plc:j73k5g4hr6qpkgwoalm3cfkh/app.bsky.feed.post/3layiwns2kk2h"
+            data-bluesky-cid="bafyreicwe6ad5detejagfiho46jcdmaw7hgw5y4amylcihlw36bbn7gk7i"
+            data-bluesky-embed-color-mode="system"
+          >
+            <p lang="en">
+              Beer and a fish finger sandwich with chips 🙌<br />
+              <br />
+              <a href="https://bsky.app/profile/did:plc:j73k5g4hr6qpkgwoalm3cfkh/post/3layiwns2kk2h?ref_src=embed">
+                [image or embed]
+              </a>
+            </p>
+            &mdash; Matt Hamlin (
+            <a href="https://bsky.app/profile/did:plc:j73k5g4hr6qpkgwoalm3cfkh?ref_src=embed">
+              @matthamlin.me
+            </a>
+            ){" "}
+            <a href="https://bsky.app/profile/did:plc:j73k5g4hr6qpkgwoalm3cfkh/post/3layiwns2kk2h?ref_src=embed">
+              November 15, 2024 at 8:41 AM
+            </a>
+          </blockquote>
+        </BlueskyPostEmbed>
+        <BlueskyPostEmbed src="https://bsky.app/profile/tink.uk/post/3lp4ql6p6ac2h">
+          <blockquote
+            className="bluesky-embed"
+            data-bluesky-uri="at://did:plc:vhjf4ume3qzemibwhmxrwpxj/app.bsky.feed.post/3lp4ql6p6ac2h"
+            data-bluesky-cid="bafyreicmud7qx64k7bcjaommlzsiqcn4hhtuix5mnil5wqzr32mfrhdm6i"
+            data-bluesky-embed-color-mode="system"
+          >
+            <p lang="en">
+              We&#x27;re looking for an Associate Accessibility Specialist to
+              join the @TetraLogical.com team: www.linkedin.com/jobs/view/42...
+              Also here if Linkedin is not your thing:
+              misc.tetralogical.com/careers/2025... Closing date is Wednesday 21
+              May. #accessibility #a11y #UK
+              <br />
+              <br />
+              <a href="https://bsky.app/profile/did:plc:vhjf4ume3qzemibwhmxrwpxj/post/3lp4ql6p6ac2h?ref_src=embed">
+                [image or embed]
+              </a>
+            </p>
+            &mdash; Léonie Watson (
+            <a href="https://bsky.app/profile/did:plc:vhjf4ume3qzemibwhmxrwpxj?ref_src=embed">
+              @tink.uk
+            </a>
+            ){" "}
+            <a href="https://bsky.app/profile/did:plc:vhjf4ume3qzemibwhmxrwpxj/post/3lp4ql6p6ac2h?ref_src=embed">
+              May 14, 2025 at 6:01 AM
+            </a>
+          </blockquote>
+        </BlueskyPostEmbed>
+        <BlueskyPostEmbed src="https://bsky.app/profile/pawbaby2.bsky.social/post/3louh32tw622p">
+          <blockquote
+            className="bluesky-embed"
+            data-bluesky-uri="at://did:plc:c7ocgtuam5t56eb72y7d4hnu/app.bsky.feed.post/3louh32tw622p"
+            data-bluesky-cid="bafyreicgjvkryfwwgqotm5iqd3ckpwup3d3p4cwaivgux64ppuwncvmf64"
+            data-bluesky-embed-color-mode="system"
+          >
+            <p lang="en">
+              Some great news for Canadians! 🇨🇦 Statistics Canada reports
+              exports to the US are down but they are up substantially
+              internationally to many other countries. Canada is winning and
+              doing a great job diversifying and this will improve under PM
+              Carney&apos;s leadership! #CanadaStrong #USDemocracy
+              <br />
+              <br />
+              <a href="https://bsky.app/profile/did:plc:c7ocgtuam5t56eb72y7d4hnu/post/3louh32tw622p?ref_src=embed">
+                [image or embed]
+              </a>
+            </p>
+            &mdash; Marie 🇨🇦 (
+            <a href="https://bsky.app/profile/did:plc:c7ocgtuam5t56eb72y7d4hnu?ref_src=embed">
+              @pawbaby2.bsky.social
+            </a>
+            ){" "}
+            <a href="https://bsky.app/profile/did:plc:c7ocgtuam5t56eb72y7d4hnu/post/3louh32tw622p?ref_src=embed">
+              May 10, 2025 at 10:50 PM
+            </a>
+          </blockquote>
+        </BlueskyPostEmbed>
       </DemoWrap>
     </main>
   );
