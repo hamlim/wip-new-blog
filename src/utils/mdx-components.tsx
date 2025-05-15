@@ -1,4 +1,3 @@
-// import { BlueskyPost } from "@hamstack/bluesky-embed-rsc";
 import type { ComponentProps } from "react";
 import { Link } from "waku";
 import { Abbr } from "#/components/abbr";
@@ -8,6 +7,7 @@ import { Footnote, FootnoteRef } from "#/components/footnote";
 import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Spacer } from "#/components/spacer";
+import { BlueskyPostEmbed } from "#/experiments/bluesky-post-embed";
 import { cn } from "./cn";
 
 export function useMDXComponents() {
@@ -88,6 +88,6 @@ export function useMDXComponents() {
 
       return <Anchor {...props} />;
     },
-    // BlueskyPost,
+    BlueskyPost: BlueskyPostEmbed,
   };
 }
