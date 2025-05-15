@@ -23,7 +23,7 @@
     "@atcute/lexicons": "1.0.0",
     "@atproto/api": "0.13.18",
     "@hamstack/bluesky-comments": "0.1.1",
-    "@hamstack/bluesky-embed-rsc": "0.1.1",
+    "@hamstack/bluesky-embed-rsc": "1.0.1",
     "@radix-ui/react-aspect-ratio": "1.1.6",
     "class-variance-authority": "0.7.1",
     "clsx": "2.1.1",
@@ -35,7 +35,7 @@
     "react": "experimental",
     "react-dom": "experimental",
     "react-server-dom-webpack": "experimental",
-    "tailwind-merge": "3.2.0",
+    "tailwind-merge": "3.3.0",
     "waku": "0.22.3",
     "wrangler": "4.11.1"
   },

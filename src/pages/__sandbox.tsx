@@ -1,3 +1,4 @@
+import { BlueskyPostEmbed, updateConfig } from "@hamstack/bluesky-embed-rsc";
 import type { ComponentProps } from "react";
 import { Abbr } from "#/components/abbr";
 import { BlueskyMentions } from "#/components/bluesky-mentions";
@@ -8,14 +9,11 @@ import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Marquee } from "#/components/marquee";
 import { Spacer } from "#/components/spacer";
-import {
-  BlueskyPostEmbed,
-  updateConfig,
-} from "#/experiments/bluesky-post-embed";
 import SandboxMDX from "#/mdx/__sandbox.mdx";
 
 updateConfig({
   linkClassName: "text-primary focus-visible:underline",
+  rootClassName: "not-prose",
 });
 
 function DemoWrap(props: ComponentProps<"div">) {
@@ -109,7 +107,7 @@ export default function Sandbox() {
       </DemoWrap>
       <Heading level={2}>MDX:</Heading>
       <DemoWrap>
-        <div>
+        <div className="prose">
           <SandboxMDX />
         </div>
       </DemoWrap>

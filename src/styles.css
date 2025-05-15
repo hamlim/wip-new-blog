@@ -5,7 +5,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @plugin "@tailwindcss/typography";
-@source "../node_modules/@hamstack/bluesky-comments/dist/index.js";
+@source "../node_modules/@hamstack/bluesky-comments";
+@source "../node_modules/@hamstack/bluesky-embed-rsc";
 
 @theme {
   --color-primary: var(--color-emerald-500);
