@@ -11,11 +11,12 @@ import { type ActorIdentifier, is } from "@atcute/lexicons";
 // side effect import to register bluesky lexicons
 import "@atcute/bluesky";
 import { Heart, LinkIcon, MessageCircle, Quote, Repeat } from "lucide-react";
-import type { ComponentProps, ComponentType, ReactNode } from "react";
+import type { ComponentType, ReactNode } from "react";
 import { Fragment } from "react";
 import { AspectRatio } from "#/components/ui/aspect-ratio";
 import { cn } from "#/utils/cn";
 import { EmbeddedAnchor, LinkWrapper } from "./bluesky-post-embed-link-wrapper";
+import { Video } from "./bluesky-post-embed-video";
 
 let handler = simpleFetchHandler({ service: "https://public.api.bsky.app" });
 
@@ -93,7 +94,7 @@ export type ImageProps = {
 };
 
 export type VideoProps = {
-  src: string;
+  playlist: string;
   width: number;
   height: number;
   className?: string;
@@ -161,14 +162,6 @@ function Image({
         {...props}
         alt={alt}
       />
-    </AspectRatio>
-  );
-}
-
-function Video({ src, width, height, className, ...props }: VideoProps) {
-  return (
-    <AspectRatio ratio={width / height} className="flex justify-center">
-      <video src={src} height={height} width={width} {...props} />
     </AspectRatio>
   );
 }
@@ -419,20 +412,19 @@ export async function BlueskyPostEmbed({
       let video = post.embed;
       embeds.push(
         <config.components.Video
-          src={video.playlist}
+          playlist={video.playlist}
           width={video.aspectRatio?.width ?? 16}
           height={video.aspectRatio?.height ?? 9}
         />,
       );
     } else if (is(AppBskyEmbedExternal.viewSchema, post.embed)) {
-      console.log("external: ", post.embed.external);
       let external = post.embed.external;
       embeds.push(
         <config.components.External
           src={external.uri}
           description={external.description}
           title={external.title}
-          thumb={external.thumb}
+          thumb={external.thumb as string}
           width={16}
           height={9}
         />,

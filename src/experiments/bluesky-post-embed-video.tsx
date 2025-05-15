@@ -24,23 +24,28 @@ export function Video({
         let hls = new Hls();
         hls.loadSource(playlist);
         hls.attachMedia(videoRef.current);
-        // hls.on(Hls.Events.MANIFEST_PARSED, () => {
-        //   videoRef.current?.play();
-        // });
       } else if (
         videoRef.current.canPlayType("application/vnd.apple.mpegurl")
       ) {
         videoRef.current.src = playlist;
-        // videoRef.current.addEventListener("loadedmetadata", () => {
-        //   videoRef.current?.play();
-        // });
       }
     }
   }, [playlist]);
 
+  function handleClickCapture(event: React.MouseEvent<HTMLVideoElement>) {
+    event.stopPropagation();
+  }
+
   return (
     <AspectRatio ratio={width / height} className="flex justify-center">
-      <video ref={videoRef} height={height} width={width} {...props} />
+      <video
+        onClickCapture={handleClickCapture}
+        controls
+        ref={videoRef}
+        height={height}
+        width={width}
+        {...props}
+      />
     </AspectRatio>
   );
 }
