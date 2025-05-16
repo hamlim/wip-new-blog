@@ -1,14 +1,12 @@
 import { BlueskyPostEmbed } from "@hamstack/bluesky-embed-rsc";
-import type { ComponentProps } from "react";
-import { Link } from "waku";
+import type { ComponentProps, ReactNode } from "react";
 import { Abbr } from "#/components/abbr";
-import { Anchor, anchorClassName } from "#/components/anchor";
+import { Anchor, LinkAnchor } from "#/components/anchor";
 import { Figure } from "#/components/figure";
 import { Footnote, FootnoteRef } from "#/components/footnote";
 import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Spacer } from "#/components/spacer";
-import { cn } from "./cn";
 
 export function useMDXComponents() {
   return {
@@ -59,7 +57,7 @@ export function useMDXComponents() {
     Image,
     Figure,
 
-    Link(props: ComponentProps<"a">) {
+    Link(props: ComponentProps<"a"> & { children: ReactNode }) {
       let linkType: "a" | "Link" = "a";
 
       let href: string | undefined;
@@ -76,14 +74,7 @@ export function useMDXComponents() {
       }
 
       if (linkType === "Link") {
-        return (
-          // @ts-expect-error - loosly typed since the to is referenced in source MDX
-          <Link
-            to={href}
-            {...props}
-            className={cn(anchorClassName, props.className)}
-          />
-        );
+        return <LinkAnchor href={href} {...props} />;
       }
 
       return <Anchor {...props} />;

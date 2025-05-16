@@ -1,20 +1,8 @@
 import matter from "gray-matter";
 import { glob } from "tinyglobby";
+import type { RawFrontmatter } from "#/types";
 
 export let mdxRootDir = "./src/mdx";
-
-export type RawFrontmatter = {
-  title: string;
-  slug: string;
-  path: string;
-  date: number;
-  status: "draft" | "public";
-  tags: Array<string>;
-  description: string;
-  month: string;
-  year: number;
-  ogImage: string;
-};
 
 export async function getMDXFiles(): Promise<Array<string>> {
   let filePaths = await glob(`${mdxRootDir}/**/*.mdx`);

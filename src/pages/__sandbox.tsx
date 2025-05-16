@@ -1,8 +1,13 @@
 import { BlueskyPostEmbed, updateConfig } from "@hamstack/bluesky-embed-rsc";
 import type { ComponentProps } from "react";
 import { Abbr } from "#/components/abbr";
+import { LinkAnchor } from "#/components/anchor";
 import { BlueskyMentions } from "#/components/bluesky-mentions";
-import { BlueskyShareLink } from "#/components/bluesky-share-link";
+import {
+  BlueskyIntentLink,
+  BlueskyShareLink,
+} from "#/components/bluesky-share-link";
+import { Container, ProseContainer } from "#/components/container";
 import { Figure } from "#/components/figure";
 import { Footnote, FootnoteRef } from "#/components/footnote";
 import { Heading } from "#/components/heading";
@@ -205,6 +210,33 @@ export default function Sandbox() {
             </a>
           </blockquote>
         </BlueskyPostEmbed>
+      </DemoWrap>
+      <Heading level={2}>Bluesky Intent Link:</Heading>
+      <DemoWrap>
+        <BlueskyIntentLink intent="Hello, world!">
+          Create a post with some prefilled `intent` text
+        </BlueskyIntentLink>
+      </DemoWrap>
+
+      <Heading level={2}>Link Anchor:</Heading>
+      <DemoWrap>
+        <p>
+          A styled anchor link using Waku link{" "}
+          <LinkAnchor href="/">Home</LinkAnchor>
+        </p>
+      </DemoWrap>
+
+      <Heading level={2}>Containers:</Heading>
+      <DemoWrap>
+        <Container>
+          This is a plain old container - it just gives it a max-width and
+          centers it, but doesn't apply any other base styles.
+        </Container>
+        <Spacer />
+        <ProseContainer>
+          This is a prose container - it gives it a max-width and centers it,
+          and applies some base styles for prose elements!
+        </ProseContainer>
       </DemoWrap>
     </main>
   );

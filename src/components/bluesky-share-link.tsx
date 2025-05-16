@@ -17,11 +17,23 @@ export function BlueskyShareLink({
   }, []);
 
   return (
+    <BlueskyIntentLink intent={`${title}\n${currentURL}`}>
+      {children}
+    </BlueskyIntentLink>
+  );
+}
+
+export function BlueskyIntentLink({
+  intent,
+  children,
+}: {
+  intent: string;
+  children: ReactNode;
+}) {
+  return (
     <Anchor
       target="_blank"
-      href={`https://bsky.app/intent/compose?text=${encodeURIComponent(
-        `${title}\n${currentURL}`,
-      )}`}
+      href={`https://bsky.app/intent/compose?text=${encodeURIComponent(intent)}`}
     >
       {children}
     </Anchor>

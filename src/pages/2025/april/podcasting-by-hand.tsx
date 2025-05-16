@@ -1,26 +1,16 @@
 import { CommentSection } from "@hamstack/bluesky-comments";
 import type { ReactNode } from "react";
-import { Anchor } from "#/components/anchor";
+import { LinkAnchor } from "#/components/anchor";
 import { BlueskyMentions } from "#/components/bluesky-mentions";
 import { BlueskyShareLink } from "#/components/bluesky-share-link";
+import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
 import PodcastByHandMDX, {
   frontmatter,
 } from "#/mdx/2025/april/podcasting-by-hand.mdx";
-// utils
+import type { RawFrontmatter } from "#/types";
 
-export type RawFrontmatter = {
-  title: string;
-  slug: string;
-  path: string;
-  date: number;
-  status: "draft" | "public";
-  tags: Array<string>;
-  description: string;
-  month: string;
-  year: number;
-  ogImage: string;
-};
+// utils
 
 let dateFormatter = new Intl.DateTimeFormat("en-US", {
   dateStyle: "medium",
@@ -87,7 +77,7 @@ async function Post({
       <meta property="og:site_name" content="Matt's Blog" />
 
       <pre>{JSON.stringify(frontmatter, null, 2)}</pre>
-      <article className="prose prose-sm prose-slate dark:prose-invert mx-auto max-w-prose">
+      <ProseContainer>
         <Heading level={1}>{frontmatter.title}</Heading>
         <p className="text-sm text-slate-500 dark:text-slate-400">
           Published: {dateFormatter(frontmatter.date)}
@@ -106,13 +96,16 @@ async function Post({
         <Heading level={3}>Tags:</Heading>
         <div className="flex flex-wrap gap-2">
           {frontmatter.tags.map((tag: string) => (
-            <Anchor key={tag} href={`/tags/${tag}`}>
+            <LinkAnchor
+              key={tag}
+              href={`/blog/tags/${encodeURIComponent(tag)}`}
+            >
               {tag}
-            </Anchor>
+            </LinkAnchor>
           ))}
         </div>
         <CommentSection author="matthamlin.me" />
-      </article>
+      </ProseContainer>
     </main>
   );
 }
