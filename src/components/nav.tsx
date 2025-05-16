@@ -1,6 +1,6 @@
 "use client";
 
-import { Book, FolderGit2, Home, Info, Newspaper } from "lucide-react";
+import { FolderGit2, Home, Library, Newspaper, UserRound } from "lucide-react";
 import type { ReactNode } from "react";
 import { Link, useRouter } from "waku";
 import { cn } from "#/utils/cn";
@@ -30,12 +30,12 @@ let navItems: Array<NavItem> = [
   {
     path: "/bookshelf",
     label: "Bookshelf",
-    icon: <Book className="h-5 w-5" />,
+    icon: <Library className="h-5 w-5" />,
   },
   {
     path: "/about",
     label: "About",
-    icon: <Info className="h-5 w-5" />,
+    icon: <UserRound className="h-5 w-5" />,
   },
 ];
 
