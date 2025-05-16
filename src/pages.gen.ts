@@ -7,6 +7,10 @@ import type { PathsForPages, GetConfigResponse } from 'waku/router';
 import type { getConfig as 2025AprilPodcastingByHand_getConfig } from './pages/2025/april/podcasting-by-hand';
 // prettier-ignore
 import type { getConfig as Index_getConfig } from './pages/index';
+// prettier-ignore
+import type { getConfig as TagsTagName_getConfig } from './pages/tags/[tagName]';
+// prettier-ignore
+import type { getConfig as TagsIndex_getConfig } from './pages/tags/index';
 
 // prettier-ignore
 type Page =
@@ -23,6 +27,8 @@ type Page =
 | { path: '/skip-me-pls-year/[month]'; render: 'dynamic' }
 | { path: '/skip-me-pls-year'; render: 'dynamic' }
 | { path: '/social'; render: 'dynamic' }
+| ({ path: '/tags/[tagName]' } & GetConfigResponse<typeof TagsTagName_getConfig>)
+| ({ path: '/tags' } & GetConfigResponse<typeof TagsIndex_getConfig>)
 | { path: '/tools'; render: 'dynamic' };
 
 // prettier-ignore
