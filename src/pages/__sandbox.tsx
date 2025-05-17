@@ -8,6 +8,7 @@ import {
   BlueskyShareLink,
 } from "#/components/bluesky-share-link";
 import { Container, ProseContainer } from "#/components/container";
+import { ErrorBoundaryDemo } from "#/components/error-boundary.demo";
 import { Figure } from "#/components/figure";
 import { Footnote, FootnoteRef } from "#/components/footnote";
 import { Heading } from "#/components/heading";
@@ -238,6 +239,16 @@ export default function Sandbox() {
           and applies some base styles for prose elements!
         </ProseContainer>
       </DemoWrap>
+      <Heading level={2}>Error Boundary:</Heading>
+      <DemoWrap>
+        <ErrorBoundaryDemo />
+      </DemoWrap>
     </main>
   );
+}
+
+export function getConfig() {
+  return {
+    render: "dynamic",
+  };
 }
