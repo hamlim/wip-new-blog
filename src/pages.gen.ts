@@ -23,13 +23,7 @@ type Page =
 | ({ path: '/blog/tags' } & GetConfigResponse<typeof BlogTagsIndex_getConfig>)
 | { path: '/bookshelf'; render: 'dynamic' }
 | ({ path: '/' } & GetConfigResponse<typeof Index_getConfig>)
-| { path: '/projects'; render: 'dynamic' }
-| { path: '/resume'; render: 'dynamic' }
-| { path: '/skip-me-pls-year/[month]/[slug]'; render: 'dynamic' }
-| { path: '/skip-me-pls-year/[month]'; render: 'dynamic' }
-| { path: '/skip-me-pls-year'; render: 'dynamic' }
-| { path: '/social'; render: 'dynamic' }
-| { path: '/tools'; render: 'dynamic' };
+| { path: '/projects'; render: 'dynamic' };
 
 // prettier-ignore
 declare module 'waku/router' {
