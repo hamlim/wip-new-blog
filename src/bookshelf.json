@@ -1,0 +1,439 @@
+[
+  {
+    "title": "Rama II",
+    "author": "Arthur C. Clarke",
+    "url": "https://www.goodreads.com/book/show/112520.Rama_II",
+    "status": "read",
+    "dateStarted": "July 2022",
+    "dateFinished": "July 2022"
+  },
+  {
+    "title": "Rendezvous with Rama",
+    "author": "Arthur C. Clarke",
+    "url": "https://www.goodreads.com/book/show/112537.Rendezvous_with_Rama",
+    "status": "read",
+    "dateStarted": "July 2022",
+    "dateFinished": "July 2022"
+  },
+  {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "url": "https://www.goodreads.com/book/show/54493401-project-hail-mary",
+    "status": "read",
+    "dateStarted": "July 2022",
+    "dateFinished": "July 2022"
+  },
+  {
+    "title": "The Andromeda Strain",
+    "author": "Michael Crichton",
+    "url": "https://www.goodreads.com/book/show/7670.The_Andromeda_Strain",
+    "status": "read",
+    "dateStarted": "October 2023",
+    "dateFinished": "October 2023"
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "url": "https://www.goodreads.com/book/show/44767458-dune",
+    "status": "read"
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "author": "Arthur C. Clarke",
+    "url": "https://www.goodreads.com/book/show/70535.2001",
+    "status": "read"
+  },
+  {
+    "title": "On The Road",
+    "author": "Jack Kerouac",
+    "url": "https://www.goodreads.com/book/show/70401.On_the_Road",
+    "status": "read"
+  },
+  {
+    "title": "The Martian Chronicles",
+    "author": "Ray Bradbury",
+    "url": "https://www.goodreads.com/book/show/76778.The_Martian_Chronicles",
+    "status": "read"
+  },
+  {
+    "title": "Airframe",
+    "author": "Michael Crichton",
+    "url": "https://www.goodreads.com/book/show/7667.Airframe",
+    "status": "read"
+  },
+  {
+    "title": "Red Mars",
+    "author": "Kim Stanley Robinson",
+    "url": "https://www.goodreads.com/book/show/77507.Red_Mars",
+    "status": "read"
+  },
+  {
+    "title": "Green Mars",
+    "author": "Kim Stanley Robinson",
+    "url": "https://www.goodreads.com/book/show/77505.Green_Mars",
+    "status": "read"
+  },
+  {
+    "title": "Blue Mars",
+    "author": "Kim Stanley Robinson",
+    "url": "https://www.goodreads.com/book/show/77504.Blue_Mars",
+    "status": "read"
+  },
+  {
+    "title": "Jurassic Park",
+    "author": "Michael Crichton",
+    "url": "https://www.goodreads.com/book/show/40604658-jurassic-park",
+    "status": "read"
+  },
+  {
+    "title": "The Hunt For Red October",
+    "author": "Tom Clancy",
+    "url": "https://www.goodreads.com/book/show/19691.The_Hunt_for_Red_October",
+    "status": "read",
+    "dateStarted": "June 2024",
+    "dateFinished": "July 4th 2024"
+  },
+  {
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "url": "https://www.goodreads.com/book/show/29579.Foundation",
+    "status": "read"
+  },
+  {
+    "title": "Do Androids Dream of Electric Sheep?",
+    "author": "Philip K. Dick",
+    "url": "https://www.goodreads.com/book/show/7082.Do_Androids_Dream_of_Electric_Sheep_",
+    "status": "to-read"
+  },
+  {
+    "title": "Annihilation",
+    "author": "Jeff VanderMeer",
+    "url": "https://www.goodreads.com/book/show/17934530-annihilation",
+    "status": "read"
+  },
+  {
+    "title": "1Q84",
+    "author": "Haruki Murakami",
+    "url": "https://www.goodreads.com/book/show/10357575-1q84",
+    "status": "to-read"
+  },
+  {
+    "title": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "url": "https://www.goodreads.com/book/show/54120408-klara-and-the-sun",
+    "status": "read",
+    "dateStarted": "July 18 2022",
+    "dateFinished": "July 25 2022"
+  },
+  {
+    "title": "Recursion",
+    "author": "Blake Crouch",
+    "url": "https://www.goodreads.com/book/show/42046112-recursion",
+    "status": "read",
+    "dateStarted": "July 25 2022",
+    "dateFinished": "July 28 2022"
+  },
+  {
+    "title": "Leviathan Wakes",
+    "author": "James S. A. Corey",
+    "url": "https://www.goodreads.com/book/show/8855321-leviathan-wakes",
+    "status": "read"
+  },
+  {
+    "title": "Lord of the Rings: The Fellowship of the Ring",
+    "author": "J.R.R. Tolkien",
+    "url": "https://www.goodreads.com/book/show/61215351-the-fellowship-of-the-ring",
+    "status": "read",
+    "dateStarted": "November 2022",
+    "dateFinished": "March 2023"
+  },
+  {
+    "title": "Lord of the Rings: The Two Towers",
+    "author": "J.R.R. Tolkien",
+    "url": "https://www.goodreads.com/book/show/61215372-the-two-towers",
+    "status": "to-read"
+  },
+  {
+    "title": "Lord of the Rings: The Return of the King",
+    "author": "J.R.R. Tolkien",
+    "url": "https://www.goodreads.com/book/show/61215384-the-return-of-the-king",
+    "status": "to-read"
+  },
+  {
+    "title": "Disclosure",
+    "author": "Michael Crichton",
+    "url": "https://www.goodreads.com/book/show/7675.Disclosure",
+    "status": "read",
+    "dateStarted": "March 2023",
+    "dateFinished": "March 2023"
+  },
+  {
+    "title": "The Bourne Identity",
+    "author": "Robert Ludlum",
+    "url": "https://www.goodreads.com/book/show/7869.The_Bourne_Identity",
+    "status": "read",
+    "dateStarted": "April 2023",
+    "dateFinished": "July 2023"
+  },
+  {
+    "title": "Sphere",
+    "author": "Michael Crichton",
+    "url": "https://www.goodreads.com/book/show/455373.Sphere",
+    "status": "read",
+    "dateStarted": "August 2023",
+    "dateFinished": "September 2023"
+  },
+  {
+    "title": "A Gentleman in Moscow",
+    "author": "Amor Towles",
+    "url": "https://www.goodreads.com/book/show/34066798-a-gentleman-in-moscow",
+    "status": "to-read"
+  },
+  {
+    "title": "Artemis",
+    "author": "Andy Weir",
+    "url": "https://www.goodreads.com/book/show/34928122-artemis",
+    "status": "read",
+    "dateStarted": "July 2023",
+    "dateFinished": "July 2023"
+  },
+  {
+    "title": "Foundation and Empire",
+    "author": "Isaac Asimov",
+    "url": "https://www.goodreads.com/book/show/29581.Foundation_and_Empire",
+    "status": "read",
+    "dateStarted": "July 2023",
+    "dateFinished": "July 2023"
+  },
+  {
+    "title": "Second Foundation",
+    "author": "Isaac Asimov",
+    "url": "https://www.goodreads.com/book/show/29580.Second_Foundation",
+    "status": "read",
+    "dateStarted": "July 2023",
+    "dateFinished": "July 2023"
+  },
+  {
+    "title": "Wool",
+    "author": "Hugh Howey",
+    "url": "https://www.goodreads.com/book/show/12287209-wool",
+    "status": "read",
+    "dateStarted": "September 2023",
+    "dateFinished": "December 2023"
+  },
+  {
+    "title": "Tinker, Tailor, Soldier, Spy",
+    "author": "John Le Carré",
+    "url": "https://www.goodreads.com/book/show/10073506-tinker-tailor-soldier-spy",
+    "status": "read",
+    "dateStarted": "October 2023",
+    "dateFinished": "December 2023"
+  },
+  {
+    "title": "Shift",
+    "author": "Hugh Howey",
+    "url": "https://www.goodreads.com/book/show/17306293-shift",
+    "status": "read",
+    "dateStarted": "January 18 2025",
+    "dateFinished": "January 28 2025"
+  },
+  {
+    "title": "Dust",
+    "author": "Hugh Howey",
+    "url": "https://www.goodreads.com/book/show/17855756-dust",
+    "status": "read",
+    "dateStarted": "January 28 2025",
+    "dateFinished": "February 3 2025"
+  },
+  {
+    "title": "Children of Time",
+    "author": "Adrian Tchaikovsky",
+    "url": "https://www.goodreads.com/book/show/25499718",
+    "status": "read",
+    "dateStarted": "February 2024",
+    "dateFinished": "April 2024"
+  },
+  {
+    "title": "2034",
+    "author": "Elliot Ackerman, Admiral James Stavridis",
+    "url": "https://www.goodreads.com/book/show/54211065",
+    "status": "read",
+    "dateStarted": "April 2024",
+    "dateFinished": "April 2024"
+  },
+  {
+    "title": "2054",
+    "author": "Elliot Ackerman, Admiral James Stavridis",
+    "url": "https://www.goodreads.com/book/show/177192243",
+    "status": "read",
+    "dateStarted": "April 2024",
+    "dateFinished": "May 2024"
+  },
+  {
+    "title": "The Wager",
+    "author": "David Grann",
+    "url": "https://www.goodreads.com/book/show/61714633",
+    "status": "to-read"
+  },
+  {
+    "title": "The Making of Prince of Persia",
+    "author": "Jordan Mechner",
+    "url": "https://www.goodreads.com/book/show/12917506",
+    "status": "read",
+    "dateStarted": "May 2024",
+    "dateFinished": "May 2024"
+  },
+  {
+    "title": "Caliban's War",
+    "author": "James S.A. Corey",
+    "url": "https://www.goodreads.com/book/show/12591698",
+    "status": "reading",
+    "dateStarted": "May 28th 2024"
+  },
+  {
+    "title": "Sandstorm",
+    "author": "James Rollins",
+    "url": "https://www.goodreads.com/book/show/183822.Sandstorm",
+    "status": "read",
+    "dateStarted": "June 2024",
+    "dateFinished": "June 20th 2024"
+  },
+  {
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "url": "https://www.goodreads.com/book/show/7126.The_Count_of_Monte_Cristo",
+    "status": "to-read"
+  },
+  {
+    "title": "Patriot Games",
+    "author": "Tom Clancy",
+    "url": "https://www.goodreads.com/book/show/32682.Patriot_Games",
+    "status": "read",
+    "dateStarted": "July 6th 2024",
+    "dateFinished": "February 27th 2025"
+  },
+  {
+    "title": "The Andromeda Evolution",
+    "author": "Daniel H. Wilson",
+    "url": "https://www.goodreads.com/book/show/44148860-the-andromeda-evolution",
+    "status": "read",
+    "dateStarted": "July 21st 2024",
+    "dateFinished": "August 16th 2024"
+  },
+  {
+    "title": "Mars",
+    "author": "Ben Bova",
+    "url": "https://www.goodreads.com/book/show/896684.Mars",
+    "status": "read",
+    "dateStarted": "August 21st 2024",
+    "dateFinished": "October 10th 2024"
+  },
+  {
+    "title": "Rendezvous with Rama",
+    "author": "Arthur C. Clarke",
+    "url": "https://www.goodreads.com/book/show/112537.Rendezvous_with_Rama",
+    "status": "read",
+    "dateStarted": "October 13 2024",
+    "dateFinished": "October 20 2024"
+  },
+  {
+    "title": "Rama II",
+    "author": "Arthur C. Clarke",
+    "url": "https://www.goodreads.com/book/show/112520.Rama_II",
+    "status": "reading",
+    "dateStarted": "October 20 2024"
+  },
+  {
+    "title": "Children of Ruin",
+    "author": "Adrian Tchaikovsky",
+    "url": "https://www.goodreads.com/book/show/40376072-children-of-ruin",
+    "status": "reading",
+    "dateStarted": "October 23 2024"
+  },
+  {
+    "title": "There is No Antimemetics Division",
+    "author": "qntm",
+    "url": "https://www.goodreads.com/book/show/54870256-there-is-no-antimemetics-division",
+    "status": "reading",
+    "dateStarted": "November 12 2024"
+  },
+  {
+    "title": "Casino Royale",
+    "author": "Ian Fleming",
+    "url": "https://www.goodreads.com/book/show/3758.Casino_Royale",
+    "status": "read",
+    "dateStarted": "November 14 2024",
+    "dateFinished": "November 18 2024"
+  },
+  {
+    "title": "Live and Let Die",
+    "author": "Ian Fleming",
+    "url": "https://www.goodreads.com/book/show/3763.Live_and_Let_Die",
+    "status": "read",
+    "dateStarted": "November 19 2024",
+    "dateFinished": "December 20 2024"
+  },
+  {
+    "title": "Pacific Vortex!",
+    "author": "Clive Cussler",
+    "url": "https://www.goodreads.com/book/show/361081.Pacific_Vortex_",
+    "status": "read",
+    "dateStarted": "January 13 2025",
+    "dateFinished": "April 23 2025"
+  },
+  {
+    "title": "Red Rabbit",
+    "author": "Tom Clancy",
+    "url": "https://www.goodreads.com/book/show/19707.Red_Rabbit",
+    "status": "read",
+    "dateStarted": "February 28 2025",
+    "dateFinished": "April 1 2025"
+  },
+  {
+    "title": "Upgrade",
+    "author": "Blake Crouch",
+    "url": "https://www.goodreads.com/book/show/59838811-upgrade",
+    "status": "read",
+    "dateStarted": "April 2 2025",
+    "dateFinished": "April 9 2025"
+  },
+  {
+    "title": "The Sun Also Rises",
+    "author": "Ernest Hemingway",
+    "url": "https://www.goodreads.com/book/show/3876",
+    "status": "read",
+    "dateStarted": "April 25 2025",
+    "dateFinished": "May 1 2025"
+  },
+  {
+    "title": "The Silent Traveller In Boston",
+    "author": "Chiang Yee",
+    "url": "https://www.goodreads.com/book/show/1903239.The_Silent_Traveller_in_Boston",
+    "status": "read",
+    "dateStarted": "May 2 2025",
+    "dateFinished": "May 4 2025"
+  },
+  {
+    "title": "Never Let Me Go",
+    "author": "Kazuo Ishiguro",
+    "url": "https://www.goodreads.com/book/show/6334",
+    "status": "read",
+    "dateStarted": "May 5 2025",
+    "dateFinished": "May 8 2025"
+  },
+  {
+    "title": "Authority",
+    "author": "Jeff VanderMeer",
+    "url": "https://www.goodreads.com/book/show/18077769-authority",
+    "status": "reading",
+    "dateStarted": "May 8 2025"
+  },
+  {
+    "title": "Station Eleven",
+    "author": "Emily St. John Mandel",
+    "url": "https://www.goodreads.com/book/show/20170404-station-eleven",
+    "status": "read",
+    "dateStarted": "May 9 2025",
+    "dateFinished": "May 12 2025"
+  }
+]
