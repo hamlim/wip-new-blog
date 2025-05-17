@@ -17,12 +17,12 @@ type Page =
 | ({ path: '/2025/april/podcasting-by-hand' } & GetConfigResponse<typeof 2025AprilPodcastingByHand_getConfig>)
 | { path: '/__sandbox'; render: 'dynamic' }
 | { path: '/_root'; render: 'dynamic' }
+| { path: '/about'; render: 'dynamic' }
 | { path: '/blog'; render: 'dynamic' }
 | ({ path: '/blog/tags/[tagName]' } & GetConfigResponse<typeof BlogTagsTagName_getConfig>)
 | ({ path: '/blog/tags' } & GetConfigResponse<typeof BlogTagsIndex_getConfig>)
 | { path: '/bookshelf'; render: 'dynamic' }
 | ({ path: '/' } & GetConfigResponse<typeof Index_getConfig>)
-| { path: '/notes'; render: 'dynamic' }
 | { path: '/projects'; render: 'dynamic' }
 | { path: '/resume'; render: 'dynamic' }
 | { path: '/skip-me-pls-year/[month]/[slug]'; render: 'dynamic' }
