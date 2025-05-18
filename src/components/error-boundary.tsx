@@ -20,7 +20,6 @@ export class ErrorBoundary extends Component<{
   }
 
   render() {
-    console.log("ErrorBoundary render", this.state.error);
     if (this.state.error) {
       return (
         <ProseContainer>
