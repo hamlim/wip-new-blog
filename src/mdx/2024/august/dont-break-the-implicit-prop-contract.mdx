@@ -1,14 +1,20 @@
 ---
-title: "Don't Break the Implicit Prop Contract"
-slug: "dont-break-the-implicit-prop-contract"
-path: "/2024/august/dont-break-the-implicit-prop-contract"
+title: Don't Break the Implicit Prop Contract
+slug: dont-break-the-implicit-prop-contract
+path: /2024/august/dont-break-the-implicit-prop-contract
 date: 1722879092000
-status: "public"
-type: "blog-post"
-tags: ["Web Development","Tip","React"]
-description: "React components have a fundamental contract that is often unstated in their implementation, and you should know about it!"
-month: "august"
+status: public
+type: blog-post
+tags:
+  - Web Development
+  - Tip
+  - React
+description: >-
+  React components have a fundamental contract that is often unstated in their
+  implementation, and you should know about it!
+month: august
 year: 2024
+ogImage: /og-images/dont-break-the-implicit-prop-contract.png
 ---
 
 There's a _"secret"_ implicit prop contract that comes along with all React components, and in fact with most "pure functions" and their arguments! Most React developers may not realize this contract is there, but they often follow it out of convention anyway. In this post I wanted to dig into this implicit prop contract, and specifically spend some time outlining why you shouldn't break it!
