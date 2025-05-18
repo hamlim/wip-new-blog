@@ -7,6 +7,7 @@ import { Footnote, FootnoteRef } from "#/components/footnote";
 import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Spacer } from "#/components/spacer";
+import { TLDR } from "#/components/tldr";
 
 export function useMDXComponents() {
   return {
@@ -80,5 +81,6 @@ export function useMDXComponents() {
       return <Anchor {...props} />;
     },
     BlueskyPost: BlueskyPostEmbed,
+    TLDR,
   };
 }

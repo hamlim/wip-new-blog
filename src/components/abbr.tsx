@@ -38,12 +38,13 @@ export function Abbr(props: ComponentProps<"abbr">) {
           // - can't add this in because it's a dynamic classname which
           // - tailwind doesn't support
           // `anchored/abbr`,
-          "top-anchor-bottom-1",
-          "left-anchor-left-0",
+          "top-anchor-bottom-[.125rem]",
+          "left-anchor-right-[.125rem]",
           `p-2`,
           `bg-slate-600`,
           `text-white`,
           `rounded`,
+          "rounded-ss-none",
         )}
       >
         {props.title}

@@ -15,6 +15,7 @@ import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Marquee } from "#/components/marquee";
 import { Spacer } from "#/components/spacer";
+import { TLDR } from "#/components/tldr";
 import SandboxMDX from "#/mdx/__sandbox.mdx";
 
 updateConfig({
@@ -242,6 +243,12 @@ export default function Sandbox() {
       <Heading level={2}>Error Boundary:</Heading>
       <DemoWrap>
         <ErrorBoundaryDemo />
+      </DemoWrap>
+      <Heading level={2}>TL;DR:</Heading>
+      <DemoWrap>
+        <TLDR>
+          <p>This is a TL;DR</p>
+        </TLDR>
       </DemoWrap>
     </main>
   );
