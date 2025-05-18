@@ -3,8 +3,6 @@
 import { type ReactNode, Suspense, useEffect, useState } from "react";
 import { ErrorBoundary } from "./error-boundary";
 
-console.log("ErrorBoundaryDemo");
-
 function InnerDemo(): ReactNode {
   let [shouldThrow, setShouldThrow] = useState(false);
 
