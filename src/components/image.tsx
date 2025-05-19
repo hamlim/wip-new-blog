@@ -9,12 +9,15 @@ export function Image({
 }: {
   alt: string;
   src: string;
-  height: number;
-  width: number;
+  height: number | string;
+  width: number | string;
   className?: string;
 }) {
+  let heightNum = Number.parseInt(height as string, 10);
+  let widthNum = Number.parseInt(width as string, 10);
+
   return (
-    <AspectRatio ratio={width / height} className="flex justify-center">
+    <AspectRatio ratio={widthNum / heightNum} className="flex justify-center">
       <img
         src={src}
         height={height}
