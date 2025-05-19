@@ -15,16 +15,17 @@ year: 2025
 ogImage: /og-images/youre-building-software-wrong.png
 ---
 
-import {SoftwareSquare, HorizontalSlices, VerticalSlices } from '#/blog-assets/youre-building-software-wrong/svgs';
-
 Imagine software as a square. A square has four sides—top, bottom, left, and right. In this metaphor, that square represents your software product in its entirety. Every piece of your project exists within it.
 
 Now, let’s focus on two key edges: the top and the bottom. The top edge represents the surface that users interact with directly. If you’re building a web application, this would be your user interface (UI). Below that, supporting the UI, is everything else—your backend services, infrastructure, databases—extending all the way down to the bottom edge.
 
-<figure className="flex flex-col items-center mb-8">
-  <SoftwareSquare />
-  <figcaption className='mt-6 border-l-2 pl-6 italic'>A square, with the top edge highlighted in yellow with a label of "User Experience", and the bottom edge highlighted in blue with a label of "Infrastructure", filled with purple squiggles and a label of "Implementation".</figcaption>
-</figure>
+<Figure
+  height="424"
+  width="475"
+  src="/images/youre-building-software-wrong/software-square.svg"
+  alt="A square, with the top edge highlighted in yellow with a label of 'User Experience', and the bottom edge highlighted in blue with a label of 'Infrastructure', filled with purple squiggles and a label of 'Implementation'."
+  caption="A visual model for how to think about software"
+/>
 
 ### The Traditional Approach: Horizontal Slices
 
@@ -39,10 +40,13 @@ At first glance, this approach seems reasonable. Each layer is built in sequence
 
 The problem? It delays meaningful user feedback. By the time teams reach the UI, they may realize they’ve built the wrong thing. Maybe they solved Problem Y when they actually set out to solve Problem X—all because of cascading decisions made at lower levels.
 
-<figure className="flex flex-col items-center mb-8">
-  <HorizontalSlices />
-  <figcaption className='mt-6 border-l-2 pl-6 italic'>The previous square diagram broken down into horizontal slices, with each slice shifted slightly left or right, resulting in a top horizontal slice being slightly off from the original expected top edge of the square, labeled as "Resulting UX".</figcaption>
-</figure>
+<Figure
+  height="483"
+  width="662"
+  src="/images/youre-building-software-wrong/horizontal-slices.svg"
+  alt="The previous square diagram broken down into horizontal slices, with each slice shifted slightly left or right, resulting in a top horizontal slice being slightly off from the original expected top edge of the square, labeled as 'Resulting UX'."
+  caption="Horizontal Slices"
+/>
 
 ### The Better Approach: Vertical Slices
 
@@ -57,10 +61,13 @@ For example, if you’re building a web application, a simple way to slice verti
 
 Each slice should result in something that users can interact with—even if it’s rough. This could be beta testers, internal users, or real customers if you’re iterating live.
 
-<figure className="flex flex-col items-center mb-8">
-  <VerticalSlices />
-  <figcaption className='mt-6 border-l-2 pl-6 italic'>The square diagram, this time split into vertical slices. Each slice has a slightly different width, and has different highlighted sections for the top edge of the square. With a label reading "Each slice delivers incremental value".</figcaption>
-</figure>
+<Figure
+  height="475"
+  width="600"
+  src="/images/youre-building-software-wrong/vertical-slices.svg"
+  alt="The square diagram, this time split into vertical slices. Each slice has a slightly different width, and has different highlighted sections for the top edge of the square. With a label reading 'Each slice delivers incremental value'."
+  caption="Vertical Slices"
+/>
 
 Why Vertical Slices Work Better
 

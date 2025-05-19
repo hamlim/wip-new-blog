@@ -374,6 +374,8 @@ import type { getConfig as 2025MarchReplacingDropboxCaptureWithRaycast_getConfig
 // prettier-ignore
 import type { getConfig as Sandbox_getConfig } from './pages/__sandbox';
 // prettier-ignore
+import type { getConfig as About_getConfig } from './pages/about';
+// prettier-ignore
 import type { getConfig as BlogTagsTagName_getConfig } from './pages/blog/tags/[tagName]';
 // prettier-ignore
 import type { getConfig as BlogTagsIndex_getConfig } from './pages/blog/tags/index';
@@ -568,7 +570,7 @@ type Page =
 | ({ path: '/2025/march/replacing-dropbox-capture-with-raycast' } & GetConfigResponse<typeof 2025MarchReplacingDropboxCaptureWithRaycast_getConfig>)
 | ({ path: '/__sandbox' } & GetConfigResponse<typeof Sandbox_getConfig>)
 | { path: '/_root'; render: 'dynamic' }
-| { path: '/about'; render: 'dynamic' }
+| ({ path: '/about' } & GetConfigResponse<typeof About_getConfig>)
 | { path: '/blog'; render: 'dynamic' }
 | ({ path: '/blog/tags/[tagName]' } & GetConfigResponse<typeof BlogTagsTagName_getConfig>)
 | ({ path: '/blog/tags' } & GetConfigResponse<typeof BlogTagsIndex_getConfig>)
