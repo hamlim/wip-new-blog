@@ -2,12 +2,15 @@ import { BlueskyPostEmbed } from "@hamstack/bluesky-embed-rsc";
 import type { ComponentProps, ReactNode } from "react";
 import { Abbr } from "#/components/abbr";
 import { Anchor, LinkAnchor } from "#/components/anchor";
+import { BlueskyMention } from "#/components/bluesky-mention";
 import { Figure } from "#/components/figure";
 import { Footnote, FootnoteRef } from "#/components/footnote";
+import { GitHubMention } from "#/components/github-mention";
 import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Spacer } from "#/components/spacer";
 import { TLDR } from "#/components/tldr";
+import { TwitterMention } from "#/components/twitter-mention";
 
 export function useMDXComponents() {
   return {
@@ -82,5 +85,8 @@ export function useMDXComponents() {
     },
     BlueskyPost: BlueskyPostEmbed,
     TLDR,
+    BlueskyMention,
+    GitHubMention,
+    TwitterMention,
   };
 }
