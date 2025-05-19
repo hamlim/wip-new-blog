@@ -40,6 +40,9 @@
       },
       "organizeImports": {
         "enabled": false
+      },
+      "formatter": {
+        "enabled": false
       }
     }
   ]

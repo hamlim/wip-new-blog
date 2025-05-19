@@ -14,7 +14,6 @@ export let mdxConfig = {
     remarkFlexibleMarkers,
   ] as PluggableList,
   rehypePlugins: [
-    rehypeMdxCodeProps,
     [
       rehypeShiki,
       {
@@ -24,5 +23,6 @@ export let mdxConfig = {
         },
       },
     ],
+    rehypeMdxCodeProps,
   ] as PluggableList,
 };

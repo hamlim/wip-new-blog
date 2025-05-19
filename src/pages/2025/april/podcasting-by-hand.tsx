@@ -1,12 +1,10 @@
 import { Post } from "#/components/post";
-import PodcastByHandMDX, {
-  frontmatter,
-} from "#/mdx/2025/april/podcasting-by-hand.mdx";
+import Content, { frontmatter } from "#/mdx/2025/april/podcasting-by-hand.mdx";
 
 export default function PodcastByHand() {
   return (
     <Post frontmatter={frontmatter}>
-      <PodcastByHandMDX />
+      <Content />
     </Post>
   );
 }
