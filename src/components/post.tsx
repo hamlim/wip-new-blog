@@ -70,8 +70,6 @@ export async function Post({
       />
       <meta property="og:type" content="article" />
       <meta property="og:site_name" content="Matt's Blog" />
-
-      <pre>{JSON.stringify(frontmatter, null, 2)}</pre>
       <ProseContainer>
         <Heading level={1}>{frontmatter.title}</Heading>
         <p className="text-sm text-slate-500 dark:text-slate-400">
