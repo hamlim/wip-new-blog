@@ -10,6 +10,7 @@ import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Spacer } from "#/components/spacer";
 import { TLDR } from "#/components/tldr";
+import { TweetEmbed } from "#/components/tweet-embed";
 import { TwitterMention } from "#/components/twitter-mention";
 
 export function useMDXComponents() {
@@ -88,5 +89,6 @@ export function useMDXComponents() {
     BlueskyMention,
     GitHubMention,
     TwitterMention,
+    Tweet: TweetEmbed,
   };
 }
