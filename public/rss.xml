@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Mon, 19 May 2025 22:15:24 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 May 2025 22:17:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -804,33 +804,6 @@ lowercase or uppercase. <a href="#user-content-fnref-1" data-footnote-backref=""
             <enclosure url="https://matthamlin.me/og-images/attribute-selectors.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[Redesign v5]]></title>
-            <link>https://matthamlin.me//2016/august/redesign-v5</link>
-            <guid>https://matthamlin.me//2016/august/redesign-v5</guid>
-            <pubDate>Wed, 24 Aug 2016 12:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>Technically the name of this document is <var>designV5.html</var> however I
-really don&#x27;t know what version this is of my personal webpage. I know I have
-written about redesigning this website about 2 or three times now
-(<a href="/post/Redesign">once here</a> and again
-<a href="/post/Weekend-Projects">here</a>).</p>
-<p>The point of the matter is that I have redesigned my website several times over
-and each time I generally design it using the new things I have learned about
-design and web development. This time I wanted to focus on revitalizing my blog
-and making my website look a bit more professional.</p>
-<p>I have officially dropped any need for external resources (css, images, other
-assets are all locally hosted), and as with the past redesign I have completely
-cut out any Javascript resources. Of course all this leads to faster lead times
-which is a great benefit.</p>
-<p>One of the things that I also realized along the redesign process was that I
-will no longer be supporting any browser older than Edge, that means that I am
-doing no optimization with any of the css to let it work with older browsers.
-The main reason I am doing this is because I believe writing code to work with
-older browsers is fairly useless at this point <em>(Sorry <small>not
-sorry</small> IE8 users)</em>.</p>]]></content:encoded>
-            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
-            <enclosure url="https://matthamlin.me/og-images/redesign-v5.png" length="0" type="image/png"/>
-        </item>
-        <item>
             <title><![CDATA[Pull Quotes]]></title>
             <link>https://matthamlin.me//2016/august/pull-quotes</link>
             <guid>https://matthamlin.me//2016/august/pull-quotes</guid>
@@ -877,6 +850,33 @@ the reader in. <a href="#user-content-fnref-1" data-footnote-backref="" aria-lab
 </section>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/pull-quotes.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Redesign v5]]></title>
+            <link>https://matthamlin.me//2016/august/redesign-v5</link>
+            <guid>https://matthamlin.me//2016/august/redesign-v5</guid>
+            <pubDate>Wed, 24 Aug 2016 12:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Technically the name of this document is <var>designV5.html</var> however I
+really don&#x27;t know what version this is of my personal webpage. I know I have
+written about redesigning this website about 2 or three times now
+(<a href="/post/Redesign">once here</a> and again
+<a href="/post/Weekend-Projects">here</a>).</p>
+<p>The point of the matter is that I have redesigned my website several times over
+and each time I generally design it using the new things I have learned about
+design and web development. This time I wanted to focus on revitalizing my blog
+and making my website look a bit more professional.</p>
+<p>I have officially dropped any need for external resources (css, images, other
+assets are all locally hosted), and as with the past redesign I have completely
+cut out any Javascript resources. Of course all this leads to faster lead times
+which is a great benefit.</p>
+<p>One of the things that I also realized along the redesign process was that I
+will no longer be supporting any browser older than Edge, that means that I am
+doing no optimization with any of the css to let it work with older browsers.
+The main reason I am doing this is because I believe writing code to work with
+older browsers is fairly useless at this point <em>(Sorry <small>not
+sorry</small> IE8 users)</em>.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/redesign-v5.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[My New Website]]></title>
@@ -4733,6 +4733,20 @@ it will cause an infinite render loop!</p>
             <enclosure url="https://matthamlin.me/og-images/useConsole.png" length="0" type="image/png"/>
         </item>
         <item>
+            <title><![CDATA[Fast]]></title>
+            <link>https://matthamlin.me//2021/march/fast</link>
+            <guid>https://matthamlin.me//2021/march/fast</guid>
+            <pubDate>Mon, 01 Mar 2021 12:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="outline">Outline</h2>
+<ul>
+<li>My role: Build efficiency for the teams I work with</li>
+<li>As developers, we should optimize for the most efficient and fastest feedback
+cycles</li>
+</ul>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/fast.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[Writing Node Scripts]]></title>
             <link>https://matthamlin.me//2021/march/writing-node-scripts</link>
             <guid>https://matthamlin.me//2021/march/writing-node-scripts</guid>
@@ -4766,20 +4780,6 @@ reference: <a href="https://2ality.com/2011/12/nodejs-shell-scripting.html" clas
 <marquee class="mt-4"></marquee>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/writing-node-scripts.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Fast]]></title>
-            <link>https://matthamlin.me//2021/march/fast</link>
-            <guid>https://matthamlin.me//2021/march/fast</guid>
-            <pubDate>Mon, 01 Mar 2021 12:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="outline">Outline</h2>
-<ul>
-<li>My role: Build efficiency for the teams I work with</li>
-<li>As developers, we should optimize for the most efficient and fastest feedback
-cycles</li>
-</ul>]]></content:encoded>
-            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
-            <enclosure url="https://matthamlin.me/og-images/fast.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Array Chunking]]></title>
@@ -8248,9 +8248,9 @@ a. This snippet only defines a few helper functions, it won&#x27;t do anything m
 <p>Overall - I feel like I&#x27;ve made decent progress across all of them!</p>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="get-healthier-">Get Healthier 🫤</h3>
 <p>I crunched the numbers on both my step count and my weight (which actually wasn&#x27;t all that bad to do, but I had to merge data I captured in Notion with data I&#x27;ve been capturing in Obsidian <a href="/blog/2024/july/switching-back-to-obsidian" class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">since migrating</a>), my weight honestly looks pretty bad over the past year, but within the past few months it&#x27;s starting to move in the right direction.</p>
-<div style="position:relative;width:100%;padding-bottom:49.57983193277311%" data-radix-aspect-ratio-wrapper=""><div data-slot="aspect-ratio" class="flex justify-center" style="position:absolute;top:0;right:0;bottom:0;left:0"><img src="/images/30/weight-trend.png" height="1180" width="2380" loading="lazy" placeholder="blur" blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wgAAuYB4/TKAFcAAAAASUVORK5CYII=" alt="My weight trend over the last year"/></div></div>
+<div style="position:relative;width:100%;padding-bottom:49.57983193277311%" data-radix-aspect-ratio-wrapper=""><div data-slot="aspect-ratio" class="flex justify-center" style="position:absolute;top:0;right:0;bottom:0;left:0"><img src="/images/30/weight-trend.png" height="1180" width="2380" loading="lazy" alt="My weight trend over the last year"/></div></div>
 <p>My steps also seem alright - but honestly it&#x27;s pretty biased around when I go on vacation (end of May in Mexico, early July 2024 in Connecticut and California) so I need to keep up my walking habit while away from home.</p>
-<div style="position:relative;width:100%;padding-bottom:49.600672551492224%" data-radix-aspect-ratio-wrapper=""><div data-slot="aspect-ratio" class="flex justify-center" style="position:absolute;top:0;right:0;bottom:0;left:0"><img src="/images/30/steps-trend.png" height="1180" width="2379" loading="lazy" placeholder="blur" blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wgAAuYB4/TKAFcAAAAASUVORK5CYII=" alt="My steps trend over the last year"/></div></div>
+<div style="position:relative;width:100%;padding-bottom:49.600672551492224%" data-radix-aspect-ratio-wrapper=""><div data-slot="aspect-ratio" class="flex justify-center" style="position:absolute;top:0;right:0;bottom:0;left:0"><img src="/images/30/steps-trend.png" height="1180" width="2379" loading="lazy" alt="My steps trend over the last year"/></div></div>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="improve-my-wardrobe-">Improve my wardrobe ✅</h3>
 <p>There&#x27;s not much data to pull here - but now I&#x27;m cycling in some new black t-shirts, some new long and short sleeve button ups, and also some new shorts and pants.</p>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="optimize-finances-">Optimize finances ✅</h3>
