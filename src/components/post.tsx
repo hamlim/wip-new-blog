@@ -63,7 +63,6 @@ export async function Post({
       <meta name="description" content={frontmatter.description} />
       <meta property="og:title" content={frontmatter.title} />
       <meta property="og:description" content={frontmatter.description} />
-      {/* @TODO: Add ogImage to frontmatter in blog posts */}
       <meta property="og:image" content={frontmatter.ogImage} />
       <meta
         property="og:url"
