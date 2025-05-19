@@ -58,8 +58,8 @@ export async function Post({
   let lastModifiedDate = await getLastModifiedDate(frontmatter);
 
   return (
-    <main>
-      <title>{`${frontmatter.title} - Matt's Blog}`}</title>
+    <main className="pt-10">
+      <title>{`${frontmatter.title} - Matt's Blog`}</title>
       <meta name="description" content={frontmatter.description} />
       <meta property="og:title" content={frontmatter.title} />
       <meta property="og:description" content={frontmatter.description} />

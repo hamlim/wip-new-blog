@@ -1,5 +1,6 @@
 import rehypeShiki from "@shikijs/rehype";
 import rehypeMdxCodeProps from "rehype-mdx-code-props";
+import rehypeSlug from "rehype-slug";
 import remarkFlexibleMarkers from "remark-flexible-markers";
 import remarkFrontmatter from "remark-frontmatter";
 import remarkGfm from "remark-gfm";
@@ -23,6 +24,7 @@ export let mdxConfig = {
         },
       },
     ],
+    rehypeSlug,
     rehypeMdxCodeProps,
   ] as PluggableList,
 };

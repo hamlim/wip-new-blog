@@ -9,10 +9,11 @@ let classes = {
   6: "text-base font-medium text-gray-400 dark:text-gray-600",
 } as const;
 
-export function Heading(
-  props: ComponentProps<"h1"> & { level: 1 | 2 | 3 | 4 | 5 | 6 },
-) {
-  let className = classes[props.level];
-  let Element = `h${props.level}` as const;
+export function Heading({
+  level,
+  ...props
+}: ComponentProps<"h1"> & { level: 1 | 2 | 3 | 4 | 5 | 6 }) {
+  let className = classes[level];
+  let Element = `h${level}` as const;
   return <Element className={className} {...props} />;
 }
