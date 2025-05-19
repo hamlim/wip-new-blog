@@ -7,6 +7,7 @@ export function Figure({
   height,
   width,
   caption,
+  ...props
 }: {
   alt: string;
   src: string;
@@ -15,7 +16,10 @@ export function Figure({
   caption: ReactNode;
 }) {
   return (
-    <figure className="p-2 border-2 border-gray-300 rounded-lg bg-gray-100">
+    <figure
+      {...props}
+      className="p-2 border-2 border-gray-300 rounded-lg bg-gray-100"
+    >
       <Image
         alt={alt}
         src={src}

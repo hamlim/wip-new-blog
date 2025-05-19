@@ -35,43 +35,53 @@ have made to my site. Unfortunately the css for the site snapshots on the
 Wayback machine doesn’t seem to load (either that or it didn’t collect the css).
 In fact I can only find one version of the site that has working css at all and
 unfortunately this version also rendered part of the site via JS so that doesn’t
-show up either[^1]. The version that I can find is
+show up either<FootnoteRef id="1">To combat this in the future I plan on making a snapshot branch on Github and forking those out into their separate repos (maybe).</FootnoteRef>. The version that I can find is
 [here](http://web.archive.org/web/20160111084107/http://matthamlin.me/). I had
 just found out about <a href="//getskeleton.com">skeleton-css</a> and wanted to
 put it to use in my own website. I loved this version of my site, it was clean
 and also a bit colorful.
 
-{/* <!-- The current version of the site, shown below in case it changes in the
+The current version of the site, shown below in case it changes in the
 future, is broken down into basically 4 page types as it is now. The first is
-the <a href="#image1" class="link">home page</a> the second is
-<a href="#image2" class="link">my resume</a>, the third is my
-<a href="#image3" class="link">blog archive</a>, and the fourth is the layout of
-a <a href="#image4" class="link">blog post</a>.
+the [home page](#image1) the second is [my resume](#image2), the third is my [blog archive](#image3), and the fourth is the layout of a [blog post](#image4).
 
-<figure class="figure" id="image1">
-  <img src="../../../../../static/images/posts/landing.png" alt="Landing Page" class="img" />
-  <figcaption class="horizontal--center">
-      <h5>Landing Page</h5>
-  </figcaption>
-</figure>
-<figure class="figure" id="image2">
-  <img src="../../../../../static/images/posts/resume.png" alt="Resume Page" class="img" />
-  <figcaption class="horizontal--center">
-      <h5>Resume Page</h5>
-  </figcaption>
-</figure>
-<figure class="figure" id="image3">
-  <img src="../../../../../static/images/posts/archive.png" alt="Archive Page" class="img" />
-  <figcaption class="horizontal--center">
-      <h5>Archive Page</h5>
-  </figcaption>
-</figure>
-<figure class="figure" id="image4">
-  <img src="../../../../../static/images/posts/post.png" alt="Blog post page" class="img" />
-  <figcaption class="horizontal--center">
-      Blog post Page
-  </figcaption>
-</figure> --> */}
+
+<Figure
+  id="image1"
+  src="/images/my-new-website/landing.png"
+  alt="Landing Page"
+  caption="Landing page"
+  height="5774"
+  width="3840"
+/>
+
+<Figure
+  id="image2"
+  src="/images/my-new-website/resume.png"
+  alt="Resume Page"
+  caption="Resume page"
+  width="3840"
+  height="14522"
+/>
+
+<Figure
+  id="image3"
+  src="/images/my-new-website/archive.png"
+  alt="Archive Page"
+  caption="Archive page"
+  width="3840"
+  height="5192"
+/>
+
+<Figure
+  id="image4"
+  src="/images/my-new-website/post.png"
+  alt="Blog post page"
+  caption="Blog post page"
+  width="3840"
+  height="4836"
+/>
+
 
 ### The Design:
 
@@ -104,7 +114,5 @@ it from the archive page when I am ready to publish it.
 
 ### Footnotes:
 
-[^1]:
-    To combat this in the future I plan on making a snapshot branch on Github
-    and forking those out into their separate repos (maybe).
+<Footnote id="1">To combat this in the future I plan on making a snapshot branch on Github and forking those out into their separate repos (maybe).</Footnote>
 

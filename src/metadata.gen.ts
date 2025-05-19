@@ -12,6 +12,7 @@ export let metadata = {
     description: "",
     month: "november",
     year: 2015,
+    ogImage: "/og-images/a-new-resume.png",
   },
   "/2015/november/a-new-look": {
     title: "A New Look",
@@ -24,6 +25,7 @@ export let metadata = {
     description: "",
     month: "november",
     year: 2015,
+    ogImage: "/og-images/a-new-look.png",
   },
   "/2015/november/message": {
     title: "The Message is in the Medium",
@@ -36,6 +38,7 @@ export let metadata = {
     description: "",
     month: "november",
     year: 2015,
+    ogImage: "/og-images/message.png",
   },
   "/2015/november/weekend-projects": {
     title: "Weekend Projects",
@@ -48,6 +51,7 @@ export let metadata = {
     description: "",
     month: "november",
     year: 2015,
+    ogImage: "/og-images/weekend-projects.png",
   },
   "/2015/november/family-time": {
     title: "Family Time",
@@ -60,6 +64,7 @@ export let metadata = {
     description: "",
     month: "november",
     year: 2015,
+    ogImage: "/og-images/family-time.png",
   },
   "/2015/november/thanksgiving": {
     title: "Thanksgiving",
@@ -72,6 +77,7 @@ export let metadata = {
     description: "",
     month: "november",
     year: 2015,
+    ogImage: "/og-images/thanksgiving.png",
   },
   "/2015/december/the-social-max": {
     title: "The Social Max",
@@ -84,6 +90,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2015,
+    ogImage: "/og-images/the-social-max.png",
   },
   "/2015/december/powerpoint": {
     title: "Powerpoint",
@@ -96,6 +103,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2015,
+    ogImage: "/og-images/powerpoint.png",
   },
   "/2015/december/blogging-vs-working": {
     title: "Blogging vs Working",
@@ -108,6 +116,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2015,
+    ogImage: "/og-images/blogging-vs-working.png",
   },
   "/2015/december/2016": {
     title: "Looking Ahead: 2016",
@@ -120,6 +129,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2015,
+    ogImage: "/og-images/2016.png",
   },
   "/2015/december/2015": {
     title: "2015",
@@ -132,6 +142,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2015,
+    ogImage: "/og-images/2015.png",
   },
   "/2016/january/my-first-project-of-2016": {
     title: "My First Project of 2016",
@@ -144,6 +155,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2016,
+    ogImage: "/og-images/my-first-project-of-2016.png",
   },
   "/2016/january/dji-vs-gopro": {
     title: "DJI vs GoPro",
@@ -156,6 +168,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2016,
+    ogImage: "/og-images/dji-vs-gopro.png",
   },
   "/2016/january/building-in-2016": {
     title: "Building in 2016",
@@ -168,6 +181,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2016,
+    ogImage: "/og-images/building-in-2016.png",
   },
   "/2016/january/10000-characters": {
     title: "10,000 Characters",
@@ -180,6 +194,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2016,
+    ogImage: "/og-images/10000-characters.png",
   },
   "/2016/january/clientside": {
     title: "Clientside",
@@ -192,6 +207,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2016,
+    ogImage: "/og-images/clientside.png",
   },
   "/2016/january/afraid": {
     title: "Afraid",
@@ -204,6 +220,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2016,
+    ogImage: "/og-images/afraid.png",
   },
   "/2016/april/redesign": {
     title: "Redesign",
@@ -216,6 +233,7 @@ export let metadata = {
     description: "",
     month: "april",
     year: 2016,
+    ogImage: "/og-images/redesign.png",
   },
   "/2016/august/august": {
     title: "August",
@@ -228,6 +246,7 @@ export let metadata = {
     description: "",
     month: "august",
     year: 2016,
+    ogImage: "/og-images/august.png",
   },
   "/2016/august/attribute-selectors": {
     title: "Attribute Selectors",
@@ -240,6 +259,7 @@ export let metadata = {
     description: "",
     month: "august",
     year: 2016,
+    ogImage: "/og-images/attribute-selectors.png",
   },
   "/2016/august/pull-quotes": {
     title: "Pull Quotes",
@@ -252,6 +272,7 @@ export let metadata = {
     description: "",
     month: "august",
     year: 2016,
+    ogImage: "/og-images/pull-quotes.png",
   },
   "/2016/august/redesign-v5": {
     title: "Redesign v5",
@@ -264,6 +285,7 @@ export let metadata = {
     description: "",
     month: "august",
     year: 2016,
+    ogImage: "/og-images/redesign-v5.png",
   },
   "/2016/august/my-new-website": {
     title: "My New Website",
@@ -276,6 +298,7 @@ export let metadata = {
     description: "",
     month: "august",
     year: 2016,
+    ogImage: "/og-images/my-new-website.png",
   },
   "/2016/october/october-4th": {
     title: "October 4th",
@@ -288,6 +311,7 @@ export let metadata = {
     description: "",
     month: "october",
     year: 2016,
+    ogImage: "/og-images/october-4th.png",
   },
   "/2016/october/css-debate": {
     title: "The Great CSS Debate",
@@ -300,6 +324,7 @@ export let metadata = {
     description: "",
     month: "october",
     year: 2016,
+    ogImage: "/og-images/css-debate.png",
   },
   "/2016/november/links": {
     title: "Links",
@@ -312,6 +337,7 @@ export let metadata = {
     description: "",
     month: "november",
     year: 2016,
+    ogImage: "/og-images/links.png",
   },
   "/2017/january/push-vs-pull-ai": {
     title: "Push vs Pull AI",
@@ -324,6 +350,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2017,
+    ogImage: "/og-images/push-vs-pull-ai.png",
   },
   "/2017/march/rebuilding-mustache": {
     title: "Rebuilding Mustache",
@@ -336,6 +363,7 @@ export let metadata = {
     description: "",
     month: "march",
     year: 2017,
+    ogImage: "/og-images/rebuilding-mustache.png",
   },
   "/2017/march/calendar": {
     title: "Calendar",
@@ -348,6 +376,7 @@ export let metadata = {
     description: "Building a calendar web application",
     month: "march",
     year: 2017,
+    ogImage: "/og-images/calendar.png",
   },
   "/2017/march/javascript-weirdness": {
     title: "JavaScript Weirdness",
@@ -360,6 +389,7 @@ export let metadata = {
     description: "A few weird things about JavaScript",
     month: "march",
     year: 2017,
+    ogImage: "/og-images/javascript-weirdness.png",
   },
   "/2017/march/redesign-v6": {
     title: "Redesign v6",
@@ -373,6 +403,7 @@ export let metadata = {
       "A few thoughts on the redesign of my personal site, adopting Next.js and deploying via Now",
     month: "march",
     year: 2017,
+    ogImage: "/og-images/redesign-v6.png",
   },
   "/2017/april/css-in-js": {
     title: "CSS in JS",
@@ -386,6 +417,7 @@ export let metadata = {
       "A few thoughts and patterns for using styled-jsx or other CSS-in-JS solutions",
     month: "april",
     year: 2017,
+    ogImage: "/og-images/css-in-js.png",
   },
   "/2018/january/2018": {
     title: "2018",
@@ -399,6 +431,7 @@ export let metadata = {
       "A recap and update on some of the projects I am working on at the start of 2018",
     month: "january",
     year: 2018,
+    ogImage: "/og-images/2018.png",
   },
   "/2018/april/understanding-react-16-3-updates": {
     title: "Understanding React 16.3 Updates",
@@ -412,6 +445,7 @@ export let metadata = {
       "A quick overview of the new lifecycle methods introduced in React 16.3",
     month: "april",
     year: 2018,
+    ogImage: "/og-images/understanding-react-16-3-updates.png",
   },
   "/2018/may/complex-ui-components": {
     title: "Managing Complex UI Component State",
@@ -425,6 +459,7 @@ export let metadata = {
       "A few thoughts on managing complex UI component state within React",
     month: "may",
     year: 2018,
+    ogImage: "/og-images/complex-ui-components.png",
   },
   "/2018/july/taking-a-break": {
     title: "Taking a Break",
@@ -437,6 +472,7 @@ export let metadata = {
     description: "A few quick thoughts on burn out and taking a break",
     month: "july",
     year: 2018,
+    ogImage: "/og-images/taking-a-break.png",
   },
   "/2018/july/summer-2018-trip": {
     title: "Summer 2018 Trip",
@@ -449,6 +485,7 @@ export let metadata = {
     description: "A few photos from my summer trip!",
     month: "july",
     year: 2018,
+    ogImage: "/og-images/summer-2018-trip.png",
   },
   "/2018/september/youve-launched-now-what": {
     title: "You've Launched, Now What?",
@@ -461,6 +498,7 @@ export let metadata = {
     description: "A few thoughts on what to do after you launch a new project",
     month: "september",
     year: 2018,
+    ogImage: "/og-images/youve-launched-now-what.png",
   },
   "/2018/october/matts-log-october": {
     title: "Matt's Log - October",
@@ -473,6 +511,7 @@ export let metadata = {
     description: "A quick log of what I have been up to in October",
     month: "october",
     year: 2018,
+    ogImage: "/og-images/matts-log-october.png",
   },
   "/2018/november/missing-detail": {
     title: "Missing Detail",
@@ -486,6 +525,7 @@ export let metadata = {
       'A few thoughts on the article "Reality has a surprising amount of detail"',
     month: "november",
     year: 2018,
+    ogImage: "/og-images/missing-detail.png",
   },
   "/2018/november/suspense-plus-graphql": {
     title: "Suspense Plus GraphQL",
@@ -499,6 +539,7 @@ export let metadata = {
       "A few thoughts on using Suspense with GraphQL to optimize application data loading",
     month: "november",
     year: 2018,
+    ogImage: "/og-images/suspense-plus-graphql.png",
   },
   "/2018/december/testing-software": {
     title: "Testing Software",
@@ -511,6 +552,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2018,
+    ogImage: "/og-images/testing-software.png",
   },
   "/2018/december/starting-fresh": {
     title: "Starting Fresh",
@@ -523,6 +565,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2018,
+    ogImage: "/og-images/starting-fresh.png",
   },
   "/2019/january/react-error-boundaries": {
     title: "React Error Boundaries",
@@ -535,18 +578,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2019,
-  },
-  "/2019/february/building-a-live-editor": {
-    title: "Building a Live Editor",
-    slug: "building-a-live-editor",
-    path: "/2019/february/building-a-live-editor",
-    date: 1549022400000,
-    status: "public",
-    type: "blog-post",
-    tags: ["Development", "Side Projects"],
-    description: "",
-    month: "february",
-    year: 2019,
+    ogImage: "/og-images/react-error-boundaries.png",
   },
   "/2019/february/start-small": {
     title: "Start Small, Accept Change",
@@ -559,6 +591,20 @@ export let metadata = {
     description: "",
     month: "february",
     year: 2019,
+    ogImage: "/og-images/start-small.png",
+  },
+  "/2019/february/building-a-live-editor": {
+    title: "Building a Live Editor",
+    slug: "building-a-live-editor",
+    path: "/2019/february/building-a-live-editor",
+    date: 1549022400000,
+    status: "public",
+    type: "blog-post",
+    tags: ["Development", "Side Projects"],
+    description: "",
+    month: "february",
+    year: 2019,
+    ogImage: "/og-images/building-a-live-editor.png",
   },
   "/2019/february/hooks-tips-dependency-array": {
     title: "Hooks Tips Ep. 1 - The Dependency Array",
@@ -571,6 +617,7 @@ export let metadata = {
     description: "",
     month: "february",
     year: 2019,
+    ogImage: "/og-images/hooks-tips-dependency-array.png",
   },
   "/2019/february/hooks-tips-instance-variables": {
     title: "Hooks Tips Ep. 2 - Migrating Instance Variables",
@@ -583,6 +630,7 @@ export let metadata = {
     description: "",
     month: "february",
     year: 2019,
+    ogImage: "/og-images/hooks-tips-instance-variables.png",
   },
   "/2019/february/why-you-should-useReducer": {
     title: "useReducer, don't useState",
@@ -595,6 +643,7 @@ export let metadata = {
     description: "",
     month: "february",
     year: 2019,
+    ogImage: "/og-images/why-you-should-useReducer.png",
   },
   "/2019/march/snapshot-testing": {
     title: "Snapshot Testing",
@@ -607,6 +656,7 @@ export let metadata = {
     description: "",
     month: "march",
     year: 2019,
+    ogImage: "/og-images/snapshot-testing.png",
   },
   "/2019/may/maintenance-costs": {
     title: "Maintenance Costs",
@@ -619,6 +669,7 @@ export let metadata = {
     description: "",
     month: "may",
     year: 2019,
+    ogImage: "/og-images/maintenance-costs.png",
   },
   "/2019/june/simpler-and-smaller": {
     title: "Simpler and Smaller",
@@ -631,6 +682,7 @@ export let metadata = {
     description: "",
     month: "june",
     year: 2019,
+    ogImage: "/og-images/simpler-and-smaller.png",
   },
   "/2019/june/deploying-with-github-actions": {
     title: "Deploying Automatically using GitHub Actions",
@@ -643,6 +695,7 @@ export let metadata = {
     description: "",
     month: "june",
     year: 2019,
+    ogImage: "/og-images/deploying-with-github-actions.png",
   },
   "/2019/july/theme-first-ui-development": {
     title: "Theme First UI Development",
@@ -655,6 +708,7 @@ export let metadata = {
     description: "",
     month: "july",
     year: 2019,
+    ogImage: "/og-images/theme-first-ui-development.png",
   },
   "/2019/july/bend": {
     title: "Summer 2019 - Bend Oregon",
@@ -667,6 +721,7 @@ export let metadata = {
     description: "",
     month: "july",
     year: 2019,
+    ogImage: "/og-images/bend.png",
   },
   "/2020/february/back-bay-fens": {
     title: "February 20, 2020",
@@ -679,6 +734,7 @@ export let metadata = {
     description: "",
     month: "february",
     year: 2020,
+    ogImage: "/og-images/back-bay-fens.png",
   },
   "/2020/march/draft-pull-requests": {
     title: "Draft Pull Requests",
@@ -691,6 +747,7 @@ export let metadata = {
     description: "",
     month: "march",
     year: 2020,
+    ogImage: "/og-images/draft-pull-requests.png",
   },
   "/2020/march/stateful-providers": {
     title: "Stateful Providers",
@@ -703,6 +760,7 @@ export let metadata = {
     description: "",
     month: "march",
     year: 2020,
+    ogImage: "/og-images/stateful-providers.png",
   },
   "/2020/april/a-note-on-anti-patterns": {
     title: "A Note On Anti-Patterns",
@@ -715,6 +773,7 @@ export let metadata = {
     description: "",
     month: "april",
     year: 2020,
+    ogImage: "/og-images/a-note-on-anti-patterns.png",
   },
   "/2020/april/a-note-on-meetings": {
     title: "A Note On Meetings",
@@ -727,6 +786,7 @@ export let metadata = {
     description: "",
     month: "april",
     year: 2020,
+    ogImage: "/og-images/a-note-on-meetings.png",
   },
   "/2020/april/the-rabbit-hole": {
     title: "The Rabbit Hole",
@@ -739,6 +799,7 @@ export let metadata = {
     description: "",
     month: "april",
     year: 2020,
+    ogImage: "/og-images/the-rabbit-hole.png",
   },
   "/2020/may/a-note-on-consistency": {
     title: "A Note on Consistency",
@@ -751,6 +812,7 @@ export let metadata = {
     description: "",
     month: "may",
     year: 2020,
+    ogImage: "/og-images/a-note-on-consistency.png",
   },
   "/2020/july/enhancing-slack": {
     title: "Enhancing Slack",
@@ -763,6 +825,7 @@ export let metadata = {
     description: "",
     month: "july",
     year: 2020,
+    ogImage: "/og-images/enhancing-slack.png",
   },
   "/2020/december/pair-code-reviews": {
     title: "Pair Code Reviews",
@@ -775,6 +838,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2020,
+    ogImage: "/og-images/pair-code-reviews.png",
   },
   "/2020/december/nextjs-analytics-with-airtable": {
     title: "NextJS Analytics with Airtable",
@@ -787,6 +851,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2020,
+    ogImage: "/og-images/nextjs-analytics-with-airtable.png",
   },
   "/2020/december/literate-programming": {
     title: "Literate (web) Programming",
@@ -799,6 +864,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2020,
+    ogImage: "/og-images/literate-programming.png",
   },
   "/2020/december/sandbox-part-1": {
     title: "Building a Web Sandbox: Part 1",
@@ -811,6 +877,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2020,
+    ogImage: "/og-images/sandbox-part-1.png",
   },
   "/2020/december/2020": {
     title: "2020: Year in Review",
@@ -823,6 +890,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2020,
+    ogImage: "/og-images/2020.png",
   },
   "/2021/january/2021": {
     title: "2021: Resolutions",
@@ -835,6 +903,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2021,
+    ogImage: "/og-images/2021.png",
   },
   "/2021/january/computed-theme": {
     title: "Computed Design Tokens",
@@ -847,6 +916,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2021,
+    ogImage: "/og-images/computed-theme.png",
   },
   "/2021/january/simple-props": {
     title: "Simple Props",
@@ -859,6 +929,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2021,
+    ogImage: "/og-images/simple-props.png",
   },
   "/2021/january/hack-sprint": {
     title: "Hack Sprint",
@@ -871,6 +942,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2021,
+    ogImage: "/og-images/hack-sprint.png",
   },
   "/2021/february/yw": {
     title: "yw",
@@ -883,6 +955,7 @@ export let metadata = {
     description: "",
     month: "february",
     year: 2021,
+    ogImage: "/og-images/yw.png",
   },
   "/2021/february/useConsole": {
     title: "useConsole",
@@ -895,6 +968,7 @@ export let metadata = {
     description: "",
     month: "february",
     year: 2021,
+    ogImage: "/og-images/useConsole.png",
   },
   "/2021/march/writing-node-scripts": {
     title: "Writing Node Scripts",
@@ -907,6 +981,7 @@ export let metadata = {
     description: "",
     month: "march",
     year: 2021,
+    ogImage: "/og-images/writing-node-scripts.png",
   },
   "/2021/march/fast": {
     title: "Fast",
@@ -919,6 +994,7 @@ export let metadata = {
     description: "",
     month: "march",
     year: 2021,
+    ogImage: "/og-images/fast.png",
   },
   "/2021/march/array-chunking": {
     title: "Array Chunking",
@@ -931,6 +1007,7 @@ export let metadata = {
     description: "",
     month: "march",
     year: 2021,
+    ogImage: "/og-images/array-chunking.png",
   },
   "/2021/march/on-code-review": {
     title: "On Code Review",
@@ -943,6 +1020,7 @@ export let metadata = {
     description: "",
     month: "march",
     year: 2021,
+    ogImage: "/og-images/on-code-review.png",
   },
   "/2021/june/learning": {
     title: "Learning",
@@ -955,6 +1033,7 @@ export let metadata = {
     description: "",
     month: "june",
     year: 2021,
+    ogImage: "/og-images/learning.png",
   },
   "/2021/june/the-squeeze": {
     title: "The Squeeze",
@@ -967,6 +1046,7 @@ export let metadata = {
     description: "",
     month: "june",
     year: 2021,
+    ogImage: "/og-images/the-squeeze.png",
   },
   "/2021/august/obsidian-sync": {
     title: "Roll your own Obsidian sync",
@@ -979,6 +1059,7 @@ export let metadata = {
     description: "",
     month: "august",
     year: 2021,
+    ogImage: "/og-images/obsidian-sync.png",
   },
   "/2021/august/rtl-checkbox-events": {
     title: "React Testing Library: Checkboxes and events",
@@ -991,6 +1072,7 @@ export let metadata = {
     description: "",
     month: "august",
     year: 2021,
+    ogImage: "/og-images/rtl-checkbox-events.png",
   },
   "/2021/august/updating-forked-repos": {
     title: "Updating Forked Repos",
@@ -1003,6 +1085,7 @@ export let metadata = {
     description: "",
     month: "august",
     year: 2021,
+    ogImage: "/og-images/updating-forked-repos.png",
   },
   "/2021/august/on-written-communication": {
     title: "On Written Communication",
@@ -1015,6 +1098,7 @@ export let metadata = {
     description: "",
     month: "august",
     year: 2021,
+    ogImage: "/og-images/on-written-communication.png",
   },
   "/2021/august/start-fresh": {
     title: "Start Fresh",
@@ -1027,6 +1111,7 @@ export let metadata = {
     description: "",
     month: "august",
     year: 2021,
+    ogImage: "/og-images/start-fresh.png",
   },
   "/2021/august/build-your-developer-toolbox": {
     title: "Build Your Developer Toolbox",
@@ -1039,6 +1124,7 @@ export let metadata = {
     description: "",
     month: "august",
     year: 2021,
+    ogImage: "/og-images/build-your-developer-toolbox.png",
   },
   "/2021/september/mac-setup-guide": {
     title: "Mac Setup Guide",
@@ -1051,6 +1137,7 @@ export let metadata = {
     description: "",
     month: "september",
     year: 2021,
+    ogImage: "/og-images/mac-setup-guide.png",
   },
   "/2021/september/linear-tools": {
     title: "Linear Tools Enforce Linear Thinking",
@@ -1063,6 +1150,7 @@ export let metadata = {
     description: "",
     month: "september",
     year: 2021,
+    ogImage: "/og-images/linear-tools.png",
   },
   "/2021/october/delete-it": {
     title: "Delete it",
@@ -1075,6 +1163,7 @@ export let metadata = {
     description: "",
     month: "october",
     year: 2021,
+    ogImage: "/og-images/delete-it.png",
   },
   "/2021/november/video-games": {
     title: "Video Games",
@@ -1087,6 +1176,7 @@ export let metadata = {
     description: "",
     month: "november",
     year: 2021,
+    ogImage: "/og-images/video-games.png",
   },
   "/2021/november/fast-feedback-systems": {
     title: "Fast Feedback Systems",
@@ -1099,6 +1189,7 @@ export let metadata = {
     description: "",
     month: "november",
     year: 2021,
+    ogImage: "/og-images/fast-feedback-systems.png",
   },
   "/2021/november/pair-programming-stub": {
     title: "Pair Programming (stub)",
@@ -1111,6 +1202,7 @@ export let metadata = {
     description: "",
     month: "november",
     year: 2021,
+    ogImage: "/og-images/pair-programming-stub.png",
   },
   "/2021/december/2021-in-music": {
     title: "Year in Music",
@@ -1123,6 +1215,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2021,
+    ogImage: "/og-images/2021-in-music.png",
   },
   "/2022/january/switching-to-iphone": {
     title: "Switching to iPhone",
@@ -1135,6 +1228,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2022,
+    ogImage: "/og-images/switching-to-iphone.png",
   },
   "/2022/january/my-two-favorite-react-tricks": {
     title: "My Two Favorite React Tricks",
@@ -1147,6 +1241,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2022,
+    ogImage: "/og-images/my-two-favorite-react-tricks.png",
   },
   "/2022/january/my-opinionated-nextjs-setup": {
     title: "My Opinionated Next.js Setup",
@@ -1159,6 +1254,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2022,
+    ogImage: "/og-images/my-opinionated-nextjs-setup.png",
   },
   "/2022/may/upgrade-guides": {
     title: "Upgrade Guides",
@@ -1171,6 +1267,7 @@ export let metadata = {
     description: "",
     month: "may",
     year: 2022,
+    ogImage: "/og-images/upgrade-guides.png",
   },
   "/2022/may/moving-to-pnpm": {
     title: "Moving to PNPM",
@@ -1183,6 +1280,7 @@ export let metadata = {
     description: "",
     month: "may",
     year: 2022,
+    ogImage: "/og-images/moving-to-pnpm.png",
   },
   "/2022/may/switching-back-to-notion": {
     title: "Switching back to Notion",
@@ -1195,6 +1293,7 @@ export let metadata = {
     description: "",
     month: "may",
     year: 2022,
+    ogImage: "/og-images/switching-back-to-notion.png",
   },
   "/2022/june/on-writing-tests": {
     title: "On Writing Tests",
@@ -1207,6 +1306,7 @@ export let metadata = {
     description: "",
     month: "june",
     year: 2022,
+    ogImage: "/og-images/on-writing-tests.png",
   },
   "/2022/june/on-note-taking": {
     title: "On Note Taking",
@@ -1219,6 +1319,7 @@ export let metadata = {
     description: "",
     month: "june",
     year: 2022,
+    ogImage: "/og-images/on-note-taking.png",
   },
   "/2022/july/yarn-berry-gitignore": {
     title: "Yarn Berry Gitignore Settings",
@@ -1231,6 +1332,7 @@ export let metadata = {
     description: "",
     month: "july",
     year: 2022,
+    ogImage: "/og-images/yarn-berry-gitignore.png",
   },
   "/2022/december/updated-opinionated-nextjs-setup": {
     title: "My Updated Next.js Setup",
@@ -1243,6 +1345,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2022,
+    ogImage: "/og-images/updated-opinionated-nextjs-setup.png",
   },
   "/2023/january/dollar-devlog-1": {
     title: "Dollar: Devlog 1",
@@ -1255,6 +1358,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2023,
+    ogImage: "/og-images/dollar-devlog-1.png",
   },
   "/2023/january/navigating-monorepos-with-ease": {
     title: "Navigating Monorepos with Ease",
@@ -1267,6 +1371,7 @@ export let metadata = {
     description: "",
     month: "january",
     year: 2023,
+    ogImage: "/og-images/navigating-monorepos-with-ease.png",
   },
   "/2023/march/dollar-devlog-2": {
     title: "Dollar: Devlog 2",
@@ -1279,6 +1384,7 @@ export let metadata = {
     description: "",
     month: "march",
     year: 2023,
+    ogImage: "/og-images/dollar-devlog-2.png",
   },
   "/2023/march/shiki-on-next-js": {
     title: "Setting up Shiki on Next.js",
@@ -1291,6 +1397,7 @@ export let metadata = {
     description: "",
     month: "march",
     year: 2023,
+    ogImage: "/og-images/shiki-on-next-js.png",
   },
   "/2023/march/write-it-down": {
     title: "Write it down",
@@ -1303,6 +1410,7 @@ export let metadata = {
     description: "",
     month: "march",
     year: 2023,
+    ogImage: "/og-images/write-it-down.png",
   },
   "/2023/april/nextjs-with-tailwind": {
     title: "Setting up Next.js with Tailwind",
@@ -1315,6 +1423,7 @@ export let metadata = {
     description: "",
     month: "april",
     year: 2023,
+    ogImage: "/og-images/nextjs-with-tailwind.png",
   },
   "/2023/april/thoughts-on-tailwind": {
     title: "My Thoughts on Tailwind",
@@ -1327,6 +1436,7 @@ export let metadata = {
     description: "",
     month: "april",
     year: 2023,
+    ogImage: "/og-images/thoughts-on-tailwind.png",
   },
   "/2023/april/avoid-distractions": {
     title: "Avoid Distractions",
@@ -1339,6 +1449,7 @@ export let metadata = {
     description: "",
     month: "april",
     year: 2023,
+    ogImage: "/og-images/avoid-distractions.png",
   },
   "/2023/june/10x": {
     title: "10x Engineers",
@@ -1351,6 +1462,7 @@ export let metadata = {
     description: "",
     month: "june",
     year: 2023,
+    ogImage: "/og-images/10x.png",
   },
   "/2023/june/fractal-refactoring": {
     title: "Fractal Refactoring",
@@ -1363,6 +1475,7 @@ export let metadata = {
     description: "",
     month: "june",
     year: 2023,
+    ogImage: "/og-images/fractal-refactoring.png",
   },
   "/2023/july/deno": {
     title: "Deno",
@@ -1375,6 +1488,7 @@ export let metadata = {
     description: "",
     month: "july",
     year: 2023,
+    ogImage: "/og-images/deno.png",
   },
   "/2023/july/principles-for-automated-testing": {
     title: "Principles for Automated Testing",
@@ -1387,6 +1501,7 @@ export let metadata = {
     description: "",
     month: "july",
     year: 2023,
+    ogImage: "/og-images/principles-for-automated-testing.png",
   },
   "/2023/july/29": {
     title: "29",
@@ -1399,6 +1514,7 @@ export let metadata = {
     description: "",
     month: "july",
     year: 2023,
+    ogImage: "/og-images/29.png",
   },
   "/2023/july/distributable-web-apps": {
     title: "Idea: Distributable Web Apps",
@@ -1411,6 +1527,7 @@ export let metadata = {
     description: "",
     month: "july",
     year: 2023,
+    ogImage: "/og-images/distributable-web-apps.png",
   },
   "/2023/august/speedbumps": {
     title: "Speedbumps",
@@ -1423,6 +1540,7 @@ export let metadata = {
     description: "",
     month: "august",
     year: 2023,
+    ogImage: "/og-images/speedbumps.png",
   },
   "/2023/september/learning-go": {
     title: "Learning Go",
@@ -1435,6 +1553,7 @@ export let metadata = {
     description: "",
     month: "september",
     year: 2023,
+    ogImage: "/og-images/learning-go.png",
   },
   "/2023/september/finding-react-artifacts": {
     title: "Finding React Artifacts",
@@ -1447,6 +1566,7 @@ export let metadata = {
     description: "",
     month: "september",
     year: 2023,
+    ogImage: "/og-images/finding-react-artifacts.png",
   },
   "/2023/september/using-marquee-with-react-and-typescript": {
     title: "Using Marquee with React and TypeScript",
@@ -1459,6 +1579,7 @@ export let metadata = {
     description: "",
     month: "september",
     year: 2023,
+    ogImage: "/og-images/using-marquee-with-react-and-typescript.png",
   },
   "/2023/september/on-cto-office-hours": {
     title: "Jabs and Fluff: On CTO Office Hours",
@@ -1471,6 +1592,7 @@ export let metadata = {
     description: "",
     month: "september",
     year: 2023,
+    ogImage: "/og-images/on-cto-office-hours.png",
   },
   "/2023/october/go-to-git-utils": {
     title: "Go To Git Utils",
@@ -1483,6 +1605,7 @@ export let metadata = {
     description: "",
     month: "october",
     year: 2023,
+    ogImage: "/og-images/go-to-git-utils.png",
   },
   "/2023/november/teams-and-caterpillar-tracks": {
     title: "Teams and Caterpillar Tracks",
@@ -1495,6 +1618,7 @@ export let metadata = {
     description: "",
     month: "november",
     year: 2023,
+    ogImage: "/og-images/teams-and-caterpillar-tracks.png",
   },
   "/2023/november/ai-driven-development": {
     title: "AI Driven Development",
@@ -1507,6 +1631,7 @@ export let metadata = {
     description: "",
     month: "november",
     year: 2023,
+    ogImage: "/og-images/ai-driven-development.png",
   },
   "/2023/november/pair-programming": {
     title: "Pair Programming",
@@ -1520,6 +1645,7 @@ export let metadata = {
       "Pair programming can be good sometimes - but not all the time",
     month: "november",
     year: 2023,
+    ogImage: "/og-images/pair-programming.png",
   },
   "/2023/november/project-deep-dive-microfibre": {
     title: "Project Deep Dive: Microfibre",
@@ -1540,6 +1666,7 @@ export let metadata = {
       "A deep dive into one of my recent side projects; microfibre - a minimal text posting application",
     month: "november",
     year: 2023,
+    ogImage: "/og-images/project-deep-dive-microfibre.png",
   },
   "/2023/december/fixing-zeds-language-server": {
     title: "Fixing Zed's language server",
@@ -1552,6 +1679,7 @@ export let metadata = {
     description: "Zed language server quick tip; fixing Zed's language server",
     month: "december",
     year: 2023,
+    ogImage: "/og-images/fixing-zeds-language-server.png",
   },
   "/2023/december/no-process-is-invisible-process": {
     title: "No Process is Invisible Process",
@@ -1565,6 +1693,7 @@ export let metadata = {
       'Low/no process workflow wasn\'t actually no process, it was only an "invisible" process. An implicit contract with everyone on the team to do that async workflow on their own time.',
     month: "december",
     year: 2023,
+    ogImage: "/og-images/no-process-is-invisible-process.png",
   },
   "/2023/december/stop-snacking": {
     title: "Stop Snacking",
@@ -1578,6 +1707,7 @@ export let metadata = {
       "No I don't mean those Milano cookies you keep taking from the office snack wall either (although you should probably stop snacking on those as often as well).",
     month: "december",
     year: 2023,
+    ogImage: "/og-images/stop-snacking.png",
   },
   "/2023/december/being-unopinionated": {
     title: "Being Unopinionated",
@@ -1591,6 +1721,7 @@ export let metadata = {
       "It's fine for a library to express some opinions about how it should be adopted and how the overall workflow/application in which it is adopted should function. However, it's false advertising to say that it is unopinionated.",
     month: "december",
     year: 2023,
+    ogImage: "/og-images/being-unopinionated.png",
   },
   "/2023/december/on-adopting-css-in-js": {
     title: "On Adopting CSS-in-JS",
@@ -1604,6 +1735,7 @@ export let metadata = {
       "A brief recap of how Wayfair changed it's CSS approach not once but twice in the span of 5 years!",
     month: "december",
     year: 2023,
+    ogImage: "/og-images/on-adopting-css-in-js.png",
   },
   "/2023/december/consistent-local-ports-with-wrangler": {
     title: "Consistent Local Ports with Wrangler",
@@ -1616,6 +1748,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2023,
+    ogImage: "/og-images/consistent-local-ports-with-wrangler.png",
   },
   "/2023/december/type-safe-process-env": {
     title: "Type Safe process.env",
@@ -1628,6 +1761,7 @@ export let metadata = {
     description: "",
     month: "december",
     year: 2023,
+    ogImage: "/og-images/type-safe-process-env.png",
   },
   "/2023/december/service-monitors-and-observability": {
     title: "Service Monitors and Observability",
@@ -1641,6 +1775,7 @@ export let metadata = {
       "Leveraging service monitors properly to improve service observability.",
     month: "december",
     year: 2023,
+    ogImage: "/og-images/service-monitors-and-observability.png",
   },
   "/2023/december/churn-anxiety": {
     title: "Churn Anxiety",
@@ -1653,6 +1788,7 @@ export let metadata = {
     description: "When did semver major changes become so scary?",
     month: "december",
     year: 2023,
+    ogImage: "/og-images/churn-anxiety.png",
   },
   "/2023/december/project-deep-dive-tails": {
     title: "Project Deep Dive: Tails",
@@ -1672,6 +1808,7 @@ export let metadata = {
       "A(nother) deep dive into one of my recent side projects; tails - a plain and simple cocktail recipe app.",
     month: "december",
     year: 2023,
+    ogImage: "/og-images/project-deep-dive-tails.png",
   },
   "/2024/january/building-better-beacon": {
     title: "Building Better Beacon",
@@ -1685,6 +1822,7 @@ export let metadata = {
       "How we solved an almost show-stopping production bug, and how you can avoid it in your own projects.",
     month: "january",
     year: 2024,
+    ogImage: "/og-images/building-better-beacon.png",
   },
   "/2024/february/library-docs-monorepo-template": {
     title: "The Library-Docs Monorepo Template",
@@ -1698,6 +1836,7 @@ export let metadata = {
       "A monorepo template for managing a library and documentation together.",
     month: "february",
     year: 2024,
+    ogImage: "/og-images/library-docs-monorepo-template.png",
   },
   "/2024/march/corporate-sponsored-oss": {
     title: "Corporate Sponsored OSS",
@@ -1711,6 +1850,7 @@ export let metadata = {
       "The various risks and pitfalls of open source software run by corporations.",
     month: "march",
     year: 2024,
+    ogImage: "/og-images/corporate-sponsored-oss.png",
   },
   "/2024/march/custom-favicon-recipes": {
     title: "Custom Favicon Recipes",
@@ -1723,6 +1863,7 @@ export let metadata = {
     description: "Two neat tricks for enhancing your site's favicon!",
     month: "march",
     year: 2024,
+    ogImage: "/og-images/custom-favicon-recipes.png",
   },
   "/2024/march/exporting-custom-slack-emoji": {
     title: "Exporting Custom Slack Emoji",
@@ -1736,6 +1877,7 @@ export let metadata = {
       "How to easily mass-export your custom slack emoji without API access!",
     month: "march",
     year: 2024,
+    ogImage: "/og-images/exporting-custom-slack-emoji.png",
   },
   "/2024/march/react-error-boundaries-revisited": {
     title: "React Error Boundaries: Revisited",
@@ -1749,6 +1891,7 @@ export let metadata = {
       "Revising my previous blog post on React Error Boundaries and my preferred go-to implementation!",
     month: "march",
     year: 2024,
+    ogImage: "/og-images/react-error-boundaries-revisited.png",
   },
   "/2024/april/configuring-cloudflare-domains-with-vercel": {
     title: "Configuring Cloudflare Domains with Vercel",
@@ -1762,6 +1905,7 @@ export let metadata = {
       "I've started to use Cloudflare to manage my domains for several side projects, have had to jump through the same hooks multiple times that I figured I should document them here!",
     month: "april",
     year: 2024,
+    ogImage: "/og-images/configuring-cloudflare-domains-with-vercel.png",
   },
   "/2024/april/my-current-ai-stack": {
     title: "My Current AI Stack",
@@ -1775,6 +1919,7 @@ export let metadata = {
       "I've been using a variety of AI tools as of late, I figured I'd document the ones I'm primarily using!",
     month: "april",
     year: 2024,
+    ogImage: "/og-images/my-current-ai-stack.png",
   },
   "/2024/april/funport": {
     title: "Funport: True Dynamic Imports in webpack",
@@ -1788,6 +1933,7 @@ export let metadata = {
       "webpack, and tools built on it like Next.js, don't support true dynamic imports, but I found a way to trick the system!",
     month: "april",
     year: 2024,
+    ogImage: "/og-images/funport.png",
   },
   "/2024/may/hohoro": {
     title: "Hohoro",
@@ -1801,6 +1947,7 @@ export let metadata = {
       "A quick introduction to my new side project, hohoro. An incremental JS/TS library build tool!",
     month: "may",
     year: 2024,
+    ogImage: "/og-images/hohoro.png",
   },
   "/2024/may/leaving-wayfair": {
     title: "Leaving Wayfair",
@@ -1814,6 +1961,7 @@ export let metadata = {
       "The other week was my last week at Wayfair, rounding out almost 8 years at the company. I wanted to reflect a bit on my time there!",
     month: "may",
     year: 2024,
+    ogImage: "/og-images/leaving-wayfair.png",
   },
   "/2024/may/using-feature-toggles-to-de-risk-refactors": {
     title: "Using Feature Toggles to De-risk Refactors",
@@ -1827,6 +1975,7 @@ export let metadata = {
       "Feature toggles are often underused by most software development teams, and yet offer so much value during not only feature development but also refactors",
     month: "may",
     year: 2024,
+    ogImage: "/og-images/using-feature-toggles-to-de-risk-refactors.png",
   },
   "/2024/june/tip-request-and-response-headers": {
     title: "Tip: Request and Response Headers",
@@ -1840,6 +1989,7 @@ export let metadata = {
       "There's a common gotcha when creating Web Request and Response instances with Headers!",
     month: "june",
     year: 2024,
+    ogImage: "/og-images/tip-request-and-response-headers.png",
   },
   "/2024/june/abstract-your-api": {
     title: "Abstract Your API",
@@ -1853,6 +2003,7 @@ export let metadata = {
       'Proposing a solution for sharing core "business" logic across services!',
     month: "june",
     year: 2024,
+    ogImage: "/og-images/abstract-your-api.png",
   },
   "/2024/july/there-is-no-standard-markdown": {
     title: "There Is No Standard Markdown",
@@ -1866,6 +2017,7 @@ export let metadata = {
       'There are a variety of different markdown "standards" out there, and sometimes they\'re not all that consistent',
     month: "july",
     year: 2024,
+    ogImage: "/og-images/there-is-no-standard-markdown.png",
   },
   "/2024/july/switching-back-to-obsidian": {
     title: "Switching back to Obsidian",
@@ -1879,6 +2031,7 @@ export let metadata = {
       "Previously I wrote about switching from Obsidian to Notion, now almost exactly 2 years later, I've opted to give Obsidian another try as my go-to note taking software, here's why!",
     month: "july",
     year: 2024,
+    ogImage: "/og-images/switching-back-to-obsidian.png",
   },
   "/2024/july/my-current-dev-setup": {
     title: "My Current Dev Setup",
@@ -1892,6 +2045,7 @@ export let metadata = {
       "A quick look at the applications and tools that I (generally) use day to day for web development!",
     month: "july",
     year: 2024,
+    ogImage: "/og-images/my-current-dev-setup.png",
   },
   "/2024/july/simple-obsidian-task-management": {
     title: "Simple Obsidian Task Management",
@@ -1904,6 +2058,7 @@ export let metadata = {
     description: "A brief overview of how I manage my tasks in Obsidian",
     month: "july",
     year: 2024,
+    ogImage: "/og-images/simple-obsidian-task-management.png",
   },
   "/2024/july/30": {
     title: "30",
@@ -1917,6 +2072,7 @@ export let metadata = {
       "A quick recap of my goals from the past year and a few goals looking forward as well.",
     month: "july",
     year: 2024,
+    ogImage: "/og-images/30.png",
   },
   "/2024/july/a-better-useSSR-implementation": {
     title: "A Better useSSR Implementation",
@@ -1930,6 +2086,7 @@ export let metadata = {
       "Replace that old useState and useEffect combo for a new and better option!",
     month: "july",
     year: 2024,
+    ogImage: "/og-images/a-better-useSSR-implementation.png",
   },
   "/2024/august/dont-break-the-implicit-prop-contract": {
     title: "Don't Break the Implicit Prop Contract",
@@ -1943,6 +2100,7 @@ export let metadata = {
       "React components have a fundamental contract that is often unstated in their implementation, and you should know about it!",
     month: "august",
     year: 2024,
+    ogImage: "/og-images/dont-break-the-implicit-prop-contract.png",
   },
   "/2024/august/git-notes-as-a-tool-for-thought": {
     title: "Git Notes as a Tool for Thought",
@@ -1955,6 +2113,7 @@ export let metadata = {
     description: "(Ab)using Git as yet another tool for thought!",
     month: "august",
     year: 2024,
+    ogImage: "/og-images/git-notes-as-a-tool-for-thought.png",
   },
   "/2024/august/dogfooding": {
     title: "Dogfooding",
@@ -1968,6 +2127,7 @@ export let metadata = {
       "The secret to excellent product teams is using your own product, and often!",
     month: "august",
     year: 2024,
+    ogImage: "/og-images/dogfooding.png",
   },
   "/2024/september/more-thoughts-on-dogfooding": {
     title: "More Thoughts on Dogfooding",
@@ -1980,6 +2140,7 @@ export let metadata = {
     description: "Even more thoughts on dogfooding!",
     month: "september",
     year: 2024,
+    ogImage: "/og-images/more-thoughts-on-dogfooding.png",
   },
   "/2024/september/nextjs-with-deno-v2": {
     title: "Next.js with Deno v2",
@@ -1993,6 +2154,7 @@ export let metadata = {
       "This is a quick post noting that Next.js should now work with Deno v2!",
     month: "september",
     year: 2024,
+    ogImage: "/og-images/nextjs-with-deno-v2.png",
   },
   "/2024/october/offload-complexity": {
     title: "Offload Complexity, Don't Offload Learning",
@@ -2006,6 +2168,7 @@ export let metadata = {
       "A rough mental model for how you should be leveraging AI as a tool for your own growth",
     month: "october",
     year: 2024,
+    ogImage: "/og-images/offload-complexity.png",
   },
   "/2024/october/monorepo-tips-and-tricks": {
     title: "Monorepo Tips and Tricks",
@@ -2019,6 +2182,7 @@ export let metadata = {
       "Sharing a few core recommendations when working within monorepos to make your life easier!",
     month: "october",
     year: 2024,
+    ogImage: "/og-images/monorepo-tips-and-tricks.png",
   },
   "/2024/october/tslite": {
     title: "TSLite",
@@ -2031,6 +2195,7 @@ export let metadata = {
     description: "A proposal for a minimal variant of TypeScript!",
     month: "october",
     year: 2024,
+    ogImage: "/og-images/tslite.png",
   },
   "/2024/october/building-a-custom-ghostty-theme": {
     title: "Building a Custom Ghostty Theme",
@@ -2044,6 +2209,7 @@ export let metadata = {
       "How to generate a custom Ghostty theme based on any iterm2 theme!",
     month: "october",
     year: 2024,
+    ogImage: "/og-images/building-a-custom-ghostty-theme.png",
   },
   "/2024/october/the-bookkeeping-pattern": {
     title: "The Bookkeeping Pattern",
@@ -2066,6 +2232,7 @@ export let metadata = {
       "A quick look at a small but powerful pattern I've been leveraging as of late!",
     month: "october",
     year: 2024,
+    ogImage: "/og-images/the-bookkeeping-pattern.png",
   },
   "/2024/november/bluesky-tips-and-tools": {
     title: "Bluesky Tips and Tools",
@@ -2079,6 +2246,7 @@ export let metadata = {
       "A (running) collection of Bluesky tips, tools, packages, and other misc things!",
     month: "november",
     year: 2024,
+    ogImage: "/og-images/bluesky-tips-and-tools.png",
   },
   "/2024/november/my-updated-obsidian-task-management": {
     title: "My Updated Obsidian Task Management",
@@ -2091,6 +2259,7 @@ export let metadata = {
     description: "A quick update on how I manage my tasks within Obsidian!",
     month: "november",
     year: 2024,
+    ogImage: "/og-images/my-updated-obsidian-task-management.png",
   },
   "/2024/december/request-for-minimal-rsc-framework": {
     title: "Request for a (minimal) RSC Framework",
@@ -2111,6 +2280,7 @@ export let metadata = {
       "Some features and functionality that I'd like within a React Server Component compatible framework.",
     month: "december",
     year: 2024,
+    ogImage: "/og-images/request-for-minimal-rsc-framework.png",
   },
   "/2024/december/recommended-tech-talks": {
     title: "Recommended Tech Talks",
@@ -2130,6 +2300,7 @@ export let metadata = {
       "A collection of tech talks that I regularly re-watch and also recommend to everyone!",
     month: "december",
     year: 2024,
+    ogImage: "/og-images/recommended-tech-talks.png",
   },
   "/2024/december/a-quick-look-at-import-maps": {
     title: "A Quick Look at Import Maps",
@@ -2143,6 +2314,7 @@ export let metadata = {
       "A brief look at Import Maps and package.json#imports to support isomorphic JavaScript applications!",
     month: "december",
     year: 2024,
+    ogImage: "/og-images/a-quick-look-at-import-maps.png",
   },
   "/2024/december/team-memes": {
     title: "Team Memes",
@@ -2156,6 +2328,7 @@ export let metadata = {
       "A snippet of some shared terminology/concepts (memes) from my time on the Frontend Platform team at Wayfair!",
     month: "december",
     year: 2024,
+    ogImage: "/og-images/team-memes.png",
   },
   "/2024/december/thoughts-on-new-years-resolutions": {
     title: "Thoughts on New Years Resolutions",
@@ -2169,6 +2342,7 @@ export let metadata = {
       "You don't need to wait until January 1st to set yearly goals and resolutions for yourself!",
     month: "december",
     year: 2024,
+    ogImage: "/og-images/thoughts-on-new-years-resolutions.png",
   },
   "/2025/january/resetting-controlled-components-in-forms": {
     title: "Resetting Controlled Components in Forms",
@@ -2182,6 +2356,7 @@ export let metadata = {
       "A quick way to handle resetting internal state in components when a parent form is submitted!",
     month: "january",
     year: 2025,
+    ogImage: "/og-images/resetting-controlled-components-in-forms.png",
   },
   "/2025/january/the-ai-development-conundrum": {
     title: "The AI Development Conundrum",
@@ -2195,6 +2370,7 @@ export let metadata = {
       "Is it a good or a bad thing to offload writing code to AI agents and Large Language Models?",
     month: "january",
     year: 2025,
+    ogImage: "/og-images/the-ai-development-conundrum.png",
   },
   "/2025/february/single-file-web-apps": {
     title: "Single File Web Apps",
@@ -2208,6 +2384,7 @@ export let metadata = {
       "What if you could author an entire web application in a single file?",
     month: "february",
     year: 2025,
+    ogImage: "/og-images/single-file-web-apps.png",
   },
   "/2025/february/cursor-and-obsidian": {
     title: "Cursor and Obsidian",
@@ -2221,6 +2398,7 @@ export let metadata = {
       "A quick look at combining Cursor with Obsidian to ask questions of your notes!",
     month: "february",
     year: 2025,
+    ogImage: "/og-images/cursor-and-obsidian.png",
   },
   "/2025/february/youre-building-software-wrong": {
     title: "You're Building Software Wrong",
@@ -2233,6 +2411,7 @@ export let metadata = {
     description: "Slicing software: why vertical is better than horizontal.",
     month: "february",
     year: 2025,
+    ogImage: "/og-images/youre-building-software-wrong.png",
   },
   "/2025/february/on-file-system-routing-conventions": {
     title: "On File-System Routing Conventions",
@@ -2246,6 +2425,7 @@ export let metadata = {
       "Some rough thoughts on building a file-system routing based web application",
     month: "february",
     year: 2025,
+    ogImage: "/og-images/on-file-system-routing-conventions.png",
   },
   "/2025/february/quick-tip-specific-local-module-definitions": {
     title: "Quick Tip - Specific Local Module Declarations",
@@ -2259,6 +2439,7 @@ export let metadata = {
       "A quick tip outlining how to provide specific TypeScript type definitions for a local module!",
     month: "february",
     year: 2025,
+    ogImage: "/og-images/quick-tip-specific-local-module-definitions.png",
   },
   "/2025/march/replacing-dropbox-capture-with-raycast": {
     title: "Replacing Dropbox Capture with Raycast",
@@ -2272,6 +2453,7 @@ export let metadata = {
       "Recently Dropbox announced that it was shutting down the Capture app/service, so I sought out an alternative that provided a similar user experience!",
     month: "march",
     year: 2025,
+    ogImage: "/og-images/replacing-dropbox-capture-with-raycast.png",
   },
   "/2025/april/podcasting-by-hand": {
     title: "Podcasting By Hand",
@@ -2285,6 +2467,7 @@ export let metadata = {
       "A brief overview on how we launched The Bikeshed Podcast, including a deep dive in our recording and distribution workflows!",
     month: "april",
     year: 2025,
+    ogImage: "/og-images/podcasting-by-hand.png",
   },
   "/2025/april/server-side-rendering-compatible-css-theming": {
     title: "Server Side Rendering Compatible CSS Theming",
@@ -2306,5 +2489,6 @@ export let metadata = {
       "A quick tip to implementing CSS theming that's compatible with Server Side Rendered applications!",
     month: "april",
     year: 2025,
+    ogImage: "/og-images/server-side-rendering-compatible-css-theming.png",
   },
 };
