@@ -2,6 +2,7 @@ import { BlueskyPostEmbed, updateConfig } from "@hamstack/bluesky-embed-rsc";
 import type { ComponentProps } from "react";
 import { Abbr } from "#/components/abbr";
 import { LinkAnchor } from "#/components/anchor";
+import { BlueskyMention } from "#/components/bluesky-mention";
 import { BlueskyMentions } from "#/components/bluesky-mentions";
 import {
   BlueskyIntentLink,
@@ -11,11 +12,13 @@ import { Container, ProseContainer } from "#/components/container";
 import { ErrorBoundaryDemo } from "#/components/error-boundary.demo";
 import { Figure } from "#/components/figure";
 import { Footnote, FootnoteRef } from "#/components/footnote";
+import { GitHubMention } from "#/components/github-mention";
 import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Marquee } from "#/components/marquee";
 import { Spacer } from "#/components/spacer";
 import { TLDR } from "#/components/tldr";
+import { TwitterMention } from "#/components/twitter-mention";
 import SandboxMDX from "#/mdx/__sandbox.mdx";
 
 updateConfig({
@@ -249,6 +252,18 @@ export default function Sandbox() {
         <TLDR>
           <p>This is a TL;DR</p>
         </TLDR>
+      </DemoWrap>
+      <Heading level={2}>GitHub Mention:</Heading>
+      <DemoWrap>
+        <GitHubMention>hamlim</GitHubMention>
+      </DemoWrap>
+      <Heading level={2}>Bluesky Mention:</Heading>
+      <DemoWrap>
+        <BlueskyMention>matthamlin.me</BlueskyMention>
+      </DemoWrap>
+      <Heading level={2}>Twitter Mention:</Heading>
+      <DemoWrap>
+        <TwitterMention>immatthamlin</TwitterMention>
       </DemoWrap>
     </main>
   );
