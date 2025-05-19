@@ -18,6 +18,7 @@ import { Image } from "#/components/image";
 import { Marquee } from "#/components/marquee";
 import { Spacer } from "#/components/spacer";
 import { TLDR } from "#/components/tldr";
+import { TweetEmbed } from "#/components/tweet-embed";
 import { TwitterMention } from "#/components/twitter-mention";
 import SandboxMDX from "#/mdx/__sandbox.mdx";
 
@@ -264,6 +265,20 @@ export default function Sandbox() {
       <Heading level={2}>Twitter Mention:</Heading>
       <DemoWrap>
         <TwitterMention>immatthamlin</TwitterMention>
+      </DemoWrap>
+      <Heading level={2}>Tweet:</Heading>
+      <DemoWrap>
+        <TweetEmbed>
+          <div lang="en" dir="ltr">
+            What if <a href="https://twitter.com/twitter">@twitter</a> is
+            building "Instant Articles" that anyone can write?{" "}
+            <a href="https://t.co/CLVcER5C6B">https://t.co/CLVcER5C6B</a>
+            &mdash; Matt Hamlin (@immatthamlin){" "}
+            <a href="https://twitter.com/immatthamlin/status/684528854694670337">
+              January 6, 2016
+            </a>
+          </div>
+        </TweetEmbed>
       </DemoWrap>
     </main>
   );
