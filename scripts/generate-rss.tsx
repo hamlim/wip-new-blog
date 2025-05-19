@@ -1,5 +1,7 @@
 import { Feed } from "feed";
 import matter from "gray-matter";
+import type { ReactNode } from "react";
+import { useMDXComponents as defaultUseMDXComponents } from "#/utils/mdx-components";
 import { collectMetadata, getMDXFiles } from "./collect-metadata";
 import { transformMdx } from "./transform-mdx";
 
@@ -34,7 +36,19 @@ export async function generateRSS() {
       let rawContent = await Bun.file(`./src/mdx/${slug}.mdx`).text();
       let { content } = matter(rawContent);
       try {
-        let transformedContent = await transformMdx(content);
+        let transformedContent = await transformMdx(content, {
+          useMDXComponents() {
+            return {
+              ...defaultUseMDXComponents(),
+              BlueskyPost(props: {
+                src: string;
+                children: ReactNode;
+              }): ReactNode {
+                return <a href={props.src}>{props.src}</a>;
+              },
+            };
+          },
+        } as Parameters<typeof transformMdx>[1]);
         return { ...meta, content: transformedContent };
       } catch (error) {
         console.error(`Error transforming content for ${slug}:`, error);
