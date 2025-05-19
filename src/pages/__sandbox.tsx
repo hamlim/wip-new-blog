@@ -114,7 +114,7 @@ export default function Sandbox() {
       </DemoWrap>
       <Heading level={2}>MDX:</Heading>
       <DemoWrap>
-        <div className="prose">
+        <div className="prose prose-slate dark:prose-invert">
           <SandboxMDX />
         </div>
       </DemoWrap>

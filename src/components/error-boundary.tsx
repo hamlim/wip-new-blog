@@ -26,7 +26,7 @@ export class ErrorBoundary extends Component<{
           <Heading level={3}>Oh no an error occurred</Heading>
           <div className="my-4">
             <p>Error Message: </p>
-            <code className="bg-red-50 p-2 rounded-md">
+            <code className="bg-red-50 dark:bg-red-900/20 p-2 rounded-md">
               {this.state.error.message}
             </code>
           </div>
