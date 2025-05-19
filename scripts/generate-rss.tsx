@@ -57,7 +57,7 @@ export async function generateRSS() {
     }),
   );
 
-  for (let [slug, meta] of Object.entries(enhancedMetadata)) {
+  for (let meta of Object.values(enhancedMetadata)) {
     let url = `https://matthamlin.me/${meta.path}`;
     feed.addItem({
       title: meta.title,
@@ -72,7 +72,7 @@ export async function generateRSS() {
         },
       ],
       content: meta.content,
-      image: meta.ogImage,
+      image: `https://matthamlin.me${meta.ogImage}`,
     });
   }
   await Bun.write("./public/rss.xml", feed.rss2());

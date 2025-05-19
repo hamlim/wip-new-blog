@@ -27,4 +27,5 @@ export let mdxConfig = {
     rehypeSlug,
     rehypeMdxCodeProps,
   ] as PluggableList,
+  baseUrl: import.meta.url,
 };
