@@ -2,7 +2,7 @@
 // `ogImage` should be a string that looks like `/og-images/<slug>.png`
 // where `<slug>` is the slug field in frontmatter
 import matter from "gray-matter";
-import { getMDXFiles } from "./collect-metadata";
+import { getMDXFiles } from "../build/collect-metadata";
 
 let files = await getMDXFiles();
 

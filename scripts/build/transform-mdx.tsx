@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import { renderToString } from "react-dom/server";
 import * as jsx from "react/jsx-runtime";
 import { useMDXComponents as defaultUseMDXComponents } from "#utils/mdx-components.js";
-import { mdxConfig } from "./mdx-config";
+import { mdxConfig } from "../mdx-config";
 
 export async function transformMdx(
   content: string,

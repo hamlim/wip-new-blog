@@ -1,7 +1,7 @@
 // Create page entrypoints for each MDX file
 import { $ } from "bun";
 import matter from "gray-matter";
-import { getMDXFiles } from "./collect-metadata";
+import { getMDXFiles } from "../collect-metadata";
 
 let files = await getMDXFiles();
 
