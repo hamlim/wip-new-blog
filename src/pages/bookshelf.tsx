@@ -1,12 +1,8 @@
-import bookshelf from "#/bookshelf.json";
+import { read, reading, toRead } from "#/collections";
 import { Anchor } from "#/components/anchor";
 import { BlueskyIntentLink } from "#/components/bluesky-share-link";
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
-
-let reading = bookshelf.filter((book) => book.status === "reading");
-let toRead = bookshelf.filter((book) => book.status === "to-read");
-let read = bookshelf.filter((book) => book.status === "read");
 
 export default function Bookshelf() {
   return (
@@ -29,7 +25,8 @@ export default function Bookshelf() {
                 <li key={book.title}>
                   <Anchor href={book.url} target="_blank">
                     {book.title}
-                  </Anchor>
+                  </Anchor>{" "}
+                  - {book.author}
                 </li>
               ))}
             </ul>
@@ -43,7 +40,8 @@ export default function Bookshelf() {
                 <li key={book.title}>
                   <Anchor href={book.url} target="_blank">
                     {book.title}
-                  </Anchor>
+                  </Anchor>{" "}
+                  - {book.author}
                 </li>
               ))}
             </ul>
@@ -57,7 +55,8 @@ export default function Bookshelf() {
                 <li key={book.title}>
                   <Anchor href={book.url} target="_blank">
                     {book.title}
-                  </Anchor>
+                  </Anchor>{" "}
+                  - {book.author}
                 </li>
               ))}
             </ul>

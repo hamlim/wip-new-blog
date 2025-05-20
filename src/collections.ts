@@ -1,3 +1,4 @@
+import bookshelf from "#/bookshelf.json";
 import { metadata } from "#/metadata.gen";
 import type { RawFrontmatter } from "#/types";
 
@@ -18,3 +19,7 @@ function collectByTag() {
 }
 
 export let postsByTag = collectByTag();
+
+export let reading = bookshelf.filter((book) => book.status === "reading");
+export let toRead = bookshelf.filter((book) => book.status === "to-read");
+export let read = bookshelf.filter((book) => book.status === "read");

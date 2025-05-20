@@ -380,7 +380,11 @@ import type { getConfig as BlogTagsTagName_getConfig } from './pages/blog/tags/[
 // prettier-ignore
 import type { getConfig as BlogTagsIndex_getConfig } from './pages/blog/tags/index';
 // prettier-ignore
+import type { getConfig as Bookshelf_getConfig } from './pages/bookshelf';
+// prettier-ignore
 import type { getConfig as Index_getConfig } from './pages/index';
+// prettier-ignore
+import type { getConfig as Projects_getConfig } from './pages/projects';
 
 // prettier-ignore
 type Page =
@@ -574,9 +578,9 @@ type Page =
 | { path: '/blog'; render: 'dynamic' }
 | ({ path: '/blog/tags/[tagName]' } & GetConfigResponse<typeof BlogTagsTagName_getConfig>)
 | ({ path: '/blog/tags' } & GetConfigResponse<typeof BlogTagsIndex_getConfig>)
-| { path: '/bookshelf'; render: 'dynamic' }
+| ({ path: '/bookshelf' } & GetConfigResponse<typeof Bookshelf_getConfig>)
 | ({ path: '/' } & GetConfigResponse<typeof Index_getConfig>)
-| { path: '/projects'; render: 'dynamic' };
+| ({ path: '/projects' } & GetConfigResponse<typeof Projects_getConfig>);
 
 // prettier-ignore
 declare module 'waku/router' {

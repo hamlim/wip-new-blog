@@ -4,6 +4,7 @@ export type RawFrontmatter = {
   path: string;
   date: number;
   status: "draft" | "public";
+  type: "blog-post" | "note";
   tags: Array<string>;
   description: string;
   month: string;
