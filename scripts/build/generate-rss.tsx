@@ -15,9 +15,7 @@ export async function generateRSS() {
     id: "https://matthamlin.me",
     link: "https://matthamlin.me",
     language: "en",
-    // IMAGE TODO
-    image: "https://matthamlin.me/og.png",
-    // FAVICON TODO
+    image: "https://matthamlin.me/me.png",
     favicon: "https://matthamlin.me/favicon.ico",
     copyright: "© 2025 Matt Hamlin",
     updated: new Date(),
@@ -76,8 +74,4 @@ export async function generateRSS() {
     });
   }
   await Bun.write("./public/rss.xml", feed.rss2());
-}
-
-if (import.meta.main) {
-  await generateRSS();
 }
