@@ -1,7 +1,12 @@
-import matter from "gray-matter";
 /// <reference types="bun" />
 import { generateImage as generateBaseImage } from "pikitia";
 import { collectMetadata, getMDXFiles } from "./collect-metadata";
+import imageCacheJSON from "./image-cache.json";
+
+let imageCache = new Map(Object.entries(imageCacheJSON)) as Map<
+  string,
+  { title: string; description: string }
+>;
 
 export async function generateImage({
   title,
@@ -48,6 +53,22 @@ export async function generateOGImages() {
   let metadata = await collectMetadata(files);
 
   for (let meta of Object.values(metadata)) {
+    if (imageCache.has(meta.slug)) {
+      let cacheHit = imageCache.get(meta.slug);
+      if (
+        cacheHit &&
+        "title" in cacheHit &&
+        "description" in cacheHit &&
+        cacheHit.title === meta.title &&
+        cacheHit.description === meta.description
+      ) {
+        continue;
+      }
+    }
+    imageCache.set(meta.slug, {
+      title: meta.title,
+      description: meta.description || "",
+    });
     let pngBuffer = await generateImage({
       title: meta.title,
       description: meta.description || "",
@@ -60,4 +81,9 @@ export async function generateOGImages() {
 
     await Bun.write(`./public/og-images/${meta.slug}.png`, pngBuffer);
   }
+
+  await Bun.write(
+    "./image-cache.json",
+    JSON.stringify(Object.fromEntries(imageCache)),
+  );
 }
