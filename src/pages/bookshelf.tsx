@@ -10,7 +10,9 @@ let read = bookshelf.filter((book) => book.status === "read");
 
 export default function Bookshelf() {
   return (
-    <main>
+    <main className="pt-10">
+      <title>Matt's Bookshelf</title>
+      <meta rel="description" content="Matt's Bookshelf" />
       <ProseContainer>
         <Heading level={2}>Bookshelf</Heading>
         <p>
@@ -64,4 +66,10 @@ export default function Bookshelf() {
       </ProseContainer>
     </main>
   );
+}
+
+export function getConfig() {
+  return {
+    render: "dynamic",
+  };
 }

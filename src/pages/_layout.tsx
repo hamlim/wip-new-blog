@@ -6,8 +6,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <div className="relative mb-26 min-h-screen">
       <title>Matt 👋</title>
-      <link rel="icon" href="/favicon.ico" />
       <meta rel="description" content="Matt Hamlin's Personal Website" />
+      <link rel="icon" href="/favicon.ico" />
       <meta
         name="theme-color"
         media="(prefers-color-scheme: light)"
@@ -59,4 +59,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <ErrorBoundary>{children}</ErrorBoundary>
     </div>
   );
+}
+
+export function getConfig() {
+  return {
+    render: "dynamic",
+  };
 }

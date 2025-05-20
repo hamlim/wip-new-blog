@@ -6,6 +6,8 @@ import { projects } from "#/projects-list";
 export default function Projects() {
   return (
     <main className="pt-10">
+      <title>Matt's Projects</title>
+      <meta rel="description" content="Matt's Projects" />
       <ProseContainer>
         <Heading level={2}>Projects</Heading>
         <ul>
@@ -21,4 +23,10 @@ export default function Projects() {
       </ProseContainer>
     </main>
   );
+}
+
+export function getConfig() {
+  return {
+    render: "dynamic",
+  };
 }

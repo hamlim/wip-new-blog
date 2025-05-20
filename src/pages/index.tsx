@@ -1,14 +1,10 @@
-import { metadata } from "#/metadata.gen";
+import { Heading } from "#/components/heading";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <h2>Home</h2>
-      <p>This is the home page.</p>
-      <pre className="whitespace-pre-wrap">
-        {JSON.stringify(metadata, null, 2)}
-      </pre>
-    </div>
+    <main className="pt-10">
+      <Heading level={2}>Home</Heading>
+    </main>
   );
 }
 
