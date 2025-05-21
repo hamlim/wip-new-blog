@@ -79,7 +79,7 @@ export default function Resume() {
             CI frontend development tools like Storybook, TypeScript,
             webpack/rspack, eslint, and more.
           </p>
-          {/* @TODO: add more details here */}
+          {/* @TODO: add more details about the role here */}
         </div>
         <div>
           <Heading level={4}>
