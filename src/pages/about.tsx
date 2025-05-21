@@ -1,4 +1,4 @@
-import { FileUser, GithubIcon } from "lucide-react";
+import { FileUser, GithubIcon, LinkedinIcon } from "lucide-react";
 import { Anchor, LinkAnchor } from "#/components/anchor";
 import { BlueskyIcon } from "#/components/bluesky-icon";
 import { ProseContainer } from "#/components/container";
@@ -22,19 +22,23 @@ export default function About() {
         <p>
           <Anchor href="https://bsky.app/profile/matthamlin.me">
             <BlueskyIcon className="mr-2 inline-block h-4 w-4" />
-            Find me on Bluesky
+            Bluesky
           </Anchor>
           <br />
           <Anchor href="https://github.com/mhamlin">
             <GithubIcon className="mr-2 inline-block h-4 w-4" />
-            Find me on GitHub
+            GitHub
           </Anchor>
-          {/* @TODO: add back resume route when updated */}
-          {/* <br />
+          <br />
+          <Anchor href="https://www.linkedin.com/in/hamlim/">
+            <LinkedinIcon className="mr-2 inline-block h-4 w-4" />
+            LinkedIn
+          </Anchor>
+          <br />
           <LinkAnchor href="/resume">
             <FileUser className="mr-2 inline-block h-4 w-4" />
             Check out my resume
-          </LinkAnchor> */}
+          </LinkAnchor>
         </p>
         <Heading level={3}>Uses</Heading>
         <p>

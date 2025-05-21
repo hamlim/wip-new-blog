@@ -1,6 +1,13 @@
 "use client";
 
-import { FolderGit2, Home, Library, Newspaper, UserRound } from "lucide-react";
+import {
+  FileUser,
+  FolderGit2,
+  Home,
+  Library,
+  Newspaper,
+  UserRound,
+} from "lucide-react";
 import { useEffect, useState } from "react";
 import { useRouter } from "waku";
 import {
@@ -95,6 +102,16 @@ export function QuickFind() {
           >
             <UserRound className="h-5 w-5" />
             <span>About</span>
+          </CommandItem>
+          <CommandItem
+            value="resume"
+            onSelect={() => {
+              setOpen(false);
+              router.push("/resume");
+            }}
+          >
+            <FileUser className="h-5 w-5" />
+            <span>Resume</span>
           </CommandItem>
         </CommandGroup>
         <CommandSeparator />
