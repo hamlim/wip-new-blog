@@ -21,7 +21,7 @@ export default function Home() {
         <ol>
           {topPosts.map((post) => (
             <li key={post.slug}>
-              <LinkAnchor href={post.slug}>{post.title}</LinkAnchor>
+              <LinkAnchor href={post.path}>{post.title}</LinkAnchor>
             </li>
           ))}
         </ol>
