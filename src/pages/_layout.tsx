@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <meta property="og:site_name" content="Matt's Website" />
       <meta property="og:locale" content="en_US" />
       <meta property="og:image" content="https://matthamlin.me/me.png" />
-      <meta property="og:image:width" content="384" />
+      <meta property="og:image:width" content="512" />
       <meta property="og:image:height" content="512" />
       <meta property="og:image:alt" content="Matt Hamlin's Personal Website" />
       <meta property="og:image:type" content="image/png" />
@@ -50,7 +50,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         content="Matt Hamlin's personal website"
       />
       <meta name="twitter:image" content="https://matthamlin.me/me.png" />
-      <meta name="twitter:image:width" content="384" />
+      <meta name="twitter:image:width" content="512" />
       <meta name="twitter:image:height" content="512" />
       <meta name="twitter:image:alt" content="Matt Hamlin's Personal Website" />
       <meta name="twitter:image:type" content="image/png" />
