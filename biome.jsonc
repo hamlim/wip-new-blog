@@ -34,7 +34,11 @@
   },
   "overrides": [
     {
-      "include": ["./worker-configuration.d.ts", "./src/pages.gen.ts"],
+      "include": [
+        "./worker-configuration.d.ts",
+        "./src/pages.gen.ts",
+        "./src/metadata.gen.ts"
+      ],
       "linter": {
         "enabled": false
       },

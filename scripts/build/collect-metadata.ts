@@ -6,7 +6,9 @@ export let mdxRootDir = "./src/mdx";
 
 export async function getMDXFiles(): Promise<Array<string>> {
   let filePaths = await glob(`${mdxRootDir}/**/*.mdx`);
-  return filePaths.filter((path) => !path.includes("__sandbox"));
+  return filePaths
+    .filter((path) => !path.includes("__sandbox"))
+    .toSorted((a, b) => a.localeCompare(b));
 }
 
 export async function collectMetadata(files: Array<string>) {
@@ -23,6 +25,6 @@ export async function collectMetadata(files: Array<string>) {
   );
 
   return Object.fromEntries(
-    Object.entries(metadata).sort((a, b) => a[1].date - b[1].date),
+    Object.entries(metadata).sort((a, b) => a[0].localeCompare(b[0])),
   );
 }

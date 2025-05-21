@@ -1,7 +1,7 @@
 /// <reference types="bun" />
 import { generateImage as generateBaseImage } from "pikitia";
+import imageCacheJSON from "../../image-cache.json";
 import { collectMetadata, getMDXFiles } from "./collect-metadata";
-import imageCacheJSON from "./image-cache.json";
 
 let imageCache = new Map(Object.entries(imageCacheJSON)) as Map<
   string,
@@ -23,20 +23,27 @@ export async function generateImage({
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        alignItems: "center",
         width: "100%",
         height: "100%",
-        padding: "50px 200px",
-        fontSize: 40,
-        background: "white",
+        padding: "50px 150px",
+        background: "#f9f5ee",
         fontFamily: "Inter",
       }}
     >
-      <h1 style={{ color: "black" }}>{title}</h1>
-      <p style={{ color: "#3b82f6" }}>{description}</p>
-      <p style={{ color: "#3b82f6", textDecoration: "underline" }}>
+      <h1 style={{ color: "#101828", fontSize: 40 }}>{title}</h1>
+      <p style={{ color: "#307b34", fontSize: 30 }}>{description}</p>
+      <p
+        style={{
+          color: "#307b34",
+          fontSize: 30,
+          position: "absolute",
+          top: 25,
+          right: 150,
+        }}
+      >
         {publishDate}
       </p>
+      <p style={{ color: "#62748e", fontSize: 30 }}>Matt Hamlin</p>
     </div>,
     {
       width: 1200,

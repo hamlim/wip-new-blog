@@ -25,5 +25,4 @@ export let metadata: Record<string, RawFrontmatter> = ${JSON.stringify(
   )};`;
 
   await Bun.write(metadataPath, contents);
-  await Bun.$`bun run format`;
 }
