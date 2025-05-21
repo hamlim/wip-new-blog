@@ -16,6 +16,8 @@ import { metadata } from "#/metadata.gen";
 import { projects } from "#/projects-list";
 import { formatDate } from "#/utils/date-formatting";
 
+import type { RouteConfig } from "waku/router";
+
 export function QuickFind() {
   let [open, setOpen] = useState(false);
 
@@ -118,8 +120,7 @@ export function QuickFind() {
               value={`${post.title} ${formatDate(post.date)} ${post.description} ${post.slug}`}
               onSelect={() => {
                 setOpen(false);
-                // @ts-expect-error - these are valid paths
-                router.push(post.path);
+                router.push(post.path as RouteConfig["paths"]);
               }}
             >
               <Newspaper className="h-5 w-5" />

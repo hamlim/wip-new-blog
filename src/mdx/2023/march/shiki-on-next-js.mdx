@@ -75,22 +75,14 @@ export default async function CodeBlock({ children, className, ...props }) {
 
   let highlighter = await shiki.getHighlighter({
     // Pass in manually imported themes and grammars
-    // @ts-ignore
     themes: [githubDarkDimmed, githubLight],
     langs: [
-      // @ts-ignore
       { id: 'tsx', scopeName: 'source.tsx', grammar: tsxGrammar },
-      // @ts-ignore
       { id: 'typescript', scopeName: 'source.tsx', grammar: tsxGrammar },
-      // @ts-ignore
       { id: 'md', scopeName: 'text.html.markdown', grammar: mdGrammar },
-      // @ts-ignore
       { id: 'css', scopeName: 'source.css', grammar: cssGrammar },
-      // @ts-ignore
       { id: 'diff', scopeName: 'source.diff', grammar: diffGrammar },
-      // @ts-ignore
       { id: 'bash', scopeName: 'source.shell', grammar: bashGrammar },
-      // @ts-ignore
       { id: 'json', scopeName: 'source.json', grammar: jsonGrammar },
     ],
   });

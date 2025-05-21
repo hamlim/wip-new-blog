@@ -1,4 +1,5 @@
 import { Link } from "waku";
+import type { RouteConfig } from "waku/router";
 import type { RawFrontmatter } from "#/types";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
@@ -13,8 +14,7 @@ export function PostCard({ post }: { post: RawFrontmatter }) {
     <Link
       className="w-full flex flex-col grow"
       key={post.path}
-      // @ts-expect-error - this is a valid path
-      to={post.path}
+      to={post.path as RouteConfig["paths"]}
     >
       <Card className="grow">
         <CardHeader>

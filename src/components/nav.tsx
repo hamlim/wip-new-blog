@@ -5,6 +5,8 @@ import type { ReactNode } from "react";
 import { Link, useRouter } from "waku";
 import { cn } from "#/utils/cn";
 
+import type { RouteConfig } from "waku/router";
+
 interface NavItem {
   path: string;
   label: string;
@@ -57,7 +59,7 @@ export function Nav(): ReactNode {
             return (
               <li key={item.path}>
                 <Link
-                  to={item.path}
+                  to={item.path as RouteConfig["paths"]}
                   className={cn(
                     "flex h-10 items-center gap-2 px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground",
                     isActive
