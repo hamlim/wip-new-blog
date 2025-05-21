@@ -1,12 +1,15 @@
 import { CommentSection } from "@hamstack/bluesky-comments";
 import type { ReactNode } from "react";
+import { Fragment } from "react";
+import { Link } from "waku";
 import { LinkAnchor } from "#/components/anchor";
 import { BlueskyMentions } from "#/components/bluesky-mentions";
 import { BlueskyShareLink } from "#/components/bluesky-share-link";
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
+import { metadata } from "#/metadata.gen";
 import type { RawFrontmatter } from "#/types";
-// utils
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 let dateFormatter = new Intl.DateTimeFormat("en-US", {
   dateStyle: "medium",
@@ -98,7 +101,75 @@ export async function Post({
           ))}
         </div>
         <CommentSection author="matthamlin.me" />
+        <RelatedPosts frontmatter={frontmatter} />
       </ProseContainer>
     </main>
+  );
+}
+
+function getRelatedPosts(
+  frontmatter: RawFrontmatter,
+): Record<string, Array<RawFrontmatter>> {
+  let postTags = frontmatter.tags;
+  let relatedPosts: Record<string, Array<RawFrontmatter>> = {};
+  for (let tag of postTags) {
+    relatedPosts[tag] = [];
+    for (let post of Object.values(metadata)) {
+      if (
+        post.tags.includes(tag) &&
+        post.path !== frontmatter.path &&
+        post.description.length > 0
+      ) {
+        relatedPosts[tag].push(post);
+      }
+    }
+  }
+  return relatedPosts;
+}
+
+function RelatedPosts({ frontmatter }: { frontmatter: RawFrontmatter }) {
+  let relatedPosts = getRelatedPosts(frontmatter);
+
+  if (Object.keys(relatedPosts).length === 0) {
+    return null;
+  }
+
+  return (
+    <Fragment>
+      <Heading level={3}>Related Posts</Heading>
+      <div className="flex flex-col gap-2 not-prose">
+        {Object.entries(relatedPosts).map(([tag, posts]) => {
+          if (posts.length === 0) {
+            return null;
+          }
+          return (
+            <Fragment key={tag}>
+              <Heading level={4} className="mb-2">
+                {tag}
+              </Heading>
+              <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
+                {posts.map((post) => (
+                  <Link
+                    className="w-full flex flex-col grow"
+                    key={post.path}
+                    // @ts-expect-error - this is a valid path
+                    to={post.path}
+                  >
+                    <Card className="grow">
+                      <CardHeader>
+                        <CardTitle>{post.title}</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <p>{post.description}</p>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                ))}
+              </div>
+            </Fragment>
+          );
+        })}
+      </div>
+    </Fragment>
   );
 }
