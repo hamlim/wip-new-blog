@@ -1,7 +1,6 @@
 import { CommentSection } from "@hamstack/bluesky-comments";
 import type { ReactNode } from "react";
 import { Fragment } from "react";
-import { Link } from "waku";
 import { LinkAnchor } from "#/components/anchor";
 import { BlueskyMentions } from "#/components/bluesky-mentions";
 import { BlueskyShareLink } from "#/components/bluesky-share-link";
@@ -9,7 +8,7 @@ import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
 import { metadata } from "#/metadata.gen";
 import type { RawFrontmatter } from "#/types";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { PostCard } from "./post-card";
 
 let dateFormatter = new Intl.DateTimeFormat("en-US", {
   dateStyle: "medium",
@@ -114,7 +113,7 @@ function getRelatedPosts(
   let relatedPosts: Record<string, Array<RawFrontmatter>> = {};
   for (let tag of postTags) {
     relatedPosts[tag] = [];
-    for (let post of Object.values(metadata)) {
+    for (let post of metadata) {
       if (
         post.tags.includes(tag) &&
         post.path !== frontmatter.path &&
@@ -149,21 +148,7 @@ function RelatedPosts({ frontmatter }: { frontmatter: RawFrontmatter }) {
               </Heading>
               <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
                 {posts.map((post) => (
-                  <Link
-                    className="w-full flex flex-col grow"
-                    key={post.path}
-                    // @ts-expect-error - this is a valid path
-                    to={post.path}
-                  >
-                    <Card className="grow">
-                      <CardHeader>
-                        <CardTitle>{post.title}</CardTitle>
-                      </CardHeader>
-                      <CardContent>
-                        <p>{post.description}</p>
-                      </CardContent>
-                    </Card>
-                  </Link>
+                  <PostCard key={post.path} post={post} />
                 ))}
               </div>
             </Fragment>

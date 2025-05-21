@@ -5,7 +5,7 @@ import type { RawFrontmatter } from "#/types";
 function collectByTag() {
   let postsByTag = new Map<string, Array<RawFrontmatter>>();
 
-  for (let post of Object.values(metadata)) {
+  for (let post of metadata) {
     for (let tag of post.tags) {
       if (!postsByTag.has(tag)) {
         postsByTag.set(tag, [post]);

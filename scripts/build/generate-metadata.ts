@@ -14,11 +14,10 @@ import type { RawFrontmatter } from "#/types";
 
   let mdxFiles = await getMDXFiles();
 
-  let metadata: Record<string, RawFrontmatter> =
-    await collectMetadata(mdxFiles);
+  let metadata = await collectMetadata(mdxFiles);
 
   contents += `
-export let metadata: Record<string, RawFrontmatter> = ${JSON.stringify(
+export let metadata: Array<RawFrontmatter> = ${JSON.stringify(
     metadata,
     null,
     2,

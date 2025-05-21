@@ -13,10 +13,10 @@ let topPostSlugs = [
   "/2019/may/maintenance-costs",
   "/2023/june/fractal-refactoring",
   "/2023/june/10x",
-] as Array<keyof typeof metadata>;
+] as Array<RawFrontmatter["path"]>;
 
 let topPosts = topPostSlugs
-  .map((slug) => metadata[slug])
+  .map((path) => metadata.find((post) => post.path === path))
   .filter((post): post is RawFrontmatter => post !== undefined);
 
 export default function Home() {

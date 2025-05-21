@@ -1,19 +1,19 @@
-import { collectMetadata, getMDXFiles } from "./collect-metadata";
+import { collectMetadata, getMDXFiles } from "./build/collect-metadata";
 
 let metadata = await collectMetadata(await getMDXFiles());
 
 let tags = new Set<string>();
 
-for (let file in metadata) {
-  if (!metadata[file]) {
+for (let file of metadata) {
+  if (!file) {
     continue;
   }
 
-  if (!metadata[file].tags) {
+  if (!file.tags) {
     continue;
   }
 
-  for (let tag of metadata[file].tags) {
+  for (let tag of file.tags) {
     tags.add(tag);
   }
 }

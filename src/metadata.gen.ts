@@ -3,2312 +3,220 @@
 
 import type { RawFrontmatter } from "#/types";
 
-export let metadata: Record<string, RawFrontmatter> = {
-  "/2015/december/2015": {
-    "title": "2015",
-    "slug": "2015",
-    "path": "/2015/december/2015",
-    "date": 1451563200000,
+export let metadata: Array<RawFrontmatter> = [
+  {
+    "title": "Server Side Rendering Compatible CSS Theming",
+    "slug": "server-side-rendering-compatible-css-theming",
+    "path": "/2025/april/server-side-rendering-compatible-css-theming",
+    "date": 1744749638305,
     "status": "public",
     "type": "blog-post",
     "tags": [
-      "Recap"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2015,
-    "ogImage": "/og-images/2015.png"
-  },
-  "/2015/december/2016": {
-    "title": "Looking Ahead: 2016",
-    "slug": "2016",
-    "path": "/2015/december/2016",
-    "date": 1451563200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Looking Ahead"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2015,
-    "ogImage": "/og-images/2016.png"
-  },
-  "/2015/december/blogging-vs-working": {
-    "title": "Blogging vs Working",
-    "slug": "blogging-vs-working",
-    "path": "/2015/december/blogging-vs-working",
-    "date": 1450180800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Thoughts"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2015,
-    "ogImage": "/og-images/blogging-vs-working.png"
-  },
-  "/2015/december/powerpoint": {
-    "title": "Powerpoint",
-    "slug": "powerpoint",
-    "path": "/2015/december/powerpoint",
-    "date": 1449057600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Startups",
-      "Ideas"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2015,
-    "ogImage": "/og-images/powerpoint.png"
-  },
-  "/2015/december/the-social-max": {
-    "title": "The Social Max",
-    "slug": "the-social-max",
-    "path": "/2015/december/the-social-max",
-    "date": 1448971200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Social Media"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2015,
-    "ogImage": "/og-images/the-social-max.png"
-  },
-  "/2015/november/a-new-look": {
-    "title": "A New Look",
-    "slug": "a-new-look",
-    "path": "/2015/november/a-new-look",
-    "date": 1446379200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Thoughts",
-      "Redesign"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2015,
-    "ogImage": "/og-images/a-new-look.png"
-  },
-  "/2015/november/a-new-resume": {
-    "title": "A New Resume",
-    "slug": "a-new-resume",
-    "path": "/2015/november/a-new-resume",
-    "date": 1446379200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Career",
-      "Side Projects"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2015,
-    "ogImage": "/og-images/a-new-resume.png"
-  },
-  "/2015/november/family-time": {
-    "title": "Family Time",
-    "slug": "family-time",
-    "path": "/2015/november/family-time",
-    "date": 1448020800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Family"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2015,
-    "ogImage": "/og-images/family-time.png"
-  },
-  "/2015/november/message": {
-    "title": "The Message is in the Medium",
-    "slug": "message",
-    "path": "/2015/november/message",
-    "date": 1446552000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Meta",
-      "Communication"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2015,
-    "ogImage": "/og-images/message.png"
-  },
-  "/2015/november/thanksgiving": {
-    "title": "Thanksgiving",
-    "slug": "thanksgiving",
-    "path": "/2015/november/thanksgiving",
-    "date": 1448366400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Thanks"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2015,
-    "ogImage": "/og-images/thanksgiving.png"
-  },
-  "/2015/november/weekend-projects": {
-    "title": "Weekend Projects",
-    "slug": "weekend-projects",
-    "path": "/2015/november/weekend-projects",
-    "date": 1446638400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Side Projects"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2015,
-    "ogImage": "/og-images/weekend-projects.png"
-  },
-  "/2016/april/redesign": {
-    "title": "Redesign",
-    "slug": "redesign",
-    "path": "/2016/april/redesign",
-    "date": 1459771200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Thoughts",
-      "Redesign"
-    ],
-    "description": "",
-    "month": "april",
-    "year": 2016,
-    "ogImage": "/og-images/redesign.png"
-  },
-  "/2016/august/attribute-selectors": {
-    "title": "Attribute Selectors",
-    "slug": "attribute-selectors",
-    "path": "/2016/august/attribute-selectors",
-    "date": 1471780800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
+      "Web Development",
+      "Theming",
       "CSS",
-      "Development"
-    ],
-    "description": "",
-    "month": "august",
-    "year": 2016,
-    "ogImage": "/og-images/attribute-selectors.png"
-  },
-  "/2016/august/august": {
-    "title": "August",
-    "slug": "august",
-    "path": "/2016/august/august",
-    "date": 1471694400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Recap"
-    ],
-    "description": "",
-    "month": "august",
-    "year": 2016,
-    "ogImage": "/og-images/august.png"
-  },
-  "/2016/august/my-new-website": {
-    "title": "My New Website",
-    "slug": "my-new-website",
-    "path": "/2016/august/my-new-website",
-    "date": 1472385600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Redesign",
-      "Thoughts"
-    ],
-    "description": "",
-    "month": "august",
-    "year": 2016,
-    "ogImage": "/og-images/my-new-website.png"
-  },
-  "/2016/august/pull-quotes": {
-    "title": "Pull Quotes",
-    "slug": "pull-quotes",
-    "path": "/2016/august/pull-quotes",
-    "date": 1472040000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web",
-      "Thoughts"
-    ],
-    "description": "",
-    "month": "august",
-    "year": 2016,
-    "ogImage": "/og-images/pull-quotes.png"
-  },
-  "/2016/august/redesign-v5": {
-    "title": "Redesign v5",
-    "slug": "redesign-v5",
-    "path": "/2016/august/redesign-v5",
-    "date": 1472040000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Thoughts",
-      "Redesign"
-    ],
-    "description": "",
-    "month": "august",
-    "year": 2016,
-    "ogImage": "/og-images/redesign-v5.png"
-  },
-  "/2016/january/10000-characters": {
-    "title": "10,000 Characters",
-    "slug": "10000-characters",
-    "path": "/2016/january/10000-characters",
-    "date": 1452081600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Twitter",
-      "Thoughts"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2016,
-    "ogImage": "/og-images/10000-characters.png"
-  },
-  "/2016/january/afraid": {
-    "title": "Afraid",
-    "slug": "afraid",
-    "path": "/2016/january/afraid",
-    "date": 1453464000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Meta"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2016,
-    "ogImage": "/og-images/afraid.png"
-  },
-  "/2016/january/building-in-2016": {
-    "title": "Building in 2016",
-    "slug": "building-in-2016",
-    "path": "/2016/january/building-in-2016",
-    "date": 1451822400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Projects"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2016,
-    "ogImage": "/og-images/building-in-2016.png"
-  },
-  "/2016/january/clientside": {
-    "title": "Clientside",
-    "slug": "clientside",
-    "path": "/2016/january/clientside",
-    "date": 1453204800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2016,
-    "ogImage": "/og-images/clientside.png"
-  },
-  "/2016/january/dji-vs-gopro": {
-    "title": "DJI vs GoPro",
-    "slug": "dji-vs-gopro",
-    "path": "/2016/january/dji-vs-gopro",
-    "date": 1451649600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Technology",
-      "Competition"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2016,
-    "ogImage": "/og-images/dji-vs-gopro.png"
-  },
-  "/2016/january/my-first-project-of-2016": {
-    "title": "My First Project of 2016",
-    "slug": "my-first-project-of-2016",
-    "path": "/2016/january/my-first-project-of-2016",
-    "date": 1451649600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Projects"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2016,
-    "ogImage": "/og-images/my-first-project-of-2016.png"
-  },
-  "/2016/november/links": {
-    "title": "Links",
-    "slug": "links",
-    "path": "/2016/november/links",
-    "date": 1479556800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Roundup",
-      "Collection"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2016,
-    "ogImage": "/og-images/links.png"
-  },
-  "/2016/october/css-debate": {
-    "title": "The Great CSS Debate",
-    "slug": "css-debate",
-    "path": "/2016/october/css-debate",
-    "date": 1475928000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "CSS"
-    ],
-    "description": "",
-    "month": "october",
-    "year": 2016,
-    "ogImage": "/og-images/css-debate.png"
-  },
-  "/2016/october/october-4th": {
-    "title": "October 4th",
-    "slug": "october-4th",
-    "path": "/2016/october/october-4th",
-    "date": 1475582400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Technology",
-      "Google"
-    ],
-    "description": "",
-    "month": "october",
-    "year": 2016,
-    "ogImage": "/og-images/october-4th.png"
-  },
-  "/2017/april/css-in-js": {
-    "title": "CSS in JS",
-    "slug": "css-in-js",
-    "path": "/2017/april/css-in-js",
-    "date": 1491048000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "CSS",
-      "JavaScript",
-      "Web Development"
-    ],
-    "description": "A few thoughts and patterns for using styled-jsx or other CSS-in-JS solutions",
-    "month": "april",
-    "year": 2017,
-    "ogImage": "/og-images/css-in-js.png"
-  },
-  "/2017/january/push-vs-pull-ai": {
-    "title": "Push vs Pull AI",
-    "slug": "push-vs-pull-ai",
-    "path": "/2017/january/push-vs-pull-ai",
-    "date": 1483272000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Technology",
-      "AI"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2017,
-    "ogImage": "/og-images/push-vs-pull-ai.png"
-  },
-  "/2017/march/calendar": {
-    "title": "Calendar",
-    "slug": "calendar",
-    "path": "/2017/march/calendar",
-    "date": 1489147200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Calendar",
-      "Web Development"
-    ],
-    "description": "Building a calendar web application",
-    "month": "march",
-    "year": 2017,
-    "ogImage": "/og-images/calendar.png"
-  },
-  "/2017/march/javascript-weirdness": {
-    "title": "JavaScript Weirdness",
-    "slug": "javascript-weirdness",
-    "path": "/2017/march/javascript-weirdness",
-    "date": 1489233600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "JavaScript",
-      "Web Development"
-    ],
-    "description": "A few weird things about JavaScript",
-    "month": "march",
-    "year": 2017,
-    "ogImage": "/og-images/javascript-weirdness.png"
-  },
-  "/2017/march/rebuilding-mustache": {
-    "title": "Rebuilding Mustache",
-    "slug": "rebuilding-mustache",
-    "path": "/2017/march/rebuilding-mustache",
-    "date": 1488369600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development"
-    ],
-    "description": "",
-    "month": "march",
-    "year": 2017,
-    "ogImage": "/og-images/rebuilding-mustache.png"
-  },
-  "/2017/march/redesign-v6": {
-    "title": "Redesign v6",
-    "slug": "redesign-v6",
-    "path": "/2017/march/redesign-v6",
-    "date": 1489579200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Redesign",
-      "Thoughts",
       "Next.js",
-      "Web Development"
-    ],
-    "description": "A few thoughts on the redesign of my personal site, adopting Next.js and deploying via Now",
-    "month": "march",
-    "year": 2017,
-    "ogImage": "/og-images/redesign-v6.png"
-  },
-  "/2018/april/understanding-react-16-3-updates": {
-    "title": "Understanding React 16.3 Updates",
-    "slug": "understanding-react-16-3-updates",
-    "path": "/2018/april/understanding-react-16-3-updates",
-    "date": 1523210040000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
+      "Waku",
       "React",
-      "JavaScript",
-      "Web Development"
-    ],
-    "description": "A quick overview of the new lifecycle methods introduced in React 16.3",
-    "month": "april",
-    "year": 2018,
-    "ogImage": "/og-images/understanding-react-16-3-updates.png"
-  },
-  "/2018/december/starting-fresh": {
-    "title": "Starting Fresh",
-    "slug": "starting-fresh",
-    "path": "/2018/december/starting-fresh",
-    "date": 1544011200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Thoughts",
-      "Redesign"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2018,
-    "ogImage": "/og-images/starting-fresh.png"
-  },
-  "/2018/december/testing-software": {
-    "title": "Testing Software",
-    "slug": "testing-software",
-    "path": "/2018/december/testing-software",
-    "date": 1543665600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Testing"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2018,
-    "ogImage": "/og-images/testing-software.png"
-  },
-  "/2018/january/2018": {
-    "title": "2018",
-    "slug": "2018",
-    "path": "/2018/january/2018",
-    "date": 1516104000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Recap",
-      "Looking Ahead"
-    ],
-    "description": "A recap and update on some of the projects I am working on at the start of 2018",
-    "month": "january",
-    "year": 2018,
-    "ogImage": "/og-images/2018.png"
-  },
-  "/2018/july/summer-2018-trip": {
-    "title": "Summer 2018 Trip",
-    "slug": "summer-2018-trip",
-    "path": "/2018/july/summer-2018-trip",
-    "date": 1532179380000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Travel",
-      "Photos"
-    ],
-    "description": "A few photos from my summer trip!",
-    "month": "july",
-    "year": 2018,
-    "ogImage": "/og-images/summer-2018-trip.png"
-  },
-  "/2018/july/taking-a-break": {
-    "title": "Taking a Break",
-    "slug": "taking-a-break",
-    "path": "/2018/july/taking-a-break",
-    "date": 1530695220000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Burnout",
-      "Web Development",
-      "Development"
-    ],
-    "description": "A few quick thoughts on burn out and taking a break",
-    "month": "july",
-    "year": 2018,
-    "ogImage": "/og-images/taking-a-break.png"
-  },
-  "/2018/may/complex-ui-components": {
-    "title": "Managing Complex UI Component State",
-    "slug": "complex-ui-components",
-    "path": "/2018/may/complex-ui-components",
-    "date": 1527508800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "React",
-      "Web Development",
-      "Components"
-    ],
-    "description": "A few thoughts on managing complex UI component state within React",
-    "month": "may",
-    "year": 2018,
-    "ogImage": "/og-images/complex-ui-components.png"
-  },
-  "/2018/november/missing-detail": {
-    "title": "Missing Detail",
-    "slug": "missing-detail",
-    "path": "/2018/november/missing-detail",
-    "date": 1541356200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Article"
-    ],
-    "description": "A few thoughts on the article \"Reality has a surprising amount of detail\"",
-    "month": "november",
-    "year": 2018,
-    "ogImage": "/og-images/missing-detail.png"
-  },
-  "/2018/november/suspense-plus-graphql": {
-    "title": "Suspense Plus GraphQL",
-    "slug": "suspense-plus-graphql",
-    "path": "/2018/november/suspense-plus-graphql",
-    "date": 1541948640000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "React",
-      "GraphQL",
-      "Suspense",
-      "Web Development"
-    ],
-    "description": "A few thoughts on using Suspense with GraphQL to optimize application data loading",
-    "month": "november",
-    "year": 2018,
-    "ogImage": "/og-images/suspense-plus-graphql.png"
-  },
-  "/2018/october/matts-log-october": {
-    "title": "Matt's Log - October",
-    "slug": "matts-log-october",
-    "path": "/2018/october/matts-log-october",
-    "date": 1538514660000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Log"
-    ],
-    "description": "A quick log of what I have been up to in October",
-    "month": "october",
-    "year": 2018,
-    "ogImage": "/og-images/matts-log-october.png"
-  },
-  "/2018/september/youve-launched-now-what": {
-    "title": "You've Launched, Now What?",
-    "slug": "youve-launched-now-what",
-    "path": "/2018/september/youve-launched-now-what",
-    "date": 1537715160000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Launch"
-    ],
-    "description": "A few thoughts on what to do after you launch a new project",
-    "month": "september",
-    "year": 2018,
-    "ogImage": "/og-images/youve-launched-now-what.png"
-  },
-  "/2019/february/building-a-live-editor": {
-    "title": "Building a Live Editor",
-    "slug": "building-a-live-editor",
-    "path": "/2019/february/building-a-live-editor",
-    "date": 1549022400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Side Projects"
-    ],
-    "description": "",
-    "month": "february",
-    "year": 2019,
-    "ogImage": "/og-images/building-a-live-editor.png"
-  },
-  "/2019/february/hooks-tips-dependency-array": {
-    "title": "Hooks Tips Ep. 1 - The Dependency Array",
-    "slug": "hooks-tips-dependency-array",
-    "path": "/2019/february/hooks-tips-dependency-array",
-    "date": 1549108800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "React"
-    ],
-    "description": "",
-    "month": "february",
-    "year": 2019,
-    "ogImage": "/og-images/hooks-tips-dependency-array.png"
-  },
-  "/2019/february/hooks-tips-instance-variables": {
-    "title": "Hooks Tips Ep. 2 - Migrating Instance Variables",
-    "slug": "hooks-tips-instance-variables",
-    "path": "/2019/february/hooks-tips-instance-variables",
-    "date": 1549368000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "React"
-    ],
-    "description": "",
-    "month": "february",
-    "year": 2019,
-    "ogImage": "/og-images/hooks-tips-instance-variables.png"
-  },
-  "/2019/february/start-small": {
-    "title": "Start Small, Accept Change",
-    "slug": "start-small",
-    "path": "/2019/february/start-small",
-    "date": 1549022400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Side Projects"
-    ],
-    "description": "",
-    "month": "february",
-    "year": 2019,
-    "ogImage": "/og-images/start-small.png"
-  },
-  "/2019/february/why-you-should-useReducer": {
-    "title": "useReducer, don't useState",
-    "slug": "why-you-should-useReducer",
-    "path": "/2019/february/why-you-should-useReducer",
-    "date": 1549800000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "React"
-    ],
-    "description": "",
-    "month": "february",
-    "year": 2019,
-    "ogImage": "/og-images/why-you-should-useReducer.png"
-  },
-  "/2019/january/react-error-boundaries": {
-    "title": "React Error Boundaries",
-    "slug": "react-error-boundaries",
-    "path": "/2019/january/react-error-boundaries",
-    "date": 1548936000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "React"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2019,
-    "ogImage": "/og-images/react-error-boundaries.png"
-  },
-  "/2019/july/bend": {
-    "title": "Summer 2019 - Bend Oregon",
-    "slug": "bend",
-    "path": "/2019/july/bend",
-    "date": 1564228800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Travel",
-      "Bend"
-    ],
-    "description": "",
-    "month": "july",
-    "year": 2019,
-    "ogImage": "/og-images/bend.png"
-  },
-  "/2019/july/theme-first-ui-development": {
-    "title": "Theme First UI Development",
-    "slug": "theme-first-ui-development",
-    "path": "/2019/july/theme-first-ui-development",
-    "date": 1563451200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "React",
-      "Design Tokens",
-      "Design Systems"
-    ],
-    "description": "",
-    "month": "july",
-    "year": 2019,
-    "ogImage": "/og-images/theme-first-ui-development.png"
-  },
-  "/2019/june/deploying-with-github-actions": {
-    "title": "Deploying Automatically using GitHub Actions",
-    "slug": "deploying-with-github-actions",
-    "path": "/2019/june/deploying-with-github-actions",
-    "date": 1559476800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development"
-    ],
-    "description": "",
-    "month": "june",
-    "year": 2019,
-    "ogImage": "/og-images/deploying-with-github-actions.png"
-  },
-  "/2019/june/simpler-and-smaller": {
-    "title": "Simpler and Smaller",
-    "slug": "simpler-and-smaller",
-    "path": "/2019/june/simpler-and-smaller",
-    "date": 1559390400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development"
-    ],
-    "description": "",
-    "month": "june",
-    "year": 2019,
-    "ogImage": "/og-images/simpler-and-smaller.png"
-  },
-  "/2019/march/snapshot-testing": {
-    "title": "Snapshot Testing",
-    "slug": "snapshot-testing",
-    "path": "/2019/march/snapshot-testing",
-    "date": 1551441600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Testing"
-    ],
-    "description": "",
-    "month": "march",
-    "year": 2019,
-    "ogImage": "/og-images/snapshot-testing.png"
-  },
-  "/2019/may/maintenance-costs": {
-    "title": "Maintenance Costs",
-    "slug": "maintenance-costs",
-    "path": "/2019/may/maintenance-costs",
-    "date": 1558267200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development"
-    ],
-    "description": "",
-    "month": "may",
-    "year": 2019,
-    "ogImage": "/og-images/maintenance-costs.png"
-  },
-  "/2020/april/a-note-on-anti-patterns": {
-    "title": "A Note On Anti-Patterns",
-    "slug": "a-note-on-anti-patterns",
-    "path": "/2020/april/a-note-on-anti-patterns",
-    "date": 1585828800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Note"
-    ],
-    "description": "",
-    "month": "april",
-    "year": 2020,
-    "ogImage": "/og-images/a-note-on-anti-patterns.png"
-  },
-  "/2020/april/a-note-on-meetings": {
-    "title": "A Note On Meetings",
-    "slug": "a-note-on-meetings",
-    "path": "/2020/april/a-note-on-meetings",
-    "date": 1585915200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Meetings",
-      "Note"
-    ],
-    "description": "",
-    "month": "april",
-    "year": 2020,
-    "ogImage": "/og-images/a-note-on-meetings.png"
-  },
-  "/2020/april/the-rabbit-hole": {
-    "title": "The Rabbit Hole",
-    "slug": "the-rabbit-hole",
-    "path": "/2020/april/the-rabbit-hole",
-    "date": 1586001600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Side Projects"
-    ],
-    "description": "",
-    "month": "april",
-    "year": 2020,
-    "ogImage": "/og-images/the-rabbit-hole.png"
-  },
-  "/2020/december/2020": {
-    "title": "2020: Year in Review",
-    "slug": "2020",
-    "path": "/2020/december/2020",
-    "date": 1609416000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Recap"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2020,
-    "ogImage": "/og-images/2020.png"
-  },
-  "/2020/december/literate-programming": {
-    "title": "Literate (web) Programming",
-    "slug": "literate-programming",
-    "path": "/2020/december/literate-programming",
-    "date": 1608379200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Ideas"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2020,
-    "ogImage": "/og-images/literate-programming.png"
-  },
-  "/2020/december/nextjs-analytics-with-airtable": {
-    "title": "NextJS Analytics with Airtable",
-    "slug": "nextjs-analytics-with-airtable",
-    "path": "/2020/december/nextjs-analytics-with-airtable",
-    "date": 1607860800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Side Projects"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2020,
-    "ogImage": "/og-images/nextjs-analytics-with-airtable.png"
-  },
-  "/2020/december/pair-code-reviews": {
-    "title": "Pair Code Reviews",
-    "slug": "pair-code-reviews",
-    "path": "/2020/december/pair-code-reviews",
-    "date": 1606910400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Collaboration",
-      "Code Review"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2020,
-    "ogImage": "/og-images/pair-code-reviews.png"
-  },
-  "/2020/december/sandbox-part-1": {
-    "title": "Building a Web Sandbox: Part 1",
-    "slug": "sandbox-part-1",
-    "path": "/2020/december/sandbox-part-1",
-    "date": 1608552000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Side Projects"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2020,
-    "ogImage": "/og-images/sandbox-part-1.png"
-  },
-  "/2020/february/back-bay-fens": {
-    "title": "February 20, 2020",
-    "slug": "back-bay-fens",
-    "path": "/2020/february/back-bay-fens",
-    "date": 1582200000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Photos",
-      "Back Bay"
-    ],
-    "description": "",
-    "month": "february",
-    "year": 2020,
-    "ogImage": "/og-images/back-bay-fens.png"
-  },
-  "/2020/july/enhancing-slack": {
-    "title": "Enhancing Slack",
-    "slug": "enhancing-slack",
-    "path": "/2020/july/enhancing-slack",
-    "date": 1594209600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Slack",
-      "Product Development"
-    ],
-    "description": "",
-    "month": "july",
-    "year": 2020,
-    "ogImage": "/og-images/enhancing-slack.png"
-  },
-  "/2020/march/draft-pull-requests": {
-    "title": "Draft Pull Requests",
-    "slug": "draft-pull-requests",
-    "path": "/2020/march/draft-pull-requests",
-    "date": 1584964800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Collaboration",
-      "Code Review"
-    ],
-    "description": "",
-    "month": "march",
-    "year": 2020,
-    "ogImage": "/og-images/draft-pull-requests.png"
-  },
-  "/2020/march/stateful-providers": {
-    "title": "Stateful Providers",
-    "slug": "stateful-providers",
-    "path": "/2020/march/stateful-providers",
-    "date": 1585396800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "React",
-      "Development Practices"
-    ],
-    "description": "",
-    "month": "march",
-    "year": 2020,
-    "ogImage": "/og-images/stateful-providers.png"
-  },
-  "/2020/may/a-note-on-consistency": {
-    "title": "A Note on Consistency",
-    "slug": "a-note-on-consistency",
-    "path": "/2020/may/a-note-on-consistency",
-    "date": 1590926400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Collaboration",
-      "Teams"
-    ],
-    "description": "",
-    "month": "may",
-    "year": 2020,
-    "ogImage": "/og-images/a-note-on-consistency.png"
-  },
-  "/2021/august/build-your-developer-toolbox": {
-    "title": "Build Your Developer Toolbox",
-    "slug": "build-your-developer-toolbox",
-    "path": "/2021/august/build-your-developer-toolbox",
-    "date": 1630088843000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development"
-    ],
-    "description": "",
-    "month": "august",
-    "year": 2021,
-    "ogImage": "/og-images/build-your-developer-toolbox.png"
-  },
-  "/2021/august/obsidian-sync": {
-    "title": "Roll your own Obsidian sync",
-    "slug": "obsidian-sync",
-    "path": "/2021/august/obsidian-sync",
-    "date": 1628596800000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Obsidian",
-      "Dropbox"
-    ],
-    "description": "",
-    "month": "august",
-    "year": 2021,
-    "ogImage": "/og-images/obsidian-sync.png"
-  },
-  "/2021/august/on-written-communication": {
-    "title": "On Written Communication",
-    "slug": "on-written-communication",
-    "path": "/2021/august/on-written-communication",
-    "date": 1629832211000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Collaboration",
-      "Communication",
-      "Writing"
-    ],
-    "description": "",
-    "month": "august",
-    "year": 2021,
-    "ogImage": "/og-images/on-written-communication.png"
-  },
-  "/2021/august/rtl-checkbox-events": {
-    "title": "React Testing Library: Checkboxes and events",
-    "slug": "rtl-checkbox-events",
-    "path": "/2021/august/rtl-checkbox-events",
-    "date": 1628615660000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "React Testing Library",
-      "React"
-    ],
-    "description": "",
-    "month": "august",
-    "year": 2021,
-    "ogImage": "/og-images/rtl-checkbox-events.png"
-  },
-  "/2021/august/start-fresh": {
-    "title": "Start Fresh",
-    "slug": "start-fresh",
-    "path": "/2021/august/start-fresh",
-    "date": 1630086205000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Productivity"
-    ],
-    "description": "",
-    "month": "august",
-    "year": 2021,
-    "ogImage": "/og-images/start-fresh.png"
-  },
-  "/2021/august/updating-forked-repos": {
-    "title": "Updating Forked Repos",
-    "slug": "updating-forked-repos",
-    "path": "/2021/august/updating-forked-repos",
-    "date": 1629644473000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Git",
       "Tip"
     ],
-    "description": "",
-    "month": "august",
-    "year": 2021,
-    "ogImage": "/og-images/updating-forked-repos.png"
+    "description": "A quick tip to implementing CSS theming that's compatible with Server Side Rendered applications!",
+    "month": "april",
+    "year": 2025,
+    "ogImage": "/og-images/server-side-rendering-compatible-css-theming.png"
   },
-  "/2021/december/2021-in-music": {
-    "title": "Year in Music",
-    "slug": "2021-in-music",
-    "path": "/2021/december/2021-in-music",
-    "date": 1637998249000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Recap"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2021,
-    "ogImage": "/og-images/2021-in-music.png"
-  },
-  "/2021/february/useConsole": {
-    "title": "useConsole",
-    "slug": "useConsole",
-    "path": "/2021/february/useConsole",
-    "date": 1613304000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Snippets",
-      "JavaScript",
-      "React",
-      "Development"
-    ],
-    "description": "",
-    "month": "february",
-    "year": 2021,
-    "ogImage": "/og-images/useConsole.png"
-  },
-  "/2021/february/yw": {
-    "title": "yw",
-    "slug": "yw",
-    "path": "/2021/february/yw",
-    "date": 1612785600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Snippets",
-      "Yarn",
-      "Monorepos",
-      "Development"
-    ],
-    "description": "",
-    "month": "february",
-    "year": 2021,
-    "ogImage": "/og-images/yw.png"
-  },
-  "/2021/january/2021": {
-    "title": "2021: Resolutions",
-    "slug": "2021",
-    "path": "/2021/january/2021",
-    "date": 1609502400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Resolutions"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2021,
-    "ogImage": "/og-images/2021.png"
-  },
-  "/2021/january/computed-theme": {
-    "title": "Computed Design Tokens",
-    "slug": "computed-theme",
-    "path": "/2021/january/computed-theme",
-    "date": 1610193600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Design Systems",
-      "Theme"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2021,
-    "ogImage": "/og-images/computed-theme.png"
-  },
-  "/2021/january/hack-sprint": {
-    "title": "Hack Sprint",
-    "slug": "hack-sprint",
-    "path": "/2021/january/hack-sprint",
-    "date": 1611057600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Hacking"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2021,
-    "ogImage": "/og-images/hack-sprint.png"
-  },
-  "/2021/january/simple-props": {
-    "title": "Simple Props",
-    "slug": "simple-props",
-    "path": "/2021/january/simple-props",
-    "date": 1610971200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Side Projects"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2021,
-    "ogImage": "/og-images/simple-props.png"
-  },
-  "/2021/june/learning": {
-    "title": "Learning",
-    "slug": "learning",
-    "path": "/2021/june/learning",
-    "date": 1623585600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Thoughts"
-    ],
-    "description": "",
-    "month": "june",
-    "year": 2021,
-    "ogImage": "/og-images/learning.png"
-  },
-  "/2021/june/the-squeeze": {
-    "title": "The Squeeze",
-    "slug": "the-squeeze",
-    "path": "/2021/june/the-squeeze",
-    "date": 1624881600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Thoughts",
-      "Work"
-    ],
-    "description": "",
-    "month": "june",
-    "year": 2021,
-    "ogImage": "/og-images/the-squeeze.png"
-  },
-  "/2021/march/array-chunking": {
-    "title": "Array Chunking",
-    "slug": "array-chunking",
-    "path": "/2021/march/array-chunking",
-    "date": 1615118400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "JavaScript",
-      "Development"
-    ],
-    "description": "",
-    "month": "march",
-    "year": 2021,
-    "ogImage": "/og-images/array-chunking.png"
-  },
-  "/2021/march/fast": {
-    "title": "Fast",
-    "slug": "fast",
-    "path": "/2021/march/fast",
-    "date": 1614600000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development Practices"
-    ],
-    "description": "",
-    "month": "march",
-    "year": 2021,
-    "ogImage": "/og-images/fast.png"
-  },
-  "/2021/march/on-code-review": {
-    "title": "On Code Review",
-    "slug": "on-code-review",
-    "path": "/2021/march/on-code-review",
-    "date": 1615809600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development Practices",
-      "Code Review"
-    ],
-    "description": "",
-    "month": "march",
-    "year": 2021,
-    "ogImage": "/og-images/on-code-review.png"
-  },
-  "/2021/march/writing-node-scripts": {
-    "title": "Writing Node Scripts",
-    "slug": "writing-node-scripts",
-    "path": "/2021/march/writing-node-scripts",
-    "date": 1614600000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Node"
-    ],
-    "description": "",
-    "month": "march",
-    "year": 2021,
-    "ogImage": "/og-images/writing-node-scripts.png"
-  },
-  "/2021/november/fast-feedback-systems": {
-    "title": "Fast Feedback Systems",
-    "slug": "fast-feedback-systems",
-    "path": "/2021/november/fast-feedback-systems",
-    "date": 1637404297000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "micropost"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2021,
-    "ogImage": "/og-images/fast-feedback-systems.png"
-  },
-  "/2021/november/pair-programming-stub": {
-    "title": "Pair Programming (stub)",
-    "slug": "pair-programming-stub",
-    "path": "/2021/november/pair-programming-stub",
-    "date": 1637404850000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "stub"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2021,
-    "ogImage": "/og-images/pair-programming-stub.png"
-  },
-  "/2021/november/video-games": {
-    "title": "Video Games",
-    "slug": "video-games",
-    "path": "/2021/november/video-games",
-    "date": 1637401671000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "micropost"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2021,
-    "ogImage": "/og-images/video-games.png"
-  },
-  "/2021/october/delete-it": {
-    "title": "Delete it",
-    "slug": "delete-it",
-    "path": "/2021/october/delete-it",
-    "date": 1634379511000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "micropost"
-    ],
-    "description": "",
-    "month": "october",
-    "year": 2021,
-    "ogImage": "/og-images/delete-it.png"
-  },
-  "/2021/september/linear-tools": {
-    "title": "Linear Tools Enforce Linear Thinking",
-    "slug": "linear-tools",
-    "path": "/2021/september/linear-tools",
-    "date": 1630772502000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Rant",
-      "Tools for Thought"
-    ],
-    "description": "",
-    "month": "september",
-    "year": 2021,
-    "ogImage": "/og-images/linear-tools.png"
-  },
-  "/2021/september/mac-setup-guide": {
-    "title": "Mac Setup Guide",
-    "slug": "mac-setup-guide",
-    "path": "/2021/september/mac-setup-guide",
-    "date": 1630761615000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Guides"
-    ],
-    "description": "",
-    "month": "september",
-    "year": 2021,
-    "ogImage": "/og-images/mac-setup-guide.png"
-  },
-  "/2022/december/updated-opinionated-nextjs-setup": {
-    "title": "My Updated Next.js Setup",
-    "slug": "updated-opinionated-nextjs-setup",
-    "path": "/2022/december/updated-opinionated-nextjs-setup",
-    "date": 1672037995000,
+  {
+    "title": "Podcasting By Hand",
+    "slug": "podcasting-by-hand",
+    "path": "/2025/april/podcasting-by-hand",
+    "date": 1744629340844,
     "status": "public",
     "type": "blog-post",
     "tags": [
       "Web Development",
-      "Next.js"
+      "Podcasting",
+      "The Bikeshed Pod"
     ],
-    "description": "",
-    "month": "december",
-    "year": 2022,
-    "ogImage": "/og-images/updated-opinionated-nextjs-setup.png"
-  },
-  "/2022/january/my-opinionated-nextjs-setup": {
-    "title": "My Opinionated Next.js Setup",
-    "slug": "my-opinionated-nextjs-setup",
-    "path": "/2022/january/my-opinionated-nextjs-setup",
-    "date": 1643541028000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Next.js"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2022,
-    "ogImage": "/og-images/my-opinionated-nextjs-setup.png"
-  },
-  "/2022/january/my-two-favorite-react-tricks": {
-    "title": "My Two Favorite React Tricks",
-    "slug": "my-two-favorite-react-tricks",
-    "path": "/2022/january/my-two-favorite-react-tricks",
-    "date": 1643228713000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "React",
-      "Development"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2022,
-    "ogImage": "/og-images/my-two-favorite-react-tricks.png"
-  },
-  "/2022/january/switching-to-iphone": {
-    "title": "Switching to iPhone",
-    "slug": "switching-to-iphone",
-    "path": "/2022/january/switching-to-iphone",
-    "date": 1642257821000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Review",
-      "Android",
-      "iOS",
-      "iPhone"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2022,
-    "ogImage": "/og-images/switching-to-iphone.png"
-  },
-  "/2022/july/yarn-berry-gitignore": {
-    "title": "Yarn Berry Gitignore Settings",
-    "slug": "yarn-berry-gitignore",
-    "path": "/2022/july/yarn-berry-gitignore",
-    "date": 1658389656000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Yarn"
-    ],
-    "description": "",
-    "month": "july",
-    "year": 2022,
-    "ogImage": "/og-images/yarn-berry-gitignore.png"
-  },
-  "/2022/june/on-note-taking": {
-    "title": "On Note Taking",
-    "slug": "on-note-taking",
-    "path": "/2022/june/on-note-taking",
-    "date": 1656407184000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Tools for Thought",
-      "Note Taking"
-    ],
-    "description": "",
-    "month": "june",
-    "year": 2022,
-    "ogImage": "/og-images/on-note-taking.png"
-  },
-  "/2022/june/on-writing-tests": {
-    "title": "On Writing Tests",
-    "slug": "on-writing-tests",
-    "path": "/2022/june/on-writing-tests",
-    "date": 1656275961000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Testing"
-    ],
-    "description": "",
-    "month": "june",
-    "year": 2022,
-    "ogImage": "/og-images/on-writing-tests.png"
-  },
-  "/2022/may/moving-to-pnpm": {
-    "title": "Moving to PNPM",
-    "slug": "moving-to-pnpm",
-    "path": "/2022/may/moving-to-pnpm",
-    "date": 1653138076000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development"
-    ],
-    "description": "",
-    "month": "may",
-    "year": 2022,
-    "ogImage": "/og-images/moving-to-pnpm.png"
-  },
-  "/2022/may/switching-back-to-notion": {
-    "title": "Switching back to Notion",
-    "slug": "switching-back-to-notion",
-    "path": "/2022/may/switching-back-to-notion",
-    "date": 1653846676000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Note Taking",
-      "Obsidian",
-      "Notion"
-    ],
-    "description": "",
-    "month": "may",
-    "year": 2022,
-    "ogImage": "/og-images/switching-back-to-notion.png"
-  },
-  "/2022/may/upgrade-guides": {
-    "title": "Upgrade Guides",
-    "slug": "upgrade-guides",
-    "path": "/2022/may/upgrade-guides",
-    "date": 1652783129000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development"
-    ],
-    "description": "",
-    "month": "may",
-    "year": 2022,
-    "ogImage": "/og-images/upgrade-guides.png"
-  },
-  "/2023/april/avoid-distractions": {
-    "title": "Avoid Distractions",
-    "slug": "avoid-distractions",
-    "path": "/2023/april/avoid-distractions",
-    "date": 1681561251000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Advice",
-      "Rant"
-    ],
-    "description": "",
+    "description": "A brief overview on how we launched The Bikeshed Podcast, including a deep dive in our recording and distribution workflows!",
     "month": "april",
-    "year": 2023,
-    "ogImage": "/og-images/avoid-distractions.png"
+    "year": 2025,
+    "ogImage": "/og-images/podcasting-by-hand.png"
   },
-  "/2023/april/nextjs-with-tailwind": {
-    "title": "Setting up Next.js with Tailwind",
-    "slug": "nextjs-with-tailwind",
-    "path": "/2023/april/nextjs-with-tailwind",
-    "date": 1680771054000,
+  {
+    "title": "Replacing Dropbox Capture with Raycast",
+    "slug": "replacing-dropbox-capture-with-raycast",
+    "path": "/2025/march/replacing-dropbox-capture-with-raycast",
+    "date": 1741726568526,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Dropbox",
+      "Raycast",
+      "Tools",
+      "Tip"
+    ],
+    "description": "Recently Dropbox announced that it was shutting down the Capture app/service, so I sought out an alternative that provided a similar user experience!",
+    "month": "march",
+    "year": 2025,
+    "ogImage": "/og-images/replacing-dropbox-capture-with-raycast.png"
+  },
+  {
+    "title": "Quick Tip - Specific Local Module Declarations",
+    "slug": "quick-tip-specific-local-module-definitions",
+    "path": "/2025/february/quick-tip-specific-local-module-definitions",
+    "date": 1740434087554,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "TypeScript",
+      "Web Development",
+      "Tip",
+      "Development",
+      "Node.js"
+    ],
+    "description": "A quick tip outlining how to provide specific TypeScript type definitions for a local module!",
+    "month": "february",
+    "year": 2025,
+    "ogImage": "/og-images/quick-tip-specific-local-module-definitions.png"
+  },
+  {
+    "title": "On File-System Routing Conventions",
+    "slug": "on-file-system-routing-conventions",
+    "path": "/2025/february/on-file-system-routing-conventions",
+    "date": 1740002305473,
     "status": "public",
     "type": "blog-post",
     "tags": [
       "Web Development",
       "Next.js",
-      "Tailwind"
+      "Garbanzo",
+      "Opinion"
     ],
-    "description": "",
-    "month": "april",
-    "year": 2023,
-    "ogImage": "/og-images/nextjs-with-tailwind.png"
+    "description": "Some rough thoughts on building a file-system routing based web application",
+    "month": "february",
+    "year": 2025,
+    "ogImage": "/og-images/on-file-system-routing-conventions.png"
   },
-  "/2023/april/thoughts-on-tailwind": {
-    "title": "My Thoughts on Tailwind",
-    "slug": "thoughts-on-tailwind",
-    "path": "/2023/april/thoughts-on-tailwind",
-    "date": 1681159895000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Tailwind",
-      "CSS"
-    ],
-    "description": "",
-    "month": "april",
-    "year": 2023,
-    "ogImage": "/og-images/thoughts-on-tailwind.png"
-  },
-  "/2023/august/speedbumps": {
-    "title": "Speedbumps",
-    "slug": "speedbumps",
-    "path": "/2023/august/speedbumps",
-    "date": 1692380853000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Organizations",
-      "Teams"
-    ],
-    "description": "",
-    "month": "august",
-    "year": 2023,
-    "ogImage": "/og-images/speedbumps.png"
-  },
-  "/2023/december/being-unopinionated": {
-    "title": "Being Unopinionated",
-    "slug": "being-unopinionated",
-    "path": "/2023/december/being-unopinionated",
-    "date": 1702885418000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "micropost"
-    ],
-    "description": "It's fine for a library to express some opinions about how it should be adopted and how the overall workflow/application in which it is adopted should function. However, it's false advertising to say that it is unopinionated.",
-    "month": "december",
-    "year": 2023,
-    "ogImage": "/og-images/being-unopinionated.png"
-  },
-  "/2023/december/churn-anxiety": {
-    "title": "Churn Anxiety",
-    "slug": "churn-anxiety",
-    "path": "/2023/december/churn-anxiety",
-    "date": 1703792233000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development"
-    ],
-    "description": "When did semver major changes become so scary?",
-    "month": "december",
-    "year": 2023,
-    "ogImage": "/og-images/churn-anxiety.png"
-  },
-  "/2023/december/consistent-local-ports-with-wrangler": {
-    "title": "Consistent Local Ports with Wrangler",
-    "slug": "consistent-local-ports-with-wrangler",
-    "path": "/2023/december/consistent-local-ports-with-wrangler",
-    "date": 1703599291000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "micropost",
-      "Cloudflare"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2023,
-    "ogImage": "/og-images/consistent-local-ports-with-wrangler.png"
-  },
-  "/2023/december/fixing-zeds-language-server": {
-    "title": "Fixing Zed's language server",
-    "slug": "fixing-zeds-language-server",
-    "path": "/2023/december/fixing-zeds-language-server",
-    "date": 1702024329000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Tip",
-      "Zed"
-    ],
-    "description": "Zed language server quick tip; fixing Zed's language server",
-    "month": "december",
-    "year": 2023,
-    "ogImage": "/og-images/fixing-zeds-language-server.png"
-  },
-  "/2023/december/no-process-is-invisible-process": {
-    "title": "No Process is Invisible Process",
-    "slug": "no-process-is-invisible-process",
-    "path": "/2023/december/no-process-is-invisible-process",
-    "date": 1702495052000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "micropost",
-      "Teams"
-    ],
-    "description": "Low/no process workflow wasn't actually no process, it was only an \"invisible\" process. An implicit contract with everyone on the team to do that async workflow on their own time.",
-    "month": "december",
-    "year": 2023,
-    "ogImage": "/og-images/no-process-is-invisible-process.png"
-  },
-  "/2023/december/on-adopting-css-in-js": {
-    "title": "On Adopting CSS-in-JS",
-    "slug": "on-adopting-css-in-js",
-    "path": "/2023/december/on-adopting-css-in-js",
-    "date": 1703050170000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "CSS-in-JS"
-    ],
-    "description": "A brief recap of how Wayfair changed it's CSS approach not once but twice in the span of 5 years!",
-    "month": "december",
-    "year": 2023,
-    "ogImage": "/og-images/on-adopting-css-in-js.png"
-  },
-  "/2023/december/project-deep-dive-tails": {
-    "title": "Project Deep Dive: Tails",
-    "slug": "project-deep-dive-tails",
-    "path": "/2023/december/project-deep-dive-tails",
-    "date": 1703934329000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Project Deep Dive",
-      "Projects",
-      "Web Development",
-      "Cloudflare",
-      "Next.js"
-    ],
-    "description": "A(nother) deep dive into one of my recent side projects; tails - a plain and simple cocktail recipe app.",
-    "month": "december",
-    "year": 2023,
-    "ogImage": "/og-images/project-deep-dive-tails.png"
-  },
-  "/2023/december/service-monitors-and-observability": {
-    "title": "Service Monitors and Observability",
-    "slug": "service-monitors-and-observability",
-    "path": "/2023/december/service-monitors-and-observability",
-    "date": 1703690333000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "micropost",
-      "Observability"
-    ],
-    "description": "Leveraging service monitors properly to improve service observability.",
-    "month": "december",
-    "year": 2023,
-    "ogImage": "/og-images/service-monitors-and-observability.png"
-  },
-  "/2023/december/stop-snacking": {
-    "title": "Stop Snacking",
-    "slug": "stop-snacking",
-    "path": "/2023/december/stop-snacking",
-    "date": 1702628745000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "micropost",
-      "Development"
-    ],
-    "description": "No I don't mean those Milano cookies you keep taking from the office snack wall either (although you should probably stop snacking on those as often as well).",
-    "month": "december",
-    "year": 2023,
-    "ogImage": "/og-images/stop-snacking.png"
-  },
-  "/2023/december/type-safe-process-env": {
-    "title": "Type Safe process.env",
-    "slug": "type-safe-process-env",
-    "path": "/2023/december/type-safe-process-env",
-    "date": 1703601283000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "TypeScript",
-      "micropost",
-      "Snippets"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2023,
-    "ogImage": "/og-images/type-safe-process-env.png"
-  },
-  "/2023/january/dollar-devlog-1": {
-    "title": "Dollar: Devlog 1",
-    "slug": "dollar-devlog-1",
-    "path": "/2023/january/dollar-devlog-1",
-    "date": 1674917826000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Dollar",
-      "Projects"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2023,
-    "ogImage": "/og-images/dollar-devlog-1.png"
-  },
-  "/2023/january/navigating-monorepos-with-ease": {
-    "title": "Navigating Monorepos with Ease",
-    "slug": "navigating-monorepos-with-ease",
-    "path": "/2023/january/navigating-monorepos-with-ease",
-    "date": 1675097870000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development",
-      "Monorepos"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2023,
-    "ogImage": "/og-images/navigating-monorepos-with-ease.png"
-  },
-  "/2023/july/29": {
-    "title": "29",
-    "slug": "29",
-    "path": "/2023/july/29",
-    "date": 1689791818000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Random",
-      "Birthday",
-      "Goals",
-      "Resolutions"
-    ],
-    "description": "",
-    "month": "july",
-    "year": 2023,
-    "ogImage": "/og-images/29.png"
-  },
-  "/2023/july/deno": {
-    "title": "Deno",
-    "slug": "deno",
-    "path": "/2023/july/deno",
-    "date": 1688673261000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development",
-      "micropost",
-      "Deno"
-    ],
-    "description": "",
-    "month": "july",
-    "year": 2023,
-    "ogImage": "/og-images/deno.png"
-  },
-  "/2023/july/distributable-web-apps": {
-    "title": "Idea: Distributable Web Apps",
-    "slug": "distributable-web-apps",
-    "path": "/2023/july/distributable-web-apps",
-    "date": 1690608299000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Random",
-      "Ideas"
-    ],
-    "description": "",
-    "month": "july",
-    "year": 2023,
-    "ogImage": "/og-images/distributable-web-apps.png"
-  },
-  "/2023/july/principles-for-automated-testing": {
-    "title": "Principles for Automated Testing",
-    "slug": "principles-for-automated-testing",
-    "path": "/2023/july/principles-for-automated-testing",
-    "date": 1688721133000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development"
-    ],
-    "description": "",
-    "month": "july",
-    "year": 2023,
-    "ogImage": "/og-images/principles-for-automated-testing.png"
-  },
-  "/2023/june/10x": {
-    "title": "10x Engineers",
-    "slug": "10x",
-    "path": "/2023/june/10x",
-    "date": 1685651637000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Random",
-      "Development",
-      "Rant"
-    ],
-    "description": "",
-    "month": "june",
-    "year": 2023,
-    "ogImage": "/og-images/10x.png"
-  },
-  "/2023/june/fractal-refactoring": {
-    "title": "Fractal Refactoring",
-    "slug": "fractal-refactoring",
-    "path": "/2023/june/fractal-refactoring",
-    "date": 1686338680000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Rant",
-      "Random"
-    ],
-    "description": "",
-    "month": "june",
-    "year": 2023,
-    "ogImage": "/og-images/fractal-refactoring.png"
-  },
-  "/2023/march/dollar-devlog-2": {
-    "title": "Dollar: Devlog 2",
-    "slug": "dollar-devlog-2",
-    "path": "/2023/march/dollar-devlog-2",
-    "date": 1679827620000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Dollar",
-      "Projects"
-    ],
-    "description": "",
-    "month": "march",
-    "year": 2023,
-    "ogImage": "/og-images/dollar-devlog-2.png"
-  },
-  "/2023/march/shiki-on-next-js": {
-    "title": "Setting up Shiki on Next.js",
-    "slug": "shiki-on-next-js",
-    "path": "/2023/march/shiki-on-next-js",
-    "date": 1679850459000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development",
-      "Next.js"
-    ],
-    "description": "",
-    "month": "march",
-    "year": 2023,
-    "ogImage": "/og-images/shiki-on-next-js.png"
-  },
-  "/2023/march/write-it-down": {
-    "title": "Write it down",
-    "slug": "write-it-down",
-    "path": "/2023/march/write-it-down",
-    "date": 1680253201000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Thoughts",
-      "Communication"
-    ],
-    "description": "",
-    "month": "march",
-    "year": 2023,
-    "ogImage": "/og-images/write-it-down.png"
-  },
-  "/2023/november/ai-driven-development": {
-    "title": "AI Driven Development",
-    "slug": "ai-driven-development",
-    "path": "/2023/november/ai-driven-development",
-    "date": 1700405709000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development",
-      "ChatGPT",
-      "AI"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2023,
-    "ogImage": "/og-images/ai-driven-development.png"
-  },
-  "/2023/november/pair-programming": {
-    "title": "Pair Programming",
-    "slug": "pair-programming",
-    "path": "/2023/november/pair-programming",
-    "date": 1701013501000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Development"
-    ],
-    "description": "Pair programming can be good sometimes - but not all the time",
-    "month": "november",
-    "year": 2023,
-    "ogImage": "/og-images/pair-programming.png"
-  },
-  "/2023/november/project-deep-dive-microfibre": {
-    "title": "Project Deep Dive: Microfibre",
-    "slug": "project-deep-dive-microfibre",
-    "path": "/2023/november/project-deep-dive-microfibre",
-    "date": 1701112500000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Project Deep Dive",
-      "Projects",
-      "Web Development",
-      "Go",
-      "Cloudflare",
-      "Next.js"
-    ],
-    "description": "A deep dive into one of my recent side projects; microfibre - a minimal text posting application",
-    "month": "november",
-    "year": 2023,
-    "ogImage": "/og-images/project-deep-dive-microfibre.png"
-  },
-  "/2023/november/teams-and-caterpillar-tracks": {
-    "title": "Teams and Caterpillar Tracks",
-    "slug": "teams-and-caterpillar-tracks",
-    "path": "/2023/november/teams-and-caterpillar-tracks",
-    "date": 1699375122000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Teams"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2023,
-    "ogImage": "/og-images/teams-and-caterpillar-tracks.png"
-  },
-  "/2023/october/go-to-git-utils": {
-    "title": "Go To Git Utils",
-    "slug": "go-to-git-utils",
-    "path": "/2023/october/go-to-git-utils",
-    "date": 1696936441000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development",
-      "Git"
-    ],
-    "description": "",
-    "month": "october",
-    "year": 2023,
-    "ogImage": "/og-images/go-to-git-utils.png"
-  },
-  "/2023/september/finding-react-artifacts": {
-    "title": "Finding React Artifacts",
-    "slug": "finding-react-artifacts",
-    "path": "/2023/september/finding-react-artifacts",
-    "date": 1695073727000,
+  {
+    "title": "You're Building Software Wrong",
+    "slug": "youre-building-software-wrong",
+    "path": "/2025/february/youre-building-software-wrong",
+    "date": 1739666520691,
     "status": "public",
     "type": "blog-post",
     "tags": [
       "Web Development",
       "Development",
-      "micropost"
+      "Software Development"
     ],
-    "description": "",
-    "month": "september",
-    "year": 2023,
-    "ogImage": "/og-images/finding-react-artifacts.png"
+    "description": "Slicing software: why vertical is better than horizontal.",
+    "month": "february",
+    "year": 2025,
+    "ogImage": "/og-images/youre-building-software-wrong.png"
   },
-  "/2023/september/learning-go": {
-    "title": "Learning Go",
-    "slug": "learning-go",
-    "path": "/2023/september/learning-go",
-    "date": 1693561835000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development",
-      "Go",
-      "Learning"
-    ],
-    "description": "",
-    "month": "september",
-    "year": 2023,
-    "ogImage": "/og-images/learning-go.png"
-  },
-  "/2023/september/on-cto-office-hours": {
-    "title": "Jabs and Fluff: On CTO Office Hours",
-    "slug": "on-cto-office-hours",
-    "path": "/2023/september/on-cto-office-hours",
-    "date": 1695639494000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Hot Take",
-      "micropost"
-    ],
-    "description": "",
-    "month": "september",
-    "year": 2023,
-    "ogImage": "/og-images/on-cto-office-hours.png"
-  },
-  "/2023/september/using-marquee-with-react-and-typescript": {
-    "title": "Using Marquee with React and TypeScript",
-    "slug": "using-marquee-with-react-and-typescript",
-    "path": "/2023/september/using-marquee-with-react-and-typescript",
-    "date": 1695468762000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Development",
-      "React",
-      "TypeScript"
-    ],
-    "description": "",
-    "month": "september",
-    "year": 2023,
-    "ogImage": "/og-images/using-marquee-with-react-and-typescript.png"
-  },
-  "/2024/april/configuring-cloudflare-domains-with-vercel": {
-    "title": "Configuring Cloudflare Domains with Vercel",
-    "slug": "configuring-cloudflare-domains-with-vercel",
-    "path": "/2024/april/configuring-cloudflare-domains-with-vercel",
-    "date": 1712306350000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Guides",
-      "Development",
-      "Cloudflare",
-      "Vercel"
-    ],
-    "description": "I've started to use Cloudflare to manage my domains for several side projects, have had to jump through the same hooks multiple times that I figured I should document them here!",
-    "month": "april",
-    "year": 2024,
-    "ogImage": "/og-images/configuring-cloudflare-domains-with-vercel.png"
-  },
-  "/2024/april/funport": {
-    "title": "Funport: True Dynamic Imports in webpack",
-    "slug": "funport",
-    "path": "/2024/april/funport",
-    "date": 1712952033000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "webpack",
-      "Next.js"
-    ],
-    "description": "webpack, and tools built on it like Next.js, don't support true dynamic imports, but I found a way to trick the system!",
-    "month": "april",
-    "year": 2024,
-    "ogImage": "/og-images/funport.png"
-  },
-  "/2024/april/my-current-ai-stack": {
-    "title": "My Current AI Stack",
-    "slug": "my-current-ai-stack",
-    "path": "/2024/april/my-current-ai-stack",
-    "date": 1712335610000,
+  {
+    "title": "Cursor and Obsidian",
+    "slug": "cursor-and-obsidian",
+    "path": "/2025/february/cursor-and-obsidian",
+    "date": 1739459465636,
     "status": "public",
     "type": "blog-post",
     "tags": [
       "AI",
-      "Development"
+      "Obsidian",
+      "Personal Knowledge Management"
     ],
-    "description": "I've been using a variety of AI tools as of late, I figured I'd document the ones I'm primarily using!",
-    "month": "april",
-    "year": 2024,
-    "ogImage": "/og-images/my-current-ai-stack.png"
+    "description": "A quick look at combining Cursor with Obsidian to ask questions of your notes!",
+    "month": "february",
+    "year": 2025,
+    "ogImage": "/og-images/cursor-and-obsidian.png"
   },
-  "/2024/august/dogfooding": {
-    "title": "Dogfooding",
-    "slug": "dogfooding",
-    "path": "/2024/august/dogfooding",
-    "date": 1724254455000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Product"
-    ],
-    "description": "The secret to excellent product teams is using your own product, and often!",
-    "month": "august",
-    "year": 2024,
-    "ogImage": "/og-images/dogfooding.png"
-  },
-  "/2024/august/dont-break-the-implicit-prop-contract": {
-    "title": "Don't Break the Implicit Prop Contract",
-    "slug": "dont-break-the-implicit-prop-contract",
-    "path": "/2024/august/dont-break-the-implicit-prop-contract",
-    "date": 1722879092000,
+  {
+    "title": "Single File Web Apps",
+    "slug": "single-file-web-apps",
+    "path": "/2025/february/single-file-web-apps",
+    "date": 1738603641815,
     "status": "public",
     "type": "blog-post",
     "tags": [
       "Web Development",
-      "Tip",
-      "React"
+      "Development"
     ],
-    "description": "React components have a fundamental contract that is often unstated in their implementation, and you should know about it!",
-    "month": "august",
-    "year": 2024,
-    "ogImage": "/og-images/dont-break-the-implicit-prop-contract.png"
+    "description": "What if you could author an entire web application in a single file?",
+    "month": "february",
+    "year": 2025,
+    "ogImage": "/og-images/single-file-web-apps.png"
   },
-  "/2024/august/git-notes-as-a-tool-for-thought": {
-    "title": "Git Notes as a Tool for Thought",
-    "slug": "git-notes-as-a-tool-for-thought",
-    "path": "/2024/august/git-notes-as-a-tool-for-thought",
-    "date": 1723282971000,
+  {
+    "title": "The AI Development Conundrum",
+    "slug": "the-ai-development-conundrum",
+    "path": "/2025/january/the-ai-development-conundrum",
+    "date": 1738027723626,
     "status": "public",
     "type": "blog-post",
     "tags": [
+      "AI",
       "Development",
-      "Git",
-      "Tools for Thought"
+      "Opinion"
     ],
-    "description": "(Ab)using Git as yet another tool for thought!",
-    "month": "august",
-    "year": 2024,
-    "ogImage": "/og-images/git-notes-as-a-tool-for-thought.png"
+    "description": "Is it a good or a bad thing to offload writing code to AI agents and Large Language Models?",
+    "month": "january",
+    "year": 2025,
+    "ogImage": "/og-images/the-ai-development-conundrum.png"
   },
-  "/2024/december/a-quick-look-at-import-maps": {
+  {
+    "title": "Resetting Controlled Components in Forms",
+    "slug": "resetting-controlled-components-in-forms",
+    "path": "/2025/january/resetting-controlled-components-in-forms",
+    "date": 1737211335595,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "React",
+      "Web Development",
+      "React Server Components"
+    ],
+    "description": "A quick way to handle resetting internal state in components when a parent form is submitted!",
+    "month": "january",
+    "year": 2025,
+    "ogImage": "/og-images/resetting-controlled-components-in-forms.png"
+  },
+  {
+    "title": "Thoughts on New Years Resolutions",
+    "slug": "thoughts-on-new-years-resolutions",
+    "path": "/2024/december/thoughts-on-new-years-resolutions",
+    "date": 1735656777226,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Resolutions",
+      "Goal",
+      "Goals"
+    ],
+    "description": "You don't need to wait until January 1st to set yearly goals and resolutions for yourself!",
+    "month": "december",
+    "year": 2024,
+    "ogImage": "/og-images/thoughts-on-new-years-resolutions.png"
+  },
+  {
+    "title": "Team Memes",
+    "slug": "team-memes",
+    "path": "/2024/december/team-memes",
+    "date": 1734648754152,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Culture",
+      "Team",
+      "Random",
+      "Organizations"
+    ],
+    "description": "A snippet of some shared terminology/concepts (memes) from my time on the Frontend Platform team at Wayfair!",
+    "month": "december",
+    "year": 2024,
+    "ogImage": "/og-images/team-memes.png"
+  },
+  {
     "title": "A Quick Look at Import Maps",
     "slug": "a-quick-look-at-import-maps",
     "path": "/2024/december/a-quick-look-at-import-maps",
@@ -2325,7 +233,7 @@ export let metadata: Record<string, RawFrontmatter> = {
     "year": 2024,
     "ogImage": "/og-images/a-quick-look-at-import-maps.png"
   },
-  "/2024/december/recommended-tech-talks": {
+  {
     "title": "Recommended Tech Talks",
     "slug": "recommended-tech-talks",
     "path": "/2024/december/recommended-tech-talks",
@@ -2344,7 +252,7 @@ export let metadata: Record<string, RawFrontmatter> = {
     "year": 2024,
     "ogImage": "/og-images/recommended-tech-talks.png"
   },
-  "/2024/december/request-for-minimal-rsc-framework": {
+  {
     "title": "Request for a (minimal) RSC Framework",
     "slug": "request-for-minimal-rsc-framework",
     "path": "/2024/december/request-for-minimal-rsc-framework",
@@ -2364,336 +272,24 @@ export let metadata: Record<string, RawFrontmatter> = {
     "year": 2024,
     "ogImage": "/og-images/request-for-minimal-rsc-framework.png"
   },
-  "/2024/december/team-memes": {
-    "title": "Team Memes",
-    "slug": "team-memes",
-    "path": "/2024/december/team-memes",
-    "date": 1734648754152,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Culture",
-      "Team",
-      "Random",
-      "Organizations"
-    ],
-    "description": "A snippet of some shared terminology/concepts (memes) from my time on the Frontend Platform team at Wayfair!",
-    "month": "december",
-    "year": 2024,
-    "ogImage": "/og-images/team-memes.png"
-  },
-  "/2024/december/thoughts-on-new-years-resolutions": {
-    "title": "Thoughts on New Years Resolutions",
-    "slug": "thoughts-on-new-years-resolutions",
-    "path": "/2024/december/thoughts-on-new-years-resolutions",
-    "date": 1735656777226,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Resolutions",
-      "Goal",
-      "Goals"
-    ],
-    "description": "You don't need to wait until January 1st to set yearly goals and resolutions for yourself!",
-    "month": "december",
-    "year": 2024,
-    "ogImage": "/og-images/thoughts-on-new-years-resolutions.png"
-  },
-  "/2024/february/library-docs-monorepo-template": {
-    "title": "The Library-Docs Monorepo Template",
-    "slug": "library-docs-monorepo-template",
-    "path": "/2024/february/library-docs-monorepo-template",
-    "date": 1708018253000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development",
-      "Projects"
-    ],
-    "description": "A monorepo template for managing a library and documentation together.",
-    "month": "february",
-    "year": 2024,
-    "ogImage": "/og-images/library-docs-monorepo-template.png"
-  },
-  "/2024/january/building-better-beacon": {
-    "title": "Building Better Beacon",
-    "slug": "building-better-beacon",
-    "path": "/2024/january/building-better-beacon",
-    "date": 1705388698000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development",
-      "Projects"
-    ],
-    "description": "How we solved an almost show-stopping production bug, and how you can avoid it in your own projects.",
-    "month": "january",
-    "year": 2024,
-    "ogImage": "/og-images/building-better-beacon.png"
-  },
-  "/2024/july/30": {
-    "title": "30",
-    "slug": "30",
-    "path": "/2024/july/30",
-    "date": 1721455200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Random",
-      "Birthday",
-      "Goals",
-      "Resolutions"
-    ],
-    "description": "A quick recap of my goals from the past year and a few goals looking forward as well.",
-    "month": "july",
-    "year": 2024,
-    "ogImage": "/og-images/30.png"
-  },
-  "/2024/july/a-better-useSSR-implementation": {
-    "title": "A Better useSSR Implementation",
-    "slug": "a-better-useSSR-implementation",
-    "path": "/2024/july/a-better-useSSR-implementation",
-    "date": 1721737661000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Tip",
-      "React",
-      "Snippets"
-    ],
-    "description": "Replace that old useState and useEffect combo for a new and better option!",
-    "month": "july",
-    "year": 2024,
-    "ogImage": "/og-images/a-better-useSSR-implementation.png"
-  },
-  "/2024/july/my-current-dev-setup": {
-    "title": "My Current Dev Setup",
-    "slug": "my-current-dev-setup",
-    "path": "/2024/july/my-current-dev-setup",
-    "date": 1720467627000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Development",
-      "Tools"
-    ],
-    "description": "A quick look at the applications and tools that I (generally) use day to day for web development!",
-    "month": "july",
-    "year": 2024,
-    "ogImage": "/og-images/my-current-dev-setup.png"
-  },
-  "/2024/july/simple-obsidian-task-management": {
-    "title": "Simple Obsidian Task Management",
-    "slug": "simple-obsidian-task-management",
-    "path": "/2024/july/simple-obsidian-task-management",
-    "date": 1721407719000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Notes",
-      "Note Taking",
-      "Obsidian",
-      "Task Management"
-    ],
-    "description": "A brief overview of how I manage my tasks in Obsidian",
-    "month": "july",
-    "year": 2024,
-    "ogImage": "/og-images/simple-obsidian-task-management.png"
-  },
-  "/2024/july/switching-back-to-obsidian": {
-    "title": "Switching back to Obsidian",
-    "slug": "switching-back-to-obsidian",
-    "path": "/2024/july/switching-back-to-obsidian",
-    "date": 1719845437000,
+  {
+    "title": "My Updated Obsidian Task Management",
+    "slug": "my-updated-obsidian-task-management",
+    "path": "/2024/november/my-updated-obsidian-task-management",
+    "date": 1732584223913,
     "status": "public",
     "type": "blog-post",
     "tags": [
       "Note Taking",
-      "Obsidian",
-      "Notion"
+      "Task Management",
+      "Obsidian"
     ],
-    "description": "Previously I wrote about switching from Obsidian to Notion, now almost exactly 2 years later, I've opted to give Obsidian another try as my go-to note taking software, here's why!",
-    "month": "july",
+    "description": "A quick update on how I manage my tasks within Obsidian!",
+    "month": "november",
     "year": 2024,
-    "ogImage": "/og-images/switching-back-to-obsidian.png"
+    "ogImage": "/og-images/my-updated-obsidian-task-management.png"
   },
-  "/2024/july/there-is-no-standard-markdown": {
-    "title": "There Is No Standard Markdown",
-    "slug": "there-is-no-standard-markdown",
-    "path": "/2024/july/there-is-no-standard-markdown",
-    "date": 1719843881000,
-    "status": "draft",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development"
-    ],
-    "description": "There are a variety of different markdown \"standards\" out there, and sometimes they're not all that consistent",
-    "month": "july",
-    "year": 2024,
-    "ogImage": "/og-images/there-is-no-standard-markdown.png"
-  },
-  "/2024/june/abstract-your-api": {
-    "title": "Abstract Your API",
-    "slug": "abstract-your-api",
-    "path": "/2024/june/abstract-your-api",
-    "date": 1719737327000,
-    "status": "draft",
-    "type": "blog-post",
-    "tags": [
-      "APIs",
-      "Web Development"
-    ],
-    "description": "Proposing a solution for sharing core \"business\" logic across services!",
-    "month": "june",
-    "year": 2024,
-    "ogImage": "/og-images/abstract-your-api.png"
-  },
-  "/2024/june/tip-request-and-response-headers": {
-    "title": "Tip: Request and Response Headers",
-    "slug": "tip-request-and-response-headers",
-    "path": "/2024/june/tip-request-and-response-headers",
-    "date": 1718015824000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Tip",
-      "Development",
-      "Web Development"
-    ],
-    "description": "There's a common gotcha when creating Web Request and Response instances with Headers!",
-    "month": "june",
-    "year": 2024,
-    "ogImage": "/og-images/tip-request-and-response-headers.png"
-  },
-  "/2024/march/corporate-sponsored-oss": {
-    "title": "Corporate Sponsored OSS",
-    "slug": "corporate-sponsored-oss",
-    "path": "/2024/march/corporate-sponsored-oss",
-    "date": 1710083009000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development",
-      "OSS"
-    ],
-    "description": "The various risks and pitfalls of open source software run by corporations.",
-    "month": "march",
-    "year": 2024,
-    "ogImage": "/og-images/corporate-sponsored-oss.png"
-  },
-  "/2024/march/custom-favicon-recipes": {
-    "title": "Custom Favicon Recipes",
-    "slug": "custom-favicon-recipes",
-    "path": "/2024/march/custom-favicon-recipes",
-    "date": 1711147710000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Web Development"
-    ],
-    "description": "Two neat tricks for enhancing your site's favicon!",
-    "month": "march",
-    "year": 2024,
-    "ogImage": "/og-images/custom-favicon-recipes.png"
-  },
-  "/2024/march/exporting-custom-slack-emoji": {
-    "title": "Exporting Custom Slack Emoji",
-    "slug": "exporting-custom-slack-emoji",
-    "path": "/2024/march/exporting-custom-slack-emoji",
-    "date": 1711367133000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Slack",
-      "Tip",
-      "Guides"
-    ],
-    "description": "How to easily mass-export your custom slack emoji without API access!",
-    "month": "march",
-    "year": 2024,
-    "ogImage": "/og-images/exporting-custom-slack-emoji.png"
-  },
-  "/2024/march/react-error-boundaries-revisited": {
-    "title": "React Error Boundaries: Revisited",
-    "slug": "react-error-boundaries-revisited",
-    "path": "/2024/march/react-error-boundaries-revisited",
-    "date": 1711731624000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Guides",
-      "Development",
-      "React"
-    ],
-    "description": "Revising my previous blog post on React Error Boundaries and my preferred go-to implementation!",
-    "month": "march",
-    "year": 2024,
-    "ogImage": "/og-images/react-error-boundaries-revisited.png"
-  },
-  "/2024/may/hohoro": {
-    "title": "Hohoro",
-    "slug": "hohoro",
-    "path": "/2024/may/hohoro",
-    "date": 1715616810000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Development",
-      "swc",
-      "TypeScript",
-      "Projects"
-    ],
-    "description": "A quick introduction to my new side project, hohoro. An incremental JS/TS library build tool!",
-    "month": "may",
-    "year": 2024,
-    "ogImage": "/og-images/hohoro.png"
-  },
-  "/2024/may/leaving-wayfair": {
-    "title": "Leaving Wayfair",
-    "slug": "leaving-wayfair",
-    "path": "/2024/may/leaving-wayfair",
-    "date": 1715776784000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Career",
-      "Looking Ahead",
-      "Meta",
-      "Thoughts",
-      "Work"
-    ],
-    "description": "The other week was my last week at Wayfair, rounding out almost 8 years at the company. I wanted to reflect a bit on my time there!",
-    "month": "may",
-    "year": 2024,
-    "ogImage": "/og-images/leaving-wayfair.png"
-  },
-  "/2024/may/using-feature-toggles-to-de-risk-refactors": {
-    "title": "Using Feature Toggles to De-risk Refactors",
-    "slug": "using-feature-toggles-to-de-risk-refactors",
-    "path": "/2024/may/using-feature-toggles-to-de-risk-refactors",
-    "date": 1716887064000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Refactors",
-      "Development",
-      "Next.js"
-    ],
-    "description": "Feature toggles are often underused by most software development teams, and yet offer so much value during not only feature development but also refactors",
-    "month": "may",
-    "year": 2024,
-    "ogImage": "/og-images/using-feature-toggles-to-de-risk-refactors.png"
-  },
-  "/2024/november/bluesky-tips-and-tools": {
+  {
     "title": "Bluesky Tips and Tools",
     "slug": "bluesky-tips-and-tools",
     "path": "/2024/november/bluesky-tips-and-tools",
@@ -2711,74 +307,7 @@ export let metadata: Record<string, RawFrontmatter> = {
     "year": 2024,
     "ogImage": "/og-images/bluesky-tips-and-tools.png"
   },
-  "/2024/november/my-updated-obsidian-task-management": {
-    "title": "My Updated Obsidian Task Management",
-    "slug": "my-updated-obsidian-task-management",
-    "path": "/2024/november/my-updated-obsidian-task-management",
-    "date": 1732584223913,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Note Taking",
-      "Task Management",
-      "Obsidian"
-    ],
-    "description": "A quick update on how I manage my tasks within Obsidian!",
-    "month": "november",
-    "year": 2024,
-    "ogImage": "/og-images/my-updated-obsidian-task-management.png"
-  },
-  "/2024/october/building-a-custom-ghostty-theme": {
-    "title": "Building a Custom Ghostty Theme",
-    "slug": "building-a-custom-ghostty-theme",
-    "path": "/2024/october/building-a-custom-ghostty-theme",
-    "date": 1729588952000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Ghostty"
-    ],
-    "description": "How to generate a custom Ghostty theme based on any iterm2 theme!",
-    "month": "october",
-    "year": 2024,
-    "ogImage": "/og-images/building-a-custom-ghostty-theme.png"
-  },
-  "/2024/october/monorepo-tips-and-tricks": {
-    "title": "Monorepo Tips and Tricks",
-    "slug": "monorepo-tips-and-tricks",
-    "path": "/2024/october/monorepo-tips-and-tricks",
-    "date": 1728311888000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Monorepos"
-    ],
-    "description": "Sharing a few core recommendations when working within monorepos to make your life easier!",
-    "month": "october",
-    "year": 2024,
-    "ogImage": "/og-images/monorepo-tips-and-tricks.png"
-  },
-  "/2024/october/offload-complexity": {
-    "title": "Offload Complexity, Don't Offload Learning",
-    "slug": "offload-complexity",
-    "path": "/2024/october/offload-complexity",
-    "date": 1727781677000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "AI",
-      "Career",
-      "Learning"
-    ],
-    "description": "A rough mental model for how you should be leveraging AI as a tool for your own growth",
-    "month": "october",
-    "year": 2024,
-    "ogImage": "/og-images/offload-complexity.png"
-  },
-  "/2024/october/the-bookkeeping-pattern": {
+  {
     "title": "The Bookkeeping Pattern",
     "slug": "the-bookkeeping-pattern",
     "path": "/2024/october/the-bookkeeping-pattern",
@@ -2800,7 +329,23 @@ export let metadata: Record<string, RawFrontmatter> = {
     "year": 2024,
     "ogImage": "/og-images/the-bookkeeping-pattern.png"
   },
-  "/2024/october/tslite": {
+  {
+    "title": "Building a Custom Ghostty Theme",
+    "slug": "building-a-custom-ghostty-theme",
+    "path": "/2024/october/building-a-custom-ghostty-theme",
+    "date": 1729588952000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Ghostty"
+    ],
+    "description": "How to generate a custom Ghostty theme based on any iterm2 theme!",
+    "month": "october",
+    "year": 2024,
+    "ogImage": "/og-images/building-a-custom-ghostty-theme.png"
+  },
+  {
     "title": "TSLite",
     "slug": "tslite",
     "path": "/2024/october/tslite",
@@ -2817,23 +362,41 @@ export let metadata: Record<string, RawFrontmatter> = {
     "year": 2024,
     "ogImage": "/og-images/tslite.png"
   },
-  "/2024/september/more-thoughts-on-dogfooding": {
-    "title": "More Thoughts on Dogfooding",
-    "slug": "more-thoughts-on-dogfooding",
-    "path": "/2024/september/more-thoughts-on-dogfooding",
-    "date": 1725877909000,
+  {
+    "title": "Monorepo Tips and Tricks",
+    "slug": "monorepo-tips-and-tricks",
+    "path": "/2024/october/monorepo-tips-and-tricks",
+    "date": 1728311888000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Monorepos"
+    ],
+    "description": "Sharing a few core recommendations when working within monorepos to make your life easier!",
+    "month": "october",
+    "year": 2024,
+    "ogImage": "/og-images/monorepo-tips-and-tricks.png"
+  },
+  {
+    "title": "Offload Complexity, Don't Offload Learning",
+    "slug": "offload-complexity",
+    "path": "/2024/october/offload-complexity",
+    "date": 1727781677000,
     "status": "public",
     "type": "blog-post",
     "tags": [
       "Development",
-      "Product"
+      "AI",
+      "Career",
+      "Learning"
     ],
-    "description": "Even more thoughts on dogfooding!",
-    "month": "september",
+    "description": "A rough mental model for how you should be leveraging AI as a tool for your own growth",
+    "month": "october",
     "year": 2024,
-    "ogImage": "/og-images/more-thoughts-on-dogfooding.png"
+    "ogImage": "/og-images/offload-complexity.png"
   },
-  "/2024/september/nextjs-with-deno-v2": {
+  {
     "title": "Next.js with Deno v2",
     "slug": "nextjs-with-deno-v2",
     "path": "/2024/september/nextjs-with-deno-v2",
@@ -2850,181 +413,2618 @@ export let metadata: Record<string, RawFrontmatter> = {
     "year": 2024,
     "ogImage": "/og-images/nextjs-with-deno-v2.png"
   },
-  "/2025/april/podcasting-by-hand": {
-    "title": "Podcasting By Hand",
-    "slug": "podcasting-by-hand",
-    "path": "/2025/april/podcasting-by-hand",
-    "date": 1744629340844,
+  {
+    "title": "More Thoughts on Dogfooding",
+    "slug": "more-thoughts-on-dogfooding",
+    "path": "/2024/september/more-thoughts-on-dogfooding",
+    "date": 1725877909000,
     "status": "public",
     "type": "blog-post",
     "tags": [
-      "Web Development",
-      "Podcasting",
-      "The Bikeshed Pod"
+      "Development",
+      "Product"
     ],
-    "description": "A brief overview on how we launched The Bikeshed Podcast, including a deep dive in our recording and distribution workflows!",
-    "month": "april",
-    "year": 2025,
-    "ogImage": "/og-images/podcasting-by-hand.png"
+    "description": "Even more thoughts on dogfooding!",
+    "month": "september",
+    "year": 2024,
+    "ogImage": "/og-images/more-thoughts-on-dogfooding.png"
   },
-  "/2025/april/server-side-rendering-compatible-css-theming": {
-    "title": "Server Side Rendering Compatible CSS Theming",
-    "slug": "server-side-rendering-compatible-css-theming",
-    "path": "/2025/april/server-side-rendering-compatible-css-theming",
-    "date": 1744749638305,
+  {
+    "title": "Dogfooding",
+    "slug": "dogfooding",
+    "path": "/2024/august/dogfooding",
+    "date": 1724254455000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Product"
+    ],
+    "description": "The secret to excellent product teams is using your own product, and often!",
+    "month": "august",
+    "year": 2024,
+    "ogImage": "/og-images/dogfooding.png"
+  },
+  {
+    "title": "Git Notes as a Tool for Thought",
+    "slug": "git-notes-as-a-tool-for-thought",
+    "path": "/2024/august/git-notes-as-a-tool-for-thought",
+    "date": 1723282971000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Git",
+      "Tools for Thought"
+    ],
+    "description": "(Ab)using Git as yet another tool for thought!",
+    "month": "august",
+    "year": 2024,
+    "ogImage": "/og-images/git-notes-as-a-tool-for-thought.png"
+  },
+  {
+    "title": "Don't Break the Implicit Prop Contract",
+    "slug": "dont-break-the-implicit-prop-contract",
+    "path": "/2024/august/dont-break-the-implicit-prop-contract",
+    "date": 1722879092000,
     "status": "public",
     "type": "blog-post",
     "tags": [
       "Web Development",
-      "Theming",
-      "CSS",
-      "Next.js",
-      "Waku",
+      "Tip",
+      "React"
+    ],
+    "description": "React components have a fundamental contract that is often unstated in their implementation, and you should know about it!",
+    "month": "august",
+    "year": 2024,
+    "ogImage": "/og-images/dont-break-the-implicit-prop-contract.png"
+  },
+  {
+    "title": "A Better useSSR Implementation",
+    "slug": "a-better-useSSR-implementation",
+    "path": "/2024/july/a-better-useSSR-implementation",
+    "date": 1721737661000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Tip",
       "React",
-      "Tip"
+      "Snippets"
     ],
-    "description": "A quick tip to implementing CSS theming that's compatible with Server Side Rendered applications!",
-    "month": "april",
-    "year": 2025,
-    "ogImage": "/og-images/server-side-rendering-compatible-css-theming.png"
+    "description": "Replace that old useState and useEffect combo for a new and better option!",
+    "month": "july",
+    "year": 2024,
+    "ogImage": "/og-images/a-better-useSSR-implementation.png"
   },
-  "/2025/february/cursor-and-obsidian": {
-    "title": "Cursor and Obsidian",
-    "slug": "cursor-and-obsidian",
-    "path": "/2025/february/cursor-and-obsidian",
-    "date": 1739459465636,
+  {
+    "title": "30",
+    "slug": "30",
+    "path": "/2024/july/30",
+    "date": 1721455200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Birthday",
+      "Goals",
+      "Resolutions"
+    ],
+    "description": "A quick recap of my goals from the past year and a few goals looking forward as well.",
+    "month": "july",
+    "year": 2024,
+    "ogImage": "/og-images/30.png"
+  },
+  {
+    "title": "Simple Obsidian Task Management",
+    "slug": "simple-obsidian-task-management",
+    "path": "/2024/july/simple-obsidian-task-management",
+    "date": 1721407719000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Notes",
+      "Note Taking",
+      "Obsidian",
+      "Task Management"
+    ],
+    "description": "A brief overview of how I manage my tasks in Obsidian",
+    "month": "july",
+    "year": 2024,
+    "ogImage": "/og-images/simple-obsidian-task-management.png"
+  },
+  {
+    "title": "My Current Dev Setup",
+    "slug": "my-current-dev-setup",
+    "path": "/2024/july/my-current-dev-setup",
+    "date": 1720467627000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Development",
+      "Tools"
+    ],
+    "description": "A quick look at the applications and tools that I (generally) use day to day for web development!",
+    "month": "july",
+    "year": 2024,
+    "ogImage": "/og-images/my-current-dev-setup.png"
+  },
+  {
+    "title": "Switching back to Obsidian",
+    "slug": "switching-back-to-obsidian",
+    "path": "/2024/july/switching-back-to-obsidian",
+    "date": 1719845437000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Note Taking",
+      "Obsidian",
+      "Notion"
+    ],
+    "description": "Previously I wrote about switching from Obsidian to Notion, now almost exactly 2 years later, I've opted to give Obsidian another try as my go-to note taking software, here's why!",
+    "month": "july",
+    "year": 2024,
+    "ogImage": "/og-images/switching-back-to-obsidian.png"
+  },
+  {
+    "title": "There Is No Standard Markdown",
+    "slug": "there-is-no-standard-markdown",
+    "path": "/2024/july/there-is-no-standard-markdown",
+    "date": 1719843881000,
+    "status": "draft",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development"
+    ],
+    "description": "There are a variety of different markdown \"standards\" out there, and sometimes they're not all that consistent",
+    "month": "july",
+    "year": 2024,
+    "ogImage": "/og-images/there-is-no-standard-markdown.png"
+  },
+  {
+    "title": "Abstract Your API",
+    "slug": "abstract-your-api",
+    "path": "/2024/june/abstract-your-api",
+    "date": 1719737327000,
+    "status": "draft",
+    "type": "blog-post",
+    "tags": [
+      "APIs",
+      "Web Development"
+    ],
+    "description": "Proposing a solution for sharing core \"business\" logic across services!",
+    "month": "june",
+    "year": 2024,
+    "ogImage": "/og-images/abstract-your-api.png"
+  },
+  {
+    "title": "Tip: Request and Response Headers",
+    "slug": "tip-request-and-response-headers",
+    "path": "/2024/june/tip-request-and-response-headers",
+    "date": 1718015824000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Tip",
+      "Development",
+      "Web Development"
+    ],
+    "description": "There's a common gotcha when creating Web Request and Response instances with Headers!",
+    "month": "june",
+    "year": 2024,
+    "ogImage": "/og-images/tip-request-and-response-headers.png"
+  },
+  {
+    "title": "Using Feature Toggles to De-risk Refactors",
+    "slug": "using-feature-toggles-to-de-risk-refactors",
+    "path": "/2024/may/using-feature-toggles-to-de-risk-refactors",
+    "date": 1716887064000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Refactors",
+      "Development",
+      "Next.js"
+    ],
+    "description": "Feature toggles are often underused by most software development teams, and yet offer so much value during not only feature development but also refactors",
+    "month": "may",
+    "year": 2024,
+    "ogImage": "/og-images/using-feature-toggles-to-de-risk-refactors.png"
+  },
+  {
+    "title": "Leaving Wayfair",
+    "slug": "leaving-wayfair",
+    "path": "/2024/may/leaving-wayfair",
+    "date": 1715776784000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Career",
+      "Looking Ahead",
+      "Meta",
+      "Thoughts",
+      "Work"
+    ],
+    "description": "The other week was my last week at Wayfair, rounding out almost 8 years at the company. I wanted to reflect a bit on my time there!",
+    "month": "may",
+    "year": 2024,
+    "ogImage": "/og-images/leaving-wayfair.png"
+  },
+  {
+    "title": "Hohoro",
+    "slug": "hohoro",
+    "path": "/2024/may/hohoro",
+    "date": 1715616810000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Development",
+      "swc",
+      "TypeScript",
+      "Projects"
+    ],
+    "description": "A quick introduction to my new side project, hohoro. An incremental JS/TS library build tool!",
+    "month": "may",
+    "year": 2024,
+    "ogImage": "/og-images/hohoro.png"
+  },
+  {
+    "title": "Funport: True Dynamic Imports in webpack",
+    "slug": "funport",
+    "path": "/2024/april/funport",
+    "date": 1712952033000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "webpack",
+      "Next.js"
+    ],
+    "description": "webpack, and tools built on it like Next.js, don't support true dynamic imports, but I found a way to trick the system!",
+    "month": "april",
+    "year": 2024,
+    "ogImage": "/og-images/funport.png"
+  },
+  {
+    "title": "My Current AI Stack",
+    "slug": "my-current-ai-stack",
+    "path": "/2024/april/my-current-ai-stack",
+    "date": 1712335610000,
     "status": "public",
     "type": "blog-post",
     "tags": [
       "AI",
-      "Obsidian",
-      "Personal Knowledge Management"
+      "Development"
     ],
-    "description": "A quick look at combining Cursor with Obsidian to ask questions of your notes!",
-    "month": "february",
-    "year": 2025,
-    "ogImage": "/og-images/cursor-and-obsidian.png"
+    "description": "I've been using a variety of AI tools as of late, I figured I'd document the ones I'm primarily using!",
+    "month": "april",
+    "year": 2024,
+    "ogImage": "/og-images/my-current-ai-stack.png"
   },
-  "/2025/february/on-file-system-routing-conventions": {
-    "title": "On File-System Routing Conventions",
-    "slug": "on-file-system-routing-conventions",
-    "path": "/2025/february/on-file-system-routing-conventions",
-    "date": 1740002305473,
+  {
+    "title": "Configuring Cloudflare Domains with Vercel",
+    "slug": "configuring-cloudflare-domains-with-vercel",
+    "path": "/2024/april/configuring-cloudflare-domains-with-vercel",
+    "date": 1712306350000,
     "status": "public",
     "type": "blog-post",
     "tags": [
-      "Web Development",
-      "Next.js",
-      "Garbanzo",
-      "Opinion"
-    ],
-    "description": "Some rough thoughts on building a file-system routing based web application",
-    "month": "february",
-    "year": 2025,
-    "ogImage": "/og-images/on-file-system-routing-conventions.png"
-  },
-  "/2025/february/quick-tip-specific-local-module-definitions": {
-    "title": "Quick Tip - Specific Local Module Declarations",
-    "slug": "quick-tip-specific-local-module-definitions",
-    "path": "/2025/february/quick-tip-specific-local-module-definitions",
-    "date": 1740434087554,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "TypeScript",
-      "Web Development",
-      "Tip",
+      "Guides",
       "Development",
-      "Node.js"
+      "Cloudflare",
+      "Vercel"
     ],
-    "description": "A quick tip outlining how to provide specific TypeScript type definitions for a local module!",
-    "month": "february",
-    "year": 2025,
-    "ogImage": "/og-images/quick-tip-specific-local-module-definitions.png"
+    "description": "I've started to use Cloudflare to manage my domains for several side projects, have had to jump through the same hooks multiple times that I figured I should document them here!",
+    "month": "april",
+    "year": 2024,
+    "ogImage": "/og-images/configuring-cloudflare-domains-with-vercel.png"
   },
-  "/2025/february/single-file-web-apps": {
-    "title": "Single File Web Apps",
-    "slug": "single-file-web-apps",
-    "path": "/2025/february/single-file-web-apps",
-    "date": 1738603641815,
+  {
+    "title": "React Error Boundaries: Revisited",
+    "slug": "react-error-boundaries-revisited",
+    "path": "/2024/march/react-error-boundaries-revisited",
+    "date": 1711731624000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Guides",
+      "Development",
+      "React"
+    ],
+    "description": "Revising my previous blog post on React Error Boundaries and my preferred go-to implementation!",
+    "month": "march",
+    "year": 2024,
+    "ogImage": "/og-images/react-error-boundaries-revisited.png"
+  },
+  {
+    "title": "Exporting Custom Slack Emoji",
+    "slug": "exporting-custom-slack-emoji",
+    "path": "/2024/march/exporting-custom-slack-emoji",
+    "date": 1711367133000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Slack",
+      "Tip",
+      "Guides"
+    ],
+    "description": "How to easily mass-export your custom slack emoji without API access!",
+    "month": "march",
+    "year": 2024,
+    "ogImage": "/og-images/exporting-custom-slack-emoji.png"
+  },
+  {
+    "title": "Custom Favicon Recipes",
+    "slug": "custom-favicon-recipes",
+    "path": "/2024/march/custom-favicon-recipes",
+    "date": 1711147710000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development"
+    ],
+    "description": "Two neat tricks for enhancing your site's favicon!",
+    "month": "march",
+    "year": 2024,
+    "ogImage": "/og-images/custom-favicon-recipes.png"
+  },
+  {
+    "title": "Corporate Sponsored OSS",
+    "slug": "corporate-sponsored-oss",
+    "path": "/2024/march/corporate-sponsored-oss",
+    "date": 1710083009000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development",
+      "OSS"
+    ],
+    "description": "The various risks and pitfalls of open source software run by corporations.",
+    "month": "march",
+    "year": 2024,
+    "ogImage": "/og-images/corporate-sponsored-oss.png"
+  },
+  {
+    "title": "The Library-Docs Monorepo Template",
+    "slug": "library-docs-monorepo-template",
+    "path": "/2024/february/library-docs-monorepo-template",
+    "date": 1708018253000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development",
+      "Projects"
+    ],
+    "description": "A monorepo template for managing a library and documentation together.",
+    "month": "february",
+    "year": 2024,
+    "ogImage": "/og-images/library-docs-monorepo-template.png"
+  },
+  {
+    "title": "Building Better Beacon",
+    "slug": "building-better-beacon",
+    "path": "/2024/january/building-better-beacon",
+    "date": 1705388698000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development",
+      "Projects"
+    ],
+    "description": "How we solved an almost show-stopping production bug, and how you can avoid it in your own projects.",
+    "month": "january",
+    "year": 2024,
+    "ogImage": "/og-images/building-better-beacon.png"
+  },
+  {
+    "title": "Project Deep Dive: Tails",
+    "slug": "project-deep-dive-tails",
+    "path": "/2023/december/project-deep-dive-tails",
+    "date": 1703934329000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Project Deep Dive",
+      "Projects",
+      "Web Development",
+      "Cloudflare",
+      "Next.js"
+    ],
+    "description": "A(nother) deep dive into one of my recent side projects; tails - a plain and simple cocktail recipe app.",
+    "month": "december",
+    "year": 2023,
+    "ogImage": "/og-images/project-deep-dive-tails.png"
+  },
+  {
+    "title": "Churn Anxiety",
+    "slug": "churn-anxiety",
+    "path": "/2023/december/churn-anxiety",
+    "date": 1703792233000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development"
+    ],
+    "description": "When did semver major changes become so scary?",
+    "month": "december",
+    "year": 2023,
+    "ogImage": "/og-images/churn-anxiety.png"
+  },
+  {
+    "title": "Service Monitors and Observability",
+    "slug": "service-monitors-and-observability",
+    "path": "/2023/december/service-monitors-and-observability",
+    "date": 1703690333000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "micropost",
+      "Observability"
+    ],
+    "description": "Leveraging service monitors properly to improve service observability.",
+    "month": "december",
+    "year": 2023,
+    "ogImage": "/og-images/service-monitors-and-observability.png"
+  },
+  {
+    "title": "Type Safe process.env",
+    "slug": "type-safe-process-env",
+    "path": "/2023/december/type-safe-process-env",
+    "date": 1703601283000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "TypeScript",
+      "micropost",
+      "Snippets"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2023,
+    "ogImage": "/og-images/type-safe-process-env.png"
+  },
+  {
+    "title": "Consistent Local Ports with Wrangler",
+    "slug": "consistent-local-ports-with-wrangler",
+    "path": "/2023/december/consistent-local-ports-with-wrangler",
+    "date": 1703599291000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "micropost",
+      "Cloudflare"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2023,
+    "ogImage": "/og-images/consistent-local-ports-with-wrangler.png"
+  },
+  {
+    "title": "On Adopting CSS-in-JS",
+    "slug": "on-adopting-css-in-js",
+    "path": "/2023/december/on-adopting-css-in-js",
+    "date": 1703050170000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "CSS-in-JS"
+    ],
+    "description": "A brief recap of how Wayfair changed it's CSS approach not once but twice in the span of 5 years!",
+    "month": "december",
+    "year": 2023,
+    "ogImage": "/og-images/on-adopting-css-in-js.png"
+  },
+  {
+    "title": "Being Unopinionated",
+    "slug": "being-unopinionated",
+    "path": "/2023/december/being-unopinionated",
+    "date": 1702885418000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "micropost"
+    ],
+    "description": "It's fine for a library to express some opinions about how it should be adopted and how the overall workflow/application in which it is adopted should function. However, it's false advertising to say that it is unopinionated.",
+    "month": "december",
+    "year": 2023,
+    "ogImage": "/og-images/being-unopinionated.png"
+  },
+  {
+    "title": "Stop Snacking",
+    "slug": "stop-snacking",
+    "path": "/2023/december/stop-snacking",
+    "date": 1702628745000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "micropost",
+      "Development"
+    ],
+    "description": "No I don't mean those Milano cookies you keep taking from the office snack wall either (although you should probably stop snacking on those as often as well).",
+    "month": "december",
+    "year": 2023,
+    "ogImage": "/og-images/stop-snacking.png"
+  },
+  {
+    "title": "No Process is Invisible Process",
+    "slug": "no-process-is-invisible-process",
+    "path": "/2023/december/no-process-is-invisible-process",
+    "date": 1702495052000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "micropost",
+      "Teams"
+    ],
+    "description": "Low/no process workflow wasn't actually no process, it was only an \"invisible\" process. An implicit contract with everyone on the team to do that async workflow on their own time.",
+    "month": "december",
+    "year": 2023,
+    "ogImage": "/og-images/no-process-is-invisible-process.png"
+  },
+  {
+    "title": "Fixing Zed's language server",
+    "slug": "fixing-zeds-language-server",
+    "path": "/2023/december/fixing-zeds-language-server",
+    "date": 1702024329000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Tip",
+      "Zed"
+    ],
+    "description": "Zed language server quick tip; fixing Zed's language server",
+    "month": "december",
+    "year": 2023,
+    "ogImage": "/og-images/fixing-zeds-language-server.png"
+  },
+  {
+    "title": "Project Deep Dive: Microfibre",
+    "slug": "project-deep-dive-microfibre",
+    "path": "/2023/november/project-deep-dive-microfibre",
+    "date": 1701112500000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Project Deep Dive",
+      "Projects",
+      "Web Development",
+      "Go",
+      "Cloudflare",
+      "Next.js"
+    ],
+    "description": "A deep dive into one of my recent side projects; microfibre - a minimal text posting application",
+    "month": "november",
+    "year": 2023,
+    "ogImage": "/og-images/project-deep-dive-microfibre.png"
+  },
+  {
+    "title": "Pair Programming",
+    "slug": "pair-programming",
+    "path": "/2023/november/pair-programming",
+    "date": 1701013501000,
     "status": "public",
     "type": "blog-post",
     "tags": [
       "Web Development",
       "Development"
     ],
-    "description": "What if you could author an entire web application in a single file?",
-    "month": "february",
-    "year": 2025,
-    "ogImage": "/og-images/single-file-web-apps.png"
+    "description": "Pair programming can be good sometimes - but not all the time",
+    "month": "november",
+    "year": 2023,
+    "ogImage": "/og-images/pair-programming.png"
   },
-  "/2025/february/youre-building-software-wrong": {
-    "title": "You're Building Software Wrong",
-    "slug": "youre-building-software-wrong",
-    "path": "/2025/february/youre-building-software-wrong",
-    "date": 1739666520691,
+  {
+    "title": "AI Driven Development",
+    "slug": "ai-driven-development",
+    "path": "/2023/november/ai-driven-development",
+    "date": 1700405709000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development",
+      "ChatGPT",
+      "AI"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2023,
+    "ogImage": "/og-images/ai-driven-development.png"
+  },
+  {
+    "title": "Teams and Caterpillar Tracks",
+    "slug": "teams-and-caterpillar-tracks",
+    "path": "/2023/november/teams-and-caterpillar-tracks",
+    "date": 1699375122000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Teams"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2023,
+    "ogImage": "/og-images/teams-and-caterpillar-tracks.png"
+  },
+  {
+    "title": "Go To Git Utils",
+    "slug": "go-to-git-utils",
+    "path": "/2023/october/go-to-git-utils",
+    "date": 1696936441000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development",
+      "Git"
+    ],
+    "description": "",
+    "month": "october",
+    "year": 2023,
+    "ogImage": "/og-images/go-to-git-utils.png"
+  },
+  {
+    "title": "Jabs and Fluff: On CTO Office Hours",
+    "slug": "on-cto-office-hours",
+    "path": "/2023/september/on-cto-office-hours",
+    "date": 1695639494000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Hot Take",
+      "micropost"
+    ],
+    "description": "",
+    "month": "september",
+    "year": 2023,
+    "ogImage": "/og-images/on-cto-office-hours.png"
+  },
+  {
+    "title": "Using Marquee with React and TypeScript",
+    "slug": "using-marquee-with-react-and-typescript",
+    "path": "/2023/september/using-marquee-with-react-and-typescript",
+    "date": 1695468762000,
     "status": "public",
     "type": "blog-post",
     "tags": [
       "Web Development",
       "Development",
-      "Software Development"
+      "React",
+      "TypeScript"
     ],
-    "description": "Slicing software: why vertical is better than horizontal.",
-    "month": "february",
-    "year": 2025,
-    "ogImage": "/og-images/youre-building-software-wrong.png"
+    "description": "",
+    "month": "september",
+    "year": 2023,
+    "ogImage": "/og-images/using-marquee-with-react-and-typescript.png"
   },
-  "/2025/january/resetting-controlled-components-in-forms": {
-    "title": "Resetting Controlled Components in Forms",
-    "slug": "resetting-controlled-components-in-forms",
-    "path": "/2025/january/resetting-controlled-components-in-forms",
-    "date": 1737211335595,
+  {
+    "title": "Finding React Artifacts",
+    "slug": "finding-react-artifacts",
+    "path": "/2023/september/finding-react-artifacts",
+    "date": 1695073727000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Development",
+      "micropost"
+    ],
+    "description": "",
+    "month": "september",
+    "year": 2023,
+    "ogImage": "/og-images/finding-react-artifacts.png"
+  },
+  {
+    "title": "Learning Go",
+    "slug": "learning-go",
+    "path": "/2023/september/learning-go",
+    "date": 1693561835000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development",
+      "Go",
+      "Learning"
+    ],
+    "description": "",
+    "month": "september",
+    "year": 2023,
+    "ogImage": "/og-images/learning-go.png"
+  },
+  {
+    "title": "Speedbumps",
+    "slug": "speedbumps",
+    "path": "/2023/august/speedbumps",
+    "date": 1692380853000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Organizations",
+      "Teams"
+    ],
+    "description": "",
+    "month": "august",
+    "year": 2023,
+    "ogImage": "/og-images/speedbumps.png"
+  },
+  {
+    "title": "Idea: Distributable Web Apps",
+    "slug": "distributable-web-apps",
+    "path": "/2023/july/distributable-web-apps",
+    "date": 1690608299000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Ideas"
+    ],
+    "description": "",
+    "month": "july",
+    "year": 2023,
+    "ogImage": "/og-images/distributable-web-apps.png"
+  },
+  {
+    "title": "29",
+    "slug": "29",
+    "path": "/2023/july/29",
+    "date": 1689791818000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Birthday",
+      "Goals",
+      "Resolutions"
+    ],
+    "description": "",
+    "month": "july",
+    "year": 2023,
+    "ogImage": "/og-images/29.png"
+  },
+  {
+    "title": "Principles for Automated Testing",
+    "slug": "principles-for-automated-testing",
+    "path": "/2023/july/principles-for-automated-testing",
+    "date": 1688721133000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development"
+    ],
+    "description": "",
+    "month": "july",
+    "year": 2023,
+    "ogImage": "/og-images/principles-for-automated-testing.png"
+  },
+  {
+    "title": "Deno",
+    "slug": "deno",
+    "path": "/2023/july/deno",
+    "date": 1688673261000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development",
+      "micropost",
+      "Deno"
+    ],
+    "description": "",
+    "month": "july",
+    "year": 2023,
+    "ogImage": "/og-images/deno.png"
+  },
+  {
+    "title": "Fractal Refactoring",
+    "slug": "fractal-refactoring",
+    "path": "/2023/june/fractal-refactoring",
+    "date": 1686338680000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Rant",
+      "Random"
+    ],
+    "description": "",
+    "month": "june",
+    "year": 2023,
+    "ogImage": "/og-images/fractal-refactoring.png"
+  },
+  {
+    "title": "10x Engineers",
+    "slug": "10x",
+    "path": "/2023/june/10x",
+    "date": 1685651637000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Development",
+      "Rant"
+    ],
+    "description": "",
+    "month": "june",
+    "year": 2023,
+    "ogImage": "/og-images/10x.png"
+  },
+  {
+    "title": "Avoid Distractions",
+    "slug": "avoid-distractions",
+    "path": "/2023/april/avoid-distractions",
+    "date": 1681561251000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Advice",
+      "Rant"
+    ],
+    "description": "",
+    "month": "april",
+    "year": 2023,
+    "ogImage": "/og-images/avoid-distractions.png"
+  },
+  {
+    "title": "My Thoughts on Tailwind",
+    "slug": "thoughts-on-tailwind",
+    "path": "/2023/april/thoughts-on-tailwind",
+    "date": 1681159895000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Tailwind",
+      "CSS"
+    ],
+    "description": "",
+    "month": "april",
+    "year": 2023,
+    "ogImage": "/og-images/thoughts-on-tailwind.png"
+  },
+  {
+    "title": "Setting up Next.js with Tailwind",
+    "slug": "nextjs-with-tailwind",
+    "path": "/2023/april/nextjs-with-tailwind",
+    "date": 1680771054000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Next.js",
+      "Tailwind"
+    ],
+    "description": "",
+    "month": "april",
+    "year": 2023,
+    "ogImage": "/og-images/nextjs-with-tailwind.png"
+  },
+  {
+    "title": "Write it down",
+    "slug": "write-it-down",
+    "path": "/2023/march/write-it-down",
+    "date": 1680253201000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Thoughts",
+      "Communication"
+    ],
+    "description": "",
+    "month": "march",
+    "year": 2023,
+    "ogImage": "/og-images/write-it-down.png"
+  },
+  {
+    "title": "Setting up Shiki on Next.js",
+    "slug": "shiki-on-next-js",
+    "path": "/2023/march/shiki-on-next-js",
+    "date": 1679850459000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development",
+      "Next.js"
+    ],
+    "description": "",
+    "month": "march",
+    "year": 2023,
+    "ogImage": "/og-images/shiki-on-next-js.png"
+  },
+  {
+    "title": "Dollar: Devlog 2",
+    "slug": "dollar-devlog-2",
+    "path": "/2023/march/dollar-devlog-2",
+    "date": 1679827620000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Dollar",
+      "Projects"
+    ],
+    "description": "",
+    "month": "march",
+    "year": 2023,
+    "ogImage": "/og-images/dollar-devlog-2.png"
+  },
+  {
+    "title": "Navigating Monorepos with Ease",
+    "slug": "navigating-monorepos-with-ease",
+    "path": "/2023/january/navigating-monorepos-with-ease",
+    "date": 1675097870000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development",
+      "Monorepos"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2023,
+    "ogImage": "/og-images/navigating-monorepos-with-ease.png"
+  },
+  {
+    "title": "Dollar: Devlog 1",
+    "slug": "dollar-devlog-1",
+    "path": "/2023/january/dollar-devlog-1",
+    "date": 1674917826000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Dollar",
+      "Projects"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2023,
+    "ogImage": "/og-images/dollar-devlog-1.png"
+  },
+  {
+    "title": "My Updated Next.js Setup",
+    "slug": "updated-opinionated-nextjs-setup",
+    "path": "/2022/december/updated-opinionated-nextjs-setup",
+    "date": 1672037995000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Next.js"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2022,
+    "ogImage": "/og-images/updated-opinionated-nextjs-setup.png"
+  },
+  {
+    "title": "Yarn Berry Gitignore Settings",
+    "slug": "yarn-berry-gitignore",
+    "path": "/2022/july/yarn-berry-gitignore",
+    "date": 1658389656000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Yarn"
+    ],
+    "description": "",
+    "month": "july",
+    "year": 2022,
+    "ogImage": "/og-images/yarn-berry-gitignore.png"
+  },
+  {
+    "title": "On Note Taking",
+    "slug": "on-note-taking",
+    "path": "/2022/june/on-note-taking",
+    "date": 1656407184000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Tools for Thought",
+      "Note Taking"
+    ],
+    "description": "",
+    "month": "june",
+    "year": 2022,
+    "ogImage": "/og-images/on-note-taking.png"
+  },
+  {
+    "title": "On Writing Tests",
+    "slug": "on-writing-tests",
+    "path": "/2022/june/on-writing-tests",
+    "date": 1656275961000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Testing"
+    ],
+    "description": "",
+    "month": "june",
+    "year": 2022,
+    "ogImage": "/og-images/on-writing-tests.png"
+  },
+  {
+    "title": "Switching back to Notion",
+    "slug": "switching-back-to-notion",
+    "path": "/2022/may/switching-back-to-notion",
+    "date": 1653846676000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Note Taking",
+      "Obsidian",
+      "Notion"
+    ],
+    "description": "",
+    "month": "may",
+    "year": 2022,
+    "ogImage": "/og-images/switching-back-to-notion.png"
+  },
+  {
+    "title": "Moving to PNPM",
+    "slug": "moving-to-pnpm",
+    "path": "/2022/may/moving-to-pnpm",
+    "date": 1653138076000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development"
+    ],
+    "description": "",
+    "month": "may",
+    "year": 2022,
+    "ogImage": "/og-images/moving-to-pnpm.png"
+  },
+  {
+    "title": "Upgrade Guides",
+    "slug": "upgrade-guides",
+    "path": "/2022/may/upgrade-guides",
+    "date": 1652783129000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development"
+    ],
+    "description": "",
+    "month": "may",
+    "year": 2022,
+    "ogImage": "/og-images/upgrade-guides.png"
+  },
+  {
+    "title": "My Opinionated Next.js Setup",
+    "slug": "my-opinionated-nextjs-setup",
+    "path": "/2022/january/my-opinionated-nextjs-setup",
+    "date": 1643541028000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Next.js"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2022,
+    "ogImage": "/og-images/my-opinionated-nextjs-setup.png"
+  },
+  {
+    "title": "My Two Favorite React Tricks",
+    "slug": "my-two-favorite-react-tricks",
+    "path": "/2022/january/my-two-favorite-react-tricks",
+    "date": 1643228713000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "React",
+      "Development"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2022,
+    "ogImage": "/og-images/my-two-favorite-react-tricks.png"
+  },
+  {
+    "title": "Switching to iPhone",
+    "slug": "switching-to-iphone",
+    "path": "/2022/january/switching-to-iphone",
+    "date": 1642257821000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Review",
+      "Android",
+      "iOS",
+      "iPhone"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2022,
+    "ogImage": "/og-images/switching-to-iphone.png"
+  },
+  {
+    "title": "Year in Music",
+    "slug": "2021-in-music",
+    "path": "/2021/december/2021-in-music",
+    "date": 1637998249000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Recap"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2021,
+    "ogImage": "/og-images/2021-in-music.png"
+  },
+  {
+    "title": "Pair Programming (stub)",
+    "slug": "pair-programming-stub",
+    "path": "/2021/november/pair-programming-stub",
+    "date": 1637404850000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "stub"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2021,
+    "ogImage": "/og-images/pair-programming-stub.png"
+  },
+  {
+    "title": "Fast Feedback Systems",
+    "slug": "fast-feedback-systems",
+    "path": "/2021/november/fast-feedback-systems",
+    "date": 1637404297000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "micropost"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2021,
+    "ogImage": "/og-images/fast-feedback-systems.png"
+  },
+  {
+    "title": "Video Games",
+    "slug": "video-games",
+    "path": "/2021/november/video-games",
+    "date": 1637401671000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "micropost"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2021,
+    "ogImage": "/og-images/video-games.png"
+  },
+  {
+    "title": "Delete it",
+    "slug": "delete-it",
+    "path": "/2021/october/delete-it",
+    "date": 1634379511000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "micropost"
+    ],
+    "description": "",
+    "month": "october",
+    "year": 2021,
+    "ogImage": "/og-images/delete-it.png"
+  },
+  {
+    "title": "Linear Tools Enforce Linear Thinking",
+    "slug": "linear-tools",
+    "path": "/2021/september/linear-tools",
+    "date": 1630772502000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Rant",
+      "Tools for Thought"
+    ],
+    "description": "",
+    "month": "september",
+    "year": 2021,
+    "ogImage": "/og-images/linear-tools.png"
+  },
+  {
+    "title": "Mac Setup Guide",
+    "slug": "mac-setup-guide",
+    "path": "/2021/september/mac-setup-guide",
+    "date": 1630761615000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Guides"
+    ],
+    "description": "",
+    "month": "september",
+    "year": 2021,
+    "ogImage": "/og-images/mac-setup-guide.png"
+  },
+  {
+    "title": "Build Your Developer Toolbox",
+    "slug": "build-your-developer-toolbox",
+    "path": "/2021/august/build-your-developer-toolbox",
+    "date": 1630088843000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development"
+    ],
+    "description": "",
+    "month": "august",
+    "year": 2021,
+    "ogImage": "/og-images/build-your-developer-toolbox.png"
+  },
+  {
+    "title": "Start Fresh",
+    "slug": "start-fresh",
+    "path": "/2021/august/start-fresh",
+    "date": 1630086205000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Productivity"
+    ],
+    "description": "",
+    "month": "august",
+    "year": 2021,
+    "ogImage": "/og-images/start-fresh.png"
+  },
+  {
+    "title": "On Written Communication",
+    "slug": "on-written-communication",
+    "path": "/2021/august/on-written-communication",
+    "date": 1629832211000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Collaboration",
+      "Communication",
+      "Writing"
+    ],
+    "description": "",
+    "month": "august",
+    "year": 2021,
+    "ogImage": "/og-images/on-written-communication.png"
+  },
+  {
+    "title": "Updating Forked Repos",
+    "slug": "updating-forked-repos",
+    "path": "/2021/august/updating-forked-repos",
+    "date": 1629644473000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Git",
+      "Tip"
+    ],
+    "description": "",
+    "month": "august",
+    "year": 2021,
+    "ogImage": "/og-images/updating-forked-repos.png"
+  },
+  {
+    "title": "React Testing Library: Checkboxes and events",
+    "slug": "rtl-checkbox-events",
+    "path": "/2021/august/rtl-checkbox-events",
+    "date": 1628615660000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "React Testing Library",
+      "React"
+    ],
+    "description": "",
+    "month": "august",
+    "year": 2021,
+    "ogImage": "/og-images/rtl-checkbox-events.png"
+  },
+  {
+    "title": "Roll your own Obsidian sync",
+    "slug": "obsidian-sync",
+    "path": "/2021/august/obsidian-sync",
+    "date": 1628596800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Obsidian",
+      "Dropbox"
+    ],
+    "description": "",
+    "month": "august",
+    "year": 2021,
+    "ogImage": "/og-images/obsidian-sync.png"
+  },
+  {
+    "title": "The Squeeze",
+    "slug": "the-squeeze",
+    "path": "/2021/june/the-squeeze",
+    "date": 1624881600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Thoughts",
+      "Work"
+    ],
+    "description": "",
+    "month": "june",
+    "year": 2021,
+    "ogImage": "/og-images/the-squeeze.png"
+  },
+  {
+    "title": "Learning",
+    "slug": "learning",
+    "path": "/2021/june/learning",
+    "date": 1623585600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Thoughts"
+    ],
+    "description": "",
+    "month": "june",
+    "year": 2021,
+    "ogImage": "/og-images/learning.png"
+  },
+  {
+    "title": "On Code Review",
+    "slug": "on-code-review",
+    "path": "/2021/march/on-code-review",
+    "date": 1615809600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development Practices",
+      "Code Review"
+    ],
+    "description": "",
+    "month": "march",
+    "year": 2021,
+    "ogImage": "/og-images/on-code-review.png"
+  },
+  {
+    "title": "Array Chunking",
+    "slug": "array-chunking",
+    "path": "/2021/march/array-chunking",
+    "date": 1615118400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "JavaScript",
+      "Development"
+    ],
+    "description": "",
+    "month": "march",
+    "year": 2021,
+    "ogImage": "/og-images/array-chunking.png"
+  },
+  {
+    "title": "Fast",
+    "slug": "fast",
+    "path": "/2021/march/fast",
+    "date": 1614600000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development Practices"
+    ],
+    "description": "",
+    "month": "march",
+    "year": 2021,
+    "ogImage": "/og-images/fast.png"
+  },
+  {
+    "title": "Writing Node Scripts",
+    "slug": "writing-node-scripts",
+    "path": "/2021/march/writing-node-scripts",
+    "date": 1614600000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Node"
+    ],
+    "description": "",
+    "month": "march",
+    "year": 2021,
+    "ogImage": "/og-images/writing-node-scripts.png"
+  },
+  {
+    "title": "useConsole",
+    "slug": "useConsole",
+    "path": "/2021/february/useConsole",
+    "date": 1613304000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Snippets",
+      "JavaScript",
+      "React",
+      "Development"
+    ],
+    "description": "",
+    "month": "february",
+    "year": 2021,
+    "ogImage": "/og-images/useConsole.png"
+  },
+  {
+    "title": "yw",
+    "slug": "yw",
+    "path": "/2021/february/yw",
+    "date": 1612785600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Snippets",
+      "Yarn",
+      "Monorepos",
+      "Development"
+    ],
+    "description": "",
+    "month": "february",
+    "year": 2021,
+    "ogImage": "/og-images/yw.png"
+  },
+  {
+    "title": "Hack Sprint",
+    "slug": "hack-sprint",
+    "path": "/2021/january/hack-sprint",
+    "date": 1611057600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Hacking"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2021,
+    "ogImage": "/og-images/hack-sprint.png"
+  },
+  {
+    "title": "Simple Props",
+    "slug": "simple-props",
+    "path": "/2021/january/simple-props",
+    "date": 1610971200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Side Projects"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2021,
+    "ogImage": "/og-images/simple-props.png"
+  },
+  {
+    "title": "Computed Design Tokens",
+    "slug": "computed-theme",
+    "path": "/2021/january/computed-theme",
+    "date": 1610193600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Design Systems",
+      "Theme"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2021,
+    "ogImage": "/og-images/computed-theme.png"
+  },
+  {
+    "title": "2021: Resolutions",
+    "slug": "2021",
+    "path": "/2021/january/2021",
+    "date": 1609502400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Resolutions"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2021,
+    "ogImage": "/og-images/2021.png"
+  },
+  {
+    "title": "2020: Year in Review",
+    "slug": "2020",
+    "path": "/2020/december/2020",
+    "date": 1609416000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Recap"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2020,
+    "ogImage": "/og-images/2020.png"
+  },
+  {
+    "title": "Building a Web Sandbox: Part 1",
+    "slug": "sandbox-part-1",
+    "path": "/2020/december/sandbox-part-1",
+    "date": 1608552000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Side Projects"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2020,
+    "ogImage": "/og-images/sandbox-part-1.png"
+  },
+  {
+    "title": "Literate (web) Programming",
+    "slug": "literate-programming",
+    "path": "/2020/december/literate-programming",
+    "date": 1608379200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Ideas"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2020,
+    "ogImage": "/og-images/literate-programming.png"
+  },
+  {
+    "title": "NextJS Analytics with Airtable",
+    "slug": "nextjs-analytics-with-airtable",
+    "path": "/2020/december/nextjs-analytics-with-airtable",
+    "date": 1607860800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Side Projects"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2020,
+    "ogImage": "/og-images/nextjs-analytics-with-airtable.png"
+  },
+  {
+    "title": "Pair Code Reviews",
+    "slug": "pair-code-reviews",
+    "path": "/2020/december/pair-code-reviews",
+    "date": 1606910400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Collaboration",
+      "Code Review"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2020,
+    "ogImage": "/og-images/pair-code-reviews.png"
+  },
+  {
+    "title": "Enhancing Slack",
+    "slug": "enhancing-slack",
+    "path": "/2020/july/enhancing-slack",
+    "date": 1594209600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Slack",
+      "Product Development"
+    ],
+    "description": "",
+    "month": "july",
+    "year": 2020,
+    "ogImage": "/og-images/enhancing-slack.png"
+  },
+  {
+    "title": "A Note on Consistency",
+    "slug": "a-note-on-consistency",
+    "path": "/2020/may/a-note-on-consistency",
+    "date": 1590926400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Collaboration",
+      "Teams"
+    ],
+    "description": "",
+    "month": "may",
+    "year": 2020,
+    "ogImage": "/og-images/a-note-on-consistency.png"
+  },
+  {
+    "title": "The Rabbit Hole",
+    "slug": "the-rabbit-hole",
+    "path": "/2020/april/the-rabbit-hole",
+    "date": 1586001600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Side Projects"
+    ],
+    "description": "",
+    "month": "april",
+    "year": 2020,
+    "ogImage": "/og-images/the-rabbit-hole.png"
+  },
+  {
+    "title": "A Note On Meetings",
+    "slug": "a-note-on-meetings",
+    "path": "/2020/april/a-note-on-meetings",
+    "date": 1585915200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Meetings",
+      "Note"
+    ],
+    "description": "",
+    "month": "april",
+    "year": 2020,
+    "ogImage": "/og-images/a-note-on-meetings.png"
+  },
+  {
+    "title": "A Note On Anti-Patterns",
+    "slug": "a-note-on-anti-patterns",
+    "path": "/2020/april/a-note-on-anti-patterns",
+    "date": 1585828800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Note"
+    ],
+    "description": "",
+    "month": "april",
+    "year": 2020,
+    "ogImage": "/og-images/a-note-on-anti-patterns.png"
+  },
+  {
+    "title": "Stateful Providers",
+    "slug": "stateful-providers",
+    "path": "/2020/march/stateful-providers",
+    "date": 1585396800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "React",
+      "Development Practices"
+    ],
+    "description": "",
+    "month": "march",
+    "year": 2020,
+    "ogImage": "/og-images/stateful-providers.png"
+  },
+  {
+    "title": "Draft Pull Requests",
+    "slug": "draft-pull-requests",
+    "path": "/2020/march/draft-pull-requests",
+    "date": 1584964800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Collaboration",
+      "Code Review"
+    ],
+    "description": "",
+    "month": "march",
+    "year": 2020,
+    "ogImage": "/og-images/draft-pull-requests.png"
+  },
+  {
+    "title": "February 20, 2020",
+    "slug": "back-bay-fens",
+    "path": "/2020/february/back-bay-fens",
+    "date": 1582200000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Photos",
+      "Back Bay"
+    ],
+    "description": "",
+    "month": "february",
+    "year": 2020,
+    "ogImage": "/og-images/back-bay-fens.png"
+  },
+  {
+    "title": "Summer 2019 - Bend Oregon",
+    "slug": "bend",
+    "path": "/2019/july/bend",
+    "date": 1564228800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Travel",
+      "Bend"
+    ],
+    "description": "",
+    "month": "july",
+    "year": 2019,
+    "ogImage": "/og-images/bend.png"
+  },
+  {
+    "title": "Theme First UI Development",
+    "slug": "theme-first-ui-development",
+    "path": "/2019/july/theme-first-ui-development",
+    "date": 1563451200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "React",
+      "Design Tokens",
+      "Design Systems"
+    ],
+    "description": "",
+    "month": "july",
+    "year": 2019,
+    "ogImage": "/og-images/theme-first-ui-development.png"
+  },
+  {
+    "title": "Deploying Automatically using GitHub Actions",
+    "slug": "deploying-with-github-actions",
+    "path": "/2019/june/deploying-with-github-actions",
+    "date": 1559476800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development"
+    ],
+    "description": "",
+    "month": "june",
+    "year": 2019,
+    "ogImage": "/og-images/deploying-with-github-actions.png"
+  },
+  {
+    "title": "Simpler and Smaller",
+    "slug": "simpler-and-smaller",
+    "path": "/2019/june/simpler-and-smaller",
+    "date": 1559390400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development"
+    ],
+    "description": "",
+    "month": "june",
+    "year": 2019,
+    "ogImage": "/og-images/simpler-and-smaller.png"
+  },
+  {
+    "title": "Maintenance Costs",
+    "slug": "maintenance-costs",
+    "path": "/2019/may/maintenance-costs",
+    "date": 1558267200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development"
+    ],
+    "description": "",
+    "month": "may",
+    "year": 2019,
+    "ogImage": "/og-images/maintenance-costs.png"
+  },
+  {
+    "title": "Snapshot Testing",
+    "slug": "snapshot-testing",
+    "path": "/2019/march/snapshot-testing",
+    "date": 1551441600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Testing"
+    ],
+    "description": "",
+    "month": "march",
+    "year": 2019,
+    "ogImage": "/og-images/snapshot-testing.png"
+  },
+  {
+    "title": "useReducer, don't useState",
+    "slug": "why-you-should-useReducer",
+    "path": "/2019/february/why-you-should-useReducer",
+    "date": 1549800000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "React"
+    ],
+    "description": "",
+    "month": "february",
+    "year": 2019,
+    "ogImage": "/og-images/why-you-should-useReducer.png"
+  },
+  {
+    "title": "Hooks Tips Ep. 2 - Migrating Instance Variables",
+    "slug": "hooks-tips-instance-variables",
+    "path": "/2019/february/hooks-tips-instance-variables",
+    "date": 1549368000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "React"
+    ],
+    "description": "",
+    "month": "february",
+    "year": 2019,
+    "ogImage": "/og-images/hooks-tips-instance-variables.png"
+  },
+  {
+    "title": "Hooks Tips Ep. 1 - The Dependency Array",
+    "slug": "hooks-tips-dependency-array",
+    "path": "/2019/february/hooks-tips-dependency-array",
+    "date": 1549108800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "React"
+    ],
+    "description": "",
+    "month": "february",
+    "year": 2019,
+    "ogImage": "/og-images/hooks-tips-dependency-array.png"
+  },
+  {
+    "title": "Building a Live Editor",
+    "slug": "building-a-live-editor",
+    "path": "/2019/february/building-a-live-editor",
+    "date": 1549022400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Side Projects"
+    ],
+    "description": "",
+    "month": "february",
+    "year": 2019,
+    "ogImage": "/og-images/building-a-live-editor.png"
+  },
+  {
+    "title": "Start Small, Accept Change",
+    "slug": "start-small",
+    "path": "/2019/february/start-small",
+    "date": 1549022400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Side Projects"
+    ],
+    "description": "",
+    "month": "february",
+    "year": 2019,
+    "ogImage": "/og-images/start-small.png"
+  },
+  {
+    "title": "React Error Boundaries",
+    "slug": "react-error-boundaries",
+    "path": "/2019/january/react-error-boundaries",
+    "date": 1548936000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "React"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2019,
+    "ogImage": "/og-images/react-error-boundaries.png"
+  },
+  {
+    "title": "Starting Fresh",
+    "slug": "starting-fresh",
+    "path": "/2018/december/starting-fresh",
+    "date": 1544011200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Thoughts",
+      "Redesign"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2018,
+    "ogImage": "/og-images/starting-fresh.png"
+  },
+  {
+    "title": "Testing Software",
+    "slug": "testing-software",
+    "path": "/2018/december/testing-software",
+    "date": 1543665600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Testing"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2018,
+    "ogImage": "/og-images/testing-software.png"
+  },
+  {
+    "title": "Suspense Plus GraphQL",
+    "slug": "suspense-plus-graphql",
+    "path": "/2018/november/suspense-plus-graphql",
+    "date": 1541948640000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "React",
+      "GraphQL",
+      "Suspense",
+      "Web Development"
+    ],
+    "description": "A few thoughts on using Suspense with GraphQL to optimize application data loading",
+    "month": "november",
+    "year": 2018,
+    "ogImage": "/og-images/suspense-plus-graphql.png"
+  },
+  {
+    "title": "Missing Detail",
+    "slug": "missing-detail",
+    "path": "/2018/november/missing-detail",
+    "date": 1541356200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Article"
+    ],
+    "description": "A few thoughts on the article \"Reality has a surprising amount of detail\"",
+    "month": "november",
+    "year": 2018,
+    "ogImage": "/og-images/missing-detail.png"
+  },
+  {
+    "title": "Matt's Log - October",
+    "slug": "matts-log-october",
+    "path": "/2018/october/matts-log-october",
+    "date": 1538514660000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Log"
+    ],
+    "description": "A quick log of what I have been up to in October",
+    "month": "october",
+    "year": 2018,
+    "ogImage": "/og-images/matts-log-october.png"
+  },
+  {
+    "title": "You've Launched, Now What?",
+    "slug": "youve-launched-now-what",
+    "path": "/2018/september/youve-launched-now-what",
+    "date": 1537715160000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Launch"
+    ],
+    "description": "A few thoughts on what to do after you launch a new project",
+    "month": "september",
+    "year": 2018,
+    "ogImage": "/og-images/youve-launched-now-what.png"
+  },
+  {
+    "title": "Summer 2018 Trip",
+    "slug": "summer-2018-trip",
+    "path": "/2018/july/summer-2018-trip",
+    "date": 1532179380000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Travel",
+      "Photos"
+    ],
+    "description": "A few photos from my summer trip!",
+    "month": "july",
+    "year": 2018,
+    "ogImage": "/og-images/summer-2018-trip.png"
+  },
+  {
+    "title": "Taking a Break",
+    "slug": "taking-a-break",
+    "path": "/2018/july/taking-a-break",
+    "date": 1530695220000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Burnout",
+      "Web Development",
+      "Development"
+    ],
+    "description": "A few quick thoughts on burn out and taking a break",
+    "month": "july",
+    "year": 2018,
+    "ogImage": "/og-images/taking-a-break.png"
+  },
+  {
+    "title": "Managing Complex UI Component State",
+    "slug": "complex-ui-components",
+    "path": "/2018/may/complex-ui-components",
+    "date": 1527508800000,
     "status": "public",
     "type": "blog-post",
     "tags": [
       "React",
       "Web Development",
-      "React Server Components"
+      "Components"
     ],
-    "description": "A quick way to handle resetting internal state in components when a parent form is submitted!",
-    "month": "january",
-    "year": 2025,
-    "ogImage": "/og-images/resetting-controlled-components-in-forms.png"
+    "description": "A few thoughts on managing complex UI component state within React",
+    "month": "may",
+    "year": 2018,
+    "ogImage": "/og-images/complex-ui-components.png"
   },
-  "/2025/january/the-ai-development-conundrum": {
-    "title": "The AI Development Conundrum",
-    "slug": "the-ai-development-conundrum",
-    "path": "/2025/january/the-ai-development-conundrum",
-    "date": 1738027723626,
+  {
+    "title": "Understanding React 16.3 Updates",
+    "slug": "understanding-react-16-3-updates",
+    "path": "/2018/april/understanding-react-16-3-updates",
+    "date": 1523210040000,
     "status": "public",
     "type": "blog-post",
     "tags": [
-      "AI",
-      "Development",
-      "Opinion"
+      "React",
+      "JavaScript",
+      "Web Development"
     ],
-    "description": "Is it a good or a bad thing to offload writing code to AI agents and Large Language Models?",
-    "month": "january",
-    "year": 2025,
-    "ogImage": "/og-images/the-ai-development-conundrum.png"
+    "description": "A quick overview of the new lifecycle methods introduced in React 16.3",
+    "month": "april",
+    "year": 2018,
+    "ogImage": "/og-images/understanding-react-16-3-updates.png"
   },
-  "/2025/march/replacing-dropbox-capture-with-raycast": {
-    "title": "Replacing Dropbox Capture with Raycast",
-    "slug": "replacing-dropbox-capture-with-raycast",
-    "path": "/2025/march/replacing-dropbox-capture-with-raycast",
-    "date": 1741726568526,
+  {
+    "title": "2018",
+    "slug": "2018",
+    "path": "/2018/january/2018",
+    "date": 1516104000000,
     "status": "public",
     "type": "blog-post",
     "tags": [
-      "Dropbox",
-      "Raycast",
-      "Tools",
-      "Tip"
+      "Recap",
+      "Looking Ahead"
     ],
-    "description": "Recently Dropbox announced that it was shutting down the Capture app/service, so I sought out an alternative that provided a similar user experience!",
+    "description": "A recap and update on some of the projects I am working on at the start of 2018",
+    "month": "january",
+    "year": 2018,
+    "ogImage": "/og-images/2018.png"
+  },
+  {
+    "title": "CSS in JS",
+    "slug": "css-in-js",
+    "path": "/2017/april/css-in-js",
+    "date": 1491048000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "CSS",
+      "JavaScript",
+      "Web Development"
+    ],
+    "description": "A few thoughts and patterns for using styled-jsx or other CSS-in-JS solutions",
+    "month": "april",
+    "year": 2017,
+    "ogImage": "/og-images/css-in-js.png"
+  },
+  {
+    "title": "Redesign v6",
+    "slug": "redesign-v6",
+    "path": "/2017/march/redesign-v6",
+    "date": 1489579200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Redesign",
+      "Thoughts",
+      "Next.js",
+      "Web Development"
+    ],
+    "description": "A few thoughts on the redesign of my personal site, adopting Next.js and deploying via Now",
     "month": "march",
-    "year": 2025,
-    "ogImage": "/og-images/replacing-dropbox-capture-with-raycast.png"
+    "year": 2017,
+    "ogImage": "/og-images/redesign-v6.png"
+  },
+  {
+    "title": "JavaScript Weirdness",
+    "slug": "javascript-weirdness",
+    "path": "/2017/march/javascript-weirdness",
+    "date": 1489233600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "JavaScript",
+      "Web Development"
+    ],
+    "description": "A few weird things about JavaScript",
+    "month": "march",
+    "year": 2017,
+    "ogImage": "/og-images/javascript-weirdness.png"
+  },
+  {
+    "title": "Calendar",
+    "slug": "calendar",
+    "path": "/2017/march/calendar",
+    "date": 1489147200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Calendar",
+      "Web Development"
+    ],
+    "description": "Building a calendar web application",
+    "month": "march",
+    "year": 2017,
+    "ogImage": "/og-images/calendar.png"
+  },
+  {
+    "title": "Rebuilding Mustache",
+    "slug": "rebuilding-mustache",
+    "path": "/2017/march/rebuilding-mustache",
+    "date": 1488369600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Web Development"
+    ],
+    "description": "",
+    "month": "march",
+    "year": 2017,
+    "ogImage": "/og-images/rebuilding-mustache.png"
+  },
+  {
+    "title": "Push vs Pull AI",
+    "slug": "push-vs-pull-ai",
+    "path": "/2017/january/push-vs-pull-ai",
+    "date": 1483272000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Technology",
+      "AI"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2017,
+    "ogImage": "/og-images/push-vs-pull-ai.png"
+  },
+  {
+    "title": "Links",
+    "slug": "links",
+    "path": "/2016/november/links",
+    "date": 1479556800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Roundup",
+      "Collection"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2016,
+    "ogImage": "/og-images/links.png"
+  },
+  {
+    "title": "The Great CSS Debate",
+    "slug": "css-debate",
+    "path": "/2016/october/css-debate",
+    "date": 1475928000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "CSS"
+    ],
+    "description": "",
+    "month": "october",
+    "year": 2016,
+    "ogImage": "/og-images/css-debate.png"
+  },
+  {
+    "title": "October 4th",
+    "slug": "october-4th",
+    "path": "/2016/october/october-4th",
+    "date": 1475582400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Technology",
+      "Google"
+    ],
+    "description": "",
+    "month": "october",
+    "year": 2016,
+    "ogImage": "/og-images/october-4th.png"
+  },
+  {
+    "title": "My New Website",
+    "slug": "my-new-website",
+    "path": "/2016/august/my-new-website",
+    "date": 1472385600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Redesign",
+      "Thoughts"
+    ],
+    "description": "",
+    "month": "august",
+    "year": 2016,
+    "ogImage": "/og-images/my-new-website.png"
+  },
+  {
+    "title": "Pull Quotes",
+    "slug": "pull-quotes",
+    "path": "/2016/august/pull-quotes",
+    "date": 1472040000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web",
+      "Thoughts"
+    ],
+    "description": "",
+    "month": "august",
+    "year": 2016,
+    "ogImage": "/og-images/pull-quotes.png"
+  },
+  {
+    "title": "Redesign v5",
+    "slug": "redesign-v5",
+    "path": "/2016/august/redesign-v5",
+    "date": 1472040000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Thoughts",
+      "Redesign"
+    ],
+    "description": "",
+    "month": "august",
+    "year": 2016,
+    "ogImage": "/og-images/redesign-v5.png"
+  },
+  {
+    "title": "Attribute Selectors",
+    "slug": "attribute-selectors",
+    "path": "/2016/august/attribute-selectors",
+    "date": 1471780800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "CSS",
+      "Development"
+    ],
+    "description": "",
+    "month": "august",
+    "year": 2016,
+    "ogImage": "/og-images/attribute-selectors.png"
+  },
+  {
+    "title": "August",
+    "slug": "august",
+    "path": "/2016/august/august",
+    "date": 1471694400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Recap"
+    ],
+    "description": "",
+    "month": "august",
+    "year": 2016,
+    "ogImage": "/og-images/august.png"
+  },
+  {
+    "title": "Redesign",
+    "slug": "redesign",
+    "path": "/2016/april/redesign",
+    "date": 1459771200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Thoughts",
+      "Redesign"
+    ],
+    "description": "",
+    "month": "april",
+    "year": 2016,
+    "ogImage": "/og-images/redesign.png"
+  },
+  {
+    "title": "Afraid",
+    "slug": "afraid",
+    "path": "/2016/january/afraid",
+    "date": 1453464000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Meta"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2016,
+    "ogImage": "/og-images/afraid.png"
+  },
+  {
+    "title": "Clientside",
+    "slug": "clientside",
+    "path": "/2016/january/clientside",
+    "date": 1453204800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2016,
+    "ogImage": "/og-images/clientside.png"
+  },
+  {
+    "title": "10,000 Characters",
+    "slug": "10000-characters",
+    "path": "/2016/january/10000-characters",
+    "date": 1452081600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Twitter",
+      "Thoughts"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2016,
+    "ogImage": "/og-images/10000-characters.png"
+  },
+  {
+    "title": "Building in 2016",
+    "slug": "building-in-2016",
+    "path": "/2016/january/building-in-2016",
+    "date": 1451822400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Projects"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2016,
+    "ogImage": "/og-images/building-in-2016.png"
+  },
+  {
+    "title": "My First Project of 2016",
+    "slug": "my-first-project-of-2016",
+    "path": "/2016/january/my-first-project-of-2016",
+    "date": 1451649600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Projects"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2016,
+    "ogImage": "/og-images/my-first-project-of-2016.png"
+  },
+  {
+    "title": "DJI vs GoPro",
+    "slug": "dji-vs-gopro",
+    "path": "/2016/january/dji-vs-gopro",
+    "date": 1451649600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Technology",
+      "Competition"
+    ],
+    "description": "",
+    "month": "january",
+    "year": 2016,
+    "ogImage": "/og-images/dji-vs-gopro.png"
+  },
+  {
+    "title": "2015",
+    "slug": "2015",
+    "path": "/2015/december/2015",
+    "date": 1451563200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Recap"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2015,
+    "ogImage": "/og-images/2015.png"
+  },
+  {
+    "title": "Looking Ahead: 2016",
+    "slug": "2016",
+    "path": "/2015/december/2016",
+    "date": 1451563200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Looking Ahead"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2015,
+    "ogImage": "/og-images/2016.png"
+  },
+  {
+    "title": "Blogging vs Working",
+    "slug": "blogging-vs-working",
+    "path": "/2015/december/blogging-vs-working",
+    "date": 1450180800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Thoughts"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2015,
+    "ogImage": "/og-images/blogging-vs-working.png"
+  },
+  {
+    "title": "Powerpoint",
+    "slug": "powerpoint",
+    "path": "/2015/december/powerpoint",
+    "date": 1449057600000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Startups",
+      "Ideas"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2015,
+    "ogImage": "/og-images/powerpoint.png"
+  },
+  {
+    "title": "The Social Max",
+    "slug": "the-social-max",
+    "path": "/2015/december/the-social-max",
+    "date": 1448971200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Social Media"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2015,
+    "ogImage": "/og-images/the-social-max.png"
+  },
+  {
+    "title": "Thanksgiving",
+    "slug": "thanksgiving",
+    "path": "/2015/november/thanksgiving",
+    "date": 1448366400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Thanks"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2015,
+    "ogImage": "/og-images/thanksgiving.png"
+  },
+  {
+    "title": "Family Time",
+    "slug": "family-time",
+    "path": "/2015/november/family-time",
+    "date": 1448020800000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Family"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2015,
+    "ogImage": "/og-images/family-time.png"
+  },
+  {
+    "title": "Weekend Projects",
+    "slug": "weekend-projects",
+    "path": "/2015/november/weekend-projects",
+    "date": 1446638400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Side Projects"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2015,
+    "ogImage": "/og-images/weekend-projects.png"
+  },
+  {
+    "title": "The Message is in the Medium",
+    "slug": "message",
+    "path": "/2015/november/message",
+    "date": 1446552000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Meta",
+      "Communication"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2015,
+    "ogImage": "/og-images/message.png"
+  },
+  {
+    "title": "A New Look",
+    "slug": "a-new-look",
+    "path": "/2015/november/a-new-look",
+    "date": 1446379200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Thoughts",
+      "Redesign"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2015,
+    "ogImage": "/og-images/a-new-look.png"
+  },
+  {
+    "title": "A New Resume",
+    "slug": "a-new-resume",
+    "path": "/2015/november/a-new-resume",
+    "date": 1446379200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Career",
+      "Side Projects"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2015,
+    "ogImage": "/og-images/a-new-resume.png"
   }
-};
+];

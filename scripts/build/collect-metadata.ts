@@ -6,25 +6,23 @@ export let mdxRootDir = "./src/mdx";
 
 export async function getMDXFiles(): Promise<Array<string>> {
   let filePaths = await glob(`${mdxRootDir}/**/*.mdx`);
-  return filePaths
-    .filter((path) => !path.includes("__sandbox"))
-    .toSorted((a, b) => a.localeCompare(b));
+  return filePaths.filter((path) => !path.includes("__sandbox"));
 }
 
-export async function collectMetadata(files: Array<string>) {
-  let metadata: Record<string, RawFrontmatter> = {};
+export async function collectMetadata(
+  files: Array<string>,
+): Promise<Array<RawFrontmatter>> {
+  let metadata: Array<RawFrontmatter> = [];
 
   await Promise.all(
     files.map(async (file) => {
       let content = await Bun.file(file).text();
       let { data } = matter(content);
-      metadata[
-        file.replace(mdxRootDir.replace("./", ""), "").replace(".mdx", "")
-      ] = data as RawFrontmatter;
+      metadata.push(data as RawFrontmatter);
     }),
   );
 
-  return Object.fromEntries(
-    Object.entries(metadata).sort((a, b) => a[0].localeCompare(b[0])),
+  return metadata.sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
   );
 }

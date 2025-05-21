@@ -30,8 +30,8 @@ export async function generateRSS() {
   });
 
   let enhancedMetadata = await Promise.all(
-    Object.entries(metadata).map(async ([slug, meta]) => {
-      let rawContent = await Bun.file(`./src/mdx/${slug}.mdx`).text();
+    metadata.map(async (meta) => {
+      let rawContent = await Bun.file(`./src/mdx/${meta.path}.mdx`).text();
       let { content } = matter(rawContent);
       try {
         let transformedContent = await transformMdx(content, {
@@ -49,13 +49,13 @@ export async function generateRSS() {
         } as Parameters<typeof transformMdx>[1]);
         return { ...meta, content: transformedContent };
       } catch (error) {
-        console.error(`Error transforming content for ${slug}:`, error);
+        console.error(`Error transforming content for ${meta.path}:`, error);
         throw error;
       }
     }),
   );
 
-  for (let meta of Object.values(enhancedMetadata)) {
+  for (let meta of enhancedMetadata) {
     let url = `https://matthamlin.me/${meta.path}`;
     feed.addItem({
       title: meta.title,

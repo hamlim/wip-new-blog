@@ -59,7 +59,7 @@ export async function generateOGImages() {
 
   let metadata = await collectMetadata(files);
 
-  for (let meta of Object.values(metadata)) {
+  for (let meta of metadata) {
     if (imageCache.has(meta.slug)) {
       let cacheHit = imageCache.get(meta.slug);
       if (
