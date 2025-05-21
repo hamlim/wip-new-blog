@@ -20,7 +20,7 @@ async function getLastModifiedDate(
 ): Promise<Date | null> {
   let filePath = `src/mdx/${frontmatter.path}.mdx`;
 
-  let repoName = "wip-new-blog";
+  let repoName = "blog-2025";
 
   let ghAPIURL = new URL(
     `https://api.github.com/repos/hamlim/${repoName}/commits`,

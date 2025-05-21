@@ -55,7 +55,7 @@ export function useMDXComponents() {
     Spacer,
     Abbr,
     Callout(props: ComponentProps<"div">) {
-      return <div className="rounded-md bg-blue-50 p-4" {...props} />;
+      return <div className="rounded-lg bg-muted px-4 py-0.5" {...props} />;
     },
     FootnoteRef,
     Footnote,
