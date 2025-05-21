@@ -10,7 +10,7 @@ export default async function TagPage({ tagName }: { tagName: string }) {
 
   if (!posts) {
     return (
-      <main>
+      <main className="pt-10">
         <ProseContainer>
           <Heading level={2}>{tagNameDecoded}</Heading>
           <p>
@@ -27,7 +27,7 @@ export default async function TagPage({ tagName }: { tagName: string }) {
   }
 
   return (
-    <main>
+    <main className="pt-10">
       <ProseContainer>
         <Heading level={2}>{tagNameDecoded}</Heading>
         <ul>

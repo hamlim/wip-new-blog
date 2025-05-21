@@ -1,3 +1,5 @@
+import { topPosts } from "#/collections";
+import { LinkAnchor } from "#/components/anchor";
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
 import { PostCard } from "#/components/post-card";
@@ -14,9 +16,23 @@ export default function Blog() {
           Welcome to my blog - a lot of these posts are still pretty rough
           around the edges!
         </p>
+        <p>
+          <LinkAnchor href="/blog/tags">View posts by tag →</LinkAnchor>
+        </p>
+        <p>
+          <LinkAnchor href="/blog/timeline">View posts by date →</LinkAnchor>
+        </p>
+        <Heading level={3}>Popular Blog Posts:</Heading>
+        <ol>
+          {topPosts.map((post) => (
+            <li key={post.slug}>
+              <LinkAnchor href={post.slug}>{post.title}</LinkAnchor>
+            </li>
+          ))}
+        </ol>
         <Heading level={3}>All Posts</Heading>
         <div className="grid grid-cols-1 gap-2 md:grid-cols-2 not-prose">
-          {metadata.toReversed().map((post) => (
+          {metadata.map((post) => (
             <PostCard key={post.path} post={post} />
           ))}
         </div>

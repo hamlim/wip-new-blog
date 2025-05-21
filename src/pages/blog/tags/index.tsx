@@ -5,7 +5,7 @@ import { Heading } from "#/components/heading";
 
 export default async function TagIndexPage() {
   return (
-    <main>
+    <main className="pt-10">
       <ProseContainer>
         <Heading level={2}>Blog Tags:</Heading>
         <ul>

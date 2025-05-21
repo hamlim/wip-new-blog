@@ -19,7 +19,7 @@ export function ProseContainer(props: ContainerProps): ReactNode {
     <article
       {...props}
       className={cn(
-        "prose prose-slate dark:prose-invert mx-auto max-w-prose",
+        "prose prose-slate dark:prose-invert mx-auto max-w-[95vw] sm:max-w-prose",
         props.className,
       )}
     />

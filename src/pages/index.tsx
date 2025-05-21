@@ -1,23 +1,9 @@
 import { reading } from "#/collections";
+import { topPosts } from "#/collections";
 import { LinkAnchor } from "#/components/anchor";
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
-import { metadata } from "#/metadata.gen";
 import { projects } from "#/projects-list";
-import type { RawFrontmatter } from "#/types";
-
-let topPostSlugs = [
-  "/2025/february/youre-building-software-wrong",
-  "/2025/january/the-ai-development-conundrum",
-  "/2018/december/testing-software",
-  "/2019/may/maintenance-costs",
-  "/2023/june/fractal-refactoring",
-  "/2023/june/10x",
-] as Array<RawFrontmatter["path"]>;
-
-let topPosts = topPostSlugs
-  .map((path) => metadata.find((post) => post.path === path))
-  .filter((post): post is RawFrontmatter => post !== undefined);
 
 export default function Home() {
   return (

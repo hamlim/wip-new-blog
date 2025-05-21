@@ -22,21 +22,23 @@ export class ErrorBoundary extends Component<{
   render() {
     if (this.state.error) {
       return (
-        <ProseContainer>
-          <Heading level={3}>Oh no an error occurred</Heading>
-          <div className="my-4">
-            <p>Error Message: </p>
-            <code className="bg-red-50 dark:bg-red-900/20 p-2 rounded-md">
-              {this.state.error.message}
-            </code>
-          </div>
-          <Button
-            variant="outline"
-            onClick={() => this.setState({ error: null })}
-          >
-            Refresh
-          </Button>
-        </ProseContainer>
+        <div className="pt-10">
+          <ProseContainer>
+            <Heading level={3}>Oh no an error occurred</Heading>
+            <div className="my-4">
+              <p>Error Message: </p>
+              <code className="bg-red-50 dark:bg-red-900/20 p-2 rounded-md">
+                {this.state.error.message}
+              </code>
+            </div>
+            <Button
+              variant="outline"
+              onClick={() => this.setState({ error: null })}
+            >
+              Refresh
+            </Button>
+          </ProseContainer>
+        </div>
       );
     }
 

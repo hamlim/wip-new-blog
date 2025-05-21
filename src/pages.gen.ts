@@ -380,6 +380,8 @@ import type { getConfig as File_BlogTagsTagName_getConfig } from './pages/blog/t
 // prettier-ignore
 import type { getConfig as File_BlogTagsIndex_getConfig } from './pages/blog/tags/index';
 // prettier-ignore
+import type { getConfig as File_BlogTimelineIndex_getConfig } from './pages/blog/timeline/index';
+// prettier-ignore
 import type { getConfig as File_Bookshelf_getConfig } from './pages/bookshelf';
 // prettier-ignore
 import type { getConfig as File_Index_getConfig } from './pages/index';
@@ -578,6 +580,7 @@ type Page =
 | { path: '/blog'; render: 'dynamic' }
 | ({ path: '/blog/tags/[tagName]' } & GetConfigResponse<typeof File_BlogTagsTagName_getConfig>)
 | ({ path: '/blog/tags' } & GetConfigResponse<typeof File_BlogTagsIndex_getConfig>)
+| ({ path: '/blog/timeline' } & GetConfigResponse<typeof File_BlogTimelineIndex_getConfig>)
 | ({ path: '/bookshelf' } & GetConfigResponse<typeof File_Bookshelf_getConfig>)
 | ({ path: '/' } & GetConfigResponse<typeof File_Index_getConfig>)
 | ({ path: '/projects' } & GetConfigResponse<typeof File_Projects_getConfig>);
