@@ -29,7 +29,13 @@ export default async function TagPage({ tagName }: { tagName: string }) {
   return (
     <main className="pt-10">
       <ProseContainer>
-        <Heading level={2}>{tagNameDecoded}</Heading>
+        <Heading level={2}>Posts tagged with {tagNameDecoded}</Heading>
+        <p>
+          <LinkAnchor href="/blog/tags">View posts by tag →</LinkAnchor>
+        </p>
+        <p>
+          <LinkAnchor href="/blog">View all posts →</LinkAnchor>
+        </p>
         <ul>
           {posts.map((post) => (
             <li key={post.slug}>

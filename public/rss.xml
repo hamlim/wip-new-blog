@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Wed, 21 May 2025 13:43:50 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 May 2025 19:35:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -3364,22 +3364,14 @@ resolve the problem I was running into, I found the following solution:</p>
 <span class="line"></span>
 <span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">  let</span><span style="color:#B07D48;--shiki-dark:#BD976A"> highlighter</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#1E754F;--shiki-dark:#4D9375"> await</span><span style="color:#B07D48;--shiki-dark:#BD976A"> shiki</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">getHighlighter</span><span style="color:#999999;--shiki-dark:#666666">({</span></span>
 <span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">    // Pass in manually imported themes and grammars</span></span>
-<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">    // @ts-ignore</span></span>
 <span class="line"><span style="color:#998418;--shiki-dark:#B8A965">    themes</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#999999;--shiki-dark:#666666"> [</span><span style="color:#B07D48;--shiki-dark:#BD976A">githubDarkDimmed</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#B07D48;--shiki-dark:#BD976A"> githubLight</span><span style="color:#999999;--shiki-dark:#666666">],</span></span>
 <span class="line"><span style="color:#998418;--shiki-dark:#B8A965">    langs</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#999999;--shiki-dark:#666666"> [</span></span>
-<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">      // @ts-ignore</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">      {</span><span style="color:#998418;--shiki-dark:#B8A965"> id</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">tsx</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> scopeName</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">source.tsx</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> grammar</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B07D48;--shiki-dark:#BD976A"> tsxGrammar</span><span style="color:#999999;--shiki-dark:#666666"> },</span></span>
-<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">      // @ts-ignore</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">      {</span><span style="color:#998418;--shiki-dark:#B8A965"> id</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">typescript</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> scopeName</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">source.tsx</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> grammar</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B07D48;--shiki-dark:#BD976A"> tsxGrammar</span><span style="color:#999999;--shiki-dark:#666666"> },</span></span>
-<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">      // @ts-ignore</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">      {</span><span style="color:#998418;--shiki-dark:#B8A965"> id</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">md</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> scopeName</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">text.html.markdown</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> grammar</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B07D48;--shiki-dark:#BD976A"> mdGrammar</span><span style="color:#999999;--shiki-dark:#666666"> },</span></span>
-<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">      // @ts-ignore</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">      {</span><span style="color:#998418;--shiki-dark:#B8A965"> id</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">css</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> scopeName</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">source.css</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> grammar</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B07D48;--shiki-dark:#BD976A"> cssGrammar</span><span style="color:#999999;--shiki-dark:#666666"> },</span></span>
-<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">      // @ts-ignore</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">      {</span><span style="color:#998418;--shiki-dark:#B8A965"> id</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">diff</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> scopeName</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">source.diff</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> grammar</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B07D48;--shiki-dark:#BD976A"> diffGrammar</span><span style="color:#999999;--shiki-dark:#666666"> },</span></span>
-<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">      // @ts-ignore</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">      {</span><span style="color:#998418;--shiki-dark:#B8A965"> id</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">bash</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> scopeName</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">source.shell</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> grammar</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B07D48;--shiki-dark:#BD976A"> bashGrammar</span><span style="color:#999999;--shiki-dark:#666666"> },</span></span>
-<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">      // @ts-ignore</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">      {</span><span style="color:#998418;--shiki-dark:#B8A965"> id</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">json</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> scopeName</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">source.json</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#998418;--shiki-dark:#B8A965"> grammar</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B07D48;--shiki-dark:#BD976A"> jsonGrammar</span><span style="color:#999999;--shiki-dark:#666666"> },</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">    ],</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">  });</span></span>
@@ -9193,36 +9185,6 @@ either way the consumers will be getting great drones to use.</p>]]></content:en
             <enclosure url="https://matthamlin.me/og-images/dji-vs-gopro.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[Looking Ahead: 2016]]></title>
-            <link>https://matthamlin.me//2015/december/2016</link>
-            <guid>https://matthamlin.me//2015/december/2016</guid>
-            <pubDate>Thu, 31 Dec 2015 12:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>I never stick to my goals and resolutions after New Years Evening. The next day
-I wake up without changing anything about my life that I wanted to. So I decided
-to make something that would act as a sort of public status check. Something
-that I can continuously update easily, and that others can watch and give me
-feedback on as the year progresses. I started something like this a while ago as
-a private subreddit, but this will be fully public and I plan on tweeting the
-status of each day by the end of the day.</p>
-<p>Of course there is nothing keeping me from doing this except the drive to do new
-things everyday. In many ways I am drawing inspiration from Casey Neistat&#x27;s
-daily vlog. Where he started making videos daily to give him an impetus to
-create more things.</p>
-<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="what-is-this">What is this?</h3>
-<p>Here is a link to the page:
-<del><a href="http://matthamlin.me/status.html" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Status (Not Active Anymore)</a></del></p>
-<p>Well this is simply an about post about the project, I plan on building a new
-page for my personal website, where I track tasks completed and to be completed
-each day. These simple tasks will be things such as doing some sort of exercise
-each day, to eating something healthy (ideally vegetables and lean meats like
-chicken or turkey). I also want to focus on being able to build up my coding
-experience, so I want to track progress working on new projects as well.</p>
-<p>Each day I will update the website with tasks that I completed that day, and
-with goals for the next day.</p>]]></content:encoded>
-            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
-            <enclosure url="https://matthamlin.me/og-images/2016.png" length="0" type="image/png"/>
-        </item>
-        <item>
             <title><![CDATA[2015]]></title>
             <link>https://matthamlin.me//2015/december/2015</link>
             <guid>https://matthamlin.me//2015/december/2015</guid>
@@ -9253,6 +9215,36 @@ doing something I hate.</p>
 my friends and family, and I can&#x27;t wait to kick off 2016!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/2015.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Looking Ahead: 2016]]></title>
+            <link>https://matthamlin.me//2015/december/2016</link>
+            <guid>https://matthamlin.me//2015/december/2016</guid>
+            <pubDate>Thu, 31 Dec 2015 12:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>I never stick to my goals and resolutions after New Years Evening. The next day
+I wake up without changing anything about my life that I wanted to. So I decided
+to make something that would act as a sort of public status check. Something
+that I can continuously update easily, and that others can watch and give me
+feedback on as the year progresses. I started something like this a while ago as
+a private subreddit, but this will be fully public and I plan on tweeting the
+status of each day by the end of the day.</p>
+<p>Of course there is nothing keeping me from doing this except the drive to do new
+things everyday. In many ways I am drawing inspiration from Casey Neistat&#x27;s
+daily vlog. Where he started making videos daily to give him an impetus to
+create more things.</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="what-is-this">What is this?</h3>
+<p>Here is a link to the page:
+<del><a href="http://matthamlin.me/status.html" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Status (Not Active Anymore)</a></del></p>
+<p>Well this is simply an about post about the project, I plan on building a new
+page for my personal website, where I track tasks completed and to be completed
+each day. These simple tasks will be things such as doing some sort of exercise
+each day, to eating something healthy (ideally vegetables and lean meats like
+chicken or turkey). I also want to focus on being able to build up my coding
+experience, so I want to track progress working on new projects as well.</p>
+<p>Each day I will update the website with tasks that I completed that day, and
+with goals for the next day.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/2016.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Blogging vs Working]]></title>

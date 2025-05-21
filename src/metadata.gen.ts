@@ -2859,21 +2859,6 @@ export let metadata: Array<RawFrontmatter> = [
     "ogImage": "/og-images/dji-vs-gopro.png"
   },
   {
-    "title": "2015",
-    "slug": "2015",
-    "path": "/2015/december/2015",
-    "date": 1451563200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Recap"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2015,
-    "ogImage": "/og-images/2015.png"
-  },
-  {
     "title": "Looking Ahead: 2016",
     "slug": "2016",
     "path": "/2015/december/2016",
@@ -2887,6 +2872,21 @@ export let metadata: Array<RawFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/2016.png"
+  },
+  {
+    "title": "2015",
+    "slug": "2015",
+    "path": "/2015/december/2015",
+    "date": 1451563200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Recap"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2015,
+    "ogImage": "/og-images/2015.png"
   },
   {
     "title": "Blogging vs Working",
@@ -2996,22 +2996,6 @@ export let metadata: Array<RawFrontmatter> = [
     "ogImage": "/og-images/message.png"
   },
   {
-    "title": "A New Look",
-    "slug": "a-new-look",
-    "path": "/2015/november/a-new-look",
-    "date": 1446379200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Thoughts",
-      "Redesign"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2015,
-    "ogImage": "/og-images/a-new-look.png"
-  },
-  {
     "title": "A New Resume",
     "slug": "a-new-resume",
     "path": "/2015/november/a-new-resume",
@@ -3026,5 +3010,21 @@ export let metadata: Array<RawFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/a-new-resume.png"
+  },
+  {
+    "title": "A New Look",
+    "slug": "a-new-look",
+    "path": "/2015/november/a-new-look",
+    "date": 1446379200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Thoughts",
+      "Redesign"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2015,
+    "ogImage": "/og-images/a-new-look.png"
   }
 ];
