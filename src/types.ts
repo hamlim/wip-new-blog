@@ -11,3 +11,7 @@ export type RawFrontmatter = {
   year: number;
   ogImage: string;
 };
+
+export type HydratedFrontmatter = RawFrontmatter & {
+  lastModified: number;
+};

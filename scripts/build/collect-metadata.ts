@@ -1,6 +1,6 @@
 import matter from "gray-matter";
 import { glob } from "tinyglobby";
-import type { RawFrontmatter } from "#/types";
+import type { HydratedFrontmatter } from "#/types";
 
 export let mdxRootDir = "./src/mdx";
 
@@ -11,14 +11,18 @@ export async function getMDXFiles(): Promise<Array<string>> {
 
 export async function collectMetadata(
   files: Array<string>,
-): Promise<Array<RawFrontmatter>> {
-  let metadata: Array<RawFrontmatter> = [];
+): Promise<Array<HydratedFrontmatter>> {
+  let metadata: Array<HydratedFrontmatter> = [];
 
   await Promise.all(
-    files.map(async (file) => {
-      let content = await Bun.file(file).text();
+    files.map(async (filePath) => {
+      let file = Bun.file(filePath);
+      let content = await file.text();
       let { data } = matter(content);
-      metadata.push(data as RawFrontmatter);
+      metadata.push({
+        ...data,
+        lastModified: file.lastModified,
+      } as HydratedFrontmatter);
     }),
   );
 

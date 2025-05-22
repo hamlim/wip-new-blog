@@ -17,7 +17,8 @@ export let topPosts = [
     "description": "Slicing software: why vertical is better than horizontal.",
     "month": "february",
     "year": 2025,
-    "ogImage": "/og-images/youre-building-software-wrong.png"
+    "ogImage": "/og-images/youre-building-software-wrong.png",
+    "lastModified": 1747855909000
   },
   {
     "title": "The AI Development Conundrum",
@@ -34,7 +35,8 @@ export let topPosts = [
     "description": "Is it a good or a bad thing to offload writing code to AI agents and Large Language Models?",
     "month": "january",
     "year": 2025,
-    "ogImage": "/og-images/the-ai-development-conundrum.png"
+    "ogImage": "/og-images/the-ai-development-conundrum.png",
+    "lastModified": 1747855909001
   },
   {
     "title": "Testing Software",
@@ -50,7 +52,8 @@ export let topPosts = [
     "description": "",
     "month": "december",
     "year": 2018,
-    "ogImage": "/og-images/testing-software.png"
+    "ogImage": "/og-images/testing-software.png",
+    "lastModified": 1747855908985
   },
   {
     "title": "Maintenance Costs",
@@ -65,7 +68,8 @@ export let topPosts = [
     "description": "",
     "month": "may",
     "year": 2019,
-    "ogImage": "/og-images/maintenance-costs.png"
+    "ogImage": "/og-images/maintenance-costs.png",
+    "lastModified": 1747855908988
   },
   {
     "title": "Fractal Refactoring",
@@ -82,7 +86,8 @@ export let topPosts = [
     "description": "",
     "month": "june",
     "year": 2023,
-    "ogImage": "/og-images/fractal-refactoring.png"
+    "ogImage": "/og-images/fractal-refactoring.png",
+    "lastModified": 1747855908995
   },
   {
     "title": "10x Engineers",
@@ -99,6 +104,7 @@ export let topPosts = [
     "description": "",
     "month": "june",
     "year": 2023,
-    "ogImage": "/og-images/10x.png"
+    "ogImage": "/og-images/10x.png",
+    "lastModified": 1747855908995
   }
 ]

@@ -1,8 +1,8 @@
 import { metadata } from "#/metadata.gen";
-import type { RawFrontmatter } from "#/types";
+import type { HydratedFrontmatter } from "#/types";
 
-export function collectByTag(): Map<string, Array<RawFrontmatter>> {
-  let postsByTag = new Map<string, Array<RawFrontmatter>>();
+export function collectByTag(): Map<string, Array<HydratedFrontmatter>> {
+  let postsByTag = new Map<string, Array<HydratedFrontmatter>>();
 
   for (let post of metadata) {
     for (let tag of post.tags) {
@@ -19,11 +19,11 @@ export function collectByTag(): Map<string, Array<RawFrontmatter>> {
 
 export function collectByDate(): Record<
   number,
-  Record<string, Array<RawFrontmatter>>
+  Record<string, Array<HydratedFrontmatter>>
 > {
   let result: Record<
     /* year */ number,
-    Record</* month */ string, Array<RawFrontmatter>>
+    Record</* month */ string, Array<HydratedFrontmatter>>
   > = {};
 
   for (let post of metadata) {

@@ -1,15 +1,10 @@
 import { Link } from "waku";
 import type { RouteConfig } from "waku/router";
-import type { RawFrontmatter } from "#/types";
+import type { HydratedFrontmatter } from "#/types";
+import { formatDateTime } from "#/utils/date-formatting";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
-let dateFormatter = new Intl.DateTimeFormat("en-US", {
-  month: "long",
-  day: "numeric",
-  year: "numeric",
-}).format;
-
-export function PostCard({ post }: { post: RawFrontmatter }) {
+export function PostCard({ post }: { post: HydratedFrontmatter }) {
   return (
     <Link
       className="w-full flex flex-col grow"
@@ -20,7 +15,7 @@ export function PostCard({ post }: { post: RawFrontmatter }) {
         <CardHeader>
           <CardTitle>{post.title}</CardTitle>
           <p className="text-sm text-muted-foreground">
-            Published: {dateFormatter(post.date)}
+            Published: {formatDateTime(post.date)}
           </p>
         </CardHeader>
         <CardContent className="gap-2 flex flex-col justify-between">
