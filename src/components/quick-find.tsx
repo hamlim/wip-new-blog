@@ -48,7 +48,12 @@ export function QuickFind() {
   let router = useRouter();
 
   return (
-    <CommandDialog open={open} onOpenChange={setOpen}>
+    <CommandDialog
+      open={open}
+      onOpenChange={setOpen}
+      title="Quick Find"
+      description="Search for anything..."
+    >
       <CommandInput placeholder="Search for anything..." />
       <CommandList>
         <CommandEmpty>No results found.</CommandEmpty>
