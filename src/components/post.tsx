@@ -57,7 +57,7 @@ async function getLastModifiedDate(
 
   logger.warn({
     message: "Error getting last modified date",
-    error: results.reason,
+    error: results,
   });
 
   return null;
