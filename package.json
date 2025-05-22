@@ -11,6 +11,7 @@
     "dev": "concurrently \"bun run generate:dev\" \"bun run site:dev\"",
     "prebuild": "bun run scripts/build/generate.ts",
     "build": "waku build --with-cloudflare",
+    "start": "wrangler dev ./dist/worker/serve-cloudflare.js",
     "predeploy": "bun run build",
     "deploy": "wrangler deploy",
     "format": "biome format --write .",

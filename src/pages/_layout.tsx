@@ -1,7 +1,8 @@
 import { type ReactNode, Suspense } from "react";
 import { ErrorBoundary } from "#/components/error-boundary";
 import { Nav } from "#/components/nav";
-import { QuickFind } from "#/components/quick-find";
+import { QuickFindLoader } from "#/components/quick-find.loader";
+// import { QuickFind } from "#/components/quick-find";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -12,12 +13,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <meta
         name="theme-color"
         media="(prefers-color-scheme: light)"
-        content="white"
+        content="var(--color-background)"
       />
       <meta
         name="theme-color"
         media="(prefers-color-scheme: dark)"
-        content="black"
+        content="var(--color-background)"
       />
       <meta name="color-scheme" content="light dark" />
       <link rel="author" href="https://matthamlin.me" />
@@ -57,9 +58,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <link rel="shortcut icon" href="/favicon.ico" />
 
       <Nav />
-      <QuickFind />
       <Suspense fallback={null}>
         <ErrorBoundary>{children}</ErrorBoundary>
+      </Suspense>
+      <Suspense fallback={null}>
+        <QuickFindLoader />
       </Suspense>
     </div>
   );
