@@ -53,10 +53,18 @@ export default function Bookshelf() {
             <ul>
               {read.map((book) => (
                 <li key={book.title}>
-                  <Anchor href={book.url} target="_blank">
-                    {book.title}
-                  </Anchor>{" "}
-                  - {book.author}
+                  <p>
+                    <Anchor href={book.url} target="_blank">
+                      {book.title}
+                    </Anchor>{" "}
+                    - {book.author}
+                  </p>
+                  {book.dateStarted && book.dateFinished ? (
+                    <p>
+                      Started: {book.dateStarted} - Finished:{" "}
+                      {book.dateFinished}
+                    </p>
+                  ) : null}
                 </li>
               ))}
             </ul>
