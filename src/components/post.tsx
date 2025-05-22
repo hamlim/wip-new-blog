@@ -33,9 +33,17 @@ export async function Post({
       <ProseContainer>
         <Heading level={1}>{frontmatter.title}</Heading>
         <p className="text-sm text-slate-500 dark:text-slate-400">
-          Published: <FormattedDateTime date={frontmatter.date} />
-          <br />
-          <Suspense fallback={<p> </p>}>
+          <Suspense
+            fallback={
+              <p>
+                <br />
+                <br />
+                <br />
+              </p>
+            }
+          >
+            Published: <FormattedDateTime date={frontmatter.date} />
+            <br />
             <PostLastModified frontmatter={frontmatter} />
           </Suspense>
         </p>
