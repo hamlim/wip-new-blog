@@ -2,7 +2,6 @@ import { type ReactNode, Suspense } from "react";
 import { ErrorBoundary } from "#/components/error-boundary";
 import { Nav } from "#/components/nav";
 import { QuickFindLoader } from "#/components/quick-find.loader";
-// import { QuickFind } from "#/components/quick-find";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -70,6 +69,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
 export function getConfig() {
   return {
-    render: "dynamic",
+    render: "static",
   };
 }
