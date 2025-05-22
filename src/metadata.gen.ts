@@ -1824,21 +1824,6 @@ export let metadata: Array<RawFrontmatter> = [
     "ogImage": "/og-images/array-chunking.png"
   },
   {
-    "title": "Fast",
-    "slug": "fast",
-    "path": "/2021/march/fast",
-    "date": 1614600000000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development Practices"
-    ],
-    "description": "",
-    "month": "march",
-    "year": 2021,
-    "ogImage": "/og-images/fast.png"
-  },
-  {
     "title": "Writing Node Scripts",
     "slug": "writing-node-scripts",
     "path": "/2021/march/writing-node-scripts",
@@ -1853,6 +1838,21 @@ export let metadata: Array<RawFrontmatter> = [
     "month": "march",
     "year": 2021,
     "ogImage": "/og-images/writing-node-scripts.png"
+  },
+  {
+    "title": "Fast",
+    "slug": "fast",
+    "path": "/2021/march/fast",
+    "date": 1614600000000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development Practices"
+    ],
+    "description": "",
+    "month": "march",
+    "year": 2021,
+    "ogImage": "/og-images/fast.png"
   },
   {
     "title": "useConsole",
@@ -2298,22 +2298,6 @@ export let metadata: Array<RawFrontmatter> = [
     "ogImage": "/og-images/hooks-tips-dependency-array.png"
   },
   {
-    "title": "Building a Live Editor",
-    "slug": "building-a-live-editor",
-    "path": "/2019/february/building-a-live-editor",
-    "date": 1549022400000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Development",
-      "Side Projects"
-    ],
-    "description": "",
-    "month": "february",
-    "year": 2019,
-    "ogImage": "/og-images/building-a-live-editor.png"
-  },
-  {
     "title": "Start Small, Accept Change",
     "slug": "start-small",
     "path": "/2019/february/start-small",
@@ -2328,6 +2312,22 @@ export let metadata: Array<RawFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/start-small.png"
+  },
+  {
+    "title": "Building a Live Editor",
+    "slug": "building-a-live-editor",
+    "path": "/2019/february/building-a-live-editor",
+    "date": 1549022400000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Development",
+      "Side Projects"
+    ],
+    "description": "",
+    "month": "february",
+    "year": 2019,
+    "ogImage": "/og-images/building-a-live-editor.png"
   },
   {
     "title": "React Error Boundaries",
@@ -2831,7 +2831,7 @@ export let metadata: Array<RawFrontmatter> = [
     "title": "DJI vs GoPro",
     "slug": "dji-vs-gopro",
     "path": "/2016/january/dji-vs-gopro",
-    "date": 1451649600000,
+    "date": 1451649600001,
     "status": "public",
     "type": "blog-post",
     "tags": [
@@ -2859,21 +2859,6 @@ export let metadata: Array<RawFrontmatter> = [
     "ogImage": "/og-images/my-first-project-of-2016.png"
   },
   {
-    "title": "2015",
-    "slug": "2015",
-    "path": "/2015/december/2015",
-    "date": 1451563200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Recap"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2015,
-    "ogImage": "/og-images/2015.png"
-  },
-  {
     "title": "Looking Ahead: 2016",
     "slug": "2016",
     "path": "/2015/december/2016",
@@ -2887,6 +2872,21 @@ export let metadata: Array<RawFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/2016.png"
+  },
+  {
+    "title": "2015",
+    "slug": "2015",
+    "path": "/2015/december/2015",
+    "date": 1451563200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Recap"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2015,
+    "ogImage": "/og-images/2015.png"
   },
   {
     "title": "Blogging vs Working",

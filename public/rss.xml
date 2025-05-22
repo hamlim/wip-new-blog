@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Thu, 22 May 2025 11:43:28 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 May 2025 12:00:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -9104,6 +9104,39 @@ similar project for 2016 reach out to me!</p>]]></content:encoded>
             <enclosure url="https://matthamlin.me/og-images/building-in-2016.png" length="0" type="image/png"/>
         </item>
         <item>
+            <title><![CDATA[DJI vs GoPro]]></title>
+            <link>https://matthamlin.me//2016/january/dji-vs-gopro</link>
+            <guid>https://matthamlin.me//2016/january/dji-vs-gopro</guid>
+            <pubDate>Fri, 01 Jan 2016 12:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>2016 is going to be a large year for tech, with a lot of potential shown for new
+products rising from nothing such as the breakout hit hoverboards that came to
+rise. One of the rivalries within the tech market that I am personally really
+excited to see play out this year is the battle between DJI and GoPro.</p>
+<p>Some people may be scratching their heads at this rivalry because DJI is focused
+on drones, and GoPro is focused on making great action cameras, but these two
+companies are on a path that leads either to a merger or to intense competition.
+Both of these companies have been flirting with the other company&#x27;s products.</p>
+<p>DJI stepped into the camera market with their odd little DJI Osmo, a stabilizing
+video camera in a small compact form. The Osmo is built on the technology that
+DJI has developed for the camera systems on their drones. Meanwhile GoPro has
+countless rumors of them developing a
+<a href="http://techcrunch.com/2015/12/27/how-gopro-is-building-its-future-drone-platform-foundations/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">drone platform</a>
+for them to build a great drone experience for customers.</p>
+<p>These companies do currently work together in some regards, with GoPro mounts
+for DJI drones but, as every technology company knows, its better to build your
+own version than it is to outsource to another company. We have seen this play
+out
+<a href="http://www.wired.com/2015/07/like-google-facebook-twitter-designs-computer-servers/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">multiple</a>
+<a href="http://www.wired.com/2012/03/google-miner-helmet/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">times</a>
+<a href="http://spectrum.ieee.org/cars-that-think/transportation/self-driving/uber-could-be-first-to-test-completely-driverless-cars-in-public" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">with</a>
+other large tech companies.</p>
+<p>I really hope that we get to see these companies compete over their own
+respective drones in 2016. These companies are going to be great competitors and
+either way the consumers will be getting great drones to use.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/dji-vs-gopro.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[My First Project of 2016]]></title>
             <link>https://matthamlin.me//2016/january/my-first-project-of-2016</link>
             <guid>https://matthamlin.me//2016/january/my-first-project-of-2016</guid>
@@ -9150,39 +9183,6 @@ as well.</p>
 which I plan to launch in the coming 30 days or so.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/my-first-project-of-2016.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[DJI vs GoPro]]></title>
-            <link>https://matthamlin.me//2016/january/dji-vs-gopro</link>
-            <guid>https://matthamlin.me//2016/january/dji-vs-gopro</guid>
-            <pubDate>Fri, 01 Jan 2016 12:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>2016 is going to be a large year for tech, with a lot of potential shown for new
-products rising from nothing such as the breakout hit hoverboards that came to
-rise. One of the rivalries within the tech market that I am personally really
-excited to see play out this year is the battle between DJI and GoPro.</p>
-<p>Some people may be scratching their heads at this rivalry because DJI is focused
-on drones, and GoPro is focused on making great action cameras, but these two
-companies are on a path that leads either to a merger or to intense competition.
-Both of these companies have been flirting with the other company&#x27;s products.</p>
-<p>DJI stepped into the camera market with their odd little DJI Osmo, a stabilizing
-video camera in a small compact form. The Osmo is built on the technology that
-DJI has developed for the camera systems on their drones. Meanwhile GoPro has
-countless rumors of them developing a
-<a href="http://techcrunch.com/2015/12/27/how-gopro-is-building-its-future-drone-platform-foundations/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">drone platform</a>
-for them to build a great drone experience for customers.</p>
-<p>These companies do currently work together in some regards, with GoPro mounts
-for DJI drones but, as every technology company knows, its better to build your
-own version than it is to outsource to another company. We have seen this play
-out
-<a href="http://www.wired.com/2015/07/like-google-facebook-twitter-designs-computer-servers/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">multiple</a>
-<a href="http://www.wired.com/2012/03/google-miner-helmet/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">times</a>
-<a href="http://spectrum.ieee.org/cars-that-think/transportation/self-driving/uber-could-be-first-to-test-completely-driverless-cars-in-public" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">with</a>
-other large tech companies.</p>
-<p>I really hope that we get to see these companies compete over their own
-respective drones in 2016. These companies are going to be great competitors and
-either way the consumers will be getting great drones to use.</p>]]></content:encoded>
-            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
-            <enclosure url="https://matthamlin.me/og-images/dji-vs-gopro.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Looking Ahead: 2016]]></title>
@@ -9484,17 +9484,6 @@ something people look at.</p>]]></content:encoded>
             <enclosure url="https://matthamlin.me/og-images/message.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[A New Look]]></title>
-            <link>https://matthamlin.me//2015/november/a-new-look</link>
-            <guid>https://matthamlin.me//2015/november/a-new-look</guid>
-            <pubDate>Sun, 01 Nov 2015 12:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>I just setup Poole as a blogging style with Jekyll on this (my main website).
-Hopefully this provides a larger incentive to start posting here then cross
-posting to Medium.</p>]]></content:encoded>
-            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
-            <enclosure url="https://matthamlin.me/og-images/a-new-look.png" length="0" type="image/png"/>
-        </item>
-        <item>
             <title><![CDATA[A New Resume]]></title>
             <link>https://matthamlin.me//2015/november/a-new-resume</link>
             <guid>https://matthamlin.me//2015/november/a-new-resume</guid>
@@ -9514,6 +9503,17 @@ version of Bundles, or at least the core requirements.</p>
 wish I could spend more time just on development.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/a-new-resume.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A New Look]]></title>
+            <link>https://matthamlin.me//2015/november/a-new-look</link>
+            <guid>https://matthamlin.me//2015/november/a-new-look</guid>
+            <pubDate>Sun, 01 Nov 2015 12:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>I just setup Poole as a blogging style with Jekyll on this (my main website).
+Hopefully this provides a larger incentive to start posting here then cross
+posting to Medium.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/a-new-look.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>

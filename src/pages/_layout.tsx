@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import { type ReactNode, Suspense } from "react";
 import { ErrorBoundary } from "#/components/error-boundary";
 import { Nav } from "#/components/nav";
 import { QuickFind } from "#/components/quick-find";
@@ -58,7 +58,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
       <Nav />
       <QuickFind />
-      <ErrorBoundary>{children}</ErrorBoundary>
+      <Suspense fallback={null}>
+        <ErrorBoundary>{children}</ErrorBoundary>
+      </Suspense>
     </div>
   );
 }
