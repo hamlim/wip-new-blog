@@ -124,7 +124,7 @@ export default function Page() {
 
 export function getConfig() {
   return {
-    render: "dynamic",
+    render: "static",
   };
 }
 `;

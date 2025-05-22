@@ -11,6 +11,6 @@ export default function PodcastByHand() {
 
 export function getConfig() {
   return {
-    render: "dynamic",
+    render: "static",
   };
 }

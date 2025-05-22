@@ -286,6 +286,6 @@ export default function Sandbox() {
 
 export function getConfig() {
   return {
-    render: "dynamic",
+    render: "static",
   };
 }
