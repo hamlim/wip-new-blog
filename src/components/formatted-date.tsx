@@ -12,7 +12,7 @@ export function FormattedDate({
     setFormattedDate(formatDate(new Date(date)));
   }, [date]);
 
-  return <span suppressHydrationWarning>{formattedDate}</span>;
+  return <span>{formattedDate}</span>;
 }
 
 export function FormattedDateTime({
@@ -26,5 +26,5 @@ export function FormattedDateTime({
     setFormattedDateTime(formatDateTime(new Date(date)));
   }, [date]);
 
-  return <span suppressHydrationWarning>{formattedDateTime}</span>;
+  return <span>{formattedDateTime}</span>;
 }
