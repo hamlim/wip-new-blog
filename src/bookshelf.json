@@ -435,5 +435,12 @@
     "status": "read",
     "dateStarted": "May 9 2025",
     "dateFinished": "May 12 2025"
+  },
+  {
+    "title": "Do Androids Dream of Electric Sheep?",
+    "author": "Philip K Dick",
+    "url": "https://www.goodreads.com/book/show/36402034",
+    "status": "reading",
+    "dateStarted": "May 20 2025"
   }
 ]
