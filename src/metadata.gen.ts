@@ -2301,7 +2301,7 @@ export let metadata: Array<RawFrontmatter> = [
     "title": "Building a Live Editor",
     "slug": "building-a-live-editor",
     "path": "/2019/february/building-a-live-editor",
-    "date": 1549022400000,
+    "date": 1549022400001,
     "status": "public",
     "type": "blog-post",
     "tags": [
@@ -2859,21 +2859,6 @@ export let metadata: Array<RawFrontmatter> = [
     "ogImage": "/og-images/my-first-project-of-2016.png"
   },
   {
-    "title": "Looking Ahead: 2016",
-    "slug": "2016",
-    "path": "/2015/december/2016",
-    "date": 1451563200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Looking Ahead"
-    ],
-    "description": "",
-    "month": "december",
-    "year": 2015,
-    "ogImage": "/og-images/2016.png"
-  },
-  {
     "title": "2015",
     "slug": "2015",
     "path": "/2015/december/2015",
@@ -2887,6 +2872,21 @@ export let metadata: Array<RawFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/2015.png"
+  },
+  {
+    "title": "Looking Ahead: 2016",
+    "slug": "2016",
+    "path": "/2015/december/2016",
+    "date": 1451563200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Looking Ahead"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2015,
+    "ogImage": "/og-images/2016.png"
   },
   {
     "title": "Blogging vs Working",

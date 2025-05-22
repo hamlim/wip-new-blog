@@ -22,7 +22,15 @@ export async function collectMetadata(
     }),
   );
 
-  return metadata.sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
-  );
+  return metadata.sort((a, b) => {
+    let aDate = new Date(a.date);
+    let bDate = new Date(b.date);
+    if (Number.isNaN(aDate.getTime()) || Number.isNaN(bDate.getTime())) {
+      return 0;
+    }
+    if (aDate.getTime() === bDate.getTime()) {
+      return a.title.localeCompare(b.title);
+    }
+    return bDate.getTime() - aDate.getTime();
+  });
 }
