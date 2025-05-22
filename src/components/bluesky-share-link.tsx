@@ -32,6 +32,7 @@ export function BlueskyIntentLink({
 }) {
   return (
     <Anchor
+      suppressHydrationWarning
       target="_blank"
       href={`https://bsky.app/intent/compose?text=${encodeURIComponent(intent)}`}
     >

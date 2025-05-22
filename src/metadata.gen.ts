@@ -322,7 +322,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2024,
     "ogImage": "/og-images/bluesky-tips-and-tools.png",
-    "lastModified": 1747568207000
+    "lastModified": 1747941398000
   },
   {
     "title": "The Bookkeeping Pattern",

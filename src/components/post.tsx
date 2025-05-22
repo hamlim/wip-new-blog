@@ -6,7 +6,7 @@ import { BlueskyMentions } from "#/components/bluesky-mentions";
 import { BlueskyShareLink } from "#/components/bluesky-share-link";
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
-import { formatDateTime } from "#/utils/date-formatting";
+import { FormattedDateTime } from "./formatted-date";
 import { PostLastModified } from "./post-last-modified";
 import { RelatedPosts } from "./post-related-posts";
 
@@ -33,7 +33,7 @@ export async function Post({
       <ProseContainer>
         <Heading level={1}>{frontmatter.title}</Heading>
         <p className="text-sm text-slate-500 dark:text-slate-400">
-          Published: {formatDateTime(frontmatter.date)}
+          Published: <FormattedDateTime date={frontmatter.date} />
           <br />
           <Suspense fallback={<p> </p>}>
             <PostLastModified frontmatter={frontmatter} />

@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { metadata } from "#/metadata.gen";
 import type { RawFrontmatter } from "#/types";
-import { formatDateTime } from "#/utils/date-formatting";
+import { FormattedDateTime } from "./formatted-date";
 
 export function PostLastModified({
   frontmatter,
@@ -10,6 +10,9 @@ export function PostLastModified({
   if (!match) {
     return null;
   }
-  let lastModified = new Date(match.lastModified);
-  return <>Last modified: {formatDateTime(lastModified)}</>;
+  return (
+    <>
+      Last modified: <FormattedDateTime date={match.lastModified} />
+    </>
+  );
 }
