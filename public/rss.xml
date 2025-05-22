@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Thu, 22 May 2025 18:33:07 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 May 2025 19:14:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -688,7 +688,7 @@ they mean so everyone knows what we mean!</p>
             <content:encoded><![CDATA[<p>I&#x27;ve been exploring the <a href="https://bsky.social/about" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Bluesky</a> a lot as of late, fully moving over from Twitter to Bluesky as my go-to social media website, and I figured I should highlight some of the cool things I&#x27;ve found about it so far!</p>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="domain-names">Domain Names</h3>
 <p>One of the coolest parts of Bluesky is that you are a domain name on the network, which means you can take your personal domain name (or any random one you might own) and use it as your handle!</p>
-<a href="https://bsky.app/profile/robertlin.bsky.social/post/3l7wpu4rrha2q">https://bsky.app/profile/robertlin.bsky.social/post/3l7wpu4rrha2q</a>
+<a href="https://bsky.app/profile/robertl.in/post/3l7wpu4rrha2q">https://bsky.app/profile/robertl.in/post/3l7wpu4rrha2q</a>
 <p>Tools like Vercel and Netlify now offer quick options to use a domain as your username on Bluesky too!</p>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="intent-links">Intent Links</h3>
 <p>Twitter used to (maybe still does) support &quot;intent links&quot;, essentially plain old anchor links that will pre fill some content in a post, or take some action for the user when they click on the link. Bluesky supports the same!</p>

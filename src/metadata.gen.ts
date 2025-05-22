@@ -24,7 +24,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2025,
     "ogImage": "/og-images/server-side-rendering-compatible-css-theming.png",
-    "lastModified": 1747855909000
+    "lastModified": 1747568207000
   },
   {
     "title": "Podcasting By Hand",
@@ -42,7 +42,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2025,
     "ogImage": "/og-images/podcasting-by-hand.png",
-    "lastModified": 1747855909000
+    "lastModified": 1747568207000
   },
   {
     "title": "Replacing Dropbox Capture with Raycast",
@@ -61,7 +61,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2025,
     "ogImage": "/og-images/replacing-dropbox-capture-with-raycast.png",
-    "lastModified": 1747855909001
+    "lastModified": 1747568207000
   },
   {
     "title": "Quick Tip - Specific Local Module Declarations",
@@ -81,7 +81,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2025,
     "ogImage": "/og-images/quick-tip-specific-local-module-definitions.png",
-    "lastModified": 1747855909000
+    "lastModified": 1747568207000
   },
   {
     "title": "On File-System Routing Conventions",
@@ -100,7 +100,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2025,
     "ogImage": "/og-images/on-file-system-routing-conventions.png",
-    "lastModified": 1747855909000
+    "lastModified": 1747568207000
   },
   {
     "title": "You're Building Software Wrong",
@@ -118,7 +118,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2025,
     "ogImage": "/og-images/youre-building-software-wrong.png",
-    "lastModified": 1747855909000
+    "lastModified": 1747695963000
   },
   {
     "title": "Cursor and Obsidian",
@@ -136,7 +136,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2025,
     "ogImage": "/og-images/cursor-and-obsidian.png",
-    "lastModified": 1747855909000
+    "lastModified": 1747568207000
   },
   {
     "title": "Single File Web Apps",
@@ -153,7 +153,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2025,
     "ogImage": "/og-images/single-file-web-apps.png",
-    "lastModified": 1747855909000
+    "lastModified": 1747568207000
   },
   {
     "title": "The AI Development Conundrum",
@@ -171,7 +171,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2025,
     "ogImage": "/og-images/the-ai-development-conundrum.png",
-    "lastModified": 1747855909001
+    "lastModified": 1747568207000
   },
   {
     "title": "Resetting Controlled Components in Forms",
@@ -189,7 +189,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2025,
     "ogImage": "/og-images/resetting-controlled-components-in-forms.png",
-    "lastModified": 1747855909001
+    "lastModified": 1747568207000
   },
   {
     "title": "Thoughts on New Years Resolutions",
@@ -207,7 +207,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2024,
     "ogImage": "/og-images/thoughts-on-new-years-resolutions.png",
-    "lastModified": 1747855908997
+    "lastModified": 1747568207000
   },
   {
     "title": "Team Memes",
@@ -226,7 +226,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2024,
     "ogImage": "/og-images/team-memes.png",
-    "lastModified": 1747855908997
+    "lastModified": 1747568207000
   },
   {
     "title": "A Quick Look at Import Maps",
@@ -244,7 +244,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2024,
     "ogImage": "/og-images/a-quick-look-at-import-maps.png",
-    "lastModified": 1747855908997
+    "lastModified": 1747568207000
   },
   {
     "title": "Recommended Tech Talks",
@@ -264,7 +264,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2024,
     "ogImage": "/og-images/recommended-tech-talks.png",
-    "lastModified": 1747855908997
+    "lastModified": 1747568207000
   },
   {
     "title": "Request for a (minimal) RSC Framework",
@@ -285,7 +285,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2024,
     "ogImage": "/og-images/request-for-minimal-rsc-framework.png",
-    "lastModified": 1747855908997
+    "lastModified": 1747568207000
   },
   {
     "title": "My Updated Obsidian Task Management",
@@ -303,7 +303,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2024,
     "ogImage": "/og-images/my-updated-obsidian-task-management.png",
-    "lastModified": 1747855908999
+    "lastModified": 1747568207000
   },
   {
     "title": "Bluesky Tips and Tools",
@@ -322,7 +322,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2024,
     "ogImage": "/og-images/bluesky-tips-and-tools.png",
-    "lastModified": 1747855908999
+    "lastModified": 1747568207000
   },
   {
     "title": "The Bookkeeping Pattern",
@@ -345,7 +345,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/the-bookkeeping-pattern.png",
-    "lastModified": 1747855909000
+    "lastModified": 1747568207000
   },
   {
     "title": "Building a Custom Ghostty Theme",
@@ -362,7 +362,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/building-a-custom-ghostty-theme.png",
-    "lastModified": 1747855908999
+    "lastModified": 1747686834000
   },
   {
     "title": "TSLite",
@@ -380,7 +380,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/tslite.png",
-    "lastModified": 1747855909000
+    "lastModified": 1747568207000
   },
   {
     "title": "Monorepo Tips and Tricks",
@@ -397,7 +397,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/monorepo-tips-and-tricks.png",
-    "lastModified": 1747855908999
+    "lastModified": 1747568207000
   },
   {
     "title": "Offload Complexity, Don't Offload Learning",
@@ -416,7 +416,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/offload-complexity.png",
-    "lastModified": 1747855908999
+    "lastModified": 1747568207000
   },
   {
     "title": "Next.js with Deno v2",
@@ -434,7 +434,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2024,
     "ogImage": "/og-images/nextjs-with-deno-v2.png",
-    "lastModified": 1747855909000
+    "lastModified": 1747568207000
   },
   {
     "title": "More Thoughts on Dogfooding",
@@ -451,7 +451,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2024,
     "ogImage": "/og-images/more-thoughts-on-dogfooding.png",
-    "lastModified": 1747855909000
+    "lastModified": 1747568207000
   },
   {
     "title": "Dogfooding",
@@ -468,7 +468,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2024,
     "ogImage": "/og-images/dogfooding.png",
-    "lastModified": 1747855908996
+    "lastModified": 1747568207000
   },
   {
     "title": "Git Notes as a Tool for Thought",
@@ -486,7 +486,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2024,
     "ogImage": "/og-images/git-notes-as-a-tool-for-thought.png",
-    "lastModified": 1747855908997
+    "lastModified": 1747568207000
   },
   {
     "title": "Don't Break the Implicit Prop Contract",
@@ -504,7 +504,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2024,
     "ogImage": "/og-images/dont-break-the-implicit-prop-contract.png",
-    "lastModified": 1747855908996
+    "lastModified": 1747790496000
   },
   {
     "title": "A Better useSSR Implementation",
@@ -523,7 +523,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/a-better-useSSR-implementation.png",
-    "lastModified": 1747855908997
+    "lastModified": 1747568207000
   },
   {
     "title": "30",
@@ -542,7 +542,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/30.png",
-    "lastModified": 1747855908997
+    "lastModified": 1747693041000
   },
   {
     "title": "Simple Obsidian Task Management",
@@ -561,7 +561,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/simple-obsidian-task-management.png",
-    "lastModified": 1747855908998
+    "lastModified": 1747568207000
   },
   {
     "title": "My Current Dev Setup",
@@ -579,7 +579,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/my-current-dev-setup.png",
-    "lastModified": 1747855908997
+    "lastModified": 1747568207000
   },
   {
     "title": "Switching back to Obsidian",
@@ -597,7 +597,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/switching-back-to-obsidian.png",
-    "lastModified": 1747855908998
+    "lastModified": 1747568207000
   },
   {
     "title": "There Is No Standard Markdown",
@@ -614,7 +614,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/there-is-no-standard-markdown.png",
-    "lastModified": 1747855908998
+    "lastModified": 1747568207000
   },
   {
     "title": "Abstract Your API",
@@ -631,7 +631,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2024,
     "ogImage": "/og-images/abstract-your-api.png",
-    "lastModified": 1747855908998
+    "lastModified": 1747568207000
   },
   {
     "title": "Tip: Request and Response Headers",
@@ -649,7 +649,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2024,
     "ogImage": "/og-images/tip-request-and-response-headers.png",
-    "lastModified": 1747855908998
+    "lastModified": 1747568207000
   },
   {
     "title": "Using Feature Toggles to De-risk Refactors",
@@ -668,7 +668,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2024,
     "ogImage": "/og-images/using-feature-toggles-to-de-risk-refactors.png",
-    "lastModified": 1747855908999
+    "lastModified": 1747568207000
   },
   {
     "title": "Leaving Wayfair",
@@ -688,7 +688,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2024,
     "ogImage": "/og-images/leaving-wayfair.png",
-    "lastModified": 1747855908999
+    "lastModified": 1747568207000
   },
   {
     "title": "Hohoro",
@@ -708,7 +708,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2024,
     "ogImage": "/og-images/hohoro.png",
-    "lastModified": 1747855908999
+    "lastModified": 1747568207000
   },
   {
     "title": "Funport: True Dynamic Imports in webpack",
@@ -726,7 +726,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2024,
     "ogImage": "/og-images/funport.png",
-    "lastModified": 1747855908996
+    "lastModified": 1747790496000
   },
   {
     "title": "My Current AI Stack",
@@ -743,7 +743,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2024,
     "ogImage": "/og-images/my-current-ai-stack.png",
-    "lastModified": 1747855908996
+    "lastModified": 1747568207000
   },
   {
     "title": "Configuring Cloudflare Domains with Vercel",
@@ -762,7 +762,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2024,
     "ogImage": "/og-images/configuring-cloudflare-domains-with-vercel.png",
-    "lastModified": 1747855908996
+    "lastModified": 1747568207000
   },
   {
     "title": "React Error Boundaries: Revisited",
@@ -780,7 +780,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2024,
     "ogImage": "/og-images/react-error-boundaries-revisited.png",
-    "lastModified": 1747855908998
+    "lastModified": 1747568207000
   },
   {
     "title": "Exporting Custom Slack Emoji",
@@ -798,7 +798,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2024,
     "ogImage": "/og-images/exporting-custom-slack-emoji.png",
-    "lastModified": 1747855908998
+    "lastModified": 1747568207000
   },
   {
     "title": "Custom Favicon Recipes",
@@ -815,7 +815,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2024,
     "ogImage": "/og-images/custom-favicon-recipes.png",
-    "lastModified": 1747855908998
+    "lastModified": 1747568207000
   },
   {
     "title": "Corporate Sponsored OSS",
@@ -833,7 +833,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2024,
     "ogImage": "/og-images/corporate-sponsored-oss.png",
-    "lastModified": 1747855908998
+    "lastModified": 1747568207000
   },
   {
     "title": "The Library-Docs Monorepo Template",
@@ -851,7 +851,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2024,
     "ogImage": "/og-images/library-docs-monorepo-template.png",
-    "lastModified": 1747855908997
+    "lastModified": 1747568207000
   },
   {
     "title": "Building Better Beacon",
@@ -869,7 +869,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2024,
     "ogImage": "/og-images/building-better-beacon.png",
-    "lastModified": 1747855908997
+    "lastModified": 1747568207000
   },
   {
     "title": "Project Deep Dive: Tails",
@@ -889,7 +889,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/project-deep-dive-tails.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "Churn Anxiety",
@@ -906,7 +906,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/churn-anxiety.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "Service Monitors and Observability",
@@ -924,7 +924,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/service-monitors-and-observability.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "Type Safe process.env",
@@ -943,7 +943,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/type-safe-process-env.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "Consistent Local Ports with Wrangler",
@@ -961,7 +961,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/consistent-local-ports-with-wrangler.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "On Adopting CSS-in-JS",
@@ -978,7 +978,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/on-adopting-css-in-js.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "Being Unopinionated",
@@ -994,7 +994,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/being-unopinionated.png",
-    "lastModified": 1747855908993
+    "lastModified": 1747568207000
   },
   {
     "title": "Stop Snacking",
@@ -1011,7 +1011,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/stop-snacking.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "No Process is Invisible Process",
@@ -1028,7 +1028,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/no-process-is-invisible-process.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "Fixing Zed's language server",
@@ -1045,7 +1045,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/fixing-zeds-language-server.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "Project Deep Dive: Microfibre",
@@ -1066,7 +1066,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2023,
     "ogImage": "/og-images/project-deep-dive-microfibre.png",
-    "lastModified": 1747855908995
+    "lastModified": 1747568207000
   },
   {
     "title": "Pair Programming",
@@ -1083,7 +1083,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2023,
     "ogImage": "/og-images/pair-programming.png",
-    "lastModified": 1747855908995
+    "lastModified": 1747568207000
   },
   {
     "title": "AI Driven Development",
@@ -1102,7 +1102,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2023,
     "ogImage": "/og-images/ai-driven-development.png",
-    "lastModified": 1747855908995
+    "lastModified": 1747568207000
   },
   {
     "title": "Teams and Caterpillar Tracks",
@@ -1118,7 +1118,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2023,
     "ogImage": "/og-images/teams-and-caterpillar-tracks.png",
-    "lastModified": 1747855908996
+    "lastModified": 1747568207000
   },
   {
     "title": "Go To Git Utils",
@@ -1136,7 +1136,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2023,
     "ogImage": "/og-images/go-to-git-utils.png",
-    "lastModified": 1747855908996
+    "lastModified": 1747568207000
   },
   {
     "title": "Jabs and Fluff: On CTO Office Hours",
@@ -1153,7 +1153,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2023,
     "ogImage": "/og-images/on-cto-office-hours.png",
-    "lastModified": 1747855908996
+    "lastModified": 1747568207000
   },
   {
     "title": "Using Marquee with React and TypeScript",
@@ -1172,7 +1172,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2023,
     "ogImage": "/og-images/using-marquee-with-react-and-typescript.png",
-    "lastModified": 1747855908996
+    "lastModified": 1747568207000
   },
   {
     "title": "Finding React Artifacts",
@@ -1190,7 +1190,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2023,
     "ogImage": "/og-images/finding-react-artifacts.png",
-    "lastModified": 1747855908996
+    "lastModified": 1747568207000
   },
   {
     "title": "Learning Go",
@@ -1209,7 +1209,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2023,
     "ogImage": "/og-images/learning-go.png",
-    "lastModified": 1747855908996
+    "lastModified": 1747568207000
   },
   {
     "title": "Speedbumps",
@@ -1226,7 +1226,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2023,
     "ogImage": "/og-images/speedbumps.png",
-    "lastModified": 1747855908993
+    "lastModified": 1747568207000
   },
   {
     "title": "Idea: Distributable Web Apps",
@@ -1243,7 +1243,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2023,
     "ogImage": "/og-images/distributable-web-apps.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "29",
@@ -1262,7 +1262,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2023,
     "ogImage": "/og-images/29.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "Principles for Automated Testing",
@@ -1278,7 +1278,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2023,
     "ogImage": "/og-images/principles-for-automated-testing.png",
-    "lastModified": 1747855908995
+    "lastModified": 1747568207000
   },
   {
     "title": "Deno",
@@ -1297,7 +1297,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2023,
     "ogImage": "/og-images/deno.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "Fractal Refactoring",
@@ -1315,7 +1315,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2023,
     "ogImage": "/og-images/fractal-refactoring.png",
-    "lastModified": 1747855908995
+    "lastModified": 1747568207000
   },
   {
     "title": "10x Engineers",
@@ -1333,7 +1333,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2023,
     "ogImage": "/og-images/10x.png",
-    "lastModified": 1747855908995
+    "lastModified": 1747568207000
   },
   {
     "title": "Avoid Distractions",
@@ -1350,7 +1350,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2023,
     "ogImage": "/og-images/avoid-distractions.png",
-    "lastModified": 1747855908993
+    "lastModified": 1747568207000
   },
   {
     "title": "My Thoughts on Tailwind",
@@ -1368,7 +1368,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2023,
     "ogImage": "/og-images/thoughts-on-tailwind.png",
-    "lastModified": 1747855908993
+    "lastModified": 1747568207000
   },
   {
     "title": "Setting up Next.js with Tailwind",
@@ -1386,7 +1386,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2023,
     "ogImage": "/og-images/nextjs-with-tailwind.png",
-    "lastModified": 1747855908993
+    "lastModified": 1747568207000
   },
   {
     "title": "Write it down",
@@ -1403,7 +1403,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2023,
     "ogImage": "/og-images/write-it-down.png",
-    "lastModified": 1747855908995
+    "lastModified": 1747568207000
   },
   {
     "title": "Setting up Shiki on Next.js",
@@ -1421,7 +1421,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2023,
     "ogImage": "/og-images/shiki-on-next-js.png",
-    "lastModified": 1747855908995
+    "lastModified": 1747844855000
   },
   {
     "title": "Dollar: Devlog 2",
@@ -1439,7 +1439,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2023,
     "ogImage": "/og-images/dollar-devlog-2.png",
-    "lastModified": 1747855908995
+    "lastModified": 1747568207000
   },
   {
     "title": "Navigating Monorepos with Ease",
@@ -1457,7 +1457,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2023,
     "ogImage": "/og-images/navigating-monorepos-with-ease.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "Dollar: Devlog 1",
@@ -1475,7 +1475,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2023,
     "ogImage": "/og-images/dollar-devlog-1.png",
-    "lastModified": 1747855908994
+    "lastModified": 1747568207000
   },
   {
     "title": "My Updated Next.js Setup",
@@ -1492,7 +1492,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2022,
     "ogImage": "/og-images/updated-opinionated-nextjs-setup.png",
-    "lastModified": 1747855908992
+    "lastModified": 1747568207000
   },
   {
     "title": "Yarn Berry Gitignore Settings",
@@ -1509,7 +1509,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2022,
     "ogImage": "/og-images/yarn-berry-gitignore.png",
-    "lastModified": 1747855908993
+    "lastModified": 1747568207000
   },
   {
     "title": "On Note Taking",
@@ -1526,7 +1526,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2022,
     "ogImage": "/og-images/on-note-taking.png",
-    "lastModified": 1747855908993
+    "lastModified": 1747568207000
   },
   {
     "title": "On Writing Tests",
@@ -1543,7 +1543,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2022,
     "ogImage": "/og-images/on-writing-tests.png",
-    "lastModified": 1747855908993
+    "lastModified": 1747568207000
   },
   {
     "title": "Switching back to Notion",
@@ -1561,7 +1561,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2022,
     "ogImage": "/og-images/switching-back-to-notion.png",
-    "lastModified": 1747855908993
+    "lastModified": 1747568207000
   },
   {
     "title": "Moving to PNPM",
@@ -1577,7 +1577,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2022,
     "ogImage": "/og-images/moving-to-pnpm.png",
-    "lastModified": 1747855908993
+    "lastModified": 1747568207000
   },
   {
     "title": "Upgrade Guides",
@@ -1593,7 +1593,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2022,
     "ogImage": "/og-images/upgrade-guides.png",
-    "lastModified": 1747855908993
+    "lastModified": 1747568207000
   },
   {
     "title": "My Opinionated Next.js Setup",
@@ -1610,7 +1610,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2022,
     "ogImage": "/og-images/my-opinionated-nextjs-setup.png",
-    "lastModified": 1747855908992
+    "lastModified": 1747568207000
   },
   {
     "title": "My Two Favorite React Tricks",
@@ -1627,7 +1627,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2022,
     "ogImage": "/og-images/my-two-favorite-react-tricks.png",
-    "lastModified": 1747855908992
+    "lastModified": 1747568207000
   },
   {
     "title": "Switching to iPhone",
@@ -1646,7 +1646,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2022,
     "ogImage": "/og-images/switching-to-iphone.png",
-    "lastModified": 1747855908992
+    "lastModified": 1747568207000
   },
   {
     "title": "Year in Music",
@@ -1662,7 +1662,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2021,
     "ogImage": "/og-images/2021-in-music.png",
-    "lastModified": 1747855908990
+    "lastModified": 1747568207000
   },
   {
     "title": "Pair Programming (stub)",
@@ -1678,7 +1678,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2021,
     "ogImage": "/og-images/pair-programming-stub.png",
-    "lastModified": 1747855908992
+    "lastModified": 1747568207000
   },
   {
     "title": "Fast Feedback Systems",
@@ -1694,7 +1694,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2021,
     "ogImage": "/og-images/fast-feedback-systems.png",
-    "lastModified": 1747855908992
+    "lastModified": 1747568207000
   },
   {
     "title": "Video Games",
@@ -1710,7 +1710,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2021,
     "ogImage": "/og-images/video-games.png",
-    "lastModified": 1747855908992
+    "lastModified": 1747568207000
   },
   {
     "title": "Delete it",
@@ -1726,7 +1726,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2021,
     "ogImage": "/og-images/delete-it.png",
-    "lastModified": 1747855908992
+    "lastModified": 1747568207000
   },
   {
     "title": "Linear Tools Enforce Linear Thinking",
@@ -1743,7 +1743,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2021,
     "ogImage": "/og-images/linear-tools.png",
-    "lastModified": 1747855908992
+    "lastModified": 1747568207000
   },
   {
     "title": "Mac Setup Guide",
@@ -1759,7 +1759,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2021,
     "ogImage": "/og-images/mac-setup-guide.png",
-    "lastModified": 1747855908992
+    "lastModified": 1747568207000
   },
   {
     "title": "Build Your Developer Toolbox",
@@ -1775,7 +1775,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2021,
     "ogImage": "/og-images/build-your-developer-toolbox.png",
-    "lastModified": 1747855908990
+    "lastModified": 1747568207000
   },
   {
     "title": "Start Fresh",
@@ -1791,7 +1791,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2021,
     "ogImage": "/og-images/start-fresh.png",
-    "lastModified": 1747855908990
+    "lastModified": 1747568207000
   },
   {
     "title": "On Written Communication",
@@ -1809,7 +1809,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2021,
     "ogImage": "/og-images/on-written-communication.png",
-    "lastModified": 1747855908990
+    "lastModified": 1747568207000
   },
   {
     "title": "Updating Forked Repos",
@@ -1827,7 +1827,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2021,
     "ogImage": "/og-images/updating-forked-repos.png",
-    "lastModified": 1747855908990
+    "lastModified": 1747568207000
   },
   {
     "title": "React Testing Library: Checkboxes and events",
@@ -1845,7 +1845,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2021,
     "ogImage": "/og-images/rtl-checkbox-events.png",
-    "lastModified": 1747855908990
+    "lastModified": 1747568207000
   },
   {
     "title": "Roll your own Obsidian sync",
@@ -1862,7 +1862,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2021,
     "ogImage": "/og-images/obsidian-sync.png",
-    "lastModified": 1747855908990
+    "lastModified": 1747568207000
   },
   {
     "title": "The Squeeze",
@@ -1879,7 +1879,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2021,
     "ogImage": "/og-images/the-squeeze.png",
-    "lastModified": 1747855908991
+    "lastModified": 1747568207000
   },
   {
     "title": "Learning",
@@ -1895,7 +1895,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2021,
     "ogImage": "/og-images/learning.png",
-    "lastModified": 1747855908991
+    "lastModified": 1747568207000
   },
   {
     "title": "On Code Review",
@@ -1912,7 +1912,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2021,
     "ogImage": "/og-images/on-code-review.png",
-    "lastModified": 1747855908991
+    "lastModified": 1747568207000
   },
   {
     "title": "Array Chunking",
@@ -1929,7 +1929,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2021,
     "ogImage": "/og-images/array-chunking.png",
-    "lastModified": 1747855908991
+    "lastModified": 1747568207000
   },
   {
     "title": "Fast",
@@ -1945,7 +1945,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2021,
     "ogImage": "/og-images/fast.png",
-    "lastModified": 1747855908991
+    "lastModified": 1747568207000
   },
   {
     "title": "Writing Node Scripts",
@@ -1962,7 +1962,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2021,
     "ogImage": "/og-images/writing-node-scripts.png",
-    "lastModified": 1747855908991
+    "lastModified": 1747568207000
   },
   {
     "title": "useConsole",
@@ -1981,7 +1981,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2021,
     "ogImage": "/og-images/useConsole.png",
-    "lastModified": 1747855908991
+    "lastModified": 1747568207000
   },
   {
     "title": "yw",
@@ -2000,7 +2000,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2021,
     "ogImage": "/og-images/yw.png",
-    "lastModified": 1747855908991
+    "lastModified": 1747568207000
   },
   {
     "title": "Hack Sprint",
@@ -2016,7 +2016,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2021,
     "ogImage": "/og-images/hack-sprint.png",
-    "lastModified": 1747855908991
+    "lastModified": 1747568207000
   },
   {
     "title": "Simple Props",
@@ -2032,7 +2032,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2021,
     "ogImage": "/og-images/simple-props.png",
-    "lastModified": 1747855908991
+    "lastModified": 1747568207000
   },
   {
     "title": "Computed Design Tokens",
@@ -2049,7 +2049,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2021,
     "ogImage": "/og-images/computed-theme.png",
-    "lastModified": 1747855908991
+    "lastModified": 1747655019000
   },
   {
     "title": "2021: Resolutions",
@@ -2065,7 +2065,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2021,
     "ogImage": "/og-images/2021.png",
-    "lastModified": 1747855908991
+    "lastModified": 1747568207000
   },
   {
     "title": "2020: Year in Review",
@@ -2081,7 +2081,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/2020.png",
-    "lastModified": 1747855908988
+    "lastModified": 1747568207000
   },
   {
     "title": "Building a Web Sandbox: Part 1",
@@ -2097,7 +2097,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/sandbox-part-1.png",
-    "lastModified": 1747855908989
+    "lastModified": 1747568207000
   },
   {
     "title": "Literate (web) Programming",
@@ -2113,7 +2113,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/literate-programming.png",
-    "lastModified": 1747855908988
+    "lastModified": 1747568207000
   },
   {
     "title": "NextJS Analytics with Airtable",
@@ -2129,7 +2129,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/nextjs-analytics-with-airtable.png",
-    "lastModified": 1747855908988
+    "lastModified": 1747568207000
   },
   {
     "title": "Pair Code Reviews",
@@ -2146,7 +2146,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/pair-code-reviews.png",
-    "lastModified": 1747855908989
+    "lastModified": 1747568207000
   },
   {
     "title": "Enhancing Slack",
@@ -2163,7 +2163,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2020,
     "ogImage": "/og-images/enhancing-slack.png",
-    "lastModified": 1747855908989
+    "lastModified": 1747568207000
   },
   {
     "title": "A Note on Consistency",
@@ -2180,7 +2180,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2020,
     "ogImage": "/og-images/a-note-on-consistency.png",
-    "lastModified": 1747855908990
+    "lastModified": 1747568207000
   },
   {
     "title": "The Rabbit Hole",
@@ -2196,7 +2196,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2020,
     "ogImage": "/og-images/the-rabbit-hole.png",
-    "lastModified": 1747855908988
+    "lastModified": 1747568207000
   },
   {
     "title": "A Note On Meetings",
@@ -2213,7 +2213,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2020,
     "ogImage": "/og-images/a-note-on-meetings.png",
-    "lastModified": 1747855908988
+    "lastModified": 1747568207000
   },
   {
     "title": "A Note On Anti-Patterns",
@@ -2230,7 +2230,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2020,
     "ogImage": "/og-images/a-note-on-anti-patterns.png",
-    "lastModified": 1747855908988
+    "lastModified": 1747568207000
   },
   {
     "title": "Stateful Providers",
@@ -2247,7 +2247,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2020,
     "ogImage": "/og-images/stateful-providers.png",
-    "lastModified": 1747855908989
+    "lastModified": 1747568207000
   },
   {
     "title": "Draft Pull Requests",
@@ -2264,7 +2264,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2020,
     "ogImage": "/og-images/draft-pull-requests.png",
-    "lastModified": 1747855908989
+    "lastModified": 1747568207000
   },
   {
     "title": "February 20, 2020",
@@ -2281,7 +2281,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2020,
     "ogImage": "/og-images/back-bay-fens.png",
-    "lastModified": 1747855908989
+    "lastModified": 1747568207000
   },
   {
     "title": "Summer 2019 - Bend Oregon",
@@ -2298,7 +2298,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2019,
     "ogImage": "/og-images/bend.png",
-    "lastModified": 1747855908987
+    "lastModified": 1747568207000
   },
   {
     "title": "Theme First UI Development",
@@ -2317,7 +2317,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2019,
     "ogImage": "/og-images/theme-first-ui-development.png",
-    "lastModified": 1747855908987
+    "lastModified": 1747568207000
   },
   {
     "title": "Deploying Automatically using GitHub Actions",
@@ -2333,7 +2333,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2019,
     "ogImage": "/og-images/deploying-with-github-actions.png",
-    "lastModified": 1747855908987
+    "lastModified": 1747568207000
   },
   {
     "title": "Simpler and Smaller",
@@ -2349,7 +2349,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2019,
     "ogImage": "/og-images/simpler-and-smaller.png",
-    "lastModified": 1747855908987
+    "lastModified": 1747568207000
   },
   {
     "title": "Maintenance Costs",
@@ -2365,7 +2365,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2019,
     "ogImage": "/og-images/maintenance-costs.png",
-    "lastModified": 1747855908988
+    "lastModified": 1747568207000
   },
   {
     "title": "Snapshot Testing",
@@ -2382,7 +2382,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2019,
     "ogImage": "/og-images/snapshot-testing.png",
-    "lastModified": 1747855908988
+    "lastModified": 1747568207000
   },
   {
     "title": "useReducer, don't useState",
@@ -2399,7 +2399,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/why-you-should-useReducer.png",
-    "lastModified": 1747855908987
+    "lastModified": 1747568207000
   },
   {
     "title": "Hooks Tips Ep. 2 - Migrating Instance Variables",
@@ -2416,7 +2416,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/hooks-tips-instance-variables.png",
-    "lastModified": 1747855908987
+    "lastModified": 1747568207000
   },
   {
     "title": "Hooks Tips Ep. 1 - The Dependency Array",
@@ -2433,7 +2433,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/hooks-tips-dependency-array.png",
-    "lastModified": 1747855908987
+    "lastModified": 1747568207000
   },
   {
     "title": "Building a Live Editor",
@@ -2450,7 +2450,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/building-a-live-editor.png",
-    "lastModified": 1747934143672
+    "lastModified": 1747934254000
   },
   {
     "title": "Start Small, Accept Change",
@@ -2467,7 +2467,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/start-small.png",
-    "lastModified": 1747855908987
+    "lastModified": 1747568207000
   },
   {
     "title": "React Error Boundaries",
@@ -2484,7 +2484,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2019,
     "ogImage": "/og-images/react-error-boundaries.png",
-    "lastModified": 1747855908987
+    "lastModified": 1747568207000
   },
   {
     "title": "Starting Fresh",
@@ -2501,7 +2501,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2018,
     "ogImage": "/og-images/starting-fresh.png",
-    "lastModified": 1747855908985
+    "lastModified": 1747568207000
   },
   {
     "title": "Testing Software",
@@ -2518,7 +2518,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2018,
     "ogImage": "/og-images/testing-software.png",
-    "lastModified": 1747855908985
+    "lastModified": 1747568207000
   },
   {
     "title": "Suspense Plus GraphQL",
@@ -2537,7 +2537,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2018,
     "ogImage": "/og-images/suspense-plus-graphql.png",
-    "lastModified": 1747855908986
+    "lastModified": 1747568207000
   },
   {
     "title": "Missing Detail",
@@ -2553,7 +2553,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2018,
     "ogImage": "/og-images/missing-detail.png",
-    "lastModified": 1747855908986
+    "lastModified": 1747568207000
   },
   {
     "title": "Matt's Log - October",
@@ -2569,7 +2569,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2018,
     "ogImage": "/og-images/matts-log-october.png",
-    "lastModified": 1747855908986
+    "lastModified": 1747568207000
   },
   {
     "title": "You've Launched, Now What?",
@@ -2586,7 +2586,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2018,
     "ogImage": "/og-images/youve-launched-now-what.png",
-    "lastModified": 1747855908986
+    "lastModified": 1747568207000
   },
   {
     "title": "Summer 2018 Trip",
@@ -2603,7 +2603,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2018,
     "ogImage": "/og-images/summer-2018-trip.png",
-    "lastModified": 1747855908986
+    "lastModified": 1747568207000
   },
   {
     "title": "Taking a Break",
@@ -2621,7 +2621,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2018,
     "ogImage": "/og-images/taking-a-break.png",
-    "lastModified": 1747855908986
+    "lastModified": 1747568207000
   },
   {
     "title": "Managing Complex UI Component State",
@@ -2639,7 +2639,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2018,
     "ogImage": "/og-images/complex-ui-components.png",
-    "lastModified": 1747855908986
+    "lastModified": 1747568207000
   },
   {
     "title": "Understanding React 16.3 Updates",
@@ -2657,7 +2657,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2018,
     "ogImage": "/og-images/understanding-react-16-3-updates.png",
-    "lastModified": 1747855908985
+    "lastModified": 1747568207000
   },
   {
     "title": "2018",
@@ -2674,7 +2674,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2018,
     "ogImage": "/og-images/2018.png",
-    "lastModified": 1747855908986
+    "lastModified": 1747568207000
   },
   {
     "title": "CSS in JS",
@@ -2692,7 +2692,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2017,
     "ogImage": "/og-images/css-in-js.png",
-    "lastModified": 1747855908985
+    "lastModified": 1747568207000
   },
   {
     "title": "Redesign v6",
@@ -2711,7 +2711,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2017,
     "ogImage": "/og-images/redesign-v6.png",
-    "lastModified": 1747855908985
+    "lastModified": 1747568207000
   },
   {
     "title": "JavaScript Weirdness",
@@ -2728,7 +2728,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2017,
     "ogImage": "/og-images/javascript-weirdness.png",
-    "lastModified": 1747855908985
+    "lastModified": 1747568207000
   },
   {
     "title": "Calendar",
@@ -2745,7 +2745,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2017,
     "ogImage": "/og-images/calendar.png",
-    "lastModified": 1747855908985
+    "lastModified": 1747568207000
   },
   {
     "title": "Rebuilding Mustache",
@@ -2762,7 +2762,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2017,
     "ogImage": "/og-images/rebuilding-mustache.png",
-    "lastModified": 1747855908985
+    "lastModified": 1747568207000
   },
   {
     "title": "Push vs Pull AI",
@@ -2779,7 +2779,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2017,
     "ogImage": "/og-images/push-vs-pull-ai.png",
-    "lastModified": 1747855908985
+    "lastModified": 1747691492000
   },
   {
     "title": "Links",
@@ -2796,7 +2796,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2016,
     "ogImage": "/og-images/links.png",
-    "lastModified": 1747855908984
+    "lastModified": 1747568207000
   },
   {
     "title": "The Great CSS Debate",
@@ -2813,7 +2813,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2016,
     "ogImage": "/og-images/css-debate.png",
-    "lastModified": 1747855908984
+    "lastModified": 1747691974000
   },
   {
     "title": "October 4th",
@@ -2830,7 +2830,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2016,
     "ogImage": "/og-images/october-4th.png",
-    "lastModified": 1747855908984
+    "lastModified": 1747692981000
   },
   {
     "title": "My New Website",
@@ -2847,7 +2847,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/my-new-website.png",
-    "lastModified": 1747855908983
+    "lastModified": 1747691492000
   },
   {
     "title": "Pull Quotes",
@@ -2864,7 +2864,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/pull-quotes.png",
-    "lastModified": 1747855908983
+    "lastModified": 1747568207000
   },
   {
     "title": "Redesign v5",
@@ -2881,7 +2881,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/redesign-v5.png",
-    "lastModified": 1747855908983
+    "lastModified": 1747568207000
   },
   {
     "title": "Attribute Selectors",
@@ -2898,7 +2898,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/attribute-selectors.png",
-    "lastModified": 1747855908983
+    "lastModified": 1747568207000
   },
   {
     "title": "August",
@@ -2914,7 +2914,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/august.png",
-    "lastModified": 1747855908983
+    "lastModified": 1747568207000
   },
   {
     "title": "Redesign",
@@ -2931,7 +2931,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2016,
     "ogImage": "/og-images/redesign.png",
-    "lastModified": 1747855908983
+    "lastModified": 1747568207000
   },
   {
     "title": "Afraid",
@@ -2947,7 +2947,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/afraid.png",
-    "lastModified": 1747855908984
+    "lastModified": 1747568207000
   },
   {
     "title": "Clientside",
@@ -2963,7 +2963,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/clientside.png",
-    "lastModified": 1747855908984
+    "lastModified": 1747568207000
   },
   {
     "title": "10,000 Characters",
@@ -2980,7 +2980,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/10000-characters.png",
-    "lastModified": 1747855908984
+    "lastModified": 1747568207000
   },
   {
     "title": "Building in 2016",
@@ -2996,7 +2996,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/building-in-2016.png",
-    "lastModified": 1747855908984
+    "lastModified": 1747568207000
   },
   {
     "title": "DJI vs GoPro",
@@ -3013,7 +3013,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/dji-vs-gopro.png",
-    "lastModified": 1747915199630
+    "lastModified": 1747915262000
   },
   {
     "title": "My First Project of 2016",
@@ -3029,7 +3029,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/my-first-project-of-2016.png",
-    "lastModified": 1747855908984
+    "lastModified": 1747568207000
   },
   {
     "title": "2015",
@@ -3045,7 +3045,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/2015.png",
-    "lastModified": 1747855908982
+    "lastModified": 1747568207000
   },
   {
     "title": "Looking Ahead: 2016",
@@ -3061,7 +3061,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/2016.png",
-    "lastModified": 1747855908982
+    "lastModified": 1747568207000
   },
   {
     "title": "Blogging vs Working",
@@ -3077,7 +3077,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/blogging-vs-working.png",
-    "lastModified": 1747855908982
+    "lastModified": 1747568207000
   },
   {
     "title": "Powerpoint",
@@ -3094,7 +3094,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/powerpoint.png",
-    "lastModified": 1747855908982
+    "lastModified": 1747568207000
   },
   {
     "title": "The Social Max",
@@ -3110,7 +3110,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/the-social-max.png",
-    "lastModified": 1747855908982
+    "lastModified": 1747568207000
   },
   {
     "title": "Thanksgiving",
@@ -3126,7 +3126,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/thanksgiving.png",
-    "lastModified": 1747855908983
+    "lastModified": 1747568207000
   },
   {
     "title": "Family Time",
@@ -3142,7 +3142,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/family-time.png",
-    "lastModified": 1747855908983
+    "lastModified": 1747568207000
   },
   {
     "title": "Weekend Projects",
@@ -3158,7 +3158,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/weekend-projects.png",
-    "lastModified": 1747855908983
+    "lastModified": 1747568207000
   },
   {
     "title": "The Message is in the Medium",
@@ -3175,7 +3175,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/message.png",
-    "lastModified": 1747855908983
+    "lastModified": 1747568207000
   },
   {
     "title": "A New Look",
@@ -3192,7 +3192,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/a-new-look.png",
-    "lastModified": 1747855908982
+    "lastModified": 1747568207000
   },
   {
     "title": "A New Resume",
@@ -3209,6 +3209,6 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/a-new-resume.png",
-    "lastModified": 1747855908982
+    "lastModified": 1747568207000
   }
 ];
