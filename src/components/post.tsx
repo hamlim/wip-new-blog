@@ -10,6 +10,10 @@ import { metadata } from "#/metadata.gen";
 import type { RawFrontmatter } from "#/types";
 import { PostCard } from "./post-card";
 
+import { StdLogger } from "#/utils/std-logger";
+
+let logger = new StdLogger("post");
+
 let dateFormatter = new Intl.DateTimeFormat("en-US", {
   dateStyle: "medium",
   timeStyle: "long",
@@ -27,6 +31,8 @@ async function getLastModifiedDate(
   );
   ghAPIURL.searchParams.set("path", filePath);
 
+  logger.log({ message: ghAPIURL.toString() });
+
   let [results] = await Promise.allSettled<
     [
       Promise<
@@ -42,10 +48,17 @@ async function getLastModifiedDate(
   if (results.status === "fulfilled") {
     let commit = results.value[0];
     if (!commit) {
+      logger.warn({ message: "No commit found", results: results.value });
       return null;
     }
+    logger.log({ message: "Commit found", commit: commit.commit });
     return new Date(commit.commit.committer.date);
   }
+
+  logger.warn({
+    message: "Error getting last modified date",
+    error: results.reason,
+  });
 
   return null;
 }
