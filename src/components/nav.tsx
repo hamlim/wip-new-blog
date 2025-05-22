@@ -45,7 +45,12 @@ export function Nav(): ReactNode {
   let { path } = useRouter();
 
   return (
-    <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2">
+    <div
+      // Ensure this element doesn't throw off the layout
+      // if it renders before the CSS file loads
+      style={{ position: "fixed" }}
+      className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2"
+    >
       <nav className="flex h-14 items-center rounded-full border bg-background/80 px-2 shadow-lg backdrop-blur-md">
         <ul className="flex items-center">
           {navItems.map((item) => {
