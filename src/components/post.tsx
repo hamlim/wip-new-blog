@@ -10,58 +10,58 @@ import { metadata } from "#/metadata.gen";
 import type { RawFrontmatter } from "#/types";
 import { PostCard } from "./post-card";
 
-import { StdLogger } from "#/utils/std-logger";
+// import { StdLogger } from "#/utils/std-logger";
 
-let logger = new StdLogger("post");
+// let logger = new StdLogger("post");
 
 let dateFormatter = new Intl.DateTimeFormat("en-US", {
   dateStyle: "medium",
   timeStyle: "long",
 }).format;
 
-async function getLastModifiedDate(
-  frontmatter: RawFrontmatter,
-): Promise<Date | null> {
-  let filePath = `src/mdx/${frontmatter.path}.mdx`;
+// async function getLastModifiedDate(
+//   frontmatter: RawFrontmatter,
+// ): Promise<Date | null> {
+//   let filePath = `src/mdx/${frontmatter.path}.mdx`;
 
-  let repoName = "blog-2025";
+//   let repoName = "blog-2025";
 
-  let ghAPIURL = new URL(
-    `https://api.github.com/repos/hamlim/${repoName}/commits`,
-  );
-  ghAPIURL.searchParams.set("path", filePath);
+//   let ghAPIURL = new URL(
+//     `https://api.github.com/repos/hamlim/${repoName}/commits`,
+//   );
+//   ghAPIURL.searchParams.set("path", filePath);
 
-  logger.log({ message: ghAPIURL.toString() });
+//   logger.log({ message: ghAPIURL.toString() });
 
-  let [results] = await Promise.allSettled<
-    [
-      Promise<
-        [
-          {
-            commit: { committer: { date: string } };
-          },
-        ]
-      >,
-    ]
-  >([fetch(ghAPIURL.toString()).then((r) => r.json())]);
+//   let [results] = await Promise.allSettled<
+//     [
+//       Promise<
+//         [
+//           {
+//             commit: { committer: { date: string } };
+//           },
+//         ]
+//       >,
+//     ]
+//   >([fetch(ghAPIURL.toString()).then((r) => r.json())]);
 
-  if (results.status === "fulfilled") {
-    let commit = results.value[0];
-    if (!commit) {
-      logger.warn({ message: "No commit found", results: results.value });
-      return null;
-    }
-    logger.log({ message: "Commit found", commit: commit.commit });
-    return new Date(commit.commit.committer.date);
-  }
+//   if (results.status === "fulfilled") {
+//     let commit = results.value[0];
+//     if (!commit) {
+//       logger.warn({ message: "No commit found", results: results.value });
+//       return null;
+//     }
+//     logger.log({ message: "Commit found", commit: commit.commit });
+//     return new Date(commit.commit.committer.date);
+//   }
 
-  logger.warn({
-    message: "Error getting last modified date",
-    error: results,
-  });
+//   logger.warn({
+//     message: "Error getting last modified date",
+//     error: results,
+//   });
 
-  return null;
-}
+//   return null;
+// }
 
 export async function Post({
   frontmatter,
@@ -70,7 +70,7 @@ export async function Post({
   children: ReactNode;
   frontmatter: any;
 }) {
-  let lastModifiedDate = await getLastModifiedDate(frontmatter);
+  // let lastModifiedDate = await getLastModifiedDate(frontmatter);
 
   return (
     <main className="pt-10">
@@ -90,9 +90,9 @@ export async function Post({
         <p className="text-sm text-slate-500 dark:text-slate-400">
           Published: {dateFormatter(frontmatter.date)}
           <br />
-          {lastModifiedDate
+          {/* {lastModifiedDate
             ? `Last updated: ${dateFormatter(lastModifiedDate)}`
-            : "Last updated: unknown"}
+            : "Last updated: unknown"} */}
         </p>
         <p className="flex flex-col justify-evenly gap-2 sm:flex-row">
           <BlueskyShareLink title={frontmatter.title}>
