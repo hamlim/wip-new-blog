@@ -1,8 +1,10 @@
-import { postsByTag } from "#/collections";
+import { collectByTag } from "#/collections";
 import { LinkAnchor } from "#/components/anchor";
 import { BlueskyIntentLink } from "#/components/bluesky-share-link";
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
+
+let postsByTag = collectByTag();
 
 export default async function TagPage({ tagName }: { tagName: string }) {
   let tagNameDecoded = decodeURIComponent(tagName);

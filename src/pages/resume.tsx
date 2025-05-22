@@ -234,6 +234,6 @@ export default function Resume() {
 
 export function getConfig() {
   return {
-    render: "dynamic",
+    render: "static",
   };
 }

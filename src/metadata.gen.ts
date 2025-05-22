@@ -2828,21 +2828,6 @@ export let metadata: Array<RawFrontmatter> = [
     "ogImage": "/og-images/building-in-2016.png"
   },
   {
-    "title": "My First Project of 2016",
-    "slug": "my-first-project-of-2016",
-    "path": "/2016/january/my-first-project-of-2016",
-    "date": 1451649600000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Projects"
-    ],
-    "description": "",
-    "month": "january",
-    "year": 2016,
-    "ogImage": "/og-images/my-first-project-of-2016.png"
-  },
-  {
     "title": "DJI vs GoPro",
     "slug": "dji-vs-gopro",
     "path": "/2016/january/dji-vs-gopro",
@@ -2859,19 +2844,19 @@ export let metadata: Array<RawFrontmatter> = [
     "ogImage": "/og-images/dji-vs-gopro.png"
   },
   {
-    "title": "Looking Ahead: 2016",
-    "slug": "2016",
-    "path": "/2015/december/2016",
-    "date": 1451563200000,
+    "title": "My First Project of 2016",
+    "slug": "my-first-project-of-2016",
+    "path": "/2016/january/my-first-project-of-2016",
+    "date": 1451649600000,
     "status": "public",
     "type": "blog-post",
     "tags": [
-      "Looking Ahead"
+      "Projects"
     ],
     "description": "",
-    "month": "december",
-    "year": 2015,
-    "ogImage": "/og-images/2016.png"
+    "month": "january",
+    "year": 2016,
+    "ogImage": "/og-images/my-first-project-of-2016.png"
   },
   {
     "title": "2015",
@@ -2887,6 +2872,21 @@ export let metadata: Array<RawFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/2015.png"
+  },
+  {
+    "title": "Looking Ahead: 2016",
+    "slug": "2016",
+    "path": "/2015/december/2016",
+    "date": 1451563200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Looking Ahead"
+    ],
+    "description": "",
+    "month": "december",
+    "year": 2015,
+    "ogImage": "/og-images/2016.png"
   },
   {
     "title": "Blogging vs Working",
@@ -2996,22 +2996,6 @@ export let metadata: Array<RawFrontmatter> = [
     "ogImage": "/og-images/message.png"
   },
   {
-    "title": "A New Resume",
-    "slug": "a-new-resume",
-    "path": "/2015/november/a-new-resume",
-    "date": 1446379200000,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Career",
-      "Side Projects"
-    ],
-    "description": "",
-    "month": "november",
-    "year": 2015,
-    "ogImage": "/og-images/a-new-resume.png"
-  },
-  {
     "title": "A New Look",
     "slug": "a-new-look",
     "path": "/2015/november/a-new-look",
@@ -3026,5 +3010,21 @@ export let metadata: Array<RawFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/a-new-look.png"
+  },
+  {
+    "title": "A New Resume",
+    "slug": "a-new-resume",
+    "path": "/2015/november/a-new-resume",
+    "date": 1446379200000,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Career",
+      "Side Projects"
+    ],
+    "description": "",
+    "month": "november",
+    "year": 2015,
+    "ogImage": "/og-images/a-new-resume.png"
   }
 ];

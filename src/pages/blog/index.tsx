@@ -1,4 +1,4 @@
-import { topPosts } from "#/collections";
+import { topPosts } from "#/collections/top-posts.gen";
 import { LinkAnchor } from "#/components/anchor";
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
@@ -39,4 +39,10 @@ export default function Blog() {
       </ProseContainer>
     </main>
   );
+}
+
+export function getConfig() {
+  return {
+    render: "static",
+  };
 }

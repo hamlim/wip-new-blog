@@ -3,6 +3,9 @@ import { mdxRootDir } from "./collect-metadata";
 import { generateMetadata } from "./generate-metadata";
 import { generateRSS } from "./generate-rss";
 
+await generateMetadata();
+await generateRSS();
+
 let subscription = await watcher.subscribe(mdxRootDir, async (err, events) => {
   await generateMetadata();
   await generateRSS();

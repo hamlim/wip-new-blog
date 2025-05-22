@@ -1,8 +1,10 @@
-import { postsByDate } from "#/collections";
+import { collectByDate } from "#/collections";
 import { LinkAnchor } from "#/components/anchor";
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
 import { uppercase } from "#/utils/uppercase";
+
+let postsByDate = collectByDate();
 
 export default async function TimelineIndexPage() {
   return (
@@ -47,6 +49,6 @@ export default async function TimelineIndexPage() {
 
 export function getConfig() {
   return {
-    render: "dynamic",
+    render: "static",
   };
 }

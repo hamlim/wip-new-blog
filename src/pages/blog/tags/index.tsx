@@ -1,7 +1,9 @@
-import { postsByTag } from "#/collections";
+import { collectByTag } from "#/collections";
 import { LinkAnchor } from "#/components/anchor";
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
+
+let postsByTag = collectByTag();
 
 export default async function TagIndexPage() {
   return (
@@ -29,6 +31,6 @@ export default async function TagIndexPage() {
 
 export function getConfig() {
   return {
-    render: "dynamic",
+    render: "static",
   };
 }

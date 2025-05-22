@@ -1,5 +1,5 @@
-import { reading } from "#/collections";
-import { topPosts } from "#/collections";
+import { reading } from "#/collections/bookshelf";
+import { topPosts } from "#/collections/top-posts.gen";
 import { LinkAnchor } from "#/components/anchor";
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
@@ -54,6 +54,6 @@ export default function Home() {
 
 export function getConfig() {
   return {
-    render: "dynamic",
+    render: "static",
   };
 }

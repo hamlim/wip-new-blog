@@ -27,6 +27,6 @@ export default function Projects() {
 
 export function getConfig() {
   return {
-    render: "dynamic",
+    render: "static",
   };
 }

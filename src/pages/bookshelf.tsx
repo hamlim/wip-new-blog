@@ -1,4 +1,4 @@
-import { read, reading, toRead } from "#/collections";
+import { read, reading, toRead } from "#/collections/bookshelf";
 import { Anchor } from "#/components/anchor";
 import { BlueskyIntentLink } from "#/components/bluesky-share-link";
 import { ProseContainer } from "#/components/container";
@@ -77,6 +77,6 @@ export default function Bookshelf() {
 
 export function getConfig() {
   return {
-    render: "dynamic",
+    render: "static",
   };
 }

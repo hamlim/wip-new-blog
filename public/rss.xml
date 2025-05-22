@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Wed, 21 May 2025 19:35:58 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 May 2025 11:43:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -153,7 +153,7 @@
 <p>You can then save the file and jump back into Raycast.</p>
 <p>Open Raycast and then open it&#x27;s settings (e.g. <code>Cmd + ,</code>), go to <code>Extensions</code>, and search for the name of your Script Command, e.g. <code>Better Screenshot</code>, once you find it in the table - you&#x27;ll want to record a keyboard shortcut for it. I opted to use the same shortcut that Dropbox Capture used for screenshots (<code>Option + shift + s</code>).</p>
 <p>Now when you hit that keyboard short cut it should show the screenshot cursor allowing you to click and drag to select an area of the screen, and once you do it will both copy the screenshot to the clipboard and also save the file to the location in the script above.</p>
-<div class="rounded-md bg-blue-50 p-4"><p>A quick note on the file location in the script above - this assumes you&#x27;re storing the file in the <code>Dropbox/Capture/</code> directory. Additionally - I found that you need to update/opt-in to some feature within the Dropbox mac app to have the Dropbox drive mounted under <code>~/Library/CloudStorage</code>.</p></div>]]></content:encoded>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>A quick note on the file location in the script above - this assumes you&#x27;re storing the file in the <code>Dropbox/Capture/</code> directory. Additionally - I found that you need to update/opt-in to some feature within the Dropbox mac app to have the Dropbox drive mounted under <code>~/Library/CloudStorage</code>.</p></div>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/replacing-dropbox-capture-with-raycast.png" length="0" type="image/png"/>
         </item>
@@ -181,7 +181,7 @@
 <span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">  let </span><span style="color:#B07D48;--shiki-dark:#BD976A">jsonObject</span><span style="color:#999999;--shiki-dark:#666666">: </span><span style="color:#2E8F82;--shiki-dark:#5DA994">MyDesiredJSONType</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
 <span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">  export</span><span style="color:#1E754F;--shiki-dark:#4D9375"> default</span><span style="color:#B07D48;--shiki-dark:#BD976A"> jsonObject</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span></code></pre>
-<div class="rounded-md bg-blue-50 p-4"><p>I recommend prefixing the identifier with a special character, specifically <code>#</code>. This helps to identify it as a local module specifier (as opposed to <code>@</code> which might map to a scoped 3rd party package), and easily stands out to others reading the codebase!</p></div>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>I recommend prefixing the identifier with a special character, specifically <code>#</code>. This helps to identify it as a local module specifier (as opposed to <code>@</code> which might map to a scoped 3rd party package), and easily stands out to others reading the codebase!</p></div>
 <p>Finally, and <strong>importantly</strong>, configure your import maps / paths configs:</p>
 <ul>
 <li>For Node.js / other node-like tools:<!-- -->
@@ -209,7 +209,7 @@
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">    }</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">  }</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span></code></pre>
-<div class="rounded-md bg-blue-50 p-4"><p>Note! Just because I&#x27;m using a JSON module as an example here doesn&#x27;t mean this strategy <em>only</em> works with JSON files - you can do this for any kind of file type!</p></div>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>Note! Just because I&#x27;m using a JSON module as an example here doesn&#x27;t mean this strategy <em>only</em> works with JSON files - you can do this for any kind of file type!</p></div>
 <p>Thats it! This should then let TypeScript use that declared module type whenever you import from this new identifier!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/quick-tip-specific-local-module-definitions.png" length="0" type="image/png"/>
@@ -341,7 +341,7 @@
             <guid>https://matthamlin.me//2025/february/single-file-web-apps</guid>
             <pubDate>Mon, 03 Feb 2025 17:27:21 GMT</pubDate>
             <description><![CDATA[What if you could author an entire web application in a single file?]]></description>
-            <content:encoded><![CDATA[<div class="rounded-md bg-blue-50 p-4"><p>This article is currently more of a raw &quot;note&quot;, than a complete blog post. If you&#x27;re looking for something really polished on this topic, keep searching 😂.</p></div>
+            <content:encoded><![CDATA[<div class="rounded-lg bg-muted px-4 py-0.5"><p>This article is currently more of a raw &quot;note&quot;, than a complete blog post. If you&#x27;re looking for something really polished on this topic, keep searching 😂.</p></div>
 <p>A couple days ago I was giving <a href="https://val.town" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">val.town</a>&#x27;s Townie AI system a try, I was tinkering with a small concept and was wondering if it could build it out for me. While that little experiment didn&#x27;t fully pan out - I did come away with an interesting thought that didn&#x27;t click until about a week later.</p>
 <p>Val.town does something interesting, and I don&#x27;t think it&#x27;s limited to their Townie AI assistant either, but present in the fundamental implementation of their system. For those not familiar with val.town, it&#x27;s effectively GitHub Gists (e.g. small snippets of code) that can be ran as one-off scripts, http handlers, cron jobs, etc. Essentially it&#x27;s runnable GitHub Gists, which is how they used to (maybe still do) market the service to new users.</p>
 <p>The really cool emergent behavior of this concept is that they both host the code and can run the code, what this means is that you can not only run the code on their services, but you can also request it as a plain old module and load it in another runtime!</p>
@@ -655,7 +655,7 @@ they mean so everyone knows what we mean!</p>
 <li>Writing Tasks (Blog post ideas that I have)</li>
 </ul>
 <p>The plugin then appends the content of the task into an <code>[[Inbox]]</code> note - this is a single catch-all note that contains all my tasks (the above categories only apply specific tags to each task to then later be grouped as noted below).</p>
-<div class="rounded-md bg-blue-50 p-4"><p>After a few months of using this workflow - I actually found that this single <code>[[Inbox]]</code> note was starting to really slow down during syncs across my devices.</p><p>I&#x27;ve now opted to semi-regularly manually copy the done/cancelled tasks and move them to a <code>[[Inbox Archive]]</code>  note.</p></div>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>After a few months of using this workflow - I actually found that this single <code>[[Inbox]]</code> note was starting to really slow down during syncs across my devices.</p><p>I&#x27;ve now opted to semi-regularly manually copy the done/cancelled tasks and move them to a <code>[[Inbox Archive]]</code>  note.</p></div>
 <p>Then I primarily use a <code>[[Tasks]]</code> note as the primary tool for checking my tasks and updating their statuses. This note is using the <a href="https://publish.obsidian.md/tasks/Introduction" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Tasks</a> plugin and it&#x27;s <a href="https://publish.obsidian.md/tasks/Queries/About+Queries" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline"><code>queries</code> feature</a> to group my categorized tasks (which is pretty similar to my previous setup in the above mentioned blog post).</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="answers-to-open-questions">Answers to Open Questions</h2>
 <blockquote>
@@ -845,7 +845,7 @@ they mean so everyone knows what we mean!</p>
             <guid>https://matthamlin.me//2024/october/building-a-custom-ghostty-theme</guid>
             <pubDate>Tue, 22 Oct 2024 09:22:32 GMT</pubDate>
             <description><![CDATA[How to generate a custom Ghostty theme based on any iterm2 theme!]]></description>
-            <content:encoded><![CDATA[<div class="rounded-md bg-blue-50 p-4"><p><strong>Update Oct. 25th, 2024:</strong></p><p><del>There&#x27;s a bug (see <a href="https://github.com/ghostty-org/ghostty/issues/2495" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">issue here (if you have access)</a>), where custom themes are blown away when upgrading the application, hopefully this is resolved in the future!</del> <em>Edit:</em> You can store custom themes within <code>~/.config/ghostty/themes</code>!</p><p><strong>Update Oct. 24th, 2024:</strong></p><p>I&#x27;ve since created a small repo with the pre-converted Vitesse themes for Ghostty <a href="https://github.com/hamlim/vitesse-ghostty-theme" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a>!</p></div>
+            <content:encoded><![CDATA[<div class="rounded-lg bg-muted px-4 py-0.5"><p><strong>Update Oct. 25th, 2024:</strong></p><p><del>There&#x27;s a bug (see <a href="https://github.com/ghostty-org/ghostty/issues/2495" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">issue here (if you have access)</a>), where custom themes are blown away when upgrading the application, hopefully this is resolved in the future!</del> <em>Edit:</em> You can store custom themes within <code>~/.config/ghostty/themes</code>!</p><p><strong>Update Oct. 24th, 2024:</strong></p><p>I&#x27;ve since created a small repo with the pre-converted Vitesse themes for Ghostty <a href="https://github.com/hamlim/vitesse-ghostty-theme" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a>!</p></div>
 <p>I recently got access to <a href="https://mitchellh.com/ghostty" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Ghostty</a> (a new terminal emulator that is still in private beta) after waiting several months in the Discord server, and as I was setting it up I noticed that my go-to theme for my terminal and code editor (<a href="https://vscodethemes.com/e/antfu.theme-vitesse/vitesse-light?language=javascript" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Vitesse Light</a> by <a href="https://antfu.me/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Anthony Fu</a>) wasn&#x27;t available as one of the built-in themes.</p>
 <p>After scouring the web and the discord server, I couldn&#x27;t really find a good guide for how to build a custom theme for the terminal, so I set out to attempt to manually make the theme.</p>
 <p>Fortunately I stumbled upon the template / converter within the <a href="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/tools/templates/ghostty" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">iterm2-color-schemes repo</a>, however I didn&#x27;t really want to clone a repo to run a python script in order to transform the theme to the proper format.</p>
@@ -926,7 +926,7 @@ they mean so everyone knows what we mean!</p>
 <span class="line"><span style="color:#99841877;--shiki-dark:#B8A96577">    &quot;</span><span style="color:#998418;--shiki-dark:#B8A965">pkg-b</span><span style="color:#99841877;--shiki-dark:#B8A96577">&quot;</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">workspace:*</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">  }</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span></code></pre>
-<div class="rounded-md bg-blue-50 p-4"><p>It&#x27;s worth noting however, that just because you always consume the latest version of a local dependency, doesn&#x27;t mean that you can leverage versioning as a way to indicate historical significance to changes to the workspace.</p><p>I&#x27;ve seen teams adopt a healthy versioning and changelog process for monorepo packages in the past that helps to provide context on what changes have happened and why (with more nuance than git commit history).</p></div>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>It&#x27;s worth noting however, that just because you always consume the latest version of a local dependency, doesn&#x27;t mean that you can leverage versioning as a way to indicate historical significance to changes to the workspace.</p><p>I&#x27;ve seen teams adopt a healthy versioning and changelog process for monorepo packages in the past that helps to provide context on what changes have happened and why (with more nuance than git commit history).</p></div>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="3-adopt-a-one-version-rule">3. Adopt a one version rule</h3>
 <p>This is something I become familiar with while at Wayfair, and have since tried to get others to adopt it as well. The concept comes from a paper by engineers at Google, and boils down to:</p>
 <blockquote>
@@ -1039,7 +1039,7 @@ they mean so everyone knows what we mean!</p>
             <guid>https://matthamlin.me//2024/august/dogfooding</guid>
             <pubDate>Wed, 21 Aug 2024 15:34:15 GMT</pubDate>
             <description><![CDATA[The secret to excellent product teams is using your own product, and often!]]></description>
-            <content:encoded><![CDATA[<div class="rounded-md bg-blue-50 p-4"><p>I&#x27;ve written a short follow up to this post! Check it out: <a href="/blog/2024/september/more-thoughts-on-dogfooding" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">More Thoughts on Dogfooding</a>.</p></div>
+            <content:encoded><![CDATA[<div class="rounded-lg bg-muted px-4 py-0.5"><p>I&#x27;ve written a short follow up to this post! Check it out: <a href="/blog/2024/september/more-thoughts-on-dogfooding" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">More Thoughts on Dogfooding</a>.</p></div>
 <p>A somewhat common<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup> concept within software development (and maybe more generalizable to any kind of product development) is the concept of &quot;dogfooding&quot;. My definition of dogfooding is;</p>
 <blockquote>
 <p>Using the product that you&#x27;re building, to improve the overall user experience</p>
@@ -1126,7 +1126,7 @@ they mean so everyone knows what we mean!</p>
 <span class="line"><span style="color:#B5695977;--shiki-dark:#C98A7D77">  &quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">-m</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#999999;--shiki-dark:#666666">,</span></span>
 <span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">  JSON</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">stringify</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B07D48;--shiki-dark:#BD976A">message</span><span style="color:#999999;--shiki-dark:#666666">),</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">]);</span></span></code></pre>
-<div class="rounded-md bg-blue-50 p-4"><p>I&#x27;ve also pushed this script up to a <a href="https://github.com/hamlim/git-notes-experiment" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">repo here</a> if you want to mess around with the concept more!</p></div>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>I&#x27;ve also pushed this script up to a <a href="https://github.com/hamlim/git-notes-experiment" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">repo here</a> if you want to mess around with the concept more!</p></div>
 <p>This is very naive - and probably has a number of issues - but seemed to work <em>alright</em> in some of my testing.</p>
 <p>I called this a failed experiment because <code>git notes</code> feels incredibly &quot;underbaked&quot; compared to other git features. Maybe underbaked isn&#x27;t the right phrase, but it&#x27;s seen such low adoption that most tools don&#x27;t support it, and it seems to break in some cases.</p>
 <ul>
@@ -1319,7 +1319,7 @@ they mean so everyone knows what we mean!</p>
             <guid>https://matthamlin.me//2024/july/simple-obsidian-task-management</guid>
             <pubDate>Fri, 19 Jul 2024 16:48:39 GMT</pubDate>
             <description><![CDATA[A brief overview of how I manage my tasks in Obsidian]]></description>
-            <content:encoded><![CDATA[<div class="rounded-md bg-blue-50 p-4"><p><strong>Update:</strong> I&#x27;ve outlined an updated workflow within <a href="/blog/2024/november/my-updated-obsidian-task-management" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">this blog post</a>, check it out!</p></div>
+            <content:encoded><![CDATA[<div class="rounded-lg bg-muted px-4 py-0.5"><p><strong>Update:</strong> I&#x27;ve outlined an updated workflow within <a href="/blog/2024/november/my-updated-obsidian-task-management" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">this blog post</a>, check it out!</p></div>
 <p>The other week I <a href="/blog/2024/july/switching-back-to-obsidian" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">wrote about switching back to Obsidian</a> and talked briefly about how I manage my tasks within Obsidian as well. This post is aiming to be a bit more of a deep dive on how I got to my current setup, what it is, and what are some of the still present pain points that I&#x27;m thinking about solving going forward.</p>
 <p>Before digging in - my task management workflow has changed quite a bit in the past couple of months. There was a short stint where I tried to really lean into the <strong>Reminders</strong> app on my iPhone / mac - but I was missing the nice ability to manage tasks on my work computer and personal computer when they didn&#x27;t share iCloud accounts. I then moved over to Notion using their Notion Projects offering - but that felt a bit like overkill. When I switched back over to Obsidian I decided to give <a href="https://todoist.com/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Todoist</a> a try - I had used it ages ago and remembered liking it but also remembered hitting their free plan limits pretty fast.</p>
 <p>After about a month of using Obsidian daily - I decided to move my tasks back into Obsidian. I liked the ability to easily refer to my tasks within my notes and even create whole notes for individual tasks (even though this part is still kind of clunky I think).</p>
@@ -1401,7 +1401,7 @@ they mean so everyone knows what we mean!</p>
 <p>In fact, the offline support (or really lack thereof) was starting to motivate me to consider building an application that would support offline features better - only to realize that Obsidian has ~90% of the features that I want out of my note taking software needs.</p>
 <p>There&#x27;s still some notable gaps with Obsidian (and some plugins workaround this - but maybe not to the fidelity that I&#x27;d like), and I may opt to hack on some plugin ideas in my (limited) free time. However I think I can slightly change my workflow enough to get by just fine with some of the defaults.</p>
 <p>I&#x27;ve now been using Obsidian for over a month solid, recreating my daily notes flow from Notion using the <a href="https://help.obsidian.md/Plugins/Daily+notes" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Daily Notes plugin</a> + some templates, and also a pretty effective task management workflow (still kind of manually managed, but the <a href="https://publish.obsidian.md/tasks/Introduction" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">tasks plugin</a> is really useful, maybe I&#x27;ll write up how I approach it in the near future).</p>
-<div class="rounded-md bg-blue-50 p-4"><p><strong>Update!</strong> I wrote a bit about how I manage my tasks within obsidian <a href="/blog/2024/july/simple-obsidian-task-management" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a></p></div>]]></content:encoded>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p><strong>Update!</strong> I wrote a bit about how I manage my tasks within obsidian <a href="/blog/2024/july/simple-obsidian-task-management" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a></p></div>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/switching-back-to-obsidian.png" length="0" type="image/png"/>
         </item>
@@ -1520,7 +1520,7 @@ they mean so everyone knows what we mean!</p>
             <guid>https://matthamlin.me//2024/may/hohoro</guid>
             <pubDate>Mon, 13 May 2024 16:13:30 GMT</pubDate>
             <description><![CDATA[A quick introduction to my new side project, hohoro. An incremental JS/TS library build tool!]]></description>
-            <content:encoded><![CDATA[<div class="rounded-md bg-blue-50 p-4"><p>I originally posted this article as a series of tweets <a href="https://twitter.com/immatthamlin/status/1790111809791308173" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a>.</p></div>
+            <content:encoded><![CDATA[<div class="rounded-lg bg-muted px-4 py-0.5"><p>I originally posted this article as a series of tweets <a href="https://twitter.com/immatthamlin/status/1790111809791308173" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a>.</p></div>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="introducing-hohoro">Introducing hohoro</h2>
 <p><code>hohoro</code> is an incremental build tool for JS/TS libraries, leveraging SWC and TSC under the hood!</p>
 <p>Check out the project here: <a href="https://hohoro.vercel.app/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">https://hohoro.vercel.app/</a>.</p>
@@ -1565,7 +1565,7 @@ they mean so everyone knows what we mean!</p>
             <pubDate>Fri, 05 Apr 2024 16:46:50 GMT</pubDate>
             <description><![CDATA[I've been using a variety of AI tools as of late, I figured I'd document the ones I'm primarily using!]]></description>
             <content:encoded><![CDATA[<p>I&#x27;ve been using a variety of AI tools for a bit now, and figured that I&#x27;d at least start to document what I&#x27;m using and why. This is a work in progress, and I&#x27;ll update it as I change my stack!</p>
-<div class="rounded-md bg-blue-50 p-4"><p>If I haven&#x27;t updated this recently, feel free to pester me about it on Twitter: <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/immatthamlin" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter w-4 h-4 inline-block mr-1" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>@<!-- -->immatthamlin</a>!</p></div>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>If I haven&#x27;t updated this recently, feel free to pester me about it on Twitter: <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/immatthamlin" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter w-4 h-4 inline-block mr-1" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>@<!-- -->immatthamlin</a>!</p></div>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="my-current-stack">My Current Stack</h2>
 <ul>
 <li><strong><a href="https://chat.openai.com/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">ChatGPT</a></strong>: This is usually my go-to for in-depth conversations and iterative thinking. I&#x27;ve been paying for the pro plan for a couple of months now.</li>
@@ -1593,7 +1593,7 @@ they mean so everyone knows what we mean!</p>
 <p>This part is fairly straight forward, the domain settings page for your project on Vercel will outline the records you will need to add to Cloudflare. Add the records to Cloudflare and wait for them to propagate (in my experience this has been effectively within a minute or two).</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="step-4-configure-ssltls-on-cloudflare">Step 4: Configure SSL/TLS on Cloudflare</h2>
 <p>This is the part that I found a bit tricky. You need to set the SSL/TLS encryption mode to &quot;Full&quot; or &quot;Full (strict)&quot; in the SSL/TLS settings page on Cloudflare. This is because Vercel uses a wildcard certificate for all of its projects, and Cloudflare will not be able to verify the certificate if you don&#x27;t set this.</p>
-<div class="rounded-md bg-blue-50 p-4"><p><strong>Tip!</strong> If you skip this step, you may end up seeing an <code>err_too_many_redirects</code> in your browser when attempting to visit your new domain.</p><p>You need to configure the above SSL/TLS setting to at least &quot;Full&quot; in order for this to work!</p><p>See these <a href="https://vercel.com/guides/resolve-err-too-many-redirects-when-using-cloudflare-proxy-with-vercel" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">docs</a> for more information.</p></div>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p><strong>Tip!</strong> If you skip this step, you may end up seeing an <code>err_too_many_redirects</code> in your browser when attempting to visit your new domain.</p><p>You need to configure the above SSL/TLS setting to at least &quot;Full&quot; in order for this to work!</p><p>See these <a href="https://vercel.com/guides/resolve-err-too-many-redirects-when-using-cloudflare-proxy-with-vercel" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">docs</a> for more information.</p></div>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="step-5-launch">Step 5: Launch</h2>
 <p>At this point your domain and project should all be set up and ready to go. You can now visit your new domain and see your project live!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
@@ -1680,7 +1680,7 @@ they mean so everyone knows what we mean!</p>
             <guid>https://matthamlin.me//2024/march/exporting-custom-slack-emoji</guid>
             <pubDate>Mon, 25 Mar 2024 11:45:33 GMT</pubDate>
             <description><![CDATA[How to easily mass-export your custom slack emoji without API access!]]></description>
-            <content:encoded><![CDATA[<div class="rounded-md bg-blue-50 p-4"><p>This workflow has been proven to work at the end of March 2024, it may break in the future!</p></div>
+            <content:encoded><![CDATA[<div class="rounded-lg bg-muted px-4 py-0.5"><p>This workflow has been proven to work at the end of March 2024, it may break in the future!</p></div>
 <p>At work we recently bypassed over 60k custom slack emoji in our workspace, and I&#x27;d been meaning to download them locally so I could reference them in other discussions outside of slack with past and present coworkers.</p>
 <p>I did some scavenging on Google (actually Perplexity) and found a fairly active <a href="https://gist.github.com/lmarkus/8722f56baf8c47045621" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Gist</a> that seems to have captured a few different routes to accomplish the use case, but some of the API has changed since then.</p>
 <p>So I figured I&#x27;d document what I did to accomplish this in case others are looking for a similar solution!</p>
@@ -1782,7 +1782,7 @@ a. This snippet only defines a few helper functions, it won&#x27;t do anything m
             <pubDate>Fri, 22 Mar 2024 22:48:30 GMT</pubDate>
             <description><![CDATA[Two neat tricks for enhancing your site's favicon!]]></description>
             <content:encoded><![CDATA[<p>The other day I was reminded of two neat tricks related to customizing your favicon to bring some delight to your website visitors and also to improve your development flow - all thanks to <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/scottykaye" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter w-4 h-4 inline-block mr-1" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>@<!-- -->scottykaye</a>!</p>
-<div class="rounded-md bg-blue-50 p-4"><p>If you want to skip right to the code, checkout both recipes in my <a href="https://github.com/hamlim/custom-favicons-recipes" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">hamlim/custom-favicon-recipes</a> repo!</p></div>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>If you want to skip right to the code, checkout both recipes in my <a href="https://github.com/hamlim/custom-favicons-recipes" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">hamlim/custom-favicon-recipes</a> repo!</p></div>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="customizing-favicons-for-light-and-dark-mode">Customizing Favicons for Light and Dark Mode</h2>
 <p>The first recipe is a neat way to change the favicon of your site based on the preferred color scheme of the visitor. You can use the <code>&lt;link /&gt;</code> tag&#x27;s <code>media</code> attribute
 to have the browser &quot;choose&quot; the preferred icon based on light or dark mode.</p>
@@ -1907,7 +1907,7 @@ within your <code>docs/package.json</code> file:</p>
 <span class="line"><span style="color:#99841877;--shiki-dark:#B8A96577">    &quot;</span><span style="color:#998418;--shiki-dark:#B8A965">my-package</span><span style="color:#99841877;--shiki-dark:#B8A96577">&quot;</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">workspace:*</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">  }</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span></code></pre>
-<div class="rounded-md bg-blue-50 p-4"><p>Tip: The <code>workspace:*&quot;</code> specifier is a common pattern supported by modern
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>Tip: The <code>workspace:*&quot;</code> specifier is a common pattern supported by modern
 package managers that let&#x27;s you declare a local workspace dependency, at any
 version!</p></div>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="additional-ideas">Additional Ideas</h2>
@@ -2048,7 +2048,7 @@ the drink.</p>
 enough, I felt like it&#x27;d be interesting to build a quick and dirty web app to
 store cocktail recipes that we can then refer to later<button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
 <p>And so, I started hacking on <a href="https://tails-theta.vercel.app/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Tails</a>.</p>
-<div class="rounded-md bg-blue-50 p-4"><p>🚧 <em>Be warned, there&#x27;s still a ton of things I need to get properly
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>🚧 <em>Be warned, there&#x27;s still a ton of things I need to get properly
 setup with this version of the service, but feel free to mess around and report
 any bugs <a href="https://github.com/hamlim/tails" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a></em>. 🚧</p></div>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="what-is-tails">What is Tails?</h2>
@@ -2408,7 +2408,7 @@ libraries/packages that they are alternatives for.</p>
 <a href="https://turbo.build/repo" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline"><code>turborepo</code></a> was that it was an unopinionated
 monorepo manager. In reality, it just held different opinions about how tasks
 should be managed than tools like <code>nx</code> or <code>lerna</code>.</p>
-<div class="rounded-md bg-blue-50 p-4"><p>If you&#x27;re looking at adopting some library or package (or even an SaaS application) and one of the main selling points is about it being unopinionated, don&#x27;t fall for it!</p></div>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>If you&#x27;re looking at adopting some library or package (or even an SaaS application) and one of the main selling points is about it being unopinionated, don&#x27;t fall for it!</p></div>
 <p>It&#x27;s fine for a library to express some opinions about how it should be adopted
 and how the overall workflow/application in which it is adopted should function.
 However, it&#x27;s false advertising to say that it is unopinionated.</p>
@@ -2436,7 +2436,7 @@ isn&#x27;t.</p>
 <p>If you&#x27;re not working on something both high effort <strong>and</strong> high impact, than
 you are wasting your time, and your teams time.</p>
 <p>I&#x27;ll re-iterate to help make it stick - <strong>stop snacking</strong>!</p>
-<div class="rounded-md bg-blue-50 p-4"><p>Brought to you by someone stuck in the snacking loop (both with Milano cookies and without)!</p></div>]]></content:encoded>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>Brought to you by someone stuck in the snacking loop (both with Milano cookies and without)!</p></div>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/stop-snacking.png" length="0" type="image/png"/>
         </item>
@@ -3757,7 +3757,7 @@ toolbox: <code>copy</code> and <code>paste</code> 😂 !</p>
             <link>https://matthamlin.me//2022/may/switching-back-to-notion</link>
             <guid>https://matthamlin.me//2022/may/switching-back-to-notion</guid>
             <pubDate>Sun, 29 May 2022 17:51:16 GMT</pubDate>
-            <content:encoded><![CDATA[<div class="rounded-md bg-blue-50 p-4"><p><strong>Update - July 2024</strong>: I&#x27;ve now written a follow up to this post, <a href="/blog/2024/july/switching-back-to-obsidian" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Switching back to Obsidian</a>!</p></div>
+            <content:encoded><![CDATA[<div class="rounded-lg bg-muted px-4 py-0.5"><p><strong>Update - July 2024</strong>: I&#x27;ve now written a follow up to this post, <a href="/blog/2024/july/switching-back-to-obsidian" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Switching back to Obsidian</a>!</p></div>
 <p>I’ve probably written blog posts like this in the past, as I tend to switch
 between note taking platforms, I also don’t expect this to be my last one
 either!</p>
@@ -8169,7 +8169,7 @@ other projects but they have never really actually played out well.</p>
 of these are loans, others include utilities and rent. However one of the
 problems I have encountered has been visiting the site to pay off a bill only to
 find out that I payed it off earlier in the month.</p>
-<div class="rounded-md bg-blue-50 p-4"><p>I have no idea why my memory is so bad, but it just is.</p></div>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>I have no idea why my memory is so bad, but it just is.</p></div>
 <ul>
 <li><strong>Events</strong></li>
 </ul>
@@ -9185,6 +9185,36 @@ either way the consumers will be getting great drones to use.</p>]]></content:en
             <enclosure url="https://matthamlin.me/og-images/dji-vs-gopro.png" length="0" type="image/png"/>
         </item>
         <item>
+            <title><![CDATA[Looking Ahead: 2016]]></title>
+            <link>https://matthamlin.me//2015/december/2016</link>
+            <guid>https://matthamlin.me//2015/december/2016</guid>
+            <pubDate>Thu, 31 Dec 2015 12:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>I never stick to my goals and resolutions after New Years Evening. The next day
+I wake up without changing anything about my life that I wanted to. So I decided
+to make something that would act as a sort of public status check. Something
+that I can continuously update easily, and that others can watch and give me
+feedback on as the year progresses. I started something like this a while ago as
+a private subreddit, but this will be fully public and I plan on tweeting the
+status of each day by the end of the day.</p>
+<p>Of course there is nothing keeping me from doing this except the drive to do new
+things everyday. In many ways I am drawing inspiration from Casey Neistat&#x27;s
+daily vlog. Where he started making videos daily to give him an impetus to
+create more things.</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="what-is-this">What is this?</h3>
+<p>Here is a link to the page:
+<del><a href="http://matthamlin.me/status.html" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Status (Not Active Anymore)</a></del></p>
+<p>Well this is simply an about post about the project, I plan on building a new
+page for my personal website, where I track tasks completed and to be completed
+each day. These simple tasks will be things such as doing some sort of exercise
+each day, to eating something healthy (ideally vegetables and lean meats like
+chicken or turkey). I also want to focus on being able to build up my coding
+experience, so I want to track progress working on new projects as well.</p>
+<p>Each day I will update the website with tasks that I completed that day, and
+with goals for the next day.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/2016.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[2015]]></title>
             <link>https://matthamlin.me//2015/december/2015</link>
             <guid>https://matthamlin.me//2015/december/2015</guid>
@@ -9215,36 +9245,6 @@ doing something I hate.</p>
 my friends and family, and I can&#x27;t wait to kick off 2016!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/2015.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Looking Ahead: 2016]]></title>
-            <link>https://matthamlin.me//2015/december/2016</link>
-            <guid>https://matthamlin.me//2015/december/2016</guid>
-            <pubDate>Thu, 31 Dec 2015 12:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>I never stick to my goals and resolutions after New Years Evening. The next day
-I wake up without changing anything about my life that I wanted to. So I decided
-to make something that would act as a sort of public status check. Something
-that I can continuously update easily, and that others can watch and give me
-feedback on as the year progresses. I started something like this a while ago as
-a private subreddit, but this will be fully public and I plan on tweeting the
-status of each day by the end of the day.</p>
-<p>Of course there is nothing keeping me from doing this except the drive to do new
-things everyday. In many ways I am drawing inspiration from Casey Neistat&#x27;s
-daily vlog. Where he started making videos daily to give him an impetus to
-create more things.</p>
-<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="what-is-this">What is this?</h3>
-<p>Here is a link to the page:
-<del><a href="http://matthamlin.me/status.html" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Status (Not Active Anymore)</a></del></p>
-<p>Well this is simply an about post about the project, I plan on building a new
-page for my personal website, where I track tasks completed and to be completed
-each day. These simple tasks will be things such as doing some sort of exercise
-each day, to eating something healthy (ideally vegetables and lean meats like
-chicken or turkey). I also want to focus on being able to build up my coding
-experience, so I want to track progress working on new projects as well.</p>
-<p>Each day I will update the website with tasks that I completed that day, and
-with goals for the next day.</p>]]></content:encoded>
-            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
-            <enclosure url="https://matthamlin.me/og-images/2016.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Blogging vs Working]]></title>
@@ -9484,6 +9484,17 @@ something people look at.</p>]]></content:encoded>
             <enclosure url="https://matthamlin.me/og-images/message.png" length="0" type="image/png"/>
         </item>
         <item>
+            <title><![CDATA[A New Look]]></title>
+            <link>https://matthamlin.me//2015/november/a-new-look</link>
+            <guid>https://matthamlin.me//2015/november/a-new-look</guid>
+            <pubDate>Sun, 01 Nov 2015 12:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>I just setup Poole as a blogging style with Jekyll on this (my main website).
+Hopefully this provides a larger incentive to start posting here then cross
+posting to Medium.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/a-new-look.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[A New Resume]]></title>
             <link>https://matthamlin.me//2015/november/a-new-resume</link>
             <guid>https://matthamlin.me//2015/november/a-new-resume</guid>
@@ -9503,17 +9514,6 @@ version of Bundles, or at least the core requirements.</p>
 wish I could spend more time just on development.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/a-new-resume.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[A New Look]]></title>
-            <link>https://matthamlin.me//2015/november/a-new-look</link>
-            <guid>https://matthamlin.me//2015/november/a-new-look</guid>
-            <pubDate>Sun, 01 Nov 2015 12:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>I just setup Poole as a blogging style with Jekyll on this (my main website).
-Hopefully this provides a larger incentive to start posting here then cross
-posting to Medium.</p>]]></content:encoded>
-            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
-            <enclosure url="https://matthamlin.me/og-images/a-new-look.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>

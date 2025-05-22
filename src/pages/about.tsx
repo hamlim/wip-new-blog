@@ -83,6 +83,6 @@ export default function About() {
 
 export function getConfig() {
   return {
-    render: "dynamic",
+    render: "static",
   };
 }
