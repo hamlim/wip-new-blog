@@ -2399,7 +2399,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/why-you-should-useReducer.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748026165000
   },
   {
     "title": "Hooks Tips Ep. 2 - Migrating Instance Variables",
@@ -2416,7 +2416,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/hooks-tips-instance-variables.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748026165000
   },
   {
     "title": "Hooks Tips Ep. 1 - The Dependency Array",
@@ -2450,7 +2450,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/building-a-live-editor.png",
-    "lastModified": 1747934254000
+    "lastModified": 1748026165000
   },
   {
     "title": "Start Small, Accept Change",
@@ -2467,7 +2467,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/start-small.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748026165000
   },
   {
     "title": "React Error Boundaries",
@@ -2484,7 +2484,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2019,
     "ogImage": "/og-images/react-error-boundaries.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748026165000
   },
   {
     "title": "Starting Fresh",

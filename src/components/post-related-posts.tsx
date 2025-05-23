@@ -31,6 +31,10 @@ export function RelatedPosts({ frontmatter }: { frontmatter: RawFrontmatter }) {
     return null;
   }
 
+  if (Object.values(relatedPosts).every((posts) => posts.length === 0)) {
+    return null;
+  }
+
   return (
     <Fragment>
       <Heading level={3}>Related Posts</Heading>
