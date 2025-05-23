@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Thu, 22 May 2025 20:21:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 18:31:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -8658,7 +8658,10 @@ it from the archive page when I am ready to publish it.</p>
             <pubDate>Wed, 24 Aug 2016 12:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>I recently read <a href="https://adactio.com/journal/11102">this</a> interesting
 blog post about why pull quotes are used on the web. The article talks a bit
-about why pull quotes existed in the first place<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref="true" aria-describedby="footnote-label" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">1</a></sup>. and the author feels that
+about why pull quotes existed in the first place<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">In newspaper’s people would flip through the pages and pull quotes were
+intended to grab the reader’s attention and pull them into reading the article.
+I seriously doubt that they were named pull quotes because they wanted to pull
+the reader in.</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>. and the author feels that
 web developers blindly followed what they were doing in print and implemented
 them on the web.</p>
 <p>Some may find this statement a bit overreaching however I actually think it is
@@ -8686,16 +8689,10 @@ body of the post. This is because I want users to quickly read a bit about the
 article by reading the block quotes, and then if they want to read the article
 the block quotes offer extra value when reading.</p>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="footnotes">Footnotes:</h3>
-<section data-footnotes="true" class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
-<ol>
-<li id="user-content-fn-1">
-<p>In newspaper’s people would flip through the pages and pull quotes were
+<p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->In newspaper’s people would flip through the pages and pull quotes were
 intended to grab the reader’s attention and pull them into reading the article.
 I seriously doubt that they were named pull quotes because they wanted to pull
-the reader in. <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline data-footnote-backref">↩</a></p>
-</li>
-</ol>
-</section>]]></content:encoded>
+the reader in.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/pull-quotes.png" length="0" type="image/png"/>
         </item>
@@ -8707,8 +8704,7 @@ the reader in. <a href="#user-content-fnref-1" data-footnote-backref="" aria-lab
             <content:encoded><![CDATA[<p>Technically the name of this document is <var>designV5.html</var> however I
 really don&#x27;t know what version this is of my personal webpage. I know I have
 written about redesigning this website about 2 or three times now
-(<a href="/post/Redesign">once here</a> and again
-<a href="/post/Weekend-Projects">here</a>).</p>
+(<a href="/2016/april/redesign" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">once here</a> and again <a href="/2015/november/weekend-projects" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a>).</p>
 <p>The point of the matter is that I have redesigned my website several times over
 and each time I generally design it using the new things I have learned about
 design and web development. This time I wanted to focus on revitalizing my blog
@@ -8818,8 +8814,8 @@ the company at all).</p>
 shipping several large new features for Wayfair and it&#x27;s affiliated brands.
 While doing this work I have begun to hate web development work, at least work
 for a large company and brand (<s>I will probably write another post about these
-feelings.</s> <a href="/post/Web-Development-Sucks">Here</a> is a link to that
-post.)</p>
+feelings.</s> <del><a href="/post/Web-Development-Sucks">Here</a> is a link to that
+post.</del> <strong>update: I have no idea where that blog post has gone to</strong>)</p>
 <p>Over the past few months I have been working on several projects, one for a
 small startup which will launch soon, another that is coming up for another
 startup, some small personal projects and mostly searching for work. I haven&#x27;t
@@ -8949,7 +8945,8 @@ becoming more amazing, offering more access to the CPU and other OS-level
 features.</p>
 <p>Browsers like Chrome and Firefox began to grow in user numbers, as well as
 features. Web developers began to test the limits of their browsers by making
-awesome experiments<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref="true" aria-describedby="footnote-label" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">1</a></sup>. However the whole of web development didn&#x27;t change that
+awesome experiments<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">Mr. Doob was one of my most well remembered sites, with cool little
+experiments written for Chrome. More information about these can be found <a href="http://mrdoob.com/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a>.</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>. However the whole of web development didn&#x27;t change that
 much, people shifted over to Node.JS as the fundamental server-side architecture
 from PHP, and their HTML was served in much the same way.</p>
 <p>However the major key was that the shift to Node separated the server logic from
@@ -9005,15 +9002,8 @@ framework to build entire application platforms. One thing will not change as
 web development progresses, more and more applications will begin to be written
 as client-side applications.</p>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="footnotes">Footnotes:</h3>
-<section data-footnotes="true" class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
-<ol>
-<li id="user-content-fn-1">
-<p>Mr. Doob was one of my most well remembered sites, with cool little
-experiments written for Chrome. More information about these can be found
-<a href="http://mrdoob.com/">here</a>. <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline data-footnote-backref">↩</a></p>
-</li>
-</ol>
-</section>]]></content:encoded>
+<p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->Mr. Doob was one of my most well remembered sites, with cool little
+experiments written for Chrome. More information about these can be found <a href="http://mrdoob.com/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a>.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/clientside.png" length="0" type="image/png"/>
         </item>
@@ -9125,10 +9115,7 @@ for them to build a great drone experience for customers.</p>
 <p>These companies do currently work together in some regards, with GoPro mounts
 for DJI drones but, as every technology company knows, its better to build your
 own version than it is to outsource to another company. We have seen this play
-out
-<a href="http://www.wired.com/2015/07/like-google-facebook-twitter-designs-computer-servers/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">multiple</a>
-<a href="http://www.wired.com/2012/03/google-miner-helmet/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">times</a>
-<a href="http://spectrum.ieee.org/cars-that-think/transportation/self-driving/uber-could-be-first-to-test-completely-driverless-cars-in-public" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">with</a>
+out <a href="http://www.wired.com/2015/07/like-google-facebook-twitter-designs-computer-servers/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">multiple</a> <a href="http://www.wired.com/2012/03/google-miner-helmet/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">times</a> <a href="http://spectrum.ieee.org/cars-that-think/transportation/self-driving/uber-could-be-first-to-test-completely-driverless-cars-in-public" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">with</a>
 other large tech companies.</p>
 <p>I really hope that we get to see these companies compete over their own
 respective drones in 2016. These companies are going to be great competitors and
@@ -9146,7 +9133,7 @@ two libraries I listed below to Skeleton and to a custom JS library. I did this
 to simplify some of the development of the project to both finish the entire
 project in less than 30 days, and to also simplify the development of the
 application.</p>
-<p>As I mentioned in my Building in 2016 post, I want to make sure I am building
+<p>As I mentioned in my <a href="/2016/january/building-in-2016" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Building in 2016</a> post, I want to make sure I am building
 things in 2016 primarily for me. So my first project for 2016 is going to be
 focused just on one of my own pain points. First, before I jump into the full
 project breakdown, I want to talk a bit about the background.</p>
