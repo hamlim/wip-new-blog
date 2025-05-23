@@ -102,15 +102,9 @@ Another caveat, or feature I guess is that if you do want to catch a particular
 error from an event handler higher up in the component tree at your error
 boundary, you can `throw` from within a setState:
 
-{/*
-// ==live== template="react"
-*/}
 ```jsx
 import { Component } from 'react';
 
-// Note this is a live editor!
-// Feel free to toy around with the code and see the
-// actual output above!
 export default class Example extends Component {
   handleChange = (e) => {
     let {

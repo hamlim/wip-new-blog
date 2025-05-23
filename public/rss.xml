@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 23 May 2025 18:38:22 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 18:46:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -6522,7 +6522,8 @@ will use for this article will be that its:</p>
 using a reducer function gives you the developer more control over the state
 merging.</p>
 <p>As an example of this expresivity that a reducer gives us, we can <code>useReducer</code>
-to implement an undo/redo state management solution<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>:</p>
+to implement an undo/redo state management solution<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">Implementation taken from <a href="https://redux.js.org/recipes/implementing-undo-history">Redux
+Docs</a></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>:</p>
 <pre data-mdx="true" class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">function</span><span style="color:#59873A;--shiki-dark:#80A665"> init</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B07D48;--shiki-dark:#BD976A">initialState</span><span style="color:#999999;--shiki-dark:#666666">)</span><span style="color:#999999;--shiki-dark:#666666"> {</span></span>
 <span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">  return</span><span style="color:#999999;--shiki-dark:#666666"> {</span></span>
 <span class="line"><span style="color:#998418;--shiki-dark:#B8A965">    past</span><span style="color:#999999;--shiki-dark:#666666">:</span><span style="color:#999999;--shiki-dark:#666666"> [],</span></span>
@@ -6566,7 +6567,9 @@ your own.</p>
 <p>This is mostly a more generic topic that permeates through other topics than
 just React Hooks, but the general take-away with the benefit of <code>useReducer</code>
 over <code>useState</code> is it builds on the concepts that many developers learned
-working with Redux within React applications<button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>. The concept
+working with Redux within React applications<button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">I do think there will still be a shift from developers used to
+Redux getting into Hooks however, as middleware solutions like <code>redux-thunk</code>
+will need to be re-implemented using <code>useEffect</code>.</span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>. The concept
 of dispatching an action and having your reducer handle the state updating logic
 will allow these developers to more easily grasp this method of state management
 over <code>useState</code>.</p>
@@ -6603,16 +6606,14 @@ over <code>useState</code>, they both have benefits and fallbacks that depend en
 their use. However, I do think that <code>useReducer</code> when used as a replacement for
 complex state management happening within an old class based component or
 replacing a react-redux setup can be more maintainable.</p>
-<marquee class="mt-4"></marquee>
 <hr/>
-<marquee class="mt-4"></marquee>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="footnotes">Footnotes:</h3>
 <p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->Implementation taken from<!-- --> <!-- -->
 <a href="https://redux.js.org/recipes/implementing-undo-history">Redux
 Docs</a></p>
 <p id="fnref-2" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-2" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->I do think there will still be a shift from developers used to
 Redux getting into Hooks however, as middleware solutions like <code>redux-thunk</code>
-will need to be re-implemented using<!-- --> <!-- --> <code>useEffect</code>.</p>]]></content:encoded>
+will need to be re-implemented using <code>useEffect</code>.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/why-you-should-useReducer.png" length="0" type="image/png"/>
         </item>
@@ -6697,22 +6698,17 @@ it may be tempting to convert your instance variables all down to a single
 <p>While this may look beneficial, and may be easier to access the properties, it
 makes it potentially more difficult to split up the logic into separate hooks.</p>
 <p>In general, <strong>always prefer to keep <code>useRef</code> (and <code>useState</code>) calls limited in
-scope</strong>, and bias towards hook composition instead.<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref="true" aria-describedby="footnote-label" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">1</a></sup></p>
+scope</strong>, and bias towards hook composition instead.<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">I should write yet another blog post about why I have this preference, but for
+now feel free to accept it as a pattern.</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup></p>
 <p>From our first example above, we may want to split the timer instance variable
 into a custom <code>useTimer</code> hook that our component can leverage, and the
 <code>inputRef</code> can be accomplished using just a top level <code>createRef</code>.</p>
 <p>For additional insight into how to <code>useRef</code>, refer to the
 <a href="https://reactjs.org/docs/hooks-faq.html#is-there-something-like-instance-variables" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">ReactJS Docs</a></p>
 <p><em>Thanks to Dillon Curry for reviewing an earlier version of this post</em></p>
-<p>I should write yet another blog post about why I have this preference, but for
-now feel free to accept it as a pattern.</p>
-<section data-footnotes="true" class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
-<ol>
-<li id="user-content-fn-1">
-<a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline data-footnote-backref">↩</a>
-</li>
-</ol>
-</section>]]></content:encoded>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="footnotes">Footnotes:</h3>
+<p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->I should write yet another blog post about why I have this preference, but for
+now feel free to accept it as a pattern.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/hooks-tips-instance-variables.png" length="0" type="image/png"/>
         </item>
@@ -6853,7 +6849,6 @@ library, we are able to use a React wrapping API around the <code>prismjs</code>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span></code></pre>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="wrapping-up">Wrapping Up</h2>
 <p>So wrapping it all up, we end up with an API that looks like this:</p>
-<!-- -->
 <pre data-mdx="true" class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">import</span><span style="color:#999999;--shiki-dark:#666666"> {</span><span style="color:#B07D48;--shiki-dark:#BD976A"> transform</span><span style="color:#999999;--shiki-dark:#666666"> }</span><span style="color:#1E754F;--shiki-dark:#4D9375"> from</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">@babel/standalone</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
 <span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">import</span><span style="color:#999999;--shiki-dark:#666666"> {</span><span style="color:#B07D48;--shiki-dark:#BD976A"> Editor</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#B07D48;--shiki-dark:#BD976A"> Preview</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#B07D48;--shiki-dark:#BD976A"> Provider</span><span style="color:#999999;--shiki-dark:#666666"> }</span><span style="color:#1E754F;--shiki-dark:#4D9375"> from</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">@matthamlin/react-preview-editor</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
 <span class="line"></span>
@@ -6895,13 +6890,17 @@ on GitHub (make sure to ⭐ it too 😆).</p>
             <content:encoded><![CDATA[<p>As I have grown into a more experienced web developer, I have been thinking a
 lot more about this tweet by Joel Hooks:</p>
 <div class="bg-blue-100 dark:bg-blue-900/20 p-4 rounded-lg border border-blue-400 dark:border-blue-600 prose prose-blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter w-8 h-8 block mb-2 text-blue-400 dark:text-blue-600" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg><blockquote><div lang="en" dir="ltr"><p>There’s a tendency to jump straight to step 32 of the “new thing” vs
-focusing on steps 1 and 2. <br/></p><br/><p>“what’s the next smallest step that we can do?” <br/></p><br/><p>Skipping to the end can often lead to failure and hard feelings when you’ve
-put in a lot of work and it gets a 👎</p><br/><br/><p>Baby steps. 🐣
+focusing on steps 1 and 2. <br/>
+“what’s the next smallest step that we can do?” <br/>
+Skipping to the end can often lead to failure and hard feelings when you’ve
+put in a lot of work and it gets a 👎
+Baby steps. 🐣
 — Joel 🌧 (@jhooks) <a href="https://twitter.com/jhooks/status/1014615428897824768?ref_src=twsrc%5Etfw">
 July 4, 2018</a></p></div></blockquote></div>
 <p>I could spend the better part of a weekend just enumerating all the times that I
 jumped to a solution for a problem I was working on at the
-time.<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup> Skipping past the the important groundwork of
+time.<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">A part of me would like to think that I have gotten better at the skill of not
+skipping that groundwork, but I know I still do make the same mistakes.</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup> Skipping past the the important groundwork of
 framing the problem space, and evaluating, as well as reevaluating, the problem.</p>
 <p>Its difficult as an engineer, to have the patience to step back and reevaluate a
 problem before jumping to a solution. It takes a lot of critical thinking to
@@ -6918,7 +6917,7 @@ web development):</p>
 <ol>
 <li><strong>Everything changes</strong></li>
 <li><strong>Most difficult technology problems are actually people problems at the
-root</strong><button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup></li>
+root</strong><button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">I should really write up a post all on its own on this point</span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup></li>
 </ol>
 <p>As with most advice however, the key takeaway here is that things change,
 specifically <strong>code will change</strong>. Don&#x27;t feel like you need to write the correct
@@ -6947,13 +6946,11 @@ would generally expand it to be:</p>
 <blockquote>
 <p>&quot;Measure twice, cut once. Always prepare to buy more lumber.&quot;</p>
 </blockquote>
-<marquee class="mt-4"></marquee>
 <hr/>
-<marquee class="mt-4"></marquee>
-<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="footnotes">Footnotes</h3>
-<p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <p>A part of me would like to think that I have gotten better at the skill of not
-skipping that groundwork, but I know I still do make the same mistakes.</p></p>
-<p id="fnref-2" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-2" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <p>I should really write up a post all on its own on this point</p></p>]]></content:encoded>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="footnotes">Footnotes:</h3>
+<p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->A part of me would like to think that I have gotten better at the skill of not
+skipping that groundwork, but I know I still do make the same mistakes.</p>
+<p id="fnref-2" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-2" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->I should really write up a post all on its own on this point</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/start-small.png" length="0" type="image/png"/>
         </item>
@@ -7023,12 +7020,8 @@ a <code>setState</code> updater, the error boundary component will not catch it.
 <p>Another caveat, or feature I guess is that if you do want to catch a particular
 error from an event handler higher up in the component tree at your error
 boundary, you can <code>throw</code> from within a setState:</p>
-<!-- -->
 <pre data-mdx="true" class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">import</span><span style="color:#999999;--shiki-dark:#666666"> {</span><span style="color:#B07D48;--shiki-dark:#BD976A"> Component</span><span style="color:#999999;--shiki-dark:#666666"> }</span><span style="color:#1E754F;--shiki-dark:#4D9375"> from</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">react</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">;</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// Note this is a live editor!</span></span>
-<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// Feel free to toy around with the code and see the</span></span>
-<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// actual output above!</span></span>
 <span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">export</span><span style="color:#1E754F;--shiki-dark:#4D9375"> default</span><span style="color:#AB5959;--shiki-dark:#CB7676"> class</span><span style="color:#2E8F82;--shiki-dark:#5DA994"> Example</span><span style="color:#AB5959;--shiki-dark:#CB7676"> extends</span><span style="color:#59873A;--shiki-dark:#80A665"> Component</span><span style="color:#999999;--shiki-dark:#666666"> {</span></span>
 <span class="line"><span style="color:#59873A;--shiki-dark:#80A665">  handleChange</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#999999;--shiki-dark:#666666"> (</span><span style="color:#B07D48;--shiki-dark:#BD976A">e</span><span style="color:#999999;--shiki-dark:#666666">)</span><span style="color:#999999;--shiki-dark:#666666"> =&gt;</span><span style="color:#999999;--shiki-dark:#666666"> {</span></span>
 <span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">    let</span><span style="color:#999999;--shiki-dark:#666666"> {</span></span>

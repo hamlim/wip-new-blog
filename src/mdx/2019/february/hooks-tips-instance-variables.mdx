@@ -116,7 +116,8 @@ While this may look beneficial, and may be easier to access the properties, it
 makes it potentially more difficult to split up the logic into separate hooks.
 
 In general, **always prefer to keep `useRef` (and `useState`) calls limited in
-scope**, and bias towards hook composition instead.[^1]
+scope**, and bias towards hook composition instead.<FootnoteRef id="1">I should write yet another blog post about why I have this preference, but for
+now feel free to accept it as a pattern.</FootnoteRef>
 
 From our first example above, we may want to split the timer instance variable
 into a custom `useTimer` hook that our component can leverage, and the
@@ -127,8 +128,8 @@ For additional insight into how to `useRef`, refer to the
 
 _Thanks to Dillon Curry for reviewing an earlier version of this post_
 
-[^1]: 
+### Footnotes:
 
-I should write yet another blog post about why I have this preference, but for
-now feel free to accept it as a pattern.
+<Footnote id="1">I should write yet another blog post about why I have this preference, but for
+now feel free to accept it as a pattern.</Footnote>
 

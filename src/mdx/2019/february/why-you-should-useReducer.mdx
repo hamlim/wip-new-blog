@@ -42,7 +42,8 @@ using a reducer function gives you the developer more control over the state
 merging.
 
 As an example of this expresivity that a reducer gives us, we can `useReducer`
-to implement an undo/redo state management solution<FootnoteRef id="1" />:
+to implement an undo/redo state management solution<FootnoteRef id="1">Implementation taken from <a href="https://redux.js.org/recipes/implementing-undo-history">Redux
+Docs</a></FootnoteRef>:
 
 ```jsx
 function init(initialState) {
@@ -94,7 +95,9 @@ your own.
 This is mostly a more generic topic that permeates through other topics than
 just React Hooks, but the general take-away with the benefit of `useReducer`
 over `useState` is it builds on the concepts that many developers learned
-working with Redux within React applications<FootnoteRef id="2" />. The concept
+working with Redux within React applications<FootnoteRef id="2">I do think there will still be a shift from developers used to
+Redux getting into Hooks however, as middleware solutions like `redux-thunk`
+will need to be re-implemented using `useEffect`.</FootnoteRef>. The concept
 of dispatching an action and having your reducer handle the state updating logic
 will allow these developers to more easily grasp this method of state management
 over `useState`.
@@ -141,11 +144,7 @@ their use. However, I do think that `useReducer` when used as a replacement for
 complex state management happening within an old class based component or
 replacing a react-redux setup can be more maintainable.
 
-<Spacer />
-
 ---
-
-<Spacer />
 
 ### Footnotes:
 
@@ -155,5 +154,5 @@ Docs</a></Footnote>
 
 <Footnote id="2">I do think there will still be a shift from developers used to
 Redux getting into Hooks however, as middleware solutions like `redux-thunk`
-will need to be re-implemented using{' '} `useEffect`.</Footnote>
+will need to be re-implemented using `useEffect`.</Footnote>
 

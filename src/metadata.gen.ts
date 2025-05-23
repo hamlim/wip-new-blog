@@ -2639,7 +2639,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2018,
     "ogImage": "/og-images/complex-ui-components.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748025572000
   },
   {
     "title": "Understanding React 16.3 Updates",
@@ -2692,7 +2692,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2017,
     "ogImage": "/og-images/css-in-js.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748025572000
   },
   {
     "title": "Redesign v6",
@@ -2745,7 +2745,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2017,
     "ogImage": "/og-images/calendar.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748025572000
   },
   {
     "title": "Rebuilding Mustache",
