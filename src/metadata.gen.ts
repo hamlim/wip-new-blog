@@ -2281,7 +2281,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2020,
     "ogImage": "/og-images/back-bay-fens.png",
-    "lastModified": 1748027878000
+    "lastModified": 1748027978000
   },
   {
     "title": "Summer 2019 - Bend Oregon",

@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 23 May 2025 19:19:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 19:20:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -5803,7 +5803,8 @@ started it&#x27;s work from home period. I&#x27;ve probably put in ~8 hours in t
 (Mac and Android apps combined) every week-day for the past few months 😱.</p>
 <p>While using the app as much as I have been in the past few months, I&#x27;ve stumbled
 upon a few enhancements that I think would really improve my workflow and allow
-me to be more productive<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>. I&#x27;ve broken these down into four
+me to be more productive<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">Separately I should really write up a blog post about my Slack
+workflow 🤔</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>. I&#x27;ve broken these down into four
 specific features I would like to see:</p>
 <ul>
 <li>Automatic Timezone Conversion</li>
@@ -5872,9 +5873,7 @@ notifications!</p>
 application, but if you are a PM, or an engineer, or a designer working at Slack
 and want to chat more about any of the above then definitely hit me up! What
 other features would you like to see added to Slack?</p>
-<marquee class="mt-4"></marquee>
 <hr/>
-<marquee class="mt-4"></marquee>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="footnotes">Footnotes:</h3>
 <p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->Separately I should really write up a blog post about my Slack
 workflow 🤔</p>]]></content:encoded>
