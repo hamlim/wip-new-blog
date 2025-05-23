@@ -24,7 +24,7 @@
     "@atcute/lexicons": "1.0.0",
     "@atproto/api": "0.13.18",
     "@hamstack/bluesky-comments": "0.1.1",
-    "@hamstack/bluesky-embed-rsc": "1.0.1",
+    "@hamstack/bluesky-embed-rsc": "1.0.2",
     "@radix-ui/react-aspect-ratio": "1.1.6",
     "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-slot": "1.2.2",

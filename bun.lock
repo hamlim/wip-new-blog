@@ -10,7 +10,7 @@
         "@atcute/lexicons": "1.0.0",
         "@atproto/api": "0.13.18",
         "@hamstack/bluesky-comments": "0.1.1",
-        "@hamstack/bluesky-embed-rsc": "1.0.1",
+        "@hamstack/bluesky-embed-rsc": "1.0.2",
         "@radix-ui/react-aspect-ratio": "1.1.6",
         "@radix-ui/react-dialog": "^1.1.14",
         "@radix-ui/react-slot": "1.2.2",
@@ -215,7 +215,7 @@
 
     "@hamstack/bluesky-comments": ["@hamstack/bluesky-comments@0.1.1", "", { "peerDependencies": { "react": "*" } }, "sha512-G/1KszTrrHo4UzcsyCS//ifr0xOEof9i6+BC60WMrxqMnLH3v0sURjKE3hwtJJs0GgkQksy+zZpGWU0HHBGPOw=="],
 
-    "@hamstack/bluesky-embed-rsc": ["@hamstack/bluesky-embed-rsc@1.0.1", "", { "peerDependencies": { "@atcute/bluesky": "^3.0.0", "@atcute/bluesky-richtext-segmenter": "^2.0.1", "@atcute/client": "^4.0.0", "@atcute/lexicons": "^1.0.0", "@radix-ui/react-aspect-ratio": "^1.1.6", "clsx": "^2.1.1", "hls.js": "^1.6.2", "lucide-react": "^0.461.0", "react": "*", "tailwind-merge": "^3.3.0" } }, "sha512-Txxl8EWXWz8VWwROS5+8MiFKJ4BDx1JQZGzGhEqWsmSc1JV0PqvMwMb1ckhTqHJZv+ssSdYi0L4neCqZPVN+Fg=="],
+    "@hamstack/bluesky-embed-rsc": ["@hamstack/bluesky-embed-rsc@1.0.2", "", { "peerDependencies": { "@atcute/bluesky": "^3.0.0", "@atcute/bluesky-richtext-segmenter": "^2.0.1", "@atcute/client": "^4.0.0", "@atcute/lexicons": "^1.0.0", "@radix-ui/react-aspect-ratio": "^1.1.6", "clsx": "^2.1.1", "hls.js": "^1.6.2", "lucide-react": "^0.461.0", "react": "*", "tailwind-merge": "^3.3.0" } }, "sha512-DuFukPwx8dW9sWw/yMi4BZJAu7oEcsAO3HvCUTgv9eYiMjeNnHWqid/kcYpT2oVwd0nYHjgcDTpb3Tw0ITPJXA=="],
 
     "@hono/node-server": ["@hono/node-server@1.14.2", "", { "peerDependencies": { "hono": "^4" } }, "sha512-GHjpOeHYbr9d1vkID2sNUYkl5IxumyhDrUJB7wBp7jvqYwPFt+oNKsAPBRcdSbV7kIrXhouLE199ks1QcK4r7A=="],
 
