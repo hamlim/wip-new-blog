@@ -2081,7 +2081,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/2020.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748026839000
   },
   {
     "title": "Building a Web Sandbox: Part 1",
@@ -2097,7 +2097,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/sandbox-part-1.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748026839000
   },
   {
     "title": "Literate (web) Programming",
@@ -2113,7 +2113,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/literate-programming.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748026839000
   },
   {
     "title": "NextJS Analytics with Airtable",
@@ -2129,7 +2129,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/nextjs-analytics-with-airtable.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748026839000
   },
   {
     "title": "Pair Code Reviews",
@@ -2146,7 +2146,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/pair-code-reviews.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748026839000
   },
   {
     "title": "Enhancing Slack",
