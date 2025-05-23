@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 23 May 2025 19:20:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 19:32:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -4076,10 +4076,7 @@ Quarantine&quot;. Even before that I was generally making playlists for the diff
 seasons of the year, dating at least back to freshman year of high school
 (almost 14 years ago!).</p>
 <p>These playlists are sort of a snapshot into my current interests and even
-general feelings at the time of the year that I made it.</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+general feelings at the time of the year that I made it.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/2021-in-music.png" length="0" type="image/png"/>
         </item>
@@ -4090,16 +4087,12 @@ general feelings at the time of the year that I made it.</p>
             <pubDate>Sat, 20 Nov 2021 10:40:50 GMT</pubDate>
             <content:encoded><![CDATA[<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="update">Update!</h3>
 <p>I did in fact come back to writing about pair programming in
-<a href="/blog/2023/november/pair-programming" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">this blog post</a>, give it a read and let me
+<a href="/2023/november/pair-programming" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">this blog post</a>, give it a read and let me
 know what you think!</p>
 <hr/>
 <p>Note: This is a subbed article, I may come back and write a bit about pair
-programming in the future, but for now I&#x27;d recommend giving my</p>
-<p><a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="/blog/2020/december/pair-code-reviews">post on Pair Code Reviews</a> a
-read if you haven&#x27;t yet!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+programming in the future, but for now I&#x27;d recommend giving my <a href="/2020/december/pair-code-reviews" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">post on Pair Code Reviews</a> a
+read if you haven&#x27;t yet!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/pair-programming-stub.png" length="0" type="image/png"/>
         </item>
@@ -4108,17 +4101,13 @@ read if you haven&#x27;t yet!</p>
             <link>https://matthamlin.me//2021/november/fast-feedback-systems</link>
             <guid>https://matthamlin.me//2021/november/fast-feedback-systems</guid>
             <pubDate>Sat, 20 Nov 2021 10:31:37 GMT</pubDate>
-            <content:encoded><![CDATA[<p>I&#x27;ve <a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="/blog/2021/february/useConsole">written a bit about</a>
-developing within what I like to call &quot;fast feedback systems&quot;. The core value
+            <content:encoded><![CDATA[<p>I&#x27;ve <a href="/2021/february/useConsole" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">written a bit about</a> developing within what I like to call &quot;fast feedback systems&quot;. The core value
 proposition of these systems or tools is that I as an engineer should be able to
 take a problem statement and begin to better understand it by fast feedback
 loops of trial and error experimentation.</p>
-<p>Usually these systems look a lot like sandboxes or <abbr title="Read Evaluate Print Loops">REPL&#x27;s</abbr> not unlike CodeSandbox,
+<p>Usually these systems look a lot like sandboxes or <abbr title="Read Evaluate Print Loops" style="anchor-name:--abbr-«Rb»" class="peer inline-flex" tabindex="0">REPL&#x27;s</abbr><span style="position-anchor:--abbr-«Rb»" class="hidden absolute peer-hover:inline-flex peer-focus:inline-flex top-anchor-bottom-[.125rem] left-anchor-right-[.125rem] p-2 bg-slate-600 text-white rounded rounded-ss-none">Read Evaluate Print Loops</span> not unlike CodeSandbox,
 the built-in Node.js REPL, or even the browser dev tools! I heavily use these tools on a day to day basis, they allow me to take a complex
-problem and better visualize it through code.</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+problem and better visualize it through code.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/fast-feedback-systems.png" length="0" type="image/png"/>
         </item>
@@ -4133,10 +4122,7 @@ sink of my day following work. I mostly play on Xbox (I was fortunate enough to
 be able to get a Series X and a PS5 a year ago when they came out), but have a
 Switch and a PC (as well as a recent Stadia subscription).</p>
 <p>Lately I&#x27;ve been playing the two largest triple-A titles that usually come out
-frequently, these</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+frequently, these</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/video-games.png" length="0" type="image/png"/>
         </item>
@@ -4151,12 +4137,7 @@ entries long, and I still haven&#x27;t read a single one of the posts.</p>
 <p>Humans, or at least speaking for myself, like to hold on to things, save them
 for later - but if you don&#x27;t have the energy to do something about it now, you
 probably won&#x27;t in a week.</p>
-<blockquote>
-<p>tl;dr: Delete it</p>
-</blockquote>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+<details class="border border-green-400 rounded-md p-4 bg-green-50 dark:bg-green-900/20"><summary class="font-bold cursor-pointer underline underline-offset-1 decoration-wavy decoration-2 decoration-green-400">TL;DR</summary><div class="py-4">Delete It</div></details>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/delete-it.png" length="0" type="image/png"/>
         </item>
@@ -4202,7 +4183,7 @@ into.</p>
             <pubDate>Sat, 04 Sep 2021 13:20:15 GMT</pubDate>
             <content:encoded><![CDATA[<p>I recently wiped my hard drives and freshly installed macOS Big Sur on my work
 laptop, and found it incredibly refreshing in a smaller form of
-<a href="../august/start-fresh" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">starting fresh</a> with my daily tools.</p>
+<a href="/2021/august/start-fresh" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">starting fresh</a> with my daily tools.</p>
 <p>I had been thinking about this a bit only a couple of weeks earlier so I was
 already kind of prepared to set up my laptop from fresh but there were a few
 things that I had forgotten about until I needed them. I figured it would be
@@ -4238,8 +4219,6 @@ it comes to working within codebases.</p>
 <p>These are all the &quot;visual&quot; tools that I tend to use on my mac, this software
 list may change over time but these are the essentials that I use today.</p>
 <ul>
-<li>Install <a href="https://www.google.com/chrome/canary/">Chrome
-Canary</a></li>
 <li>Install <a href="https://mimestream.com/">Mimestream</a></li>
 <li>Install <a href="https://code.visualstudio.com/insiders/">VSCode
 Insiders</a>
@@ -4262,14 +4241,9 @@ keyboard shortcut.</li>
 </li>
 <li>Install
 <a href="https://www.dropbox.com/capture">Dropbox</a></li>
-<li>Install <a href="https://thebrowser.company/">Dropbox
-Capture</a></li>
-<li>Install <a href="">Arc</a></li>
+<li>Install <a href="https://thebrowser.company/">Arc</a></li>
 <li>Install <a href="https://www.notion.so/desktop">Notion</a></li>
-</ul>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+</ul>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/mac-setup-guide.png" length="0" type="image/png"/>
         </item>
@@ -4291,10 +4265,7 @@ toolbox.</p>
 and could be entirely different from the rest of the tools as well, and while
 you may never work on the same exact thing a second time, these patterns can
 still be applied to new situations.</p>
-<p>What things are you doing to build your developer toolbox?</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+<p>What things are you doing to build your developer toolbox?</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/build-your-developer-toolbox.png" length="0" type="image/png"/>
         </item>
@@ -4317,10 +4288,7 @@ start fresh again.</p>
 <p>I think it&#x27;s incredibly valuable to start fresh every once and a while, it can
 become stale doing the same thing over and over again, but starting fresh let&#x27;s
 you reevaluate the person you want to be.</p>
-<p>So go ahead and start fresh again, mix it up a bit and see what comes of it!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+<p>So go ahead and start fresh again, mix it up a bit and see what comes of it!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/start-fresh.png" length="0" type="image/png"/>
         </item>
@@ -4336,7 +4304,8 @@ work is a platform for communication that encourages longer form written
 content. Slack, our defacto default communication tool, has simultaneously been
 one of the best things and the worst things for team communication and
 collaboration. It&#x27;s difficult for me to accurately describe my mixed emotions
-about it in writing<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
+about it in writing<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">I do however really enjoy being able to create and use emoji
+that are entirely custom!</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
 <p>I think I&#x27;ve partially started to really feel this since I&#x27;ve been diving deep
 into tools for thought like Obsidian and Roam, which have really encouraged me
 to think by writing. I&#x27;ve found it incredibly freeing to brain dump my thoughts
@@ -4344,7 +4313,9 @@ on a topic, and it has helped me make connections that I might have otherwise
 lost to random thoughts before getting distracted by something else.</p>
 <p>However, I don&#x27;t really have an equivalent for communication, or more
 specifically I feel like I&#x27;m missing the Obsidian vault that I could use to
-<del>collaborate with</del> <em>think with</em> teammates<button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>. While
+<del>collaborate with</del> <em>think with</em> teammates<button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">I&#x27;d be really curious to test this out at some point, or even
+to hear from folks that have tried a similar setup to see how it&#x27;s worked or not
+worked!</span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>. While
 internally at work we do have tools like Google Docs, Confluence, etc, none of
 these tools seemed to have really stuck, and they either lean too heavily into
 one side of the spectrum between collaboration or permanence.</p>
@@ -4353,16 +4324,12 @@ however I do think there is value in defaulting to longer form communication. It
 does have trade offs, usually in both more investment for writing and reading,
 however it can also shorten an otherwise lengthy discussion of back and forth
 slack messages into a single concise read.</p>
-<marquee class="mt-4"></marquee>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="footnotes">Footnotes:</h3>
 <p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->I do however really enjoy being able to create and use emoji
 that are entirely custom!</p>
 <p id="fnref-2" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-2" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->I&#x27;d be really curious to test this out at some point, or even
 to hear from folks that have tried a similar setup to see how it&#x27;s worked or not
-worked!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+worked!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/on-written-communication.png" length="0" type="image/png"/>
         </item>
@@ -4391,10 +4358,7 @@ code and if others want to find it as well.</p>
 <span class="line"><span style="color:#59873A;--shiki-dark:#80A665">git</span><span style="color:#B56959;--shiki-dark:#C98A7D"> rebase</span><span style="color:#B56959;--shiki-dark:#C98A7D"> upstream/main</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD"># Finally push this back up to the forked remote</span></span>
-<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">git</span><span style="color:#B56959;--shiki-dark:#C98A7D"> push</span><span style="color:#B56959;--shiki-dark:#C98A7D"> origin</span><span style="color:#B56959;--shiki-dark:#C98A7D"> main</span></span></code></pre>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">git</span><span style="color:#B56959;--shiki-dark:#C98A7D"> push</span><span style="color:#B56959;--shiki-dark:#C98A7D"> origin</span><span style="color:#B56959;--shiki-dark:#C98A7D"> main</span></span></code></pre>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/updating-forked-repos.png" length="0" type="image/png"/>
         </item>
@@ -4404,7 +4368,7 @@ code and if others want to find it as well.</p>
             <guid>https://matthamlin.me//2021/august/rtl-checkbox-events</guid>
             <pubDate>Tue, 10 Aug 2021 17:14:20 GMT</pubDate>
             <content:encoded><![CDATA[<details class="border border-green-400 rounded-md p-4 bg-green-50 dark:bg-green-900/20"><summary class="font-bold cursor-pointer underline underline-offset-1 decoration-wavy decoration-2 decoration-green-400">TL;DR</summary><div class="py-4"><p>If you&#x27;re testing a checkbox input element with React Testing Library, you&#x27;ll
-want to fire a click event on the checkbox <em>not</em> a change event!</p><p>Read on to find out how I discovered this!</p></div></details>
+want to fire a <code>click</code> event on the checkbox <em>not</em> a <code>change</code> event!</p><p>Read on to find out how I discovered this!</p></div></details>
 <p>I was recently refactoring about 70 individual Enzyme-based unit tests across
 our design system codebase at work to swap it for
 <a href="https://testing-library.com/docs/react-testing-library/intro/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">React Testing Library</a>,
@@ -4449,10 +4413,7 @@ actually want to fire a <code>click</code> event instead of a <code>change</code
 <span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">fireEvent</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">click</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B07D48;--shiki-dark:#BD976A">screen</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">getByTestId</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">header-checkbox</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">));</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#59873A;--shiki-dark:#80A665">expect</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B07D48;--shiki-dark:#BD976A">handleChange</span><span style="color:#999999;--shiki-dark:#666666">).</span><span style="color:#59873A;--shiki-dark:#80A665">toHaveBeenCalledTimes</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#2F798A;--shiki-dark:#4C9A91">1</span><span style="color:#999999;--shiki-dark:#666666">);</span></span></code></pre>
-<p>and the test started passing!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+<p>and the test started passing!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/rtl-checkbox-events.png" length="0" type="image/png"/>
         </item>
@@ -4498,10 +4459,7 @@ checking another device to ensure your edits show up!</p>
 laptop but want a slightly better writing experience. I was able to follow this
 exact same setup there (since you can install android applications on chrome
 os), and now I&#x27;m able to sync content across my phone, my tablet, and my
-laptops!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+laptops!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/obsidian-sync.png" length="0" type="image/png"/>
         </item>
@@ -4536,8 +4494,8 @@ at pattern matching however.</p>]]></content:encoded>
             <guid>https://matthamlin.me//2021/march/on-code-review</guid>
             <pubDate>Mon, 15 Mar 2021 12:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>I&#x27;ve written a decent amount about code review practices, particularly about
-<a href="/blog/2020/march/draft-pull-requests" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Draft Pull Requests</a> and
-<a href="/blog/2020/december/pair-code-reviews" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Pair Code Reviews</a>, however I haven&#x27;t really
+<a href="/2020/march/draft-pull-requests" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Draft Pull Requests</a> and
+<a href="/2020/december/pair-code-reviews" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Pair Code Reviews</a>, however I haven&#x27;t really
 talked about how <em>I</em> approach reviewing pull requests.</p>
 <p>While I don&#x27;t think I have a particularly interesting process for reviewing pull
 requests, I do think that documenting it can provide additional insight for
@@ -4556,7 +4514,7 @@ through the PR description, either based on the title of the PR, or if a team
 member shared the PR with me they may have provided some additional context.</p>
 <p>I&#x27;ll read through the PR description that the author added, noting any
 interesting assumptions, questions, or callouts that the author added
-<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
+<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">I don&#x27;t usually literally note these in my go-to note taking tool, but usually only take a mental note of these.</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
 <p>From there, I ask myself:</p>
 <blockquote>
 <p>Do I have enough information to dive into the rest of the PR?</p>
@@ -4574,7 +4532,7 @@ either by the author or another code reviewer.</p>
 <p>Catching up on any other active or resolved discussions can be helpful to avoid
 providing duplicate feedback for the author, and helps to understand other
 decisions that the author and other code reviewers have made about the changeset
-<button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
+<button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">I don&#x27;t usually review PRs that another team member is actively reviewing unless I&#x27;m interested in seeing the changes or either the author or other reviewers asked for more feedback/insight into the changesets. Part of the reason for avoiding doubling up on a PR is that I have full confidence in all the members of my team (and the other teams I frequently work with) to review any change being made to the codebase.</span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
 <p>Finally, after reviewing through the Discussions tab, I&#x27;m ready to dive into the
 code changes. Here I&#x27;m usually looking for a few things:</p>
 <ul>
@@ -4589,7 +4547,7 @@ a change?</li>
 <p>I don&#x27;t use an explicit checklist for the above bullet points, and frequently
 I&#x27;ll have other things in mind when reviewing a change that are specific to the
 code being changed.</p>
-<p>I usually categorize most of my &quot;nitpick&quot;<button type="button" style="anchor-name:--fnref-mobile-3" popoverTarget="fnref-mobile-3" id="fn-mobile-3" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->3</button><span style="position-anchor:--fnref-mobile-3" id="fnref-mobile-3" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-3" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-3" class="text-primary hover:underline focus:underline">[<!-- -->3<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup> feedback under
+<p>I usually categorize most of my &quot;nitpick&quot;<button type="button" style="anchor-name:--fnref-mobile-3" popoverTarget="fnref-mobile-3" id="fn-mobile-3" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->3</button><span style="position-anchor:--fnref-mobile-3" id="fnref-mobile-3" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">A small, usually insignificant suggested change to make the code more readable</span><sup id="fn-3" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-3" class="text-primary hover:underline focus:underline">[<!-- -->3<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup> feedback under
 the third bullet point above, usually trying to frame the feedback as optional
 and also up for discussion.</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="delivery">Delivery:</h2>
@@ -4631,21 +4589,15 @@ between review iterations and merging as well.</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="wrapping-up">Wrapping Up</h2>
 <p>I didn&#x27;t cover other topics in this post such as running the changed code
 locally / in a preview environment, or
-<a href="/blog/2020/december/pair-code-reviews" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Pair Reviewing</a> so I&#x27;ll leave those topics to
+<a href="/2020/december/pair-code-reviews" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Pair Reviewing</a> so I&#x27;ll leave those topics to
 further blog posts.</p>
 <p>I&#x27;d love to hear how you approach code reviews, both from a process standpoint
 and from the delivery perspective! Feel free to reach out on Twitter to share
 your perspective, or write a blog post about it!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="footnotes">Footnotes:</h3>
-<p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <p>I don&#x27;t usually literally note these in my go-to note taking tool, but usually only take a mental note of these.</p></p>
-<marquee class="mt-4"></marquee>
-<p id="fnref-2" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-2" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <p>I don&#x27;t usually review PRs that another team member is actively reviewing unless I&#x27;m interested in seeing the changes or either the author or other reviewers asked for more feedback/insight into the changesets. Part of the reason for avoiding doubling up on a PR is that I have full confidence in all the members of my team (and the other teams I frequently work with) to review any change being made to the codebase.</p></p>
-<marquee class="mt-4"></marquee>
-<p id="fnref-3" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-3" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <p>A small, usually insignificant suggested change to make the code more readable</p></p>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+<p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->I don&#x27;t usually literally note these in my go-to note taking tool, but usually only take a mental note of these.</p>
+<p id="fnref-2" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-2" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->I don&#x27;t usually review PRs that another team member is actively reviewing unless I&#x27;m interested in seeing the changes or either the author or other reviewers asked for more feedback/insight into the changesets. Part of the reason for avoiding doubling up on a PR is that I have full confidence in all the members of my team (and the other teams I frequently work with) to review any change being made to the codebase.</p>
+<p id="fnref-3" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-3" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->A small, usually insignificant suggested change to make the code more readable</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/on-code-review.png" length="0" type="image/png"/>
         </item>
@@ -4741,10 +4693,7 @@ code samples and paste them into devtools or a node repl to test for yourself!</
 <span class="line"></span>
 <span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">let</span><span style="color:#B07D48;--shiki-dark:#BD976A"> arr</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#999999;--shiki-dark:#666666"> [</span><span style="color:#2F798A;--shiki-dark:#4C9A91">1</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 2</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 3</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 4</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 5</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 6</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 7</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 8</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 9</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 0</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 11</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 22</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 33</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 44</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 55</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 66</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 77</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 88</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 99</span><span style="color:#999999;--shiki-dark:#666666">];</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">chunk</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B07D48;--shiki-dark:#BD976A">arr</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 3</span><span style="color:#999999;--shiki-dark:#666666">);</span></span></code></pre>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+<span class="line"><span style="color:#59873A;--shiki-dark:#80A665">chunk</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B07D48;--shiki-dark:#BD976A">arr</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 3</span><span style="color:#999999;--shiki-dark:#666666">);</span></span></code></pre>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/array-chunking.png" length="0" type="image/png"/>
         </item>
@@ -4790,10 +4739,7 @@ two other things to the <code>index.js</code> file that the bin command is refer
 the mode of the file, we can do that via:</p>
 <pre data-mdx="true" class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#59873A;--shiki-dark:#80A665">chmod</span><span style="color:#B56959;--shiki-dark:#C98A7D"> u+x</span><span style="color:#B56959;--shiki-dark:#C98A7D"> index.js</span></span></code></pre>
 <p>For more information, this article on node shell scripting is a great one to
-reference: <a href="https://2ality.com/2011/12/nodejs-shell-scripting.html" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">https://2ality.com/2011/12/nodejs-shell-scripting.html</a></p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+reference: <a href="https://2ality.com/2011/12/nodejs-shell-scripting.html" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">https://2ality.com/2011/12/nodejs-shell-scripting.html</a></p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/writing-node-scripts.png" length="0" type="image/png"/>
         </item>
@@ -4803,8 +4749,7 @@ reference: <a href="https://2ality.com/2011/12/nodejs-shell-scripting.html" clas
             <guid>https://matthamlin.me//2021/february/useConsole</guid>
             <pubDate>Sun, 14 Feb 2021 12:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>A decent part of my day-to-day work is iterating on solving UI &quot;problems&quot; by
-using <a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="/blog/2021/november/fast-feedback-systems">fast feedback
-systems</a>, such as web sandboxes / REPLs like
+using <a href="/2021/november/fast-feedback-systems" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">fast feedback systems</a>, such as web sandboxes / REPLs like
 <a href="https://codesandbox.io" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">CodeSandbox</a>. As I iterate on these UI challenges, I
 tend to want to both look at the UI and also see a feed of the Console from
 devtools without the rest of the devtools panel taking up space on the screen.</p>
@@ -4845,10 +4790,7 @@ component to catch all calls to <code>console.log</code></p>
 <blockquote>
 <p>⚠️ Be careful using this hook and calling <code>console.log</code> from within render, as
 it will cause an infinite render loop!</p>
-</blockquote>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+</blockquote>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/useConsole.png" length="0" type="image/png"/>
         </item>
@@ -4860,13 +4802,11 @@ it will cause an infinite render loop!</p>
             <content:encoded><![CDATA[<h4 class="text-xl font-medium text-gray-600 dark:text-gray-400" id="update">Update!</h4>
 <p>Note: This script is only compatible with yarn classic (e.g. v1), I have since
 published an updated version that works with yarn berry (v2 and v3 releases) in
-my
-<a href="/blog/2023/january/navigating-monorepos-with-ease" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Navigating Monorepos with Ease</a>
+my <a href="/2023/january/navigating-monorepos-with-ease" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Navigating Monorepos with Ease</a>
 blog post!</p>
 <hr/>
 <p>Almost a year or more ago I stumbled across this super useful bash function that
-makes it incredibly easy to run scripts across a
-<a href="https://yarnpkg.com/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Yarn</a>-based monorepo. Since then I haven&#x27;t looked back,
+makes it incredibly easy to run scripts across a <a href="https://yarnpkg.com/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Yarn</a>-based monorepo. Since then I haven&#x27;t looked back,
 and have been slowly converting the rest of my team to adopt the same function
 in their local workflows as well!</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="script">Script:</h2>
@@ -4881,10 +4821,7 @@ in their local workflows as well!</p>
 <p>Both should be installable via <code>homebrew</code>: <code>brew install fzf jq</code></p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="installation">Installation:</h2>
 <p>Copy the above script and dump it into your <code>.bashrc</code> or <code>.zshrc</code>, or whatever
-other config script your shell uses!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+other config script your shell uses!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/yw.png" length="0" type="image/png"/>
         </item>
@@ -5056,9 +4993,6 @@ or this code snippet:</p>
 <span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">function</span><span style="color:#59873A;--shiki-dark:#80A665"> Component</span><span style="color:#999999;--shiki-dark:#666666">()</span><span style="color:#999999;--shiki-dark:#666666"> {</span></span>
 <span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">  return</span><span style="color:#999999;--shiki-dark:#666666"> &lt;</span><span style="color:#1E754F;--shiki-dark:#4D9375">div</span><span style="color:#B07D48;--shiki-dark:#BD976A"> style</span><span style="color:#999999;--shiki-dark:#666666">={</span><span style="color:#B07D48;--shiki-dark:#BD976A">styles</span><span style="color:#999999;--shiki-dark:#666666">}&gt;</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">Hello World!</span><span style="color:#999999;--shiki-dark:#666666">&lt;/</span><span style="color:#1E754F;--shiki-dark:#4D9375">div</span><span style="color:#999999;--shiki-dark:#666666">&gt;</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span></code></pre>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>
 <p>If you&#x27;re using this new library and have feedback feel free to
 <a href="https://github.com/ds-pack/simple-props" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">open an issue</a> or
 <a href="https://twitter.com/immatthamlin" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">tweet at me</a>!</p>]]></content:encoded>
@@ -5176,9 +5110,8 @@ changes:</p>
 <span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// newTheme.buttons.primary.color === &#x27;cornflowerblue&#x27;</span></span></code></pre>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="token-references">&quot;Token References&quot;</h3>
 <p>The second idea I&#x27;ve been working on is around using token
-references<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>, popularized by
-<a href="https://stitches.dev/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Stitches</a> and used by
-<a href="http://system-props.com/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">System Props</a>.</p>
+references <button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">There is probably a better term for this, if you know of them,
+let me know!</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>, popularized by <a href="https://stitches.dev/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Stitches</a> and used by <a href="http://system-props.com/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">System Props</a>.</p>
 <p>Essentially using the same syntax that you might use on a traditional <code>Box</code>
 component:</p>
 <pre data-mdx="true" class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#999999;--shiki-dark:#666666">&lt;</span><span style="color:#998418;--shiki-dark:#B8A965">Box</span><span style="color:#B07D48;--shiki-dark:#BD976A"> color</span><span style="color:#999999;--shiki-dark:#666666">=</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">$colors.primary</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#999999;--shiki-dark:#666666"> /&gt;;</span></span></code></pre>
@@ -5212,10 +5145,7 @@ few trade-offs depending on how dynamic your theme needs to be).</p>
 out: <a href="https://github.com/ds-pack/themer" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline"><code>@ds-pack/themer</code></a>.</p>
 <p>I&#x27;d love to hear if you&#x27;ve found interesting solutions to these problems, feel
 free to reach out on <a href="https://twitter.com/immatthamlin" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">twitter</a> or via
-<a href="mailto:matthewjameshamlin@gmail.com?subject=Computed Theme">email</a>.</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>
+<a href="mailto:matthewjameshamlin@gmail.com?subject=Computed%20Theme" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">email</a>.</p>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="footnotes">Footnotes:</h3>
 <p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->There is probably a better term for this, if you know of them,
 let me know!</p>]]></content:encoded>
@@ -5246,9 +5176,7 @@ least want to publish them somewhere to build up some form of public commitment.
 <li>Write at least one blog post a month</li>
 <li>Refresh and refine my career view / perception</li>
 <li>Launch at least 2 fully developed side projects</li>
-</ol>
-<marquee class="mt-4"></marquee>
-<hr/>]]></content:encoded>
+</ol>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/2021.png" length="0" type="image/png"/>
         </item>

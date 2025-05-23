@@ -2163,7 +2163,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2020,
     "ogImage": "/og-images/enhancing-slack.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748028065000
   },
   {
     "title": "A Note on Consistency",

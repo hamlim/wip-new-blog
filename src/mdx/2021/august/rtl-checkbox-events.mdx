@@ -20,7 +20,7 @@ ogImage: /og-images/rtl-checkbox-events.png
 <TLDR>
 
 If you're testing a checkbox input element with React Testing Library, you'll
-want to fire a click event on the checkbox _not_ a change event!
+want to fire a `click` event on the checkbox _not_ a `change` event!
 
 Read on to find out how I discovered this!
 
@@ -87,10 +87,4 @@ expect(handleChange).toHaveBeenCalledTimes(1);
 ```
 
 and the test started passing!
-
-<Spacer />
-
----
-
-<Spacer />
 
