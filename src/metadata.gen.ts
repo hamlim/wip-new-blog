@@ -1492,7 +1492,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2022,
     "ogImage": "/og-images/updated-opinionated-nextjs-setup.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748028894000
   },
   {
     "title": "Yarn Berry Gitignore Settings",
@@ -1509,7 +1509,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2022,
     "ogImage": "/og-images/yarn-berry-gitignore.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748028894000
   },
   {
     "title": "On Note Taking",
@@ -1526,7 +1526,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2022,
     "ogImage": "/og-images/on-note-taking.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748028894000
   },
   {
     "title": "On Writing Tests",
@@ -1543,7 +1543,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2022,
     "ogImage": "/og-images/on-writing-tests.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748028894000
   },
   {
     "title": "Switching back to Notion",
@@ -1561,7 +1561,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2022,
     "ogImage": "/og-images/switching-back-to-notion.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748028894000
   },
   {
     "title": "Moving to PNPM",
@@ -1577,7 +1577,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2022,
     "ogImage": "/og-images/moving-to-pnpm.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748028894000
   },
   {
     "title": "Upgrade Guides",
@@ -1593,7 +1593,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2022,
     "ogImage": "/og-images/upgrade-guides.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748028894000
   },
   {
     "title": "My Opinionated Next.js Setup",
@@ -1610,7 +1610,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2022,
     "ogImage": "/og-images/my-opinionated-nextjs-setup.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748028894000
   },
   {
     "title": "My Two Favorite React Tricks",
@@ -1627,7 +1627,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2022,
     "ogImage": "/og-images/my-two-favorite-react-tricks.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748028894000
   },
   {
     "title": "Switching to iPhone",
@@ -1646,7 +1646,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2022,
     "ogImage": "/og-images/switching-to-iphone.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748028894000
   },
   {
     "title": "Year in Music",

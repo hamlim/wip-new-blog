@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 23 May 2025 19:34:45 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 19:43:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -2030,7 +2030,8 @@ own working process (revamping my Notion setup) and also getting some
 <p>However, about halfway into my time off, I found an itch that I just had to
 scratch.</p>
 <p>My dad and I share new cocktail recipes back and forth fairly
-often<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>, usually in the form of TikTok clips. We&#x27;ve also been
+often<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">Ok ok, it&#x27;s usually me sending him cocktail recipes, but
+still</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>, usually in the form of TikTok clips. We&#x27;ve also been
 selecting usually a single (or a couple) specific cocktails that we want to make
 for the holidays.</p>
 <p>However, we always ask the same questions:</p>
@@ -2046,14 +2047,17 @@ grandparents as well, and the next day my Grandma wanted to get the recipe for
 the drink.</p>
 <p>Since she had asked about it, and since both of the above questions are common
 enough, I felt like it&#x27;d be interesting to build a quick and dirty web app to
-store cocktail recipes that we can then refer to later<button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
+store cocktail recipes that we can then refer to later<button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">Now I know you&#x27;re saying &quot;but matt, there&#x27;s a dozen such
+services out there for this use case, why build yet another one?&quot; and to that I
+say - because I wanted to!</span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
 <p>And so, I started hacking on <a href="https://tails-theta.vercel.app/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Tails</a>.</p>
 <div class="rounded-lg bg-muted px-4 py-0.5"><p>🚧 <em>Be warned, there&#x27;s still a ton of things I need to get properly
 setup with this version of the service, but feel free to mess around and report
 any bugs <a href="https://github.com/hamlim/tails" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a></em>. 🚧</p></div>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="what-is-tails">What is Tails?</h2>
 <p><a href="https://tails-theta.vercel.app/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Tails</a> is a very basic
-<abbr title="Create Read Update Delete">CRUD</abbr><button type="button" style="anchor-name:--fnref-mobile-3" popoverTarget="fnref-mobile-3" id="fn-mobile-3" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->3</button><span style="position-anchor:--fnref-mobile-3" id="fnref-mobile-3" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-3" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-3" class="text-primary hover:underline focus:underline">[<!-- -->3<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup> web
+<abbr title="Create Read Update Delete" style="anchor-name:--abbr-«R6p»" class="peer inline-flex" tabindex="0">CRUD</abbr><span style="position-anchor:--abbr-«R6p»" class="hidden absolute peer-hover:inline-flex peer-focus:inline-flex top-anchor-bottom-[.125rem] left-anchor-right-[.125rem] p-2 bg-slate-600 text-white rounded rounded-ss-none">Create Read Update Delete</span><button type="button" style="anchor-name:--fnref-mobile-3" popoverTarget="fnref-mobile-3" id="fn-mobile-3" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->3</button><span style="position-anchor:--fnref-mobile-3" id="fnref-mobile-3" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">At the moment, it doesn&#x27;t even support updating or deleting
+recipes! I&#x27;ll have to add that in the future!</span><sup id="fn-3" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-3" class="text-primary hover:underline focus:underline">[<!-- -->3<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup> web
 app for saving and sharing cocktail recipes. That&#x27;s it at the moment, no social
 features, no fancy whiz-bang features, just saving recipes!</p>
 <p>It has a very basic version of auth/user accounts at the moment, allows you to
@@ -2078,19 +2082,15 @@ API hosted on Cloudflare.</p>
 <a href="https://github.com/hamlim/tails" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">hamlim/tails</a>, feel free to peruse the source
 and open issues for questions/comments/contributions.</p>
 <p>If you
-<a href="/blog/2023/november/project-deep-dive-microfibre" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">read my microfibre deep dive</a>,
+<a href="/2023/november/project-deep-dive-microfibre" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">read my microfibre deep dive</a>,
 this tech stack probably sounds pretty familiar! I&#x27;ve been really enjoying
 Cloudflare&#x27;s platform offerings, and I&#x27;m particularly interested in exploring
 Cloudflare R2 storage soon as well!</p>
-<marquee class="mt-4"></marquee>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="the-future">The Future</h2>
 <p>There&#x27;s still a ton of things I want to build into the service, the first of
 which might be building up user profiles a bit more (so you can see who shared
 what cocktails) - however I don&#x27;t think there&#x27;s that much future for a social
 aspect built into the site!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>
 <h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="footnotes">Footnotes:</h3>
 <p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->Ok ok, it&#x27;s usually me sending him cocktail recipes, but
 still</p>
@@ -2140,7 +2140,9 @@ that all out the window and start over.</p>
 <p>Even for libraries that pride themselves on making minimal breaking changes get
 burnt by those that don&#x27;t. Someone gets burnt by the Common JS to ES Module
 migration on NPM, and now they feel like the semver major release of Next.js
-from 13.x to 14 is going to impossible to work through<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
+from 13.x to 14 is going to impossible to work through<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">Although I didn&#x27;t find that upgrade all that painful, even
+though some of their semver minor releases have been painful in the
+past.</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
 <p>I&#x27;m not sure what the solution is here, maybe myself (and others) can get more
 comfortable software changing. Or, just maybe, we can start to harden our
 software, make it more slow moving and slow updating, and also maybe vendoring
@@ -2509,25 +2511,22 @@ following log file: <code>~/Library/Logs/Zed/Zed.log</code>.</p>
 🧶</em>, it was started partially to scratch an itch to replace Twitter/X with
 something a bit more personal. Additionally, I wanted to build a quick and easy
 way to share short updates with my grandparents.</p>
-<marquee class="mt-4"></marquee>
 <p>Of note - microfibre is more of a personal product rather than a public social
 network. It&#x27;s a neighborhood cafe rather than an industrial chain restaurant!
 I&#x27;ve built it intentionally to only be used by myself, but that doesn&#x27;t prevent
 others from creating similar versions of the same product!</p>
-<marquee class="mt-4"></marquee>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="what-is-microfibre">What is microfibre?</h2>
-<marquee class="mt-4"></marquee>
 <p>microfibre is essentially a bulletin board, it allows me to post short-form (but
-not limited in length) text updates<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>, which then get
+not limited in length) text updates<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">Although I plan to support images and videos <del>soon</del>
+<em>eventually</em>!</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>, which then get
 displayed on my personal site under the <a href="/feed" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">feed view</a>.</p>
 <p>It&#x27;s currently built using Cloudflare wrangler to power the API, Cloudflare D1
 as the datastore, and a Next.js app as the posting client (as well as this
 Next.js app powering my blog for rendering the feed). There&#x27;s nothing magical
 about the project - it&#x27;s a fairly basic
-<abbr title="Acronym standing for Create Read Update Delete, often used to describe basic REST APIs" style="anchor-name:--abbr-«R4f»" class="peer inline-flex" tabindex="0">CRUD</abbr><span style="position-anchor:--abbr-«R4f»" class="hidden absolute peer-hover:inline-flex peer-focus:inline-flex top-anchor-bottom-[.125rem] left-anchor-right-[.125rem] p-2 bg-slate-600 text-white rounded rounded-ss-none">Acronym standing for Create Read Update Delete, often used to describe basic REST APIs</span>
+<abbr title="Acronym standing for Create Read Update Delete, often used to describe basic REST APIs" style="anchor-name:--abbr-«R49»" class="peer inline-flex" tabindex="0">CRUD</abbr><span style="position-anchor:--abbr-«R49»" class="hidden absolute peer-hover:inline-flex peer-focus:inline-flex top-anchor-bottom-[.125rem] left-anchor-right-[.125rem] p-2 bg-slate-600 text-white rounded rounded-ss-none">Acronym standing for Create Read Update Delete, often used to describe basic REST APIs</span>
 API.</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="whered-it-start">Where&#x27;d it start?</h2>
-<marquee class="mt-4"></marquee>
 <p>I started the project the first week of November (2023), and primarily wanted to
 use it to learn Go lang. I&#x27;ve been
 <a href="/blog/2023/september/learning-go" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">messing around with Go</a> for a few months now so I
@@ -2535,15 +2534,13 @@ wanted to use it in a real side project. Additionally I wanted to give deploying
 to <a href="https://fly.io" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Fly</a> a try, I&#x27;ve used it here and there before but never
 really tried it for a full project.</p>
 <p>I built the first version of the application in about 2 total hours, I was
-mainly building the application using
-<a href="/blog/2023/november/ai-driven-development" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">AI via ChatGPT</a>.</p>
+mainly building the application using <a href="/2023/november/ai-driven-development" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">AI via ChatGPT</a>.</p>
 <p>After messing around with it for a day or two, I started to realize that the
 cold starts on Fly were pretty rough. It got to the point that I would need to
 re-submit my client form to actually get the post saved in a SQLite DB within
 the Fly instance. I&#x27;m sure there&#x27;s something I&#x27;m overlooking here - but it just
 felt pretty rough so I started to consider some other options.</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="take-2-on-the-edge">Take 2: On the Edge</h2>
-<marquee class="mt-4"></marquee>
 <p>I didn&#x27;t have much time to work on the project until Thanksgiving, but during
 the Thanksgiving weekend I found enough time to rewrite the project. I opted to
 give Cloudflare Worker a go, and decided to use their D1 SQLite DB offering as
@@ -2552,7 +2549,6 @@ well.</p>
 experience, using a local database during development and then using the D1
 binding when deployed.</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="the-future">The Future</h2>
-<marquee class="mt-4"></marquee>
 <p>There are a few things I definitely want to look at adding eventually:</p>
 <ul>
 <li>Features:<!-- -->
@@ -2588,9 +2584,9 @@ thinking about pair programming as of late:</p>
 it&#x27;d be worth talking about why my opinion changed on the topic.</p>
 <p>Before digging in though, I realized that this isn&#x27;t the first time I went to
 write about pair programming, I even have a stub of an article
-<a href="/blog/2021/november/pair-programming-stub" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a> (just over 2 years old at this
+<a href="/2021/november/pair-programming-stub" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a> (just over 2 years old at this
 point!), and also a semi-popular post on
-<a href="/blog/2020/december/pair-code-reviews" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">pair code reviews</a> (which is almost 3 years
+<a href="/2020/december/pair-code-reviews" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">pair code reviews</a> (which is almost 3 years
 old now!).</p>
 <p>I used to really enjoy pair programming, we heavily utilized it on my current
 team about 2 years back. At the time - it felt really useful and it seemed like
@@ -2663,7 +2659,7 @@ development.</p>
 free month that you can get from GitHub), and at the time I felt like it didn’t
 really fit into my workflow all that nicely. It felt like a slower version of
 the features/benefits that I got out of the TypeScript Language Server in
-VSCode<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
+VSCode<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">I do wonder if that opinion would have changed had I start using it in a language that I don’t know as well, such as Go lang.</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
 <p>This past week or so however I dug into a new project using Go lang and SQLite
 leveraging only ChatGPT (v3.5, I haven’t purchased the 4.0 variant yet).
 Overall, I enjoyed the setup quite a bit - it was nice to be able to talk to
@@ -2690,7 +2686,7 @@ have it up and running and providing valuable feedback along the way. Maybe when
 it has a deeper integration into the codebase and the history of the project
 then it would be able to be a reliable assistant.</p>
 <hr/>
-<p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <p>I do wonder if that opinion would have changed had I start using it in a language that I don’t know as well, such as Go lang.</p></p>]]></content:encoded>
+<p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->I do wonder if that opinion would have changed had I start using it in a language that I don’t know as well, such as Go lang.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/ai-driven-development.png" length="0" type="image/png"/>
         </item>
@@ -2796,7 +2792,8 @@ or bootstrapping a new app and having the &quot;hello world&quot; message scroll
 automatically because of the marquee element.</p>
 <p>Unfortunately, TypeScript and React&#x27;s types have really leaned into the whole
 &quot;deprecated&quot; thing, so you get these red underlines and also sometimes build
-fails<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
+fails<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">I can&#x27;t count the number of times that a build has failed when
+I went to deploy a site because of this issue.</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
 <p>Fortunately, there&#x27;s a fix to resolve this pain, unfortunately it&#x27;s a bit
 archaic so I figured I&#x27;d put up this blog post to make it easier to find in the
 future!</p>
@@ -3165,10 +3162,7 @@ Twitter or playing video games.</p>
 <p>Instead I should just get back to doing fulfilling activities (whether thats
 working on side projects, reading a book, hanging out with people, or just being
 outside).</p>
-<blockquote>
-<p>TL;DR: Avoid Distractions</p>
-</blockquote>
-<hr/>]]></content:encoded>
+<details class="border border-green-400 rounded-md p-4 bg-green-50 dark:bg-green-900/20"><summary class="font-bold cursor-pointer underline underline-offset-1 decoration-wavy decoration-2 decoration-green-400">TL;DR</summary><div class="py-4">Avoid Distractions</div></details>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/avoid-distractions.png" length="0" type="image/png"/>
         </item>
@@ -3191,7 +3185,9 @@ solutions (partially to prepare for React Server Components).</p>
 experience reason rather than for user experience. The short gist is that using
 Vanilla Extract with a Next.js application is incredibly difficult to setup
 &quot;correctly&quot;. Yes there is a Next.js &quot;plugin&quot;, but that doesn&#x27;t work at all with
-React Server Components within Next.js<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>. For Tailwind
+React Server Components within Next.js<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">See
+<a href="https://github.com/vanilla-extract-css/vanilla-extract/issues/929" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">this long running issue</a>
+trying to get it working within Next.js</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>. For Tailwind
 however, all I need to get it working is a <code>tailwind.config.js</code> file and Next
 does all the hard work for me!</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="refined-thoughts">Refined Thoughts:</h2>
@@ -3390,10 +3386,7 @@ resolve the problem I was running into, I found the following solution:</p>
 <p>For some reason, shiki&#x27;s TypeScript types don&#x27;t seem to like me passing in the
 themes or the grammars manually, so I opted to ts-ignore those errors for the
 time being 🙂.</p>
-<p>Hopefully this helps others that might run into the same issue!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+<p>Hopefully this helps others that might run into the same issue!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/shiki-on-next-js.png" length="0" type="image/png"/>
         </item>
@@ -3419,7 +3412,7 @@ yet ironically - that&#x27;s exactly what I&#x27;ve been looking for as of late.
 about it in another post however), but the main reason that I opted to switch
 was that I wanted to tear down how my css build pipeline works in most of my
 modern Next.js applications. I&#x27;ve written about that in my
-<a href="/blog/2022/december/updated-opinionated-nextjs-setup" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">opinionated Next.js app setup</a>
+<a href="/2022/december/updated-opinionated-nextjs-setup" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">opinionated Next.js app setup</a>
 blog post, but the gist is that having two process running at once to compile
 styles and run the app was a pain and let to a ton of issues when iteratively
 updating styles.</p>
@@ -3485,10 +3478,7 @@ to store a JWT as a cookie, unfortunately I don&#x27;t have access to the raw
 I&#x27;d probably still want to reach for Next.js <code>routes</code> to support some of those
 use cases.</p>
 <p>None the less, this is still a pretty neat pattern that I plan on exploring more
-as I get deeper into the project!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+as I get deeper into the project!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/dollar-devlog-2.png" length="0" type="image/png"/>
         </item>
@@ -3589,10 +3579,7 @@ in this case again as well.</p>
 <hr/>
 <p>I ended up taking a longer break than I expected and wasn&#x27;t able to get back to
 the project on Sunday, however I had a few ideas over the rest of the weekend
-that I would like to explore eventually.</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+that I would like to explore eventually.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/dollar-devlog-1.png" length="0" type="image/png"/>
         </item>
