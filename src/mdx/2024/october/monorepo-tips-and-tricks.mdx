@@ -47,7 +47,7 @@ If you have some code in `pkg-a` (which depends on `pkg-b`), that `pkg-b` would 
 
 This one is a bit of a 🌶 spicy take 🌶, however I strongly believe that workspaces should have their own build steps, and other workspaces depending on those packages should consume the built artifacts.
 
-This one is particularly important when working with TypeScript, TypeScript doesn't usually understand package boundaries and will continue type checking down through code within dependencies. Not only does this mean that TS will do more work than is necessary - it can sometimes also lead to weird race conditions or generate definition files within the source directory<FootnoteRef id="1" />.
+This one is particularly important when working with TypeScript, TypeScript doesn't usually understand package boundaries and will continue type checking down through code within dependencies. Not only does this mean that TS will do more work than is necessary - it can sometimes also lead to weird race conditions or generate definition files within the source directory<FootnoteRef id="1">While at Wayfair, we ran into one of these issues, we were seeing inconsistent failures during our CI pipelines, where the associated `.d.ts` files within a dependency would sometimes be present and sometimes they wouldn't. We tracked this down to a race condition when performing builds and also checking types in parallel across workspaces. Enforcing builds + `skipLibCheck` prevented this bug for us.</FootnoteRef>.
 
 The only solid way I've found to avoid this pitfall is two changes:
 

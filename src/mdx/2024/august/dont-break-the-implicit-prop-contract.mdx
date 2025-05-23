@@ -21,11 +21,11 @@ There's a _"secret"_ implicit prop contract that comes along with all React comp
 
 ### What is this about an implicit prop contract?!?
 
-React components<FootnoteRef id="1" /> were designed to be pure functions. Many have probably heard or seen the concept of [`ui = f(state)` or "UI as a function of state"](https://rauchg.com/2015/pure-ui), it's a great way to conceptualize this expectation that React sets on us as we use it to build our user interfaces. This expectation implies a strict prop contract - specifically:
+React components<FootnoteRef id="1">Specifically function components, although classes were meant to operate a similar way they just offered more opportunities to break those expectations.</FootnoteRef> were designed to be pure functions. Many have probably heard or seen the concept of [`ui = f(state)` or "UI as a function of state"](https://rauchg.com/2015/pure-ui), it's a great way to conceptualize this expectation that React sets on us as we use it to build our user interfaces. This expectation implies a strict prop contract - specifically:
 
 > Changes to the props passed to a component, should reflect changes to the user ~interface~ __experience__
 
-This is the implicit prop contract that I'm referring to, and it's not even specific to React but to any pure function<FootnoteRef id="2" />.
+This is the implicit prop contract that I'm referring to, and it's not even specific to React but to any pure function<FootnoteRef id="2">While some may say that React components technically aren't exactly pure functions of state, but for the right perspective of what "state" is, they can be. For example hooks like `useState` rely on the shared React Dispatcher to store state within - if this is considered part of the "state", then the component can be considered pure.</FootnoteRef>.
 
 Let's look an example; imagine we had a function called `square`, maybe we don't know the internals or implementation details of the function - it might even look like this:
 

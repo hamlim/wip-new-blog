@@ -889,7 +889,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/project-deep-dive-tails.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748029406000
   },
   {
     "title": "Churn Anxiety",
@@ -906,7 +906,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/churn-anxiety.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748029406000
   },
   {
     "title": "Service Monitors and Observability",
@@ -1066,7 +1066,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2023,
     "ogImage": "/og-images/project-deep-dive-microfibre.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748029406000
   },
   {
     "title": "Pair Programming",
@@ -1083,7 +1083,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2023,
     "ogImage": "/og-images/pair-programming.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748029406000
   },
   {
     "title": "AI Driven Development",
@@ -1102,7 +1102,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2023,
     "ogImage": "/og-images/ai-driven-development.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748029406000
   },
   {
     "title": "Teams and Caterpillar Tracks",
@@ -1172,7 +1172,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2023,
     "ogImage": "/og-images/using-marquee-with-react-and-typescript.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748029406000
   },
   {
     "title": "Finding React Artifacts",
@@ -1350,7 +1350,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2023,
     "ogImage": "/og-images/avoid-distractions.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748029406000
   },
   {
     "title": "My Thoughts on Tailwind",
@@ -1368,7 +1368,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2023,
     "ogImage": "/og-images/thoughts-on-tailwind.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748029406000
   },
   {
     "title": "Setting up Next.js with Tailwind",
@@ -1421,7 +1421,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2023,
     "ogImage": "/og-images/shiki-on-next-js.png",
-    "lastModified": 1747844855000
+    "lastModified": 1748029406000
   },
   {
     "title": "Dollar: Devlog 2",
@@ -1439,7 +1439,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2023,
     "ogImage": "/og-images/dollar-devlog-2.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748029406000
   },
   {
     "title": "Navigating Monorepos with Ease",
@@ -1475,7 +1475,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2023,
     "ogImage": "/og-images/dollar-devlog-1.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748029406000
   },
   {
     "title": "My Updated Next.js Setup",

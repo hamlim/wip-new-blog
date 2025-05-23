@@ -19,7 +19,7 @@ ogImage: /og-images/using-feature-toggles-to-de-risk-refactors.png
 ---
 
 
-There’s countless resources available online praising feature toggles<FootnoteRef id="1" />, yet I still think it’s extremely underused tool that most teams should start using far more often in development, specifically it really shines when tackling a refactor of an existing feature or even a whole service/application.
+There’s countless resources available online praising feature toggles<FootnoteRef id="1">I refer to feature toggles in this article, but some folks call them feature flags or experiment flags. They’re mostly the same concept - a dynamic flag injected into the code that can be changed without necessarily needing to rebuild the code.</FootnoteRef>, yet I still think it’s extremely underused tool that most teams should start using far more often in development, specifically it really shines when tackling a refactor of an existing feature or even a whole service/application.
 
 A couple of months ago, I lead the frontend platform team at Wayfair as we tackled migrating our Next.js experiences from the Pages Router to the App Router. We relied upon feature toggles to iterate quickly and effectively, our integration allowed us to ship two versions (the existing Pages Router experience alongside the new App Router experience) into production at once, and choose which one to show based on the evaluated feature toggle (or a different override).
 
