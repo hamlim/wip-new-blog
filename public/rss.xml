@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 23 May 2025 19:17:36 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 19:19:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -6096,21 +6096,13 @@ they can also serve as a great way to collect early technical feedback.</p>]]></
             <pubDate>Thu, 20 Feb 2020 12:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>While walking home from work on Thursday Febrary 20th, I decided to walk through
 the Back Bay Fens area near Fenway.</p>
-<marquee class="mt-4"></marquee>
 <div style="position:relative;width:100%;padding-bottom:133.33333333333334%" data-radix-aspect-ratio-wrapper=""><div data-slot="aspect-ratio" class="flex justify-center" style="position:absolute;top:0;right:0;bottom:0;left:0"><img src="/images/back-bay-fens/john-boyle.jpg" height="4032" width="3024" loading="lazy" alt="Statue of John Boyle"/></div></div>
-<marquee class="mt-4"></marquee>
 <div style="position:relative;width:100%;padding-bottom:75%" data-radix-aspect-ratio-wrapper=""><div data-slot="aspect-ratio" class="flex justify-center" style="position:absolute;top:0;right:0;bottom:0;left:0"><img src="/images/back-bay-fens/river-geese.jpg" height="3024" width="4032" loading="lazy" alt="A view from the bridge over the river"/></div></div>
-<marquee class="mt-4"></marquee>
 <div style="position:relative;width:100%;padding-bottom:75%" data-radix-aspect-ratio-wrapper=""><div data-slot="aspect-ratio" class="flex justify-center" style="position:absolute;top:0;right:0;bottom:0;left:0"><img src="/images/back-bay-fens/garden.jpg" height="3024" width="4032" loading="lazy" alt="A garden within the Back Bay Fens"/></div></div>
-<marquee class="mt-4"></marquee>
 <div style="position:relative;width:100%;padding-bottom:75%" data-radix-aspect-ratio-wrapper=""><div data-slot="aspect-ratio" class="flex justify-center" style="position:absolute;top:0;right:0;bottom:0;left:0"><img src="/images/back-bay-fens/garden-furniture.jpg" height="3024" width="4032" loading="lazy" alt="A cozy little bench within one of the gardens"/></div></div>
-<marquee class="mt-4"></marquee>
 <div style="position:relative;width:100%;padding-bottom:133.33333333333334%" data-radix-aspect-ratio-wrapper=""><div data-slot="aspect-ratio" class="flex justify-center" style="position:absolute;top:0;right:0;bottom:0;left:0"><img src="/images/back-bay-fens/garden-walkways.jpg" height="4032" width="3024" loading="lazy" alt="A small walkway weaving between garden plots"/></div></div>
-<marquee class="mt-4"></marquee>
 <div style="position:relative;width:100%;padding-bottom:75%" data-radix-aspect-ratio-wrapper=""><div data-slot="aspect-ratio" class="flex justify-center" style="position:absolute;top:0;right:0;bottom:0;left:0"><img src="/images/back-bay-fens/view-of-the-pru.jpg" height="3024" width="4032" loading="lazy" alt="A view of the Prudential building from the fens"/></div></div>
-<marquee class="mt-4"></marquee>
-<div style="position:relative;width:100%;padding-bottom:75%" data-radix-aspect-ratio-wrapper=""><div data-slot="aspect-ratio" class="flex justify-center" style="position:absolute;top:0;right:0;bottom:0;left:0"><img src="/images/back-bay-fens/fenway.jpg" height="3024" width="4032" loading="lazy" alt="A view of some of the buildings near Fenway"/></div></div>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+<div style="position:relative;width:100%;padding-bottom:75%" data-radix-aspect-ratio-wrapper=""><div data-slot="aspect-ratio" class="flex justify-center" style="position:absolute;top:0;right:0;bottom:0;left:0"><img src="/images/back-bay-fens/fenway.jpg" height="3024" width="4032" loading="lazy" alt="A view of some of the buildings near Fenway"/></div></div>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/back-bay-fens.png" length="0" type="image/png"/>
         </item>
