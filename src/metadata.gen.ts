@@ -207,7 +207,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2024,
     "ogImage": "/og-images/thoughts-on-new-years-resolutions.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748030010000
   },
   {
     "title": "Team Memes",
@@ -244,7 +244,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2024,
     "ogImage": "/og-images/a-quick-look-at-import-maps.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748030010000
   },
   {
     "title": "Recommended Tech Talks",
@@ -345,7 +345,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/the-bookkeeping-pattern.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748030010000
   },
   {
     "title": "Building a Custom Ghostty Theme",
@@ -380,7 +380,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/tslite.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748030010000
   },
   {
     "title": "Monorepo Tips and Tricks",
@@ -397,7 +397,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/monorepo-tips-and-tricks.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748030010000
   },
   {
     "title": "Offload Complexity, Don't Offload Learning",
@@ -416,7 +416,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/offload-complexity.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748030010000
   },
   {
     "title": "Next.js with Deno v2",
@@ -451,7 +451,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2024,
     "ogImage": "/og-images/more-thoughts-on-dogfooding.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748030010000
   },
   {
     "title": "Dogfooding",
@@ -468,7 +468,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2024,
     "ogImage": "/og-images/dogfooding.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748030010000
   },
   {
     "title": "Git Notes as a Tool for Thought",
@@ -504,7 +504,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2024,
     "ogImage": "/og-images/dont-break-the-implicit-prop-contract.png",
-    "lastModified": 1747790496000
+    "lastModified": 1748030010000
   },
   {
     "title": "A Better useSSR Implementation",
@@ -542,7 +542,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/30.png",
-    "lastModified": 1747693041000
+    "lastModified": 1748030010000
   },
   {
     "title": "Simple Obsidian Task Management",
@@ -579,7 +579,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/my-current-dev-setup.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748030010000
   },
   {
     "title": "Switching back to Obsidian",
@@ -597,7 +597,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/switching-back-to-obsidian.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748030010000
   },
   {
     "title": "There Is No Standard Markdown",
@@ -668,7 +668,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2024,
     "ogImage": "/og-images/using-feature-toggles-to-de-risk-refactors.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748030010000
   },
   {
     "title": "Leaving Wayfair",
@@ -780,7 +780,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2024,
     "ogImage": "/og-images/react-error-boundaries-revisited.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748030010000
   },
   {
     "title": "Exporting Custom Slack Emoji",

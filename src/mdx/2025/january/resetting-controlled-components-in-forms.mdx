@@ -20,7 +20,7 @@ ogImage: /og-images/resetting-controlled-components-in-forms.png
 
 If you're starting to leverage some of React's form primitives (e.g. `action` / `formAction` and Server Actions), you might run into the same conundrum I did with controlled components.
 
-By default, React will reset a form after a submission <FootnoteRef id="1" />, however that doesn't really do much to components that manage their own state, the state managed by React will be preserved on the form submit.
+By default, React will reset a form after a submission <FootnoteRef id="1">While there is a bit of [contention](https://github.com/facebook/react/issues/29034) in the community on if that's the right behavior</FootnoteRef>, however that doesn't really do much to components that manage their own state, the state managed by React will be preserved on the form submit.
 
 This could lead to possibly weird looking form states after submission, or even bugs with previous values being submitted the next time a form is submitted.
 
@@ -94,7 +94,7 @@ useEffect(() => {
 
 And that's it! React, under the hood, effectively calls `formElement.reset()` which will trigger our event listener and clear our managed state!
 
-## Footnotes:
+### Footnotes:
 
 <Footnote id="1">While there is a bit of [contention](https://github.com/facebook/react/issues/29034) in the community on if that's the right behavior</Footnote>
 
