@@ -2864,7 +2864,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/pull-quotes.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748025126000
   },
   {
     "title": "Redesign v5",
@@ -2881,7 +2881,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/redesign-v5.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748025126000
   },
   {
     "title": "Attribute Selectors",
@@ -2914,7 +2914,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/august.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748025126000
   },
   {
     "title": "Redesign",
@@ -2963,7 +2963,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/clientside.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748025126000
   },
   {
     "title": "10,000 Characters",
@@ -3013,7 +3013,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/dji-vs-gopro.png",
-    "lastModified": 1747915262000
+    "lastModified": 1748025126000
   },
   {
     "title": "My First Project of 2016",
@@ -3029,7 +3029,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/my-first-project-of-2016.png",
-    "lastModified": 1747568207000
+    "lastModified": 1748025126000
   },
   {
     "title": "2015",

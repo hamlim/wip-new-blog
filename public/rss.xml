@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 23 May 2025 18:31:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 18:38:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -7608,7 +7608,8 @@ of development, we realized that many (maybe 90%) of frontend developers at
 Wayfair (and really anywhere) don&#x27;t want to manage a lot of state and helpers
 that comes with a render prop.</p>
 <p>So we mostly scrapped the render prop pattern on the carousel
-<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>. Since then we have continued to iterate on the carousel
+<button type="button" style="anchor-name:--fnref-mobile-1" popoverTarget="fnref-mobile-1" id="fn-mobile-1" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</button><span style="position-anchor:--fnref-mobile-1" id="fnref-mobile-1" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">Most of the render prop code still lives in the carousel but it
+will most likely be removed before we open source.</span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>. Since then we have continued to iterate on the carousel
 but we were still blocked by this battle of how to properly let end developers
 control the carousel while also not needing to manage a ton of internal logic
 (and possibly duplicating that across the codebase).</p>
@@ -7617,7 +7618,9 @@ control the carousel while also not needing to manage a ton of internal logic
 work on this problem. One of the rough patterns that I still don&#x27;t fully grasp
 from the Downshift component published by Paypal, is the idea of passing back up
 functions in event handlers to help compute the next state
-<button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"></span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
+<button type="button" style="anchor-name:--fnref-mobile-2" popoverTarget="fnref-mobile-2" id="fn-mobile-2" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->2</button><span style="position-anchor:--fnref-mobile-2" id="fnref-mobile-2" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">Side note, I haven&#x27;t even validated that this is what Downshift
+does, I have only some second hand knowledge of their helpers that they pass
+back up.</span><sup id="fn-2" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-2" class="text-primary hover:underline focus:underline">[<!-- -->2<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
 <p>I started with a simple example, a component that can be both controlled as well
 as uncontrolled (a counter component). I broke the problem down into two pieces:</p>
 <ol>
@@ -7737,6 +7740,7 @@ controllable:</p>
 Codesandbox.</p>
 <iframe src="https://codesandbox.io/embed/5wx0l7o3wk?autoresize=1&amp;hidenavigation=1&amp;moduleview=1" style="width:100%;height:500px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 <hr/>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="footnotes">Footnotes:</h3>
 <p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->Most of the render prop code still lives in the carousel but it
 will most likely be removed before we open source.</p>
 <p id="fnref-2" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-2" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->Side note, I haven&#x27;t even validated that this is what Downshift
@@ -8041,7 +8045,7 @@ storing my variables in separate modules like below:</p>
 <span class="line"><span style="color:#B56959;--shiki-dark:#C98A7D">    --e-muted-two: </span><span style="color:#1E754F;--shiki-dark:#4D9375">${</span><span style="color:#B56959;--shiki-dark:#C98A7D">color</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">convert</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">`</span><span style="color:#B56959;--shiki-dark:#C98A7D">color(</span><span style="color:#1E754F;--shiki-dark:#4D9375">${</span><span style="color:#B56959;--shiki-dark:#C98A7D">colors</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B56959;--shiki-dark:#C98A7D">e</span><span style="color:#1E754F;--shiki-dark:#4D9375">}</span><span style="color:#B56959;--shiki-dark:#C98A7D"> lightness(+ 20%))</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">`</span><span style="color:#999999;--shiki-dark:#666666">)</span><span style="color:#1E754F;--shiki-dark:#4D9375">}</span><span style="color:#B56959;--shiki-dark:#C98A7D">;</span></span>
 <span class="line"><span style="color:#B56959;--shiki-dark:#C98A7D">  }</span></span>
 <span class="line"><span style="color:#B5695977;--shiki-dark:#C98A7D77">`</span><span style="color:#999999;--shiki-dark:#666666">}</span></span>
-<span class="line"><span style="color:#999999;--shiki-dark:#666666">&lt;/</span><span style="color:#1E754F;--shiki-dark:#4D9375">style</span><span style="color:#999999;--shiki-dark:#666666">&gt;;</span></span></code></pre>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">&lt;/</span><span style="color:#1E754F;--shiki-dark:#4D9375">style</span><span style="color:#999999;--shiki-dark:#666666">&gt;</span></span></code></pre>
 <p>I started to realize that you can do a lot more with template literals and css.
 If you are used to sass or less or similar setups than you probably use a few
 mixins or extends. Turns out mixins are just plain old javascript functions:</p>
@@ -8062,7 +8066,7 @@ mixins or extends. Turns out mixins are just plain old javascript functions:</p>
 <span class="line"><span style="color:#B5695977;--shiki-dark:#C98A7D77">  `</span><span style="color:#999999;--shiki-dark:#666666">)</span></span>
 <span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">  }</span></span>
 <span class="line"><span style="color:#B5695977;--shiki-dark:#C98A7D77">`</span><span style="color:#999999;--shiki-dark:#666666">}</span></span>
-<span class="line"><span style="color:#999999;--shiki-dark:#666666">&lt;/</span><span style="color:#1E754F;--shiki-dark:#4D9375">style</span><span style="color:#999999;--shiki-dark:#666666">&gt;;</span></span></code></pre>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">&lt;/</span><span style="color:#1E754F;--shiki-dark:#4D9375">style</span><span style="color:#999999;--shiki-dark:#666666">&gt;</span></span></code></pre>
 <p>There is one final caveat with Styled-jsx, first off is that there are some
 minor bugs on how the selectors are actually set up. Every selector generally
 gets an extra <code>[styled-jsx=&quot;some string of numbers here&quot;]</code> applied to it. This
@@ -8185,9 +8189,8 @@ some ideas.</p>
 <p>After I got set up with some simple styles, i jumped into the javascript to
 render out some days in my calendar.</p>
 <p>After about an hour of tinkering around and finding a really odd bug with some
-of my code which you can read about here:
-<a href="./javascript-wierdness" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Javascript Weirdness</a>, I finally had a suitable
-graphical demo of what I was going for.</p>
+of my code which you can read about here: <a href="/2017/march/javascript-weirdness" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Javascript Weirdness</a>,
+I finally had a suitable graphical demo of what I was going for.</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="next-steps">Next steps:</h2>
 <p>After my initial mock up on code pen I am finally ready to boot up a new
 directory with Next.js, React, ReactDOM, and styled-jsx-postcss. This is my new
