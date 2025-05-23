@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 23 May 2025 19:32:14 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 19:34:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -3601,7 +3601,7 @@ that I would like to explore eventually.</p>
             <link>https://matthamlin.me//2022/december/updated-opinionated-nextjs-setup</link>
             <guid>https://matthamlin.me//2022/december/updated-opinionated-nextjs-setup</guid>
             <pubDate>Mon, 26 Dec 2022 06:59:55 GMT</pubDate>
-            <content:encoded><![CDATA[<p><em>This is an update to one of my previous blog posts published in January of 2022 <a href="/blog/2022/january/my-opinionated-nextjs-setup" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a></em></p>
+            <content:encoded><![CDATA[<p><em>This is an update to one of my previous blog posts published in January of 2022 <a href="/2022/january/my-opinionated-nextjs-setup" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a></em></p>
 <p>I&#x27;ve been tinkering with the Layouts features and functionality within Next for quite some time now, and even had the time to refactor this personal site to use the new features. With all that tinkering I figured I would share some of the things that I&#x27;m generally doing with my Next.js apps.</p>
 <p>Some of this is still a bit rough around the edges, and I’m sure I’ll be re-thinking some of these ideas in the future as well, but I’ll aim to post updates as I make them.</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="on-directories">On Directories:</h2>
@@ -3636,10 +3636,7 @@ that I would like to explore eventually.</p>
 <pre data-mdx="true" class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">export</span><span style="color:#AB5959;--shiki-dark:#CB7676"> const</span><span style="color:#B07D48;--shiki-dark:#BD976A"> revalidate</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 0</span></span>
 <span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">export</span><span style="color:#AB5959;--shiki-dark:#CB7676"> const</span><span style="color:#B07D48;--shiki-dark:#BD976A"> dynamic</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#B5695977;--shiki-dark:#C98A7D77"> &#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">force-dynamic</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span></span></code></pre>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="summary">Summary:</h2>
-<p>Those are the high level patterns I’ve been following since adopting Layouts, but I’m curious what you have found to be useful! If you have alternative patterns, or additive ones please share them!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+<p>Those are the high level patterns I’ve been following since adopting Layouts, but I’m curious what you have found to be useful! If you have alternative patterns, or additive ones please share them!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/updated-opinionated-nextjs-setup.png" length="0" type="image/png"/>
         </item>
@@ -3669,10 +3666,7 @@ for others to quickly find also!</p>
 <span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">!</span><span style="color:#59873A;--shiki-dark:#80A665">.yarn/plugins</span></span>
 <span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">!</span><span style="color:#59873A;--shiki-dark:#80A665">.yarn/releases</span></span>
 <span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">!</span><span style="color:#59873A;--shiki-dark:#80A665">.yarn/sdks</span></span>
-<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">!</span><span style="color:#59873A;--shiki-dark:#80A665">.yarn/versions</span></span></code></pre>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">!</span><span style="color:#59873A;--shiki-dark:#80A665">.yarn/versions</span></span></code></pre>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/yarn-berry-gitignore.png" length="0" type="image/png"/>
         </item>
@@ -3687,7 +3681,6 @@ web development methodologies, or about a trip to central Oregon). This post
 will instead be a bit more broad and open ended, I hope that it is still
 valuable for at least a few of the people that may stumble upon it in the
 future.</p>
-<marquee class="mt-4"></marquee>
 <hr/>
 <p>I’m pretty bullish on the possibilities of enhancing our methods of note taking
 as a way to improve the way that we think as humans. I’ve definitely come around
@@ -3713,10 +3706,7 @@ similar concept within <a href="https://subconscious.substack.com/">Subconscious
 </li>
 </ul>
 <p>This list is not exhaustive, I expect that I’ll want to add more concepts here
-over time!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+over time!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/on-note-taking.png" length="0" type="image/png"/>
         </item>
@@ -3745,10 +3735,7 @@ under test until they’re forced to give up and disable the test.</p>
 what you do in one test shouldn’t impact your other tests! This mindset can be
 really difficult to feel comfortable with, but I’ve found it starts to come
 naturally over time. Plus it builds on two crucial tools to most engineers
-toolbox: <code>copy</code> and <code>paste</code> 😂 !</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+toolbox: <code>copy</code> and <code>paste</code> 😂 !</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/on-writing-tests.png" length="0" type="image/png"/>
         </item>
@@ -3778,10 +3765,7 @@ instead shifted over to a custom note taking solution and then Roam and then
 Obsidian. One of the motivators for shifting off of Notion last time was that
 the performance of the applications (native on MacOS and at the time Android)
 was pretty poor. I’m hoping that they’ve improved the performance over the past
-two years!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+two years!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/switching-back-to-notion.png" length="0" type="image/png"/>
         </item>
@@ -3803,10 +3787,7 @@ approaches to module installation and setup, it seems to be pretty quick and
 easy to use.</p>
 <p>I will say, the v6 to v7 changes seem pretty intense (I&#x27;ve already noticed some
 projects work only with PNPM v6), but overall I&#x27;ve been enjoying PNPM! Now time
-for me to get back and update all my side projects again 🙃.</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+for me to get back and update all my side projects again 🙃.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/moving-to-pnpm.png" length="0" type="image/png"/>
         </item>
@@ -3841,10 +3822,7 @@ breaking changes, they can use this guide as a place to note upcoming breaking
 changes and how projects can plan for those changes before they are released.</p>
 <p>What are your thoughts about this concept? Would you find it valuable for the
 libraries you depend upon to ship a <code>upgrade-guide.md</code> document alongside their
-existing changelog?</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+existing changelog?</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/upgrade-guides.png" length="0" type="image/png"/>
         </item>
@@ -3853,7 +3831,7 @@ existing changelog?</p>
             <link>https://matthamlin.me//2022/january/my-opinionated-nextjs-setup</link>
             <guid>https://matthamlin.me//2022/january/my-opinionated-nextjs-setup</guid>
             <pubDate>Sun, 30 Jan 2022 11:10:28 GMT</pubDate>
-            <content:encoded><![CDATA[<p><em>I&#x27;ve since updated this blog post <a href="/blog/2022/december/updated-opinionated-nextjs-setup" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a></em></p>
+            <content:encoded><![CDATA[<p><em>I&#x27;ve since updated this blog post <a href="/2022/december/updated-opinionated-nextjs-setup" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a></em></p>
 <p>As I&#x27;ve been hacking on a recent
 <a href="https://github.com/hamlim/watch-list" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">side project</a>, I&#x27;ve started to form some
 loose opinions on my ideal Next.js application structure. Some of these opinions
@@ -3894,12 +3872,8 @@ days) along with any tests if I ever find myself wanting to write unit tests.</p
 <p>This one I haven&#x27;t really given much thought to however, I don&#x27;t know the right
 point to allow some composition within the file in <code>pages/</code> vs the right amount
 left in the <code>views/</code> files.</p>
-<marquee class="mt-4"></marquee>
 <p>Do you have any strong (or weak) opinions on how you structure your Next.js
-applications? Reach out on twitter to share them!</p>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+applications? Reach out on twitter to share them!</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/my-opinionated-nextjs-setup.png" length="0" type="image/png"/>
         </item>
@@ -3964,10 +3938,7 @@ of my side projects:</p>
 <span class="line"><span style="color:#59873A;--shiki-dark:#80A665">    trigger</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#AB5959;--shiki-dark:#CB7676">new</span><span style="color:#59873A;--shiki-dark:#80A665"> Error</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">Yo!</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">))</span></span>
 <span class="line"><span style="color:#999999;--shiki-dark:#666666">  }</span></span>
 <span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">  //...</span></span>
-<span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span></code></pre>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span></code></pre>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/my-two-favorite-react-tricks.png" length="0" type="image/png"/>
         </item>
@@ -4049,15 +4020,12 @@ see nearly enough people talk about when comparing iOS with Android!</li>
 <ul>
 <li>Obsidian sync<!-- -->
 <ul>
-<li>I&#x27;ve been <a href="/blog/2021/august/obsidian-sync" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">using Dropbox to sync</a> all my
+<li>I&#x27;ve been <a href="/2021/august/obsidian-sync" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">using Dropbox to sync</a> all my
 obsidian notes across my personal laptop, work laptop, phone, and tablet.
 Now I&#x27;ll need to move to iCloud storage to sync I think 🤔</li>
 </ul>
 </li>
-</ul>
-<marquee class="mt-4"></marquee>
-<hr/>
-<marquee class="mt-4"></marquee>]]></content:encoded>
+</ul>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/switching-to-iphone.png" length="0" type="image/png"/>
         </item>
