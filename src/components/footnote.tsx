@@ -1,32 +1,28 @@
+import {
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+} from "#/components/ui/tooltip";
+
 export function FootnoteRef({
   id,
   children,
 }: { id: string; children: React.ReactNode }) {
   return (
     <>
-      <button
-        type="button"
-        style={{
-          // @ts-ignore - TS doesn't recognize anchorName as a valid property
-          anchorName: `--fnref-mobile-${id}`,
-        }}
-        popoverTarget={`fnref-mobile-${id}`}
-        id={`fn-mobile-${id}`}
-        className="inline-flex md:hidden [&:active]:border-dashed [&:active]:border-primary border-2 [&:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full"
-      >
-        fn-{id}
-      </button>
-      <span
-        style={{
-          // @ts-ignore - TS doesn't recognize positionAnchor as a valid property
-          positionAnchor: `--fnref-mobile-${id}`,
-        }}
-        id={`fnref-mobile-${id}`}
-        popover="auto"
-        className="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]"
-      >
-        {children}
+      <span className="inline-flex md:hidden">
+        <Tooltip>
+          <TooltipTrigger>
+            <span
+              className="bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full"
+            >
+              fn-{id}
+            </span>
+          </TooltipTrigger>
+          <TooltipContent>{children}</TooltipContent>
+        </Tooltip>
       </span>
+
       <sup
         id={`fn-${id}`}
         className="hidden md:inline [&:target]:border-dashed [&:target]:border-primary border-1\ [&:not(:target)]:border-transparent"
