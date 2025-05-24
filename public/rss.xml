@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 23 May 2025 19:58:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 May 2025 12:35:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -2053,7 +2053,7 @@ setup with this version of the service, but feel free to mess around and report
 any bugs <a href="https://github.com/hamlim/tails" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">here</a></em>. 🚧</p></div>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="what-is-tails">What is Tails?</h2>
 <p><a href="https://tails-theta.vercel.app/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Tails</a> is a very basic
-<abbr title="Create Read Update Delete" style="anchor-name:--abbr-«R6p»" class="peer inline-flex" tabindex="0">CRUD</abbr><span style="position-anchor:--abbr-«R6p»" class="hidden absolute peer-hover:inline-flex peer-focus:inline-flex top-anchor-bottom-[.125rem] left-anchor-right-[.125rem] p-2 bg-slate-600 text-white rounded rounded-ss-none">Create Read Update Delete</span><button type="button" style="anchor-name:--fnref-mobile-3" popoverTarget="fnref-mobile-3" id="fn-mobile-3" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->3</button><span style="position-anchor:--fnref-mobile-3" id="fnref-mobile-3" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">At the moment, it doesn&#x27;t even support updating or deleting
+<button data-state="closed" data-slot="tooltip-trigger"><abbr title="Create Read Update Delete">CRUD</abbr></button><button type="button" style="anchor-name:--fnref-mobile-3" popoverTarget="fnref-mobile-3" id="fn-mobile-3" class="inline-flex md:hidden [&amp;:active]:border-dashed [&amp;:active]:border-primary border-2 [&amp;:not(:active)]:border-transparent bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->3</button><span style="position-anchor:--fnref-mobile-3" id="fnref-mobile-3" popover="auto" class="popover-open:inline-flex p-2 bg-slate-600 text-white rounded absolute anchored-bottom max-w-[calc(100vw-1rem)] try-order-w try-flip-x top-anchor-bottom-[0.5rem]">At the moment, it doesn&#x27;t even support updating or deleting
 recipes! I&#x27;ll have to add that in the future!</span><sup id="fn-3" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-3" class="text-primary hover:underline focus:underline">[<!-- -->3<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup> web
 app for saving and sharing cocktail recipes. That&#x27;s it at the moment, no social
 features, no fancy whiz-bang features, just saving recipes!</p>
@@ -2521,7 +2521,7 @@ displayed on my personal site under the <a href="/feed" class="inline-flex items
 as the datastore, and a Next.js app as the posting client (as well as this
 Next.js app powering my blog for rendering the feed). There&#x27;s nothing magical
 about the project - it&#x27;s a fairly basic
-<abbr title="Acronym standing for Create Read Update Delete, often used to describe basic REST APIs" style="anchor-name:--abbr-«R49»" class="peer inline-flex" tabindex="0">CRUD</abbr><span style="position-anchor:--abbr-«R49»" class="hidden absolute peer-hover:inline-flex peer-focus:inline-flex top-anchor-bottom-[.125rem] left-anchor-right-[.125rem] p-2 bg-slate-600 text-white rounded rounded-ss-none">Acronym standing for Create Read Update Delete, often used to describe basic REST APIs</span>
+<button data-state="closed" data-slot="tooltip-trigger"><abbr title="Acronym standing for Create Read Update Delete, often used to describe basic REST APIs">CRUD</abbr></button>
 API.</p>
 <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="whered-it-start">Where&#x27;d it start?</h2>
 <p>I started the project the first week of November (2023), and primarily wanted to
@@ -4057,7 +4057,7 @@ read if you haven&#x27;t yet!</p>]]></content:encoded>
 proposition of these systems or tools is that I as an engineer should be able to
 take a problem statement and begin to better understand it by fast feedback
 loops of trial and error experimentation.</p>
-<p>Usually these systems look a lot like sandboxes or <abbr title="Read Evaluate Print Loops" style="anchor-name:--abbr-«Rb»" class="peer inline-flex" tabindex="0">REPL&#x27;s</abbr><span style="position-anchor:--abbr-«Rb»" class="hidden absolute peer-hover:inline-flex peer-focus:inline-flex top-anchor-bottom-[.125rem] left-anchor-right-[.125rem] p-2 bg-slate-600 text-white rounded rounded-ss-none">Read Evaluate Print Loops</span> not unlike CodeSandbox,
+<p>Usually these systems look a lot like sandboxes or <button data-state="closed" data-slot="tooltip-trigger"><abbr title="Read Evaluate Print Loops">REPL&#x27;s</abbr></button> not unlike CodeSandbox,
 the built-in Node.js REPL, or even the browser dev tools! I heavily use these tools on a day to day basis, they allow me to take a complex
 problem and better visualize it through code.</p>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>

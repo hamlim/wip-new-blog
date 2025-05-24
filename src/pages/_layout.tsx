@@ -2,6 +2,7 @@ import { type ReactNode, Suspense } from "react";
 import { ErrorBoundary } from "#/components/error-boundary";
 import { Nav } from "#/components/nav";
 import { QuickFindLoader } from "#/components/quick-find.loader";
+import { TooltipProvider } from "#/components/ui/tooltip";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -56,13 +57,15 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <meta name="twitter:image:type" content="image/png" />
       <link rel="shortcut icon" href="/favicon.ico" />
 
-      <Nav />
-      <Suspense fallback={null}>
-        <ErrorBoundary>{children}</ErrorBoundary>
-      </Suspense>
-      <Suspense fallback={null}>
-        <QuickFindLoader />
-      </Suspense>
+      <TooltipProvider>
+        <Nav />
+        <Suspense fallback={null}>
+          <ErrorBoundary>{children}</ErrorBoundary>
+        </Suspense>
+        <Suspense fallback={null}>
+          <QuickFindLoader />
+        </Suspense>
+      </TooltipProvider>
     </div>
   );
 }
