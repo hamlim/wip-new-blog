@@ -31,6 +31,9 @@ export async function Post({
       <meta property="og:type" content="article" />
       <meta property="og:site_name" content="Matt's Blog" />
       <ProseContainer>
+        <LinkAnchor className="mb-2" href="/blog">
+          ← Back to all posts
+        </LinkAnchor>
         <Heading level={1}>{frontmatter.title}</Heading>
         <p className="text-sm text-slate-500 dark:text-slate-400">
           <Suspense
