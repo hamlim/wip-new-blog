@@ -20,7 +20,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2025,
     "ogImage": "/og-images/website-redesign-v10.png",
-    "lastModified": null
+    "lastModified": 1748209751000
   },
   {
     "title": "Server Side Rendering Compatible CSS Theming",
