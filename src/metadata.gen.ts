@@ -5,6 +5,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Website Redesign v10",
+    "slug": "website-redesign-v10",
+    "path": "/2025/may/website-redesign-v10",
+    "date": 1748209536031,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "Development",
+      "Redesign"
+    ],
+    "description": "I recently launched a rewrite and redesign of this personal website, I figured I'd talk a bit about the changes and new features that I added along the way!",
+    "month": "may",
+    "year": 2025,
+    "ogImage": "/og-images/website-redesign-v10.png",
+    "lastModified": null
+  },
+  {
     "title": "Server Side Rendering Compatible CSS Theming",
     "slug": "server-side-rendering-compatible-css-theming",
     "path": "/2025/april/server-side-rendering-compatible-css-theming",

@@ -1,0 +1,84 @@
+---
+title: Website Redesign v10
+slug: website-redesign-v10
+path: /2025/may/website-redesign-v10
+date: 1748209536031
+status: public
+type: blog-post
+tags:
+  - Web Development
+  - Development
+  - Redesign
+description: "I recently launched a rewrite and redesign of this personal website, I figured I'd talk a bit about the changes and new features that I added along the way!"
+month: may
+year: 2025
+ogImage: /og-images/website-redesign-v10.png
+---
+
+I've done a number of redesigns/rewrites of this blog over the years, so many in fact that I've lost count, but here's a few older blog posts talking about those redesigns/rewrites:
+
+- ["v1" - November 2015](/2015/november/a-new-look)
+- ["v2" - April 2016](/2016/april/redesign)
+- ["v3" - August 2016](/2016/august/my-new-website)
+- ["v4/5???" - August 2016](/2016/august/redesign-v5)
+	- At this point I lost track of the number of rewrites of my personal site 🤣
+- ["v6" - March 2017](/2017/march/redesign-v6)
+- ["v7???" - December 2018](/2018/december/starting-fresh)
+
+I know I released a few rewrites in between and since those posts though - and since I'm entering the 10th year of active development on my blog I figured I'd call this one the 10th version of my personal site.
+
+<Callout>
+
+You can checkout the blog posts tagged with the [`Redesign`](/blog/tags/Redesign) tag to see all related redesign blog posts!
+
+</Callout>
+
+---
+
+<TLDR>
+
+For those that just want to look at the code - [check it out here](https://github.com/hamlim/blog-2025)!
+
+</TLDR>
+
+## Framework:
+
+For a while now I had been using Next.js as my go-to web framework (or I suppose meta-framework). I've even [written about it](/2022/january/my-opinionated-nextjs-setup) [a few times](/2022/december/updated-opinionated-nextjs-setup)!
+
+However, I've started to move away from the <Abbr title="Vercel">Triangle ~~Industrial Complex~~ __Company__</Abbr>, I've started to host my various side project websites on Cloudflare instead of Vercel, and with that I've opted to use a different meta framework, that's a bit less of a black box than Next.js.
+
+For the past few months I've been heavily using [Waku](https://waku.gg), which is a React Server Component compatible framework built on Vite!
+
+It's been a breath of fresh air to use Waku compared to Next.js - I feel like I have control over how most of my application works as opposed to what Next.js limits you to. There are still some aspects of Waku that I'm not a huge fan of - but it still feels like a great option (even though it hasn't officially had a stable 1.0 release yet)! <FootnoteRef id="1">I've wanted to give Redwood SDK and also Parcel's RSC support a try out at some point soon too!</FootnoteRef>
+
+## Features:
+
+Originally - I wanted to heavily invest in some kind of CMS-like setup for my site. Right now I duplicate quite a bit of content between my personal website and my notes within Obsidian (even this blog post started out in Obsidian until I copied it into my website repo!).
+
+However I think I ended up spending way too much time overthinking how to approach that and instead opted for an implementation that was fairly similar to how my site worked with Next.js before (I do a decent amount of "code generation" than I did before, which I talk about [below](#code-generation)).
+
+Once I got to work carrying over the routes and blog posts from my previous blog - I realized that I could build out some of the things that I've wanted for a while now on my personal site!
+
+Including:
+
+- Related blog posts (see the post "cards" below this blog post as an example)
+- A _limited_ search feature and a command menu (try hitting `cmd + k` and then searching for things)
+
+My hope is that I'll be able to build out more features in the same vein as those in the future too!
+
+## Code Generation:
+
+For both of the two new features noted above - I needed a single "index" of all my blog posts to be able to easily scan through and provide related blog posts based on tags, and search based on title/description/tags etc.
+
+My previous website had the ability to do some of this also but I took a slightly different approach this time. Previously when creating a new blog post I'd run a script to scaffold out the MDX page for the post and also add the details like title, tags, description, etc all right when I ran the script to a single JSON file.
+
+This worked - but it meant if I wanted to change the description, or the title, or anything else about the post I'd have to find the entry in this JSON file and then update it.
+
+My new setup is a bit "lazier" instead, it generates that JSON data structure during builds (or watching during dev), which means the blog post MDX file is the true source of truth for that information instead of having it be distributed across a few files.
+
+---
+
+### Footnotes:
+
+<Footnote id="1">I've wanted to also give Redwood SDK and also Parcel's RSC support a try out at some point soon too!</Footnote>
+
