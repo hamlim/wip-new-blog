@@ -14,6 +14,11 @@ let rscPattern = /\/RSC\//;
 export default function cloudflareMiddleware(): ReturnType<Middleware> {
   return async (ctx: Context, next: Next) => {
     await next();
+    console.log({
+      name: "cloudflareMiddleware",
+      isProd: import.meta.env?.PROD,
+      isWranglerDev: isWranglerDev(ctx.req.headers),
+    });
     if (!import.meta.env?.PROD) {
       return;
     }
