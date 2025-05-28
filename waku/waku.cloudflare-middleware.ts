@@ -14,11 +14,11 @@ let rscPattern = /\/RSC\//;
 export default function cloudflareMiddleware(): ReturnType<Middleware> {
   return async (ctx: Context, next: Next) => {
     await next();
-    console.log({
-      name: "cloudflareMiddleware",
-      isProd: import.meta.env?.PROD,
-      isWranglerDev: isWranglerDev(ctx.req.headers),
-    });
+    ctx.res.headers ||= {};
+    // no index RSC requests/responses
+    if (rscPattern.test(ctx.req.url.pathname)) {
+      ctx.res.headers["X-Robots-Tag"] = "noindex";
+    }
     if (!import.meta.env?.PROD) {
       return;
     }
@@ -26,11 +26,6 @@ export default function cloudflareMiddleware(): ReturnType<Middleware> {
       return;
     }
     let contentType = ctx.res.headers?.["content-type"];
-    ctx.res.headers ||= {};
-    // no index RSC requests/responses
-    if (rscPattern.test(ctx.req.url.pathname)) {
-      ctx.res.headers["X-Robots-Tag"] = "noindex";
-    }
     if (
       !contentType ||
       contentType.includes("text/html") ||
