@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Mon, 26 May 2025 16:40:55 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 May 2025 11:11:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,34 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[In Review - The Belroy Transit Workpack Pro v2]]></title>
+            <link>https://matthamlin.me//2025/may/belroy-transit-workpack-pro-v2</link>
+            <guid>https://matthamlin.me//2025/may/belroy-transit-workpack-pro-v2</guid>
+            <pubDate>Thu, 29 May 2025 11:10:15 GMT</pubDate>
+            <description><![CDATA[I semi-recently bought a Belroy Transit Workpack Pro v2 backpack, and after using it for about 9 months now I figured I'd write up some of my thoughts on it!]]></description>
+            <content:encoded><![CDATA[<p>A few months ago I updated my go-to travel and daily use backpack to the <a href="https://bellroy.com/products/transit-workpack-pro?color=black&amp;material=dura_polyester_recycled&amp;size=28l#slide-0" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Belroy Transit Workpack Pro 28L</a> (specifically the black color option), after using it for a few months I wanted to write a brief review of it as a product with some of my paper cuts in a hope to provide insight for others looking to purchase the backpack!</p>
+<p>Prior to this I was using a fairly larger backpack from peak, I think it was this <a href="https://www.peakdesign.com/products/travel-backpack?Size=45L&amp;Color=Black" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">45L Travel Backpack</a>, and I was looking to find a backpack that was slightly smaller but would still be useful for using as a secondary carry on travel bag.</p>
+<p>In addition to using it while traveling, I also use it infrequently when commuting to work and back (when I do go into the office).</p>
+<h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="paper-cuts">Paper Cuts:</h2>
+<p>There&#x27;s a few smaller pain points / paper cuts that I&#x27;ve found with the Belroy backpack, some of these may matter for you but some may not!</p>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>All of these are very minor complaints about the backpack - I still use it as my go-to backpack anyway!</p></div>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="water-bottle-pouch">Water Bottle Pouch</h3>
+<p>The water bottle storage in the backpack is a zipper pouch on the side - because its a zipper pouch you&#x27;re fairly limited in the size of water bottle that you can carry in the backpack. I usually carry a 40oz Hydroflask or a 46oz Nalgene - both of which can&#x27;t fit within the side pouch (even without zipping it up partially).</p>
+<p>In addition to the smaller size - I&#x27;ve found that the zipper on that pouch seems to stick quite frequently for me and it takes a bit of effort to fully open or close it - however this might just be an issue with my specific backpack vs all backpacks.</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="laptop-sleeve">Laptop Sleeve</h3>
+<p>The laptop enclosure has a nice separate small pouch for things like a kindle or phone, however there&#x27;s some weird gaps on either side of the laptop pouch that allow for things to go into the main compartment of the backpack.</p>
+<p>This isn&#x27;t really that much of an issue (the gaps are about the size of an Airpods case), but it does make me think that I might loose something between the gaps from the laptop compartment into the main compartment.</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="small-front-compartment">Small Front Compartment</h3>
+<p>The small front compartment is generally pretty nice - I feel like it could use a few more organizational slots, but generally it&#x27;s nice to hold on to a few pens/pencils, and a small notebook or passport. However the glasses compartment in that pouch has a zipper that runs the opposite way as the zipper for the compartment - which feels weird to me. It usually means that I need to fully open the small front compartment in order to access the glasses section.</p>
+<p>I usually now just leave that glasses compartment fully unzipped to make it easier to access on the go.</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="general-shape">General Shape</h3>
+<p>My final pain point with the bag is that it can&#x27;t easily stand on it&#x27;s own. The bottom of the bag curves away (maybe to make it more ergonomic?), but this means that it&#x27;s near impossible to have it sit on it&#x27;s bottom without leaning against a wall.</p>
+<h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="summary">Summary</h2>
+<p>The above issues are definitely minor inconveniences rather than major pain points. I still use the backpack almost daily and I&#x27;m enjoying it compared to my previous backpack - but I wish that they&#x27;d polish up some of these issues to improve upon it even more!</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/belroy-transit-workpack-pro-v2.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Website Redesign v10]]></title>
             <link>https://matthamlin.me//2025/may/website-redesign-v10</link>

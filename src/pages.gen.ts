@@ -372,6 +372,8 @@ import type { getConfig as File_2025JanuaryTheAiDevelopmentConundrum_getConfig }
 // prettier-ignore
 import type { getConfig as File_2025MarchReplacingDropboxCaptureWithRaycast_getConfig } from './pages/2025/march/replacing-dropbox-capture-with-raycast';
 // prettier-ignore
+import type { getConfig as File_2025MayBelroyTransitWorkpackProV2_getConfig } from './pages/2025/may/belroy-transit-workpack-pro-v2';
+// prettier-ignore
 import type { getConfig as File_2025MayWebsiteRedesignV10_getConfig } from './pages/2025/may/website-redesign-v10';
 // prettier-ignore
 import type { getConfig as File_NotFound_getConfig } from './pages/[...notFound]';
@@ -582,6 +584,7 @@ type Page =
 | ({ path: '/2025/january/resetting-controlled-components-in-forms' } & GetConfigResponse<typeof File_2025JanuaryResettingControlledComponentsInForms_getConfig>)
 | ({ path: '/2025/january/the-ai-development-conundrum' } & GetConfigResponse<typeof File_2025JanuaryTheAiDevelopmentConundrum_getConfig>)
 | ({ path: '/2025/march/replacing-dropbox-capture-with-raycast' } & GetConfigResponse<typeof File_2025MarchReplacingDropboxCaptureWithRaycast_getConfig>)
+| ({ path: '/2025/may/belroy-transit-workpack-pro-v2' } & GetConfigResponse<typeof File_2025MayBelroyTransitWorkpackProV2_getConfig>)
 | ({ path: '/2025/may/website-redesign-v10' } & GetConfigResponse<typeof File_2025MayWebsiteRedesignV10_getConfig>)
 | ({ path: '/[...notFound]' } & GetConfigResponse<typeof File_NotFound_getConfig>)
 | ({ path: '/__sandbox' } & GetConfigResponse<typeof File_Sandbox_getConfig>)

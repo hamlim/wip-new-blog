@@ -5,6 +5,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "In Review - The Belroy Transit Workpack Pro v2",
+    "slug": "belroy-transit-workpack-pro-v2",
+    "path": "/2025/may/belroy-transit-workpack-pro-v2",
+    "date": 1748517015808,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Product Review",
+      "Backpack",
+      "Gear",
+      "Review"
+    ],
+    "description": "I semi-recently bought a Belroy Transit Workpack Pro v2 backpack, and after using it for about 9 months now I figured I'd write up some of my thoughts on it!",
+    "month": "may",
+    "year": 2025,
+    "ogImage": "/og-images/belroy-transit-workpack-pro-v2.png",
+    "lastModified": null
+  },
+  {
     "title": "Website Redesign v10",
     "slug": "website-redesign-v10",
     "path": "/2025/may/website-redesign-v10",
