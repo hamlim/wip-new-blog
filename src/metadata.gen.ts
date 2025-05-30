@@ -21,7 +21,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2025,
     "ogImage": "/og-images/belroy-transit-workpack-pro-v2.png",
-    "lastModified": null
+    "lastModified": 1748517256000
   },
   {
     "title": "Website Redesign v10",

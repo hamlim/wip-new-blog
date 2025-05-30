@@ -33,7 +33,6 @@ export function useMDXComponents() {
     h6(props: ComponentProps<"h6">) {
       return <Heading level={6} {...props} />;
     },
-    a: Anchor,
     p(props: ComponentProps<"p">) {
       return <p {...props} />;
     },
@@ -61,6 +60,21 @@ export function useMDXComponents() {
     Footnote,
     Image,
     Figure,
+
+    a(props: ComponentProps<"a"> & { children: ReactNode }) {
+      let localLink = false;
+      if (
+        (props.href?.startsWith("/") && !props.href.startsWith("//")) ||
+        props.href?.startsWith("#")
+      ) {
+        localLink = true;
+      }
+
+      if (localLink) {
+        return <LinkAnchor {...props} />;
+      }
+      return <Anchor {...props} />;
+    },
 
     Link(props: ComponentProps<"a"> & { children: ReactNode }) {
       let linkType: "a" | "Link" = "a";
