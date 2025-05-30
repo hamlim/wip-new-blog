@@ -378,8 +378,6 @@ import type { getConfig as File_2025MayBelroyTransitWorkpackProV2_getConfig } fr
 // prettier-ignore
 import type { getConfig as File_2025MayWebsiteRedesignV10_getConfig } from './pages/2025/may/website-redesign-v10';
 // prettier-ignore
-import type { getConfig as File_NotFound_getConfig } from './pages/[...notFound]';
-// prettier-ignore
 import type { getConfig as File_Sandbox_getConfig } from './pages/__sandbox';
 // prettier-ignore
 import type { getConfig as File_About_getConfig } from './pages/about';
@@ -399,6 +397,8 @@ import type { getConfig as File_Index_getConfig } from './pages/index';
 import type { getConfig as File_Projects_getConfig } from './pages/projects';
 // prettier-ignore
 import type { getConfig as File_Resume_getConfig } from './pages/resume';
+// prettier-ignore
+import type { getConfig as File_SkipNotFound_getConfig } from './pages/skip-notFound';
 
 // prettier-ignore
 type Page =
@@ -589,7 +589,6 @@ type Page =
 | ({ path: '/2025/march/replacing-dropbox-capture-with-raycast' } & GetConfigResponse<typeof File_2025MarchReplacingDropboxCaptureWithRaycast_getConfig>)
 | ({ path: '/2025/may/belroy-transit-workpack-pro-v2' } & GetConfigResponse<typeof File_2025MayBelroyTransitWorkpackProV2_getConfig>)
 | ({ path: '/2025/may/website-redesign-v10' } & GetConfigResponse<typeof File_2025MayWebsiteRedesignV10_getConfig>)
-| ({ path: '/[...notFound]' } & GetConfigResponse<typeof File_NotFound_getConfig>)
 | ({ path: '/__sandbox' } & GetConfigResponse<typeof File_Sandbox_getConfig>)
 | { path: '/_root'; render: 'dynamic' }
 | ({ path: '/about' } & GetConfigResponse<typeof File_About_getConfig>)
@@ -600,7 +599,8 @@ type Page =
 | ({ path: '/bookshelf' } & GetConfigResponse<typeof File_Bookshelf_getConfig>)
 | ({ path: '/' } & GetConfigResponse<typeof File_Index_getConfig>)
 | ({ path: '/projects' } & GetConfigResponse<typeof File_Projects_getConfig>)
-| ({ path: '/resume' } & GetConfigResponse<typeof File_Resume_getConfig>);
+| ({ path: '/resume' } & GetConfigResponse<typeof File_Resume_getConfig>)
+| ({ path: '/skip-notFound' } & GetConfigResponse<typeof File_SkipNotFound_getConfig>);
 
 // prettier-ignore
 declare module 'waku/router' {
