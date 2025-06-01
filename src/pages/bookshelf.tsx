@@ -76,8 +76,12 @@ export default function Bookshelf() {
           </div>
         )}
         {read.length > 0 && (
-          <div>
-            <Heading level={3}>Read</Heading>
+          <details>
+            <summary>
+              <Heading className="inline-block" level={3}>
+                Read
+              </Heading>
+            </summary>
             <ul>
               {read.map((book) => (
                 <li key={book.title}>
@@ -96,7 +100,7 @@ export default function Bookshelf() {
                 </li>
               ))}
             </ul>
-          </div>
+          </details>
         )}
       </ProseContainer>
     </main>
