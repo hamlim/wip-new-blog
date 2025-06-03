@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Sun, 01 Jun 2025 21:07:35 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Jun 2025 20:06:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,45 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Async Class Creation In JavaScript]]></title>
+            <link>https://matthamlin.me//2025/june/async-class-creation-in-javascript</link>
+            <guid>https://matthamlin.me//2025/june/async-class-creation-in-javascript</guid>
+            <pubDate>Tue, 03 Jun 2025 20:04:58 GMT</pubDate>
+            <description><![CDATA[Have you ever wanted to create a class in JavaScript or TypeScript but also have the initialization be async? Here's a quick tip on a pattern that I've used in the past!]]></description>
+            <content:encoded><![CDATA[<p>While JavaScript <code>class</code>es aren&#x27;t exactly all the rage anymore (although I think they are finding a nice niche, and I recommend developers check them out for specific use cases), I&#x27;ve been working with them a decent amount as of late while working with webpack and rspack plugins.</p>
+<p>One of the challenges that we&#x27;ve run into at work is needing to instantiate a new instance of the plugins, but doing so with some async dependencies.</p>
+<p>If you&#x27;re unfamiliar, <code>class</code> constructors can&#x27;t be <code>async</code> in JavaScript, they syncronously return with a class instance, so if you need to do some async computation before creating the instance you usually would need to do that work outside of the class and then pass the result into the class constructor, e.g.:</p>
+<pre data-mdx="true" class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">class</span><span style="color:#2E8F82;--shiki-dark:#5DA994"> MyClass</span><span style="color:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">  constructor</span><span style="color:#999999;--shiki-dark:#666666">()</span><span style="color:#999999;--shiki-dark:#666666"> {}</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">async</span><span style="color:#AB5959;--shiki-dark:#CB7676"> function</span><span style="color:#59873A;--shiki-dark:#80A665"> computeSomething</span><span style="color:#999999;--shiki-dark:#666666">()</span><span style="color:#999999;--shiki-dark:#666666"> {</span><span style="color:#A0ADA0;--shiki-dark:#758575DD"> /* ... */</span><span style="color:#999999;--shiki-dark:#666666"> }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// do async operation:</span></span>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">let</span><span style="color:#B07D48;--shiki-dark:#BD976A"> result</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#1E754F;--shiki-dark:#4D9375"> await</span><span style="color:#59873A;--shiki-dark:#80A665"> computeSomething</span><span style="color:#999999;--shiki-dark:#666666">();</span></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// pass result to the MyClass constructor</span></span>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">let</span><span style="color:#B07D48;--shiki-dark:#BD976A"> classInstance</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#AB5959;--shiki-dark:#CB7676"> new</span><span style="color:#59873A;--shiki-dark:#80A665"> MyClass</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B07D48;--shiki-dark:#BD976A">result</span><span style="color:#999999;--shiki-dark:#666666">);</span></span></code></pre>
+<p>However this breaks some of the nice encapsulation we get out of the box with JavaScript classes.</p>
+<p>At work, we&#x27;ve had to come up with a nice pattern for handling async instantiation without breaking some of the encapsulation we get with classes!</p>
+<pre data-mdx="true" class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">class</span><span style="color:#2E8F82;--shiki-dark:#5DA994"> MyClass</span><span style="color:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">  // ✨ &quot;Magic&quot; ✨</span></span>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">  static</span><span style="color:#AB5959;--shiki-dark:#CB7676"> async</span><span style="color:#59873A;--shiki-dark:#80A665"> createMyClass</span><span style="color:#999999;--shiki-dark:#666666">()</span><span style="color:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">    // do some async operations</span></span>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">    let</span><span style="color:#B07D48;--shiki-dark:#BD976A"> result</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#1E754F;--shiki-dark:#4D9375"> await</span><span style="color:#999999;--shiki-dark:#666666"> (</span><span style="color:#A0ADA0;--shiki-dark:#758575DD">/* ... */</span><span style="color:#999999;--shiki-dark:#666666">);</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">    </span></span>
+<span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">    return</span><span style="color:#AB5959;--shiki-dark:#CB7676"> new</span><span style="color:#59873A;--shiki-dark:#80A665"> MyClass</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B07D48;--shiki-dark:#BD976A">result</span><span style="color:#999999;--shiki-dark:#666666">)</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">  }</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  </span></span>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">  constructor</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#A0ADA0;--shiki-dark:#758575DD">/* ... */</span><span style="color:#999999;--shiki-dark:#666666">)</span><span style="color:#999999;--shiki-dark:#666666"> {}</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// usage:</span></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// call the static async method, get back a class instance!</span></span>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">let</span><span style="color:#B07D48;--shiki-dark:#BD976A"> classInstance</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#1E754F;--shiki-dark:#4D9375"> await</span><span style="color:#B07D48;--shiki-dark:#BD976A"> MyClass</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">createMyClass</span><span style="color:#999999;--shiki-dark:#666666">();</span></span></code></pre>
+<p>This isn&#x27;t all that different from the first code snippet above - but at least now we&#x27;ve nicely coupled the initialization logic within the class, making the code a bit more portable in the case that we might need to move it around.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/async-class-creation-in-javascript.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[In Review - The Belroy Transit Workpack Pro v2]]></title>
             <link>https://matthamlin.me//2025/may/belroy-transit-workpack-pro-v2</link>

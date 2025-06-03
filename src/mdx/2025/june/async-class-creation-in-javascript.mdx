@@ -1,0 +1,60 @@
+---
+title: Async Class Creation In JavaScript
+slug: async-class-creation-in-javascript
+path: /2025/june/async-class-creation-in-javascript
+date: 1748981098396
+status: public
+type: blog-post
+tags:
+  - Web Development
+  - JavaScript
+  - TypeScript
+  - Tip
+description: "Have you ever wanted to create a class in JavaScript or TypeScript but also have the initialization be async? Here's a quick tip on a pattern that I've used in the past!"
+month: june
+year: 2025
+ogImage: /og-images/async-class-creation-in-javascript.png
+---
+
+While JavaScript `class`es aren't exactly all the rage anymore (although I think they are finding a nice niche, and I recommend developers check them out for specific use cases), I've been working with them a decent amount as of late while working with webpack and rspack plugins.
+
+One of the challenges that we've run into at work is needing to instantiate a new instance of the plugins, but doing so with some async dependencies.
+
+If you're unfamiliar, `class` constructors can't be `async` in JavaScript, they syncronously return with a class instance, so if you need to do some async computation before creating the instance you usually would need to do that work outside of the class and then pass the result into the class constructor, e.g.:
+
+```tsx
+class MyClass {
+  constructor() {}
+}
+async function computeSomething() { /* ... */ }
+
+// do async operation:
+let result = await computeSomething();
+// pass result to the MyClass constructor
+let classInstance = new MyClass(result);
+```
+
+However this breaks some of the nice encapsulation we get out of the box with JavaScript classes.
+
+At work, we've had to come up with a nice pattern for handling async instantiation without breaking some of the encapsulation we get with classes! 
+
+```tsx
+class MyClass {
+  // ✨ "Magic" ✨
+  static async createMyClass() {
+    // do some async operations
+    let result = await (/* ... */);
+    
+    return new MyClass(result)
+  }
+  
+  constructor(/* ... */) {}
+}
+
+// usage:
+// call the static async method, get back a class instance!
+let classInstance = await MyClass.createMyClass();
+```
+
+This isn't all that different from the first code snippet above - but at least now we've nicely coupled the initialization logic within the class, making the code a bit more portable in the case that we might need to move it around.
+

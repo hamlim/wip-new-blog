@@ -5,6 +5,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Async Class Creation In JavaScript",
+    "slug": "async-class-creation-in-javascript",
+    "path": "/2025/june/async-class-creation-in-javascript",
+    "date": 1748981098396,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Web Development",
+      "JavaScript",
+      "TypeScript",
+      "Tip"
+    ],
+    "description": "Have you ever wanted to create a class in JavaScript or TypeScript but also have the initialization be async? Here's a quick tip on a pattern that I've used in the past!",
+    "month": "june",
+    "year": 2025,
+    "ogImage": "/og-images/async-class-creation-in-javascript.png",
+    "lastModified": null
+  },
+  {
     "title": "In Review - The Belroy Transit Workpack Pro v2",
     "slug": "belroy-transit-workpack-pro-v2",
     "path": "/2025/may/belroy-transit-workpack-pro-v2",
