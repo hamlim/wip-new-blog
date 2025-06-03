@@ -21,7 +21,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/async-class-creation-in-javascript.png",
-    "lastModified": null
+    "lastModified": 1748981231000
   },
   {
     "title": "In Review - The Belroy Transit Workpack Pro v2",

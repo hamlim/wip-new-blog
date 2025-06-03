@@ -39,21 +39,23 @@ export function RelatedPosts({ frontmatter }: { frontmatter: RawFrontmatter }) {
     <Fragment>
       <Heading level={3}>Related Posts</Heading>
       <div className="flex flex-col gap-2 not-prose">
-        {Object.entries(relatedPosts).map(([tag, posts]) => {
+        {Object.entries(relatedPosts).map(([tag, posts], idx) => {
           if (posts.length === 0) {
             return null;
           }
           return (
-            <Fragment key={tag}>
-              <Heading level={4} className="mb-2">
-                {tag}
-              </Heading>
+            <details open={idx === 0} key={tag}>
+              <summary className="mb-2">
+                <Heading className="inline-flex" level={4}>
+                  {tag}
+                </Heading>
+              </summary>
               <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
                 {posts.map((post) => (
                   <PostCard key={post.path} post={post} />
                 ))}
               </div>
-            </Fragment>
+            </details>
           );
         })}
       </div>
