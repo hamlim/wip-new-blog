@@ -1,8 +1,11 @@
 import { reading } from "#/collections/bookshelf";
+import { recentPosts } from "#/collections/recent-posts.gen";
 import { topPosts } from "#/collections/top-posts.gen";
 import { LinkAnchor } from "#/components/anchor";
 import { ProseContainer } from "#/components/container";
+import { FormattedDateTime } from "#/components/formatted-date";
 import { Heading } from "#/components/heading";
+import { PostCard } from "#/components/post-card";
 import { projects } from "#/projects-list";
 
 export default function Home() {
@@ -53,6 +56,18 @@ export default function Home() {
           somehow find time to write some{" "}
           <LinkAnchor href="/blog">blog posts</LinkAnchor> as well.
         </p>
+        <Heading level={3}>Recent Blog Posts:</Heading>
+        <ol>
+          {recentPosts.map((post) => (
+            <li key={post.slug}>
+              <LinkAnchor href={post.path}>{post.title}</LinkAnchor>
+              <br />
+              <span className="text-sm text-muted-foreground">
+                <FormattedDateTime date={post.date} />
+              </span>
+            </li>
+          ))}
+        </ol>
         <Heading level={3}>Popular Blog Posts:</Heading>
         <ol>
           {topPosts.map((post) => (

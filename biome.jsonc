@@ -38,7 +38,8 @@
         "./worker-configuration.d.ts",
         "./src/pages.gen.ts",
         "./src/metadata.gen.ts",
-        "./src/collections/top-posts.gen.ts"
+        "./src/collections/top-posts.gen.ts",
+        "./src/collections/recent-posts.gen.ts"
       ],
       "linter": {
         "enabled": false
