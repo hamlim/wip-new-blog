@@ -1,6 +1,6 @@
 import { metadata } from "#/metadata.gen";
 
-export async function GET(request: Request): Promise<Response> {
+export async function POST(request: Request): Promise<Response> {
   let { searchParams } = new URL(request.url);
   let encodedPath = searchParams.get("path");
   if (!encodedPath) {
