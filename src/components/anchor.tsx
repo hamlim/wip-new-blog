@@ -1,14 +1,14 @@
 "use client";
 import { type ComponentProps, type ReactNode, Suspense } from "react";
+import { Link } from "waku";
 import type { RouteConfig } from "waku/router";
-// import { Link } from "waku";
-import { Link } from "#/components/temp-waku-link-fork";
 import {
   Tooltip,
   TooltipTrigger,
   UnstyledTooltipContent,
 } from "#/components/ui/tooltip";
 import { cn } from "#/utils/cn";
+import { useMedia } from "#/utils/use-media";
 import { PostHoverPreviewCard } from "./post-hover-preview-card";
 
 export let anchorClassName =
@@ -25,9 +25,18 @@ export function Anchor(props: AnchorProps): ReactNode {
 export function LinkAnchor({ href, ...props }: AnchorProps): ReactNode {
   let isPostLink = false;
 
+  let isTouchLikeDevice = useMedia("(pointer: coarse)", {
+    defaultMatches: true,
+  });
+
   let parts = href?.split("/") ?? [];
   if (parts.length >= 2 && Number.isInteger(Number(parts[1]))) {
     isPostLink = true;
+  }
+
+  // Don't worry about tooltips on touch devices
+  if (isTouchLikeDevice) {
+    isPostLink = false;
   }
 
   if (isPostLink) {
