@@ -8,7 +8,6 @@ export let postCache = createCache<[path: string], HydratedFrontmatter>({
     let { signal } = options;
     let res = await fetch(`/api/v1/post?path=${encodeURIComponent(path)}`, {
       signal,
-      method: "POST",
     });
     if (!res.ok) {
       throw new Error("Failed to fetch post");
