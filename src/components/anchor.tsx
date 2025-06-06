@@ -9,6 +9,7 @@ import {
 } from "#/components/ui/tooltip";
 import { cn } from "#/utils/cn";
 import { useMedia } from "#/utils/use-media";
+import { ErrorBoundary } from "./error-boundary";
 import { PostHoverPreviewCard } from "./post-hover-preview-card";
 
 export let anchorClassName =
@@ -41,23 +42,33 @@ export function LinkAnchor({ href, ...props }: AnchorProps): ReactNode {
 
   if (isPostLink) {
     return (
-      <Tooltip>
-        <TooltipTrigger asChild>
+      <ErrorBoundary
+        fallback={
           <Link
             {...props}
             to={href as RouteConfig["paths"]}
             className={cn(anchorClassName, props.className)}
           />
-        </TooltipTrigger>
-        <UnstyledTooltipContent
-          className="w-[300px] min-w-10 bg-transparent rounded-md p-2"
-          arrowClassName="bg-transparent fill-transparent"
-        >
-          <Suspense fallback={null}>
-            <PostHoverPreviewCard path={href as string} />
-          </Suspense>
-        </UnstyledTooltipContent>
-      </Tooltip>
+        }
+      >
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <Link
+              {...props}
+              to={href as RouteConfig["paths"]}
+              className={cn(anchorClassName, props.className)}
+            />
+          </TooltipTrigger>
+          <UnstyledTooltipContent
+            className="w-[300px] min-w-10 bg-transparent rounded-md p-2"
+            arrowClassName="bg-transparent fill-transparent"
+          >
+            <Suspense fallback={null}>
+              <PostHoverPreviewCard path={href as string} />
+            </Suspense>
+          </UnstyledTooltipContent>
+        </Tooltip>
+      </ErrorBoundary>
     );
   }
   return (
