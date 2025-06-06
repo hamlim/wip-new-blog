@@ -1,12 +1,13 @@
 "use client";
 
-import { Component, type ErrorInfo } from "react";
+import { Component, type ErrorInfo, type ReactNode } from "react";
 import { ProseContainer } from "./container";
 import { Heading } from "./heading";
 import { Button } from "./ui/button";
 
 export class ErrorBoundary extends Component<{
-  children: React.ReactNode;
+  children: ReactNode;
+  fallback?: ReactNode;
 }> {
   state: { error: null | Error } = { error: null };
 
@@ -21,6 +22,10 @@ export class ErrorBoundary extends Component<{
 
   render() {
     if (this.state.error) {
+      if (this.props.fallback) {
+        return this.props.fallback;
+      }
+
       return (
         <div className="pt-10">
           <ProseContainer>
