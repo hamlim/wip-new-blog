@@ -42,7 +42,7 @@
     "react-server-dom-webpack": "experimental",
     "rehype-slug": "6.0.0",
     "tailwind-merge": "3.3.0",
-    "waku": "0.23.1",
+    "waku": "0.23.2",
     "wrangler": "4.11.1"
   },
   "imports": {
