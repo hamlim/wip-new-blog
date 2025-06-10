@@ -1,3 +1,4 @@
+import { CommentSection } from "@hamstack/bluesky-comments";
 import { BlueskyPostEmbed, updateConfig } from "@hamstack/bluesky-embed-rsc";
 import type { ComponentProps } from "react";
 import { Abbr } from "#/components/abbr";
@@ -279,6 +280,10 @@ export default function Sandbox() {
             </a>
           </div>
         </TweetEmbed>
+      </DemoWrap>
+      <Heading level={2}>Bluesky Comment Section:</Heading>
+      <DemoWrap>
+        <CommentSection uri="https://bsky.app/profile/matthamlin.me/post/3lo5keodmbk2c" />
       </DemoWrap>
     </main>
   );

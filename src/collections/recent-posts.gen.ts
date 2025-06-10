@@ -57,6 +57,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2025,
     "ogImage": "/og-images/website-redesign-v10.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lpzvssqktc23",
     "lastModified": 1748209751000
   },
   {
@@ -79,6 +80,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2025,
     "ogImage": "/og-images/server-side-rendering-compatible-css-theming.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lmuxdbcyzs27",
     "lastModified": 1747568207000
   },
   {
@@ -97,6 +99,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2025,
     "ogImage": "/og-images/podcasting-by-hand.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lmrgykvctc2s",
     "lastModified": 1747568207000
   }
 ]

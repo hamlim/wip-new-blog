@@ -58,6 +58,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2025,
     "ogImage": "/og-images/website-redesign-v10.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lpzvssqktc23",
     "lastModified": 1748209751000
   },
   {
@@ -80,6 +81,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2025,
     "ogImage": "/og-images/server-side-rendering-compatible-css-theming.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lmuxdbcyzs27",
     "lastModified": 1747568207000
   },
   {
@@ -98,6 +100,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2025,
     "ogImage": "/og-images/podcasting-by-hand.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lmrgykvctc2s",
     "lastModified": 1747568207000
   },
   {
@@ -117,6 +120,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2025,
     "ogImage": "/og-images/replacing-dropbox-capture-with-raycast.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lk4xpoekkk2w",
     "lastModified": 1747568207000
   },
   {
@@ -137,6 +141,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2025,
     "ogImage": "/og-images/quick-tip-specific-local-module-definitions.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lixdrwtbuk2k",
     "lastModified": 1747568207000
   },
   {
@@ -156,6 +161,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2025,
     "ogImage": "/og-images/on-file-system-routing-conventions.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3likrnc5f6k2x",
     "lastModified": 1748030308000
   },
   {
@@ -174,6 +180,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2025,
     "ogImage": "/og-images/youre-building-software-wrong.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3liazyp2ty225",
     "lastModified": 1747695963000
   },
   {
@@ -192,6 +199,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2025,
     "ogImage": "/og-images/cursor-and-obsidian.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3li2y4k6qyc22",
     "lastModified": 1747568207000
   },
   {
@@ -209,6 +217,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2025,
     "ogImage": "/og-images/single-file-web-apps.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lhc3lle2lk2p",
     "lastModified": 1748030308000
   },
   {
@@ -227,6 +236,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2025,
     "ogImage": "/og-images/the-ai-development-conundrum.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lgrcviqfyk2n",
     "lastModified": 1748030308000
   },
   {
@@ -245,6 +255,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2025,
     "ogImage": "/og-images/resetting-controlled-components-in-forms.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lfzkm7ez2s2q",
     "lastModified": 1748030308000
   },
   {
@@ -263,6 +274,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2024,
     "ogImage": "/og-images/thoughts-on-new-years-resolutions.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lemi6tsles2n",
     "lastModified": 1748030010000
   },
   {
@@ -282,6 +294,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2024,
     "ogImage": "/og-images/team-memes.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3ldoy5umql22v",
     "lastModified": 1747568207000
   },
   {
@@ -300,6 +313,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2024,
     "ogImage": "/og-images/a-quick-look-at-import-maps.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lcodhjgeks2h",
     "lastModified": 1748030010000
   },
   {
@@ -320,6 +334,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2024,
     "ogImage": "/og-images/recommended-tech-talks.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lcoadxcvek2t",
     "lastModified": 1747568207000
   },
   {
@@ -341,6 +356,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2024,
     "ogImage": "/og-images/request-for-minimal-rsc-framework.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lcbjezkjcc27",
     "lastModified": 1747568207000
   },
   {
@@ -378,6 +394,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2024,
     "ogImage": "/og-images/bluesky-tips-and-tools.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lbsa7kpbf227",
     "lastModified": 1747941398000
   },
   {
@@ -401,6 +418,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/the-bookkeeping-pattern.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3l7ehzfgt5i2r",
     "lastModified": 1748030010000
   },
   {
@@ -418,6 +436,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/building-a-custom-ghostty-theme.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3l746pzpkw32q",
     "lastModified": 1747686834000
   },
   {
@@ -436,6 +455,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/tslite.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3l6vh3yrdxk2j",
     "lastModified": 1748030010000
   },
   {

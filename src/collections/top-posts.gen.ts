@@ -19,6 +19,7 @@ export let topPosts: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2025,
     "ogImage": "/og-images/youre-building-software-wrong.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3liazyp2ty225",
     "lastModified": 1747695963000
   },
   {
@@ -37,6 +38,7 @@ export let topPosts: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2025,
     "ogImage": "/og-images/the-ai-development-conundrum.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lgrcviqfyk2n",
     "lastModified": 1748030308000
   },
   {

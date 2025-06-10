@@ -10,6 +10,7 @@ export type RawFrontmatter = {
   month: string;
   year: number;
   ogImage: string;
+  blueskyPostUri?: string;
 };
 
 export type HydratedFrontmatter = RawFrontmatter & {

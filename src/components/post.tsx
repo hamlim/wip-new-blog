@@ -1,4 +1,5 @@
 import { CommentSection } from "@hamstack/bluesky-comments";
+import { BlueskyPostEmbed } from "@hamstack/bluesky-embed-rsc";
 import type { ReactNode } from "react";
 import { Suspense } from "react";
 import { LinkAnchor } from "#/components/anchor";
@@ -68,7 +69,17 @@ export async function Post({
             </LinkAnchor>
           ))}
         </div>
-        <CommentSection author="matthamlin.me" />
+        {frontmatter.blueskyPostUri && (
+          <div className="not-prose mt-10 gap-4 flex flex-col">
+            <Heading level={3}>Bluesky Post and Comments:</Heading>
+            <BlueskyPostEmbed src={frontmatter.blueskyPostUri}>
+              <div />
+            </BlueskyPostEmbed>
+            <div className="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg border rounded-lg">
+              <CommentSection uri={frontmatter.blueskyPostUri} />
+            </div>
+          </div>
+        )}
         <Suspense fallback={<p>Loading...</p>}>
           <RelatedPosts frontmatter={frontmatter} />
         </Suspense>
