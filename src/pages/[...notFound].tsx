@@ -9,7 +9,7 @@ export default function NotFound({ notFound }: { notFound: Array<string> }) {
       <ProseContainer>
         <Heading level={1}>404</Heading>
         <p>Page not found</p>
-        <>@TODO: Add a better 404 page 😅</>
+        <p>@TODO: Add a better 404 page 😅</p>
       </ProseContainer>
     </main>
   );
