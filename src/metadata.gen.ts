@@ -5,6 +5,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Quick Tip - Theme Aware Images",
+    "slug": "quick-tip-theme-aware-images",
+    "path": "/2025/june/quick-tip-theme-aware-images",
+    "date": 1750114295541,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Tip",
+      "Web Development",
+      "Development"
+    ],
+    "description": "Have you ever found the need to change the image you render on a web page based on the current preferred color scheme of your theme?",
+    "month": "june",
+    "year": 2025,
+    "ogImage": "/og-images/quick-tip-theme-aware-images.png",
+    "blueskyPostUri": "",
+    "lastModified": null
+  },
+  {
     "title": "Async Class Creation In JavaScript",
     "slug": "async-class-creation-in-javascript",
     "path": "/2025/june/async-class-creation-in-javascript",
@@ -59,7 +78,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/website-redesign-v10.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lpzvssqktc23",
-    "lastModified": 1748209751000
+    "lastModified": 1749594810000
   },
   {
     "title": "Server Side Rendering Compatible CSS Theming",
@@ -82,7 +101,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/server-side-rendering-compatible-css-theming.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lmuxdbcyzs27",
-    "lastModified": 1747568207000
+    "lastModified": 1749594810000
   },
   {
     "title": "Podcasting By Hand",
@@ -101,7 +120,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/podcasting-by-hand.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lmrgykvctc2s",
-    "lastModified": 1747568207000
+    "lastModified": 1749594810000
   },
   {
     "title": "Replacing Dropbox Capture with Raycast",
@@ -121,7 +140,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/replacing-dropbox-capture-with-raycast.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lk4xpoekkk2w",
-    "lastModified": 1747568207000
+    "lastModified": 1749594810000
   },
   {
     "title": "Quick Tip - Specific Local Module Declarations",
@@ -142,7 +161,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/quick-tip-specific-local-module-definitions.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lixdrwtbuk2k",
-    "lastModified": 1747568207000
+    "lastModified": 1749594810000
   },
   {
     "title": "On File-System Routing Conventions",
@@ -162,7 +181,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/on-file-system-routing-conventions.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3likrnc5f6k2x",
-    "lastModified": 1748030308000
+    "lastModified": 1749594810000
   },
   {
     "title": "You're Building Software Wrong",
@@ -181,7 +200,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/youre-building-software-wrong.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3liazyp2ty225",
-    "lastModified": 1747695963000
+    "lastModified": 1749594810000
   },
   {
     "title": "Cursor and Obsidian",
@@ -200,7 +219,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/cursor-and-obsidian.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3li2y4k6qyc22",
-    "lastModified": 1747568207000
+    "lastModified": 1749594810000
   },
   {
     "title": "Single File Web Apps",
@@ -218,7 +237,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/single-file-web-apps.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lhc3lle2lk2p",
-    "lastModified": 1748030308000
+    "lastModified": 1749594810000
   },
   {
     "title": "The AI Development Conundrum",
@@ -237,7 +256,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/the-ai-development-conundrum.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lgrcviqfyk2n",
-    "lastModified": 1748030308000
+    "lastModified": 1749594810000
   },
   {
     "title": "Resetting Controlled Components in Forms",
@@ -256,7 +275,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/resetting-controlled-components-in-forms.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lfzkm7ez2s2q",
-    "lastModified": 1748030308000
+    "lastModified": 1749594810000
   },
   {
     "title": "Thoughts on New Years Resolutions",
@@ -275,7 +294,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/thoughts-on-new-years-resolutions.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lemi6tsles2n",
-    "lastModified": 1748030010000
+    "lastModified": 1749594810000
   },
   {
     "title": "Team Memes",
@@ -295,7 +314,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/team-memes.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3ldoy5umql22v",
-    "lastModified": 1747568207000
+    "lastModified": 1749594810000
   },
   {
     "title": "A Quick Look at Import Maps",
@@ -314,7 +333,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/a-quick-look-at-import-maps.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lcodhjgeks2h",
-    "lastModified": 1748030010000
+    "lastModified": 1749594810000
   },
   {
     "title": "Recommended Tech Talks",
@@ -335,7 +354,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/recommended-tech-talks.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lcoadxcvek2t",
-    "lastModified": 1747568207000
+    "lastModified": 1749594810000
   },
   {
     "title": "Request for a (minimal) RSC Framework",
@@ -357,7 +376,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/request-for-minimal-rsc-framework.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lcbjezkjcc27",
-    "lastModified": 1747568207000
+    "lastModified": 1749594810000
   },
   {
     "title": "My Updated Obsidian Task Management",
@@ -395,7 +414,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/bluesky-tips-and-tools.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lbsa7kpbf227",
-    "lastModified": 1747941398000
+    "lastModified": 1749594810000
   },
   {
     "title": "The Bookkeeping Pattern",
@@ -419,7 +438,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/the-bookkeeping-pattern.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3l7ehzfgt5i2r",
-    "lastModified": 1748030010000
+    "lastModified": 1749594810000
   },
   {
     "title": "Building a Custom Ghostty Theme",
@@ -437,7 +456,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/building-a-custom-ghostty-theme.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3l746pzpkw32q",
-    "lastModified": 1747686834000
+    "lastModified": 1749594810000
   },
   {
     "title": "TSLite",
@@ -456,7 +475,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/tslite.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3l6vh3yrdxk2j",
-    "lastModified": 1748030010000
+    "lastModified": 1749594810000
   },
   {
     "title": "Monorepo Tips and Tricks",
@@ -885,7 +904,8 @@ export let metadata: Array<HydratedFrontmatter> = [
     "type": "blog-post",
     "tags": [
       "Development",
-      "Web Development"
+      "Web Development",
+      "Tip"
     ],
     "description": "Two neat tricks for enhancing your site's favicon!",
     "month": "march",

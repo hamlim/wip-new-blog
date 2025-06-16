@@ -4,6 +4,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentPosts: Array<HydratedFrontmatter> = [
   {
+    "title": "Quick Tip - Theme Aware Images",
+    "slug": "quick-tip-theme-aware-images",
+    "path": "/2025/june/quick-tip-theme-aware-images",
+    "date": 1750114295541,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Tip",
+      "Web Development",
+      "Development"
+    ],
+    "description": "Have you ever found the need to change the image you render on a web page based on the current preferred color scheme of your theme?",
+    "month": "june",
+    "year": 2025,
+    "ogImage": "/og-images/quick-tip-theme-aware-images.png",
+    "blueskyPostUri": "",
+    "lastModified": null
+  },
+  {
     "title": "Async Class Creation In JavaScript",
     "slug": "async-class-creation-in-javascript",
     "path": "/2025/june/async-class-creation-in-javascript",
@@ -58,7 +77,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/website-redesign-v10.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lpzvssqktc23",
-    "lastModified": 1748209751000
+    "lastModified": 1749594810000
   },
   {
     "title": "Server Side Rendering Compatible CSS Theming",
@@ -81,25 +100,6 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/server-side-rendering-compatible-css-theming.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lmuxdbcyzs27",
-    "lastModified": 1747568207000
-  },
-  {
-    "title": "Podcasting By Hand",
-    "slug": "podcasting-by-hand",
-    "path": "/2025/april/podcasting-by-hand",
-    "date": 1744629340844,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Podcasting",
-      "The Bikeshed Pod"
-    ],
-    "description": "A brief overview on how we launched The Bikeshed Podcast, including a deep dive in our recording and distribution workflows!",
-    "month": "april",
-    "year": 2025,
-    "ogImage": "/og-images/podcasting-by-hand.png",
-    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lmrgykvctc2s",
-    "lastModified": 1747568207000
+    "lastModified": 1749594810000
   }
 ]

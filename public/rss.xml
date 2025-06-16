@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Tue, 10 Jun 2025 22:27:53 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Jun 2025 22:52:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,33 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Quick Tip - Theme Aware Images]]></title>
+            <link>https://matthamlin.me//2025/june/quick-tip-theme-aware-images</link>
+            <guid>https://matthamlin.me//2025/june/quick-tip-theme-aware-images</guid>
+            <pubDate>Mon, 16 Jun 2025 22:51:35 GMT</pubDate>
+            <description><![CDATA[Have you ever found the need to change the image you render on a web page based on the current preferred color scheme of your theme?]]></description>
+            <content:encoded><![CDATA[<p>The other day <a href="https://bsky.app/profile/danabra.mov" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Dan Abramov</a> <a href="https://bsky.app/profile/danabra.mov/post/3lqe3az4u3k2e" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">posted</a> asking how folks have handled showing visual graphics from tools like TLDraw / Excalidraw on a webpage that uses a light and a dark theme, to which <a href="https://bsky.app/profile/matthamlin.me/post/3lqe3rn57f222" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">I replied with a quick tip</a> that I have used in the past (albeit it&#x27;s been a while since I&#x27;ve utilized this trick). I figured I&#x27;d expand a bit more on the trick here in a short blog post!</p>
+<p>I&#x27;ve written a similar blog post about <a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="/2024/march/custom-favicon-recipes">selecting custom favicons based on media queries</a>, this trick works in effectively the same way but for inline images!</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="the-trick">&quot;The Trick&quot;</h3>
+<p>The trick is to use the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline"><code>&lt;picture&gt;</code></a> HTML element, and to use two <code>&lt;source&gt;</code>&#x27;s, one for the light theme image and the other for the dark theme image.</p>
+<p>Example:</p>
+<pre data-mdx="true" class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#999999;--shiki-dark:#666666">&lt;</span><span style="color:#1E754F;--shiki-dark:#4D9375">picture</span><span style="color:#999999;--shiki-dark:#666666">&gt;</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">  &lt;</span><span style="color:#1E754F;--shiki-dark:#4D9375">source</span></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">    srcset</span><span style="color:#999999;--shiki-dark:#666666">=</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">/dark-theme-image.png</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">    media</span><span style="color:#999999;--shiki-dark:#666666">=</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">(prefers-color-scheme: dark)</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">  /&gt;</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">  &lt;</span><span style="color:#1E754F;--shiki-dark:#4D9375">source</span></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">    srcset</span><span style="color:#999999;--shiki-dark:#666666">=</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">/light-theme-image.png</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">    media</span><span style="color:#999999;--shiki-dark:#666666">=</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">(prefers-color-scheme: light)</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">  /&gt;</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">  &lt;</span><span style="color:#1E754F;--shiki-dark:#4D9375">img</span><span style="color:#B07D48;--shiki-dark:#BD976A"> src</span><span style="color:#999999;--shiki-dark:#666666">=</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">/fallback-asset.png</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#B07D48;--shiki-dark:#BD976A"> alt</span><span style="color:#999999;--shiki-dark:#666666">=</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#B31D28;font-style:italic;--shiki-dark:#FDAEB7;--shiki-dark-font-style:italic">&lt;</span><span style="color:#B56959;--shiki-dark:#C98A7D">descriptive-text-here&gt;</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#999999;--shiki-dark:#666666"> /&gt;</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">&lt;/</span><span style="color:#1E754F;--shiki-dark:#4D9375">picture</span><span style="color:#999999;--shiki-dark:#666666">&gt;</span></span></code></pre>
+<p>This will then use the media query on each <code>&lt;source&gt;</code> to render the correct image based on the <code>prefers-color-scheme</code> media query. So if the user prefers a dark color scheme then it will render the first source, otherwise it will render the second source. The final <code>&lt;img /&gt;</code> element is used as a fallback if the browser doesn&#x27;t support the <code>&lt;picture&gt;</code> element.</p>
+<p>The <code>&lt;picture&gt;</code> element is pretty powerful - you can use any kind of media query within the <code>media</code> attribute, and the browser will pick the first one that matches in the list (almost like a <code>&lt;Switch /&gt;</code> component).</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/quick-tip-theme-aware-images.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Async Class Creation In JavaScript]]></title>
             <link>https://matthamlin.me//2025/june/async-class-creation-in-javascript</link>
