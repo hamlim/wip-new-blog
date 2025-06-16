@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Mon, 16 Jun 2025 22:52:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Jun 2025 23:13:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,58 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Roundup Notes in Obsidian with Dataview]]></title>
+            <link>https://matthamlin.me//2025/june/roundup-notes-in-obsidian-with-dataview</link>
+            <guid>https://matthamlin.me//2025/june/roundup-notes-in-obsidian-with-dataview</guid>
+            <pubDate>Mon, 16 Jun 2025 23:12:32 GMT</pubDate>
+            <description><![CDATA[A quick tip for creating roundup or summary notes based on other notes in Obsidian using the Dataview plugin!]]></description>
+            <content:encoded><![CDATA[<p>For a while now I&#x27;ve been tweaking my <a href="https://obsidian.md/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Obsidian</a> setup and leaning more and more into using the <a href="https://blacksmithgu.github.io/obsidian-dataview/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Dataview plugin</a> to create dynamic sections or notes within my vault.</p>
+<p>Recently I&#x27;ve been re-using mostly the same snippet over and over to create quick access summary or roundup notes within my vault and I figured I&#x27;d share it for others to use if they find it useful!</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="requirements">Requirements:</h3>
+<p>This setup only requires the <a href="https://blacksmithgu.github.io/obsidian-dataview/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Dataview plugin</a>.</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="implementation">Implementation:</h3>
+<p>The snippet that I&#x27;ve continued to re-use has been the following:</p>
+<pre data-mdx="true" class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#999999;--shiki-dark:#666666">```</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">dataviewjs</span></span>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">let</span><span style="color:#B07D48;--shiki-dark:#BD976A"> pages</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#B07D48;--shiki-dark:#BD976A"> dv</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">pages</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#B56959;--shiki-dark:#C98A7D">&lt;query&gt;</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&#x27;</span><span style="color:#999999;--shiki-dark:#666666">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// Optional - this reverses the order of notes</span></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// sorting from most recent to oldest based on file created time</span></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// but this can be replaced with other logic to sort based</span></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// on properties or other aspects of the pages!</span></span>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">let</span><span style="color:#B07D48;--shiki-dark:#BD976A"> sortedPages</span><span style="color:#999999;--shiki-dark:#666666"> =</span><span style="color:#B07D48;--shiki-dark:#BD976A"> pages</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B07D48;--shiki-dark:#BD976A">values</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">toSorted</span><span style="color:#999999;--shiki-dark:#666666">((</span><span style="color:#B07D48;--shiki-dark:#BD976A">a</span><span style="color:#999999;--shiki-dark:#666666">,</span><span style="color:#B07D48;--shiki-dark:#BD976A"> b</span><span style="color:#999999;--shiki-dark:#666666">)</span><span style="color:#999999;--shiki-dark:#666666"> =&gt;</span><span style="color:#B07D48;--shiki-dark:#BD976A"> a</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B07D48;--shiki-dark:#BD976A">file</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B07D48;--shiki-dark:#BD976A">ctime</span><span style="color:#999999;--shiki-dark:#666666"> &gt;</span><span style="color:#B07D48;--shiki-dark:#BD976A"> b</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B07D48;--shiki-dark:#BD976A">file</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B07D48;--shiki-dark:#BD976A">ctime</span><span style="color:#AB5959;--shiki-dark:#CB7676"> ?</span><span style="color:#AB5959;--shiki-dark:#CB7676"> -</span><span style="color:#2F798A;--shiki-dark:#4C9A91">1</span><span style="color:#AB5959;--shiki-dark:#CB7676"> :</span><span style="color:#2F798A;--shiki-dark:#4C9A91"> 1</span><span style="color:#999999;--shiki-dark:#666666">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// &quot;rendering&quot; logic of the snippet</span></span>
+<span class="line"><span style="color:#A0ADA0;--shiki-dark:#758575DD">// renders effectively a list of links and embeds for each page</span></span>
+<span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">for</span><span style="color:#999999;--shiki-dark:#666666"> (</span><span style="color:#AB5959;--shiki-dark:#CB7676">let</span><span style="color:#B07D48;--shiki-dark:#BD976A"> page</span><span style="color:#AB5959;--shiki-dark:#CB7676"> of</span><span style="color:#B07D48;--shiki-dark:#BD976A"> sortedPages</span><span style="color:#999999;--shiki-dark:#666666">)</span><span style="color:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">  dv</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">paragraph</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">`</span><span style="color:#B56959;--shiki-dark:#C98A7D">[[</span><span style="color:#1E754F;--shiki-dark:#4D9375">${</span><span style="color:#B56959;--shiki-dark:#C98A7D">page</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B56959;--shiki-dark:#C98A7D">file</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B56959;--shiki-dark:#C98A7D">path</span><span style="color:#1E754F;--shiki-dark:#4D9375">}</span><span style="color:#B56959;--shiki-dark:#C98A7D">]]</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">`</span><span style="color:#999999;--shiki-dark:#666666">)</span></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">  dv</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#59873A;--shiki-dark:#80A665">paragraph</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">`</span><span style="color:#B56959;--shiki-dark:#C98A7D">![[</span><span style="color:#1E754F;--shiki-dark:#4D9375">${</span><span style="color:#B56959;--shiki-dark:#C98A7D">page</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B56959;--shiki-dark:#C98A7D">file</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#B56959;--shiki-dark:#C98A7D">path</span><span style="color:#1E754F;--shiki-dark:#4D9375">}</span><span style="color:#B56959;--shiki-dark:#C98A7D">]]</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">`</span><span style="color:#999999;--shiki-dark:#666666">)</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">```</span></span></code></pre>
+<p>The <code>&lt;query&gt;</code> can be replaced with effectively anything that you want to match on - it can be file paths/folders or tags (e.g. <code>#meeting</code>). See the <a href="https://blacksmithgu.github.io/obsidian-dataview/api/code-reference/#dvpagessource" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline"><code>dv.pages(source)</code> docs</a> for more details.</p>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>You can swap <code>dv.pages()</code> out for <code>await dv.query()</code> for a bit more control over the content that you query for, however the resulting value will be a different shape - so the sorting and rendering logic may need to change!</p></div>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="examples">Examples:</h3>
+<p>In practice, I&#x27;ve used this for a few different use cases:</p>
+<ul>
+<li>A single note to see recurring 1-on-1 meeting notes with a specific individual<!-- -->
+<ul>
+<li>I&#x27;ve found this to be easier to scan for the previous iteration of the 1-on-1 and see if there are any topics I need to follow up on</li>
+</ul>
+</li>
+<li>A roundup note for <code>#self-reflection</code> notes<!-- -->
+<ul>
+<li>Every so often I take some zettel-like notes adding some top of mind reflections on how I&#x27;ve been doing / how productive I&#x27;ve been / etc - so now I have a single roundup of those notes that I can scan through and come away with any deeper insights</li>
+</ul>
+</li>
+<li>Daily note collection of Zettel-like notes<!-- -->
+<ul>
+<li>I now mostly take notes within &quot;zettel-like&quot; nodes (titled with a timestamp), so to connect them back to my daily notes I have used this pattern to render them all in order making it easier to see them all for a single day in one place</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/roundup-notes-in-obsidian-with-dataview.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Quick Tip - Theme Aware Images]]></title>
             <link>https://matthamlin.me//2025/june/quick-tip-theme-aware-images</link>

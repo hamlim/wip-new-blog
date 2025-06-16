@@ -5,6 +5,26 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Roundup Notes in Obsidian with Dataview",
+    "slug": "roundup-notes-in-obsidian-with-dataview",
+    "path": "/2025/june/roundup-notes-in-obsidian-with-dataview",
+    "date": 1750115552955,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Obsidian",
+      "Tip",
+      "Note Taking",
+      "Development"
+    ],
+    "description": "A quick tip for creating roundup or summary notes based on other notes in Obsidian using the Dataview plugin!",
+    "month": "june",
+    "year": 2025,
+    "ogImage": "/og-images/roundup-notes-in-obsidian-with-dataview.png",
+    "blueskyPostUri": "",
+    "lastModified": null
+  },
+  {
     "title": "Quick Tip - Theme Aware Images",
     "slug": "quick-tip-theme-aware-images",
     "path": "/2025/june/quick-tip-theme-aware-images",
@@ -20,8 +40,8 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/quick-tip-theme-aware-images.png",
-    "blueskyPostUri": "",
-    "lastModified": null
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lrr37qbdp22d",
+    "lastModified": 1750114559000
   },
   {
     "title": "Async Class Creation In JavaScript",
@@ -911,7 +931,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2024,
     "ogImage": "/og-images/custom-favicon-recipes.png",
-    "lastModified": 1747568207000
+    "lastModified": 1750114422000
   },
   {
     "title": "Corporate Sponsored OSS",

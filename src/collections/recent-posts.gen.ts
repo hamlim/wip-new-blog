@@ -4,6 +4,26 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentPosts: Array<HydratedFrontmatter> = [
   {
+    "title": "Roundup Notes in Obsidian with Dataview",
+    "slug": "roundup-notes-in-obsidian-with-dataview",
+    "path": "/2025/june/roundup-notes-in-obsidian-with-dataview",
+    "date": 1750115552955,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Obsidian",
+      "Tip",
+      "Note Taking",
+      "Development"
+    ],
+    "description": "A quick tip for creating roundup or summary notes based on other notes in Obsidian using the Dataview plugin!",
+    "month": "june",
+    "year": 2025,
+    "ogImage": "/og-images/roundup-notes-in-obsidian-with-dataview.png",
+    "blueskyPostUri": "",
+    "lastModified": null
+  },
+  {
     "title": "Quick Tip - Theme Aware Images",
     "slug": "quick-tip-theme-aware-images",
     "path": "/2025/june/quick-tip-theme-aware-images",
@@ -19,8 +39,8 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/quick-tip-theme-aware-images.png",
-    "blueskyPostUri": "",
-    "lastModified": null
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lrr37qbdp22d",
+    "lastModified": 1750114559000
   },
   {
     "title": "Async Class Creation In JavaScript",
@@ -77,29 +97,6 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/website-redesign-v10.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lpzvssqktc23",
-    "lastModified": 1749594810000
-  },
-  {
-    "title": "Server Side Rendering Compatible CSS Theming",
-    "slug": "server-side-rendering-compatible-css-theming",
-    "path": "/2025/april/server-side-rendering-compatible-css-theming",
-    "date": 1744749638305,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Theming",
-      "CSS",
-      "Next.js",
-      "Waku",
-      "React",
-      "Tip"
-    ],
-    "description": "A quick tip to implementing CSS theming that's compatible with Server Side Rendered applications!",
-    "month": "april",
-    "year": 2025,
-    "ogImage": "/og-images/server-side-rendering-compatible-css-theming.png",
-    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lmuxdbcyzs27",
     "lastModified": 1749594810000
   }
 ]

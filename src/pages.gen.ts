@@ -374,6 +374,8 @@ import type { getConfig as File_2025JuneAsyncClassCreationInJavascript_getConfig
 // prettier-ignore
 import type { getConfig as File_2025JuneQuickTipThemeAwareImages_getConfig } from './pages/2025/june/quick-tip-theme-aware-images';
 // prettier-ignore
+import type { getConfig as File_2025JuneRoundupNotesInObsidianWithDataview_getConfig } from './pages/2025/june/roundup-notes-in-obsidian-with-dataview';
+// prettier-ignore
 import type { getConfig as File_2025MarchReplacingDropboxCaptureWithRaycast_getConfig } from './pages/2025/march/replacing-dropbox-capture-with-raycast';
 // prettier-ignore
 import type { getConfig as File_2025MayBelroyTransitWorkpackProV2_getConfig } from './pages/2025/may/belroy-transit-workpack-pro-v2';
@@ -589,6 +591,7 @@ type Page =
 | ({ path: '/2025/january/the-ai-development-conundrum' } & GetConfigResponse<typeof File_2025JanuaryTheAiDevelopmentConundrum_getConfig>)
 | ({ path: '/2025/june/async-class-creation-in-javascript' } & GetConfigResponse<typeof File_2025JuneAsyncClassCreationInJavascript_getConfig>)
 | ({ path: '/2025/june/quick-tip-theme-aware-images' } & GetConfigResponse<typeof File_2025JuneQuickTipThemeAwareImages_getConfig>)
+| ({ path: '/2025/june/roundup-notes-in-obsidian-with-dataview' } & GetConfigResponse<typeof File_2025JuneRoundupNotesInObsidianWithDataview_getConfig>)
 | ({ path: '/2025/march/replacing-dropbox-capture-with-raycast' } & GetConfigResponse<typeof File_2025MarchReplacingDropboxCaptureWithRaycast_getConfig>)
 | ({ path: '/2025/may/belroy-transit-workpack-pro-v2' } & GetConfigResponse<typeof File_2025MayBelroyTransitWorkpackProV2_getConfig>)
 | ({ path: '/2025/may/website-redesign-v10' } & GetConfigResponse<typeof File_2025MayWebsiteRedesignV10_getConfig>)
