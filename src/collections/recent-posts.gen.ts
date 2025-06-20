@@ -22,7 +22,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/roundup-notes-in-obsidian-with-dataview.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lrr4ixwydc2d",
     "location": "",
-    "lastModified": 1750115960000
+    "lastModified": 1750380818000
   },
   {
     "title": "Quick Tip - Theme Aware Images",
@@ -42,7 +42,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/quick-tip-theme-aware-images.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lrr37qbdp22d",
     "location": "",
-    "lastModified": 1750114559000
+    "lastModified": 1750380818000
   },
   {
     "title": "Async Class Creation In JavaScript",
@@ -62,7 +62,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/async-class-creation-in-javascript.png",
     "location": "",
-    "lastModified": 1748981231000
+    "lastModified": 1750380818000
   },
   {
     "title": "In Review - The Belroy Transit Workpack Pro v2",
@@ -82,7 +82,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/belroy-transit-workpack-pro-v2.png",
     "location": "",
-    "lastModified": 1748517256000
+    "lastModified": 1750380818000
   },
   {
     "title": "Website Redesign v10",
@@ -102,6 +102,6 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/website-redesign-v10.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lpzvssqktc23",
     "location": "",
-    "lastModified": 1749594810000
+    "lastModified": 1750380818000
   }
 ]

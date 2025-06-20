@@ -372,6 +372,8 @@ import type { getConfig as File_2025JanuaryTheAiDevelopmentConundrum_getConfig }
 // prettier-ignore
 import type { getConfig as File_2025JuneAddingStatusUpdates_getConfig } from './pages/2025/june/adding-status-updates';
 // prettier-ignore
+import type { getConfig as File_2025JuneAllDocumentationShouldBeDated_getConfig } from './pages/2025/june/all-documentation-should-be-dated';
+// prettier-ignore
 import type { getConfig as File_2025JuneAsyncClassCreationInJavascript_getConfig } from './pages/2025/june/async-class-creation-in-javascript';
 // prettier-ignore
 import type { getConfig as File_2025JuneQuickTipThemeAwareImages_getConfig } from './pages/2025/june/quick-tip-theme-aware-images';
@@ -594,6 +596,7 @@ type Page =
 | ({ path: '/2025/january/resetting-controlled-components-in-forms' } & GetConfigResponse<typeof File_2025JanuaryResettingControlledComponentsInForms_getConfig>)
 | ({ path: '/2025/january/the-ai-development-conundrum' } & GetConfigResponse<typeof File_2025JanuaryTheAiDevelopmentConundrum_getConfig>)
 | ({ path: '/2025/june/adding-status-updates' } & GetConfigResponse<typeof File_2025JuneAddingStatusUpdates_getConfig>)
+| ({ path: '/2025/june/all-documentation-should-be-dated' } & GetConfigResponse<typeof File_2025JuneAllDocumentationShouldBeDated_getConfig>)
 | ({ path: '/2025/june/async-class-creation-in-javascript' } & GetConfigResponse<typeof File_2025JuneAsyncClassCreationInJavascript_getConfig>)
 | ({ path: '/2025/june/quick-tip-theme-aware-images' } & GetConfigResponse<typeof File_2025JuneQuickTipThemeAwareImages_getConfig>)
 | ({ path: '/2025/june/roundup-notes-in-obsidian-with-dataview' } & GetConfigResponse<typeof File_2025JuneRoundupNotesInObsidianWithDataview_getConfig>)

@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 20 Jun 2025 00:52:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Jun 2025 12:32:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -15,13 +15,26 @@
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
         <item>
+            <title><![CDATA[All Documentation Should Be Dated]]></title>
+            <link>https://matthamlin.me//2025/june/all-documentation-should-be-dated</link>
+            <guid>https://matthamlin.me//2025/june/all-documentation-should-be-dated</guid>
+            <pubDate>Fri, 20 Jun 2025 12:26:31 GMT</pubDate>
+            <description><![CDATA[Status Update: June 20, 2025]]></description>
+            <content:encoded><![CDATA[<p>The title basically says it all - if you manage docs (specifically a documentation website), your docs should show the date and time of when the docs were created and last updated.</p>
+<p>I&#x27;m sure most of us have been looking at some docs for a library or feature and then find out later through experimentation or when talking with coworkers that those docs are at least 6+ months out of date.</p>
+<p>Add a quick timestamp at the top of the page showing when the docs were created (and also add one for when the docs were last updated)!</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/all-documentation-should-be-dated.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[Adding Status Updates]]></title>
             <link>https://matthamlin.me//2025/june/adding-status-updates</link>
             <guid>https://matthamlin.me//2025/june/adding-status-updates</guid>
             <pubDate>Fri, 20 Jun 2025 00:35:56 GMT</pubDate>
             <description><![CDATA[Status Update: June 19, 2025]]></description>
             <content:encoded><![CDATA[<p>I&#x27;m working on adding short-form (microblog-like) status updates to my personal website.</p>
-<p>It&#x27;s not fully flushed (or fleshed?) out yet, so this may change in the near future!</p>]]></content:encoded>
+<p>It&#x27;s not fully flushed (or fleshed?) out yet, so this may change in the near future!</p>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>I may not use these updates as much - but it seems like a nice low-friction way to share quick thoughts.</p><p>Next step is to build a mini web app to easily post them though!</p></div>]]></content:encoded>
             <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
             <enclosure url="https://matthamlin.me/og-images/adding-status-updates.png" length="0" type="image/png"/>
         </item>
