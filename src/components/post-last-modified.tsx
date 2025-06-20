@@ -12,7 +12,7 @@ export function PostLastModified({
   }
   return (
     <>
-      Last modified: <FormattedDateTime date={match.lastModified} />
+      Last modified 📝: <FormattedDateTime date={match.lastModified} />
     </>
   );
 }

@@ -20,6 +20,7 @@ export let topPosts: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/youre-building-software-wrong.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3liazyp2ty225",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -39,6 +40,7 @@ export let topPosts: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/the-ai-development-conundrum.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lgrcviqfyk2n",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -56,6 +58,7 @@ export let topPosts: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2018,
     "ogImage": "/og-images/testing-software.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -72,6 +75,7 @@ export let topPosts: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2019,
     "ogImage": "/og-images/maintenance-costs.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -90,6 +94,7 @@ export let topPosts: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2023,
     "ogImage": "/og-images/fractal-refactoring.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -108,6 +113,7 @@ export let topPosts: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2023,
     "ogImage": "/og-images/10x.png",
+    "location": "",
     "lastModified": 1747568207000
   }
 ]

@@ -285,6 +285,35 @@ export default function Sandbox() {
       <DemoWrap>
         <CommentSection uri="https://bsky.app/profile/matthamlin.me/post/3lo5keodmbk2c" />
       </DemoWrap>
+      <Heading level={2}>Colors:</Heading>
+      <DemoWrap>
+        <div className="flex flex-col gap-2">
+          <div className="flex flex-row gap-2">
+            Primary
+            <div className="rounded h-18 w-18 bg-primary text-primary-foreground" />
+          </div>
+          <div className="flex flex-row gap-2">
+            Secondary
+            <div className="rounded h-18 w-18 bg-secondary text-secondary-foreground" />
+          </div>
+          <div className="flex flex-row gap-2">
+            Accent
+            <div className="rounded h-18 w-18 bg-accent text-accent-foreground" />
+          </div>
+          <div className="flex flex-row gap-2">
+            Destructive
+            <div className="rounded h-18 w-18 bg-destructive text-destructive-foreground" />
+          </div>
+          <div className="flex flex-row gap-2">
+            Foreground
+            <div className="rounded h-18 w-18 bg-foreground text-background" />
+          </div>
+          <div className="flex flex-row gap-2">
+            Background
+            <div className="rounded h-18 w-18 bg-background text-foreground" />
+          </div>
+        </div>
+      </DemoWrap>
     </main>
   );
 }

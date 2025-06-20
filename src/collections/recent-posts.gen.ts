@@ -20,8 +20,9 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/roundup-notes-in-obsidian-with-dataview.png",
-    "blueskyPostUri": "",
-    "lastModified": null
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lrr4ixwydc2d",
+    "location": "",
+    "lastModified": 1750115960000
   },
   {
     "title": "Quick Tip - Theme Aware Images",
@@ -40,6 +41,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/quick-tip-theme-aware-images.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lrr37qbdp22d",
+    "location": "",
     "lastModified": 1750114559000
   },
   {
@@ -59,6 +61,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/async-class-creation-in-javascript.png",
+    "location": "",
     "lastModified": 1748981231000
   },
   {
@@ -78,6 +81,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2025,
     "ogImage": "/og-images/belroy-transit-workpack-pro-v2.png",
+    "location": "",
     "lastModified": 1748517256000
   },
   {
@@ -97,6 +101,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/website-redesign-v10.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lpzvssqktc23",
+    "location": "",
     "lastModified": 1749594810000
   }
 ]

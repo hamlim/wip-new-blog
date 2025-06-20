@@ -61,7 +61,14 @@ export async function generateRSS() {
       title: meta.title,
       link: url,
       id: url,
-      description: meta.description,
+      description:
+        meta.type === "status-update"
+          ? `Status Update: ${new Date(meta.date).toLocaleDateString("en-US", {
+              month: "long",
+              day: "numeric",
+              year: "numeric",
+            })}`
+          : meta.description || "",
       date: new Date(meta.date),
       author: [
         {

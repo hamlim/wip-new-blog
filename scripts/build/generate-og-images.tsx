@@ -60,6 +60,14 @@ export async function generateOGImages() {
   let metadata = await collectMetadata(files);
 
   for (let meta of metadata) {
+    let description =
+      meta.type === "status-update"
+        ? `Status Update: ${new Date(meta.date).toLocaleDateString("en-US", {
+            month: "long",
+            day: "numeric",
+            year: "numeric",
+          })}`
+        : meta.description || "";
     if (imageCache.has(meta.slug)) {
       let cacheHit = imageCache.get(meta.slug);
       if (
@@ -67,18 +75,18 @@ export async function generateOGImages() {
         "title" in cacheHit &&
         "description" in cacheHit &&
         cacheHit.title === meta.title &&
-        cacheHit.description === meta.description
+        cacheHit.description === description
       ) {
         continue;
       }
     }
     imageCache.set(meta.slug, {
       title: meta.title,
-      description: meta.description || "",
+      description: description,
     });
     let pngBuffer = await generateImage({
       title: meta.title,
-      description: meta.description || "",
+      description: description,
       publishDate: new Date(meta.date).toLocaleDateString("en-US", {
         month: "long",
         day: "numeric",

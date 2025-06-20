@@ -5,6 +5,23 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Adding Status Updates",
+    "slug": "adding-status-updates",
+    "path": "/2025/june/adding-status-updates",
+    "date": 1750379756763,
+    "status": "public",
+    "type": "status-update",
+    "tags": [
+      "status-update"
+    ],
+    "month": "june",
+    "year": 2025,
+    "ogImage": "/og-images/adding-status-updates.png",
+    "blueskyPostUri": "",
+    "location": "Taking the train back to Boston from Stamford",
+    "lastModified": null
+  },
+  {
     "title": "Roundup Notes in Obsidian with Dataview",
     "slug": "roundup-notes-in-obsidian-with-dataview",
     "path": "/2025/june/roundup-notes-in-obsidian-with-dataview",
@@ -21,8 +38,9 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/roundup-notes-in-obsidian-with-dataview.png",
-    "blueskyPostUri": "",
-    "lastModified": null
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lrr4ixwydc2d",
+    "location": "",
+    "lastModified": 1750115960000
   },
   {
     "title": "Quick Tip - Theme Aware Images",
@@ -41,6 +59,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/quick-tip-theme-aware-images.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lrr37qbdp22d",
+    "location": "",
     "lastModified": 1750114559000
   },
   {
@@ -60,6 +79,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/async-class-creation-in-javascript.png",
+    "location": "",
     "lastModified": 1748981231000
   },
   {
@@ -79,6 +99,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2025,
     "ogImage": "/og-images/belroy-transit-workpack-pro-v2.png",
+    "location": "",
     "lastModified": 1748517256000
   },
   {
@@ -98,6 +119,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/website-redesign-v10.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lpzvssqktc23",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -121,6 +143,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/server-side-rendering-compatible-css-theming.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lmuxdbcyzs27",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -140,6 +163,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/podcasting-by-hand.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lmrgykvctc2s",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -160,6 +184,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/replacing-dropbox-capture-with-raycast.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lk4xpoekkk2w",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -181,6 +206,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/quick-tip-specific-local-module-definitions.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lixdrwtbuk2k",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -201,6 +227,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/on-file-system-routing-conventions.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3likrnc5f6k2x",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -220,6 +247,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/youre-building-software-wrong.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3liazyp2ty225",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -239,6 +267,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/cursor-and-obsidian.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3li2y4k6qyc22",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -257,6 +286,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/single-file-web-apps.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lhc3lle2lk2p",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -276,6 +306,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/the-ai-development-conundrum.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lgrcviqfyk2n",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -295,6 +326,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/resetting-controlled-components-in-forms.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lfzkm7ez2s2q",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -314,6 +346,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/thoughts-on-new-years-resolutions.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lemi6tsles2n",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -334,6 +367,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/team-memes.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3ldoy5umql22v",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -353,6 +387,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/a-quick-look-at-import-maps.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lcodhjgeks2h",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -374,6 +409,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/recommended-tech-talks.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lcoadxcvek2t",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -396,6 +432,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/request-for-minimal-rsc-framework.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lcbjezkjcc27",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -414,6 +451,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2024,
     "ogImage": "/og-images/my-updated-obsidian-task-management.png",
+    "location": "",
     "lastModified": 1748030308000
   },
   {
@@ -434,6 +472,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/bluesky-tips-and-tools.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lbsa7kpbf227",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -458,6 +497,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/the-bookkeeping-pattern.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3l7ehzfgt5i2r",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -476,6 +516,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/building-a-custom-ghostty-theme.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3l746pzpkw32q",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -495,6 +536,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2024,
     "ogImage": "/og-images/tslite.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3l6vh3yrdxk2j",
+    "location": "",
     "lastModified": 1749594810000
   },
   {
@@ -512,6 +554,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/monorepo-tips-and-tricks.png",
+    "location": "",
     "lastModified": 1748030010000
   },
   {
@@ -531,6 +574,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2024,
     "ogImage": "/og-images/offload-complexity.png",
+    "location": "",
     "lastModified": 1748030010000
   },
   {
@@ -549,6 +593,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2024,
     "ogImage": "/og-images/nextjs-with-deno-v2.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -566,6 +611,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2024,
     "ogImage": "/og-images/more-thoughts-on-dogfooding.png",
+    "location": "",
     "lastModified": 1748030010000
   },
   {
@@ -583,6 +629,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2024,
     "ogImage": "/og-images/dogfooding.png",
+    "location": "",
     "lastModified": 1748030308000
   },
   {
@@ -601,6 +648,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2024,
     "ogImage": "/og-images/git-notes-as-a-tool-for-thought.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -619,6 +667,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2024,
     "ogImage": "/og-images/dont-break-the-implicit-prop-contract.png",
+    "location": "",
     "lastModified": 1748030308000
   },
   {
@@ -638,6 +687,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/a-better-useSSR-implementation.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -657,6 +707,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/30.png",
+    "location": "",
     "lastModified": 1748030308000
   },
   {
@@ -676,6 +727,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/simple-obsidian-task-management.png",
+    "location": "",
     "lastModified": 1748030308000
   },
   {
@@ -694,6 +746,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/my-current-dev-setup.png",
+    "location": "",
     "lastModified": 1748030010000
   },
   {
@@ -712,6 +765,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/switching-back-to-obsidian.png",
+    "location": "",
     "lastModified": 1748030010000
   },
   {
@@ -729,6 +783,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2024,
     "ogImage": "/og-images/there-is-no-standard-markdown.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -746,6 +801,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2024,
     "ogImage": "/og-images/abstract-your-api.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -764,6 +820,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2024,
     "ogImage": "/og-images/tip-request-and-response-headers.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -783,6 +840,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2024,
     "ogImage": "/og-images/using-feature-toggles-to-de-risk-refactors.png",
+    "location": "",
     "lastModified": 1748030010000
   },
   {
@@ -803,6 +861,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2024,
     "ogImage": "/og-images/leaving-wayfair.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -823,6 +882,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2024,
     "ogImage": "/og-images/hohoro.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -841,6 +901,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2024,
     "ogImage": "/og-images/funport.png",
+    "location": "",
     "lastModified": 1747790496000
   },
   {
@@ -858,6 +919,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2024,
     "ogImage": "/og-images/my-current-ai-stack.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -877,6 +939,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2024,
     "ogImage": "/og-images/configuring-cloudflare-domains-with-vercel.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -895,6 +958,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2024,
     "ogImage": "/og-images/react-error-boundaries-revisited.png",
+    "location": "",
     "lastModified": 1748030010000
   },
   {
@@ -913,6 +977,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2024,
     "ogImage": "/og-images/exporting-custom-slack-emoji.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -931,6 +996,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2024,
     "ogImage": "/og-images/custom-favicon-recipes.png",
+    "location": "",
     "lastModified": 1750114422000
   },
   {
@@ -949,6 +1015,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2024,
     "ogImage": "/og-images/corporate-sponsored-oss.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -967,6 +1034,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2024,
     "ogImage": "/og-images/library-docs-monorepo-template.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -985,6 +1053,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2024,
     "ogImage": "/og-images/building-better-beacon.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1005,6 +1074,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/project-deep-dive-tails.png",
+    "location": "",
     "lastModified": 1748030308000
   },
   {
@@ -1022,6 +1092,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/churn-anxiety.png",
+    "location": "",
     "lastModified": 1748029406000
   },
   {
@@ -1040,6 +1111,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/service-monitors-and-observability.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1059,6 +1131,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/type-safe-process-env.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1077,6 +1150,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/consistent-local-ports-with-wrangler.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1094,6 +1168,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/on-adopting-css-in-js.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1110,6 +1185,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/being-unopinionated.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1127,6 +1203,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/stop-snacking.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1144,6 +1221,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/no-process-is-invisible-process.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1161,6 +1239,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2023,
     "ogImage": "/og-images/fixing-zeds-language-server.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1182,6 +1261,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2023,
     "ogImage": "/og-images/project-deep-dive-microfibre.png",
+    "location": "",
     "lastModified": 1748030308000
   },
   {
@@ -1199,6 +1279,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2023,
     "ogImage": "/og-images/pair-programming.png",
+    "location": "",
     "lastModified": 1748029406000
   },
   {
@@ -1218,6 +1299,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2023,
     "ogImage": "/og-images/ai-driven-development.png",
+    "location": "",
     "lastModified": 1748029406000
   },
   {
@@ -1234,6 +1316,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2023,
     "ogImage": "/og-images/teams-and-caterpillar-tracks.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1252,6 +1335,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2023,
     "ogImage": "/og-images/go-to-git-utils.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1269,6 +1353,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2023,
     "ogImage": "/og-images/on-cto-office-hours.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1288,6 +1373,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2023,
     "ogImage": "/og-images/using-marquee-with-react-and-typescript.png",
+    "location": "",
     "lastModified": 1748029406000
   },
   {
@@ -1306,6 +1392,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2023,
     "ogImage": "/og-images/finding-react-artifacts.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1325,6 +1412,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2023,
     "ogImage": "/og-images/learning-go.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1342,6 +1430,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2023,
     "ogImage": "/og-images/speedbumps.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1359,6 +1448,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2023,
     "ogImage": "/og-images/distributable-web-apps.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1378,6 +1468,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2023,
     "ogImage": "/og-images/29.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1394,6 +1485,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2023,
     "ogImage": "/og-images/principles-for-automated-testing.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1413,6 +1505,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2023,
     "ogImage": "/og-images/deno.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1431,6 +1524,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2023,
     "ogImage": "/og-images/fractal-refactoring.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1449,6 +1543,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2023,
     "ogImage": "/og-images/10x.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1466,6 +1561,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2023,
     "ogImage": "/og-images/avoid-distractions.png",
+    "location": "",
     "lastModified": 1748029406000
   },
   {
@@ -1484,6 +1580,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2023,
     "ogImage": "/og-images/thoughts-on-tailwind.png",
+    "location": "",
     "lastModified": 1748029406000
   },
   {
@@ -1502,6 +1599,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2023,
     "ogImage": "/og-images/nextjs-with-tailwind.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1519,6 +1617,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2023,
     "ogImage": "/og-images/write-it-down.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1537,6 +1636,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2023,
     "ogImage": "/og-images/shiki-on-next-js.png",
+    "location": "",
     "lastModified": 1748029406000
   },
   {
@@ -1555,6 +1655,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2023,
     "ogImage": "/og-images/dollar-devlog-2.png",
+    "location": "",
     "lastModified": 1748030308000
   },
   {
@@ -1573,6 +1674,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2023,
     "ogImage": "/og-images/navigating-monorepos-with-ease.png",
+    "location": "",
     "lastModified": 1748030308000
   },
   {
@@ -1591,6 +1693,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2023,
     "ogImage": "/og-images/dollar-devlog-1.png",
+    "location": "",
     "lastModified": 1748029406000
   },
   {
@@ -1608,6 +1711,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2022,
     "ogImage": "/og-images/updated-opinionated-nextjs-setup.png",
+    "location": "",
     "lastModified": 1748028894000
   },
   {
@@ -1625,6 +1729,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2022,
     "ogImage": "/og-images/yarn-berry-gitignore.png",
+    "location": "",
     "lastModified": 1748028894000
   },
   {
@@ -1642,6 +1747,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2022,
     "ogImage": "/og-images/on-note-taking.png",
+    "location": "",
     "lastModified": 1748028894000
   },
   {
@@ -1659,6 +1765,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2022,
     "ogImage": "/og-images/on-writing-tests.png",
+    "location": "",
     "lastModified": 1748028894000
   },
   {
@@ -1677,6 +1784,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2022,
     "ogImage": "/og-images/switching-back-to-notion.png",
+    "location": "",
     "lastModified": 1748030308000
   },
   {
@@ -1693,6 +1801,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2022,
     "ogImage": "/og-images/moving-to-pnpm.png",
+    "location": "",
     "lastModified": 1748028894000
   },
   {
@@ -1709,6 +1818,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2022,
     "ogImage": "/og-images/upgrade-guides.png",
+    "location": "",
     "lastModified": 1748028894000
   },
   {
@@ -1726,6 +1836,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2022,
     "ogImage": "/og-images/my-opinionated-nextjs-setup.png",
+    "location": "",
     "lastModified": 1748028894000
   },
   {
@@ -1743,6 +1854,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2022,
     "ogImage": "/og-images/my-two-favorite-react-tricks.png",
+    "location": "",
     "lastModified": 1748030308000
   },
   {
@@ -1762,6 +1874,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2022,
     "ogImage": "/og-images/switching-to-iphone.png",
+    "location": "",
     "lastModified": 1748028894000
   },
   {
@@ -1778,6 +1891,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2021,
     "ogImage": "/og-images/2021-in-music.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -1794,6 +1908,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2021,
     "ogImage": "/og-images/pair-programming-stub.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -1810,6 +1925,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2021,
     "ogImage": "/og-images/fast-feedback-systems.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -1826,6 +1942,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2021,
     "ogImage": "/og-images/video-games.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -1842,6 +1959,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2021,
     "ogImage": "/og-images/delete-it.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -1859,6 +1977,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2021,
     "ogImage": "/og-images/linear-tools.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -1875,6 +1994,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2021,
     "ogImage": "/og-images/mac-setup-guide.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -1891,6 +2011,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2021,
     "ogImage": "/og-images/build-your-developer-toolbox.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -1907,6 +2028,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2021,
     "ogImage": "/og-images/start-fresh.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -1925,6 +2047,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2021,
     "ogImage": "/og-images/on-written-communication.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -1943,6 +2066,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2021,
     "ogImage": "/og-images/updating-forked-repos.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -1961,6 +2085,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2021,
     "ogImage": "/og-images/rtl-checkbox-events.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -1978,6 +2103,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2021,
     "ogImage": "/og-images/obsidian-sync.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -1995,6 +2121,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2021,
     "ogImage": "/og-images/the-squeeze.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2011,6 +2138,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2021,
     "ogImage": "/og-images/learning.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2028,6 +2156,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2021,
     "ogImage": "/og-images/on-code-review.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -2045,6 +2174,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2021,
     "ogImage": "/og-images/array-chunking.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -2061,6 +2191,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2021,
     "ogImage": "/og-images/fast.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -2078,6 +2209,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2021,
     "ogImage": "/og-images/writing-node-scripts.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -2097,6 +2229,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2021,
     "ogImage": "/og-images/useConsole.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -2116,6 +2249,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2021,
     "ogImage": "/og-images/yw.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -2132,6 +2266,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2021,
     "ogImage": "/og-images/hack-sprint.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2148,6 +2283,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2021,
     "ogImage": "/og-images/simple-props.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -2165,6 +2301,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2021,
     "ogImage": "/og-images/computed-theme.png",
+    "location": "",
     "lastModified": 1748028740000
   },
   {
@@ -2181,6 +2318,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2021,
     "ogImage": "/og-images/2021.png",
+    "location": "",
     "lastModified": 1748030308000
   },
   {
@@ -2197,6 +2335,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/2020.png",
+    "location": "",
     "lastModified": 1748026839000
   },
   {
@@ -2213,6 +2352,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/sandbox-part-1.png",
+    "location": "",
     "lastModified": 1748026839000
   },
   {
@@ -2229,6 +2369,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/literate-programming.png",
+    "location": "",
     "lastModified": 1748026839000
   },
   {
@@ -2245,6 +2386,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/nextjs-analytics-with-airtable.png",
+    "location": "",
     "lastModified": 1748026839000
   },
   {
@@ -2262,6 +2404,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2020,
     "ogImage": "/og-images/pair-code-reviews.png",
+    "location": "",
     "lastModified": 1748026839000
   },
   {
@@ -2279,6 +2422,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2020,
     "ogImage": "/og-images/enhancing-slack.png",
+    "location": "",
     "lastModified": 1748028065000
   },
   {
@@ -2296,6 +2440,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2020,
     "ogImage": "/og-images/a-note-on-consistency.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2312,6 +2457,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2020,
     "ogImage": "/og-images/the-rabbit-hole.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2329,6 +2475,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2020,
     "ogImage": "/og-images/a-note-on-meetings.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2346,6 +2493,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2020,
     "ogImage": "/og-images/a-note-on-anti-patterns.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2363,6 +2511,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2020,
     "ogImage": "/og-images/stateful-providers.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2380,6 +2529,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2020,
     "ogImage": "/og-images/draft-pull-requests.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2397,6 +2547,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2020,
     "ogImage": "/og-images/back-bay-fens.png",
+    "location": "",
     "lastModified": 1748027978000
   },
   {
@@ -2414,6 +2565,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2019,
     "ogImage": "/og-images/bend.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2433,6 +2585,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2019,
     "ogImage": "/og-images/theme-first-ui-development.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2449,6 +2602,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2019,
     "ogImage": "/og-images/deploying-with-github-actions.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2465,6 +2619,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2019,
     "ogImage": "/og-images/simpler-and-smaller.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2481,6 +2636,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2019,
     "ogImage": "/og-images/maintenance-costs.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2498,6 +2654,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2019,
     "ogImage": "/og-images/snapshot-testing.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2515,6 +2672,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/why-you-should-useReducer.png",
+    "location": "",
     "lastModified": 1748026165000
   },
   {
@@ -2532,6 +2690,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/hooks-tips-instance-variables.png",
+    "location": "",
     "lastModified": 1748026165000
   },
   {
@@ -2549,6 +2708,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/hooks-tips-dependency-array.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2566,6 +2726,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/building-a-live-editor.png",
+    "location": "",
     "lastModified": 1748026165000
   },
   {
@@ -2583,6 +2744,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "february",
     "year": 2019,
     "ogImage": "/og-images/start-small.png",
+    "location": "",
     "lastModified": 1748026165000
   },
   {
@@ -2600,6 +2762,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2019,
     "ogImage": "/og-images/react-error-boundaries.png",
+    "location": "",
     "lastModified": 1748026165000
   },
   {
@@ -2617,6 +2780,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2018,
     "ogImage": "/og-images/starting-fresh.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2634,6 +2798,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2018,
     "ogImage": "/og-images/testing-software.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2653,6 +2818,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2018,
     "ogImage": "/og-images/suspense-plus-graphql.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2669,6 +2835,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2018,
     "ogImage": "/og-images/missing-detail.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2685,6 +2852,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2018,
     "ogImage": "/og-images/matts-log-october.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2702,6 +2870,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "september",
     "year": 2018,
     "ogImage": "/og-images/youve-launched-now-what.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2719,6 +2888,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2018,
     "ogImage": "/og-images/summer-2018-trip.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2737,6 +2907,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2018,
     "ogImage": "/og-images/taking-a-break.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2755,6 +2926,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2018,
     "ogImage": "/og-images/complex-ui-components.png",
+    "location": "",
     "lastModified": 1748025572000
   },
   {
@@ -2773,6 +2945,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2018,
     "ogImage": "/og-images/understanding-react-16-3-updates.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2790,6 +2963,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2018,
     "ogImage": "/og-images/2018.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2808,6 +2982,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2017,
     "ogImage": "/og-images/css-in-js.png",
+    "location": "",
     "lastModified": 1748025572000
   },
   {
@@ -2827,6 +3002,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2017,
     "ogImage": "/og-images/redesign-v6.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2844,6 +3020,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2017,
     "ogImage": "/og-images/javascript-weirdness.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2861,6 +3038,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2017,
     "ogImage": "/og-images/calendar.png",
+    "location": "",
     "lastModified": 1748025572000
   },
   {
@@ -2878,6 +3056,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "march",
     "year": 2017,
     "ogImage": "/og-images/rebuilding-mustache.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2895,6 +3074,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2017,
     "ogImage": "/og-images/push-vs-pull-ai.png",
+    "location": "",
     "lastModified": 1747691492000
   },
   {
@@ -2912,6 +3092,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2016,
     "ogImage": "/og-images/links.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -2929,6 +3110,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2016,
     "ogImage": "/og-images/css-debate.png",
+    "location": "",
     "lastModified": 1747691974000
   },
   {
@@ -2946,6 +3128,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "october",
     "year": 2016,
     "ogImage": "/og-images/october-4th.png",
+    "location": "",
     "lastModified": 1747692981000
   },
   {
@@ -2963,6 +3146,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/my-new-website.png",
+    "location": "",
     "lastModified": 1747691492000
   },
   {
@@ -2980,6 +3164,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/pull-quotes.png",
+    "location": "",
     "lastModified": 1748025126000
   },
   {
@@ -2997,6 +3182,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/redesign-v5.png",
+    "location": "",
     "lastModified": 1748025126000
   },
   {
@@ -3014,6 +3200,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/attribute-selectors.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3030,6 +3217,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "august",
     "year": 2016,
     "ogImage": "/og-images/august.png",
+    "location": "",
     "lastModified": 1748025126000
   },
   {
@@ -3047,6 +3235,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "april",
     "year": 2016,
     "ogImage": "/og-images/redesign.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3063,6 +3252,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/afraid.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3079,6 +3269,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/clientside.png",
+    "location": "",
     "lastModified": 1748025126000
   },
   {
@@ -3096,6 +3287,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/10000-characters.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3112,6 +3304,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/building-in-2016.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3129,6 +3322,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/dji-vs-gopro.png",
+    "location": "",
     "lastModified": 1748025126000
   },
   {
@@ -3145,6 +3339,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "january",
     "year": 2016,
     "ogImage": "/og-images/my-first-project-of-2016.png",
+    "location": "",
     "lastModified": 1748025126000
   },
   {
@@ -3161,6 +3356,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/2015.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3177,6 +3373,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/2016.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3193,6 +3390,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/blogging-vs-working.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3210,6 +3408,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/powerpoint.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3226,6 +3425,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "december",
     "year": 2015,
     "ogImage": "/og-images/the-social-max.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3242,6 +3442,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/thanksgiving.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3258,6 +3459,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/family-time.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3274,6 +3476,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/weekend-projects.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3291,6 +3494,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/message.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3308,6 +3512,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/a-new-look.png",
+    "location": "",
     "lastModified": 1747568207000
   },
   {
@@ -3325,6 +3530,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "november",
     "year": 2015,
     "ogImage": "/og-images/a-new-resume.png",
+    "location": "",
     "lastModified": 1747568207000
   }
 ];

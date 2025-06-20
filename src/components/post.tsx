@@ -18,6 +18,27 @@ export async function Post({
   children: ReactNode;
   frontmatter: any;
 }) {
+  let backLink = "/blog";
+  if (frontmatter.type === "status-update") {
+    backLink = "/status";
+  } else if (frontmatter.type === "snippet") {
+    backLink = "/snippets";
+  }
+
+  let backlinkText = "Back to all posts";
+  if (frontmatter.type === "status-update") {
+    backlinkText = "Back to all status updates";
+  } else if (frontmatter.type === "snippet") {
+    backlinkText = "Back to all snippets";
+  }
+
+  let contentType = "post";
+  if (frontmatter.type === "status-update") {
+    contentType = "status update";
+  } else if (frontmatter.type === "snippet") {
+    contentType = "snippet";
+  }
+
   return (
     <main className="pt-10">
       <title>{`${frontmatter.title} - Matt's Blog`}</title>
@@ -32,32 +53,41 @@ export async function Post({
       <meta property="og:type" content="article" />
       <meta property="og:site_name" content="Matt's Blog" />
       <ProseContainer>
-        <LinkAnchor className="mb-2" href="/blog">
-          ← Back to all posts
+        <LinkAnchor className="mb-2" href={backLink}>
+          ← {backlinkText}
         </LinkAnchor>
         <Heading level={1}>{frontmatter.title}</Heading>
         <p className="text-sm text-slate-500 dark:text-slate-400">
           <Suspense
             fallback={
-              <p>
+              <>
                 <br />
                 <br />
                 <br />
-              </p>
+                <br />
+              </>
             }
           >
-            Published: <FormattedDateTime date={frontmatter.date} />
+            Published 📅: <FormattedDateTime date={frontmatter.date} />
             <br />
             <PostLastModified frontmatter={frontmatter} />
+            {frontmatter.location && (
+              <>
+                <br />
+                <span>Location 📍: {frontmatter.location}</span>
+              </>
+            )}
           </Suspense>
         </p>
         <p className="flex flex-col justify-evenly gap-2 sm:flex-row">
           <BlueskyShareLink title={frontmatter.title}>
-            Share this post on Bluesky
+            Share this {contentType} on Bluesky
           </BlueskyShareLink>
           <BlueskyMentions>See discussion on Bluesky</BlueskyMentions>
         </p>
+        <hr className="my-4 border-foreground/10 w-[75%] mx-auto" />
         {children}
+        <hr className="my-4 border-foreground/10 w-[75%] mx-auto" />
         <Heading level={3}>Tags:</Heading>
         <div className="flex flex-wrap gap-2">
           {frontmatter.tags.map((tag: string) => (
@@ -75,7 +105,7 @@ export async function Post({
             <BlueskyPostEmbed src={frontmatter.blueskyPostUri}>
               <div />
             </BlueskyPostEmbed>
-            <div className="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg border rounded-lg">
+            <div className="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg border">
               <CommentSection uri={frontmatter.blueskyPostUri} />
             </div>
           </div>
