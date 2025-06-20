@@ -139,7 +139,7 @@ export function QuickFind() {
           {metadata.map((post) => (
             <CommandItem
               key={post.slug}
-              value={`${post.title} ${formatDate(post.date)} ${post.description} ${post.slug}`}
+              value={`${post.title} ${formatDate(post.date)} ${post.location} ${post.type === "status-update" ? "status update" : post.description || ""} ${post.slug}`}
               onSelect={() => {
                 setOpen(false);
                 router.push(post.path as RouteConfig["paths"]);
@@ -154,7 +154,9 @@ export function QuickFind() {
                 </span>
                 <br />
                 <span className="text-xs text-muted-foreground">
-                  {post.description}
+                  {post.type === "status-update"
+                    ? "status update"
+                    : post.description || ""}
                 </span>
               </p>
             </CommandItem>
