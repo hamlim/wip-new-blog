@@ -62,7 +62,7 @@ export async function generateRSS() {
       link: url,
       id: url,
       description:
-        meta.type === "status-update"
+        meta.type === "micropost"
           ? `Status Update: ${new Date(meta.date).toLocaleDateString("en-US", {
               month: "long",
               day: "numeric",

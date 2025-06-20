@@ -10,33 +10,33 @@ export let metadata: Array<HydratedFrontmatter> = [
     "path": "/2025/june/all-documentation-should-be-dated",
     "date": 1750422391010,
     "status": "public",
-    "type": "status-update",
+    "type": "micropost",
     "tags": [
-      "status-update"
+      "micropost"
     ],
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/all-documentation-should-be-dated.png",
-    "blueskyPostUri": "",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3ls22jksebk2n",
     "location": "Boston",
-    "lastModified": null
+    "lastModified": 1750423061000
   },
   {
-    "title": "Adding Status Updates",
-    "slug": "adding-status-updates",
-    "path": "/2025/june/adding-status-updates",
+    "title": "Adding Microposts",
+    "slug": "adding-microposts",
+    "path": "/2025/june/adding-microposts",
     "date": 1750379756763,
     "status": "public",
-    "type": "status-update",
+    "type": "micropost",
     "tags": [
-      "status-update"
+      "micropost"
     ],
     "month": "june",
     "year": 2025,
-    "ogImage": "/og-images/adding-status-updates.png",
+    "ogImage": "/og-images/adding-microposts.png",
     "blueskyPostUri": "",
     "location": "Taking the train back to Boston from Stamford",
-    "lastModified": 1750381012000
+    "lastModified": null
   },
   {
     "title": "Roundup Notes in Obsidian with Dataview",

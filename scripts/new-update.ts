@@ -91,9 +91,9 @@ slug: ${slug}
 path: /${year}/${month.toLowerCase()}/${slug}
 date: ${now}
 status: public
-type: status-update
+type: micropost
 tags:
-  - status-update
+  - micropost
 month: ${month.toLowerCase()}
 year: ${year}
 ogImage: /og-images/${slug}.png

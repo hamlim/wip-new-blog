@@ -4,37 +4,33 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentStatusUpdates: Array<HydratedFrontmatter> = [
   {
-    "title": "All Documentation Should Be Dated",
-    "slug": "all-documentation-should-be-dated",
-    "path": "/2025/june/all-documentation-should-be-dated",
-    "date": 1750422391010,
-    "status": "public",
-    "type": "status-update",
-    "tags": [
-      "status-update"
-    ],
-    "month": "june",
-    "year": 2025,
-    "ogImage": "/og-images/all-documentation-should-be-dated.png",
-    "blueskyPostUri": "",
-    "location": "Boston",
-    "lastModified": null
+    title: "All Documentation Should Be Dated",
+    slug: "all-documentation-should-be-dated",
+    path: "/2025/june/all-documentation-should-be-dated",
+    date: 1750422391010,
+    status: "public",
+    type: "micropost",
+    tags: ["micropost"],
+    month: "june",
+    year: 2025,
+    ogImage: "/og-images/all-documentation-should-be-dated.png",
+    blueskyPostUri: "",
+    location: "Boston",
+    lastModified: null,
   },
   {
-    "title": "Adding Status Updates",
-    "slug": "adding-status-updates",
-    "path": "/2025/june/adding-status-updates",
-    "date": 1750379756763,
-    "status": "public",
-    "type": "status-update",
-    "tags": [
-      "status-update"
-    ],
-    "month": "june",
-    "year": 2025,
-    "ogImage": "/og-images/adding-status-updates.png",
-    "blueskyPostUri": "",
-    "location": "Taking the train back to Boston from Stamford",
-    "lastModified": 1750381012000
-  }
-]
+    title: "Adding Status Updates",
+    slug: "adding-microposts",
+    path: "/2025/june/adding-microposts",
+    date: 1750379756763,
+    status: "public",
+    type: "micropost",
+    tags: ["micropost"],
+    month: "june",
+    year: 2025,
+    ogImage: "/og-images/adding-microposts.png",
+    blueskyPostUri: "",
+    location: "Taking the train back to Boston from Stamford",
+    lastModified: 1750381012000,
+  },
+];

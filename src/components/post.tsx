@@ -19,21 +19,21 @@ export async function Post({
   frontmatter: any;
 }) {
   let backLink = "/blog";
-  if (frontmatter.type === "status-update") {
+  if (frontmatter.type === "micropost") {
     backLink = "/status";
   } else if (frontmatter.type === "snippet") {
     backLink = "/snippets";
   }
 
   let backlinkText = "Back to all posts";
-  if (frontmatter.type === "status-update") {
+  if (frontmatter.type === "micropost") {
     backlinkText = "Back to all status updates";
   } else if (frontmatter.type === "snippet") {
     backlinkText = "Back to all snippets";
   }
 
   let contentType = "post";
-  if (frontmatter.type === "status-update") {
+  if (frontmatter.type === "micropost") {
     contentType = "status update";
   } else if (frontmatter.type === "snippet") {
     contentType = "snippet";

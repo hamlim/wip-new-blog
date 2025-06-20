@@ -1,5 +1,5 @@
 import { Post } from "#/components/post";
-import Content, { frontmatter } from "#/mdx/2025/june/adding-status-updates.mdx";
+import Content, { frontmatter } from "#/mdx/2025/june/adding-microposts.mdx";
 
 export default function Page() {
   return (

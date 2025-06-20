@@ -1,4 +1,4 @@
-import { recentStatusUpdates } from "#/collections/recent-status-updates.gen";
+import { recentMicroposts } from "#/collections/recent-microposts.gen";
 import { LinkAnchor } from "#/components/anchor";
 import { ProseContainer } from "#/components/container";
 import { Heading } from "#/components/heading";
@@ -46,18 +46,18 @@ export default function Status() {
         </p>
         <Heading level={3}>Recent Status Updates:</Heading>
         <ol>
-          {recentStatusUpdates.map((status) => (
-            <li key={status.slug}>
-              <LinkAnchor href={status.path}>{status.title}</LinkAnchor>
+          {recentMicroposts.map((micropost) => (
+            <li key={micropost.slug}>
+              <LinkAnchor href={micropost.path}>{micropost.title}</LinkAnchor>
             </li>
           ))}
         </ol>
         <Heading level={3}>All Status Updates</Heading>
         <div className="grid grid-cols-1 gap-2 md:grid-cols-2 not-prose">
           {metadata
-            .filter((status) => status.type === "status-update")
-            .map((status) => (
-              <PostCard key={status.path} post={status} />
+            .filter((micropost) => micropost.type === "micropost")
+            .map((micropost) => (
+              <PostCard key={micropost.path} post={micropost} />
             ))}
         </div>
       </ProseContainer>

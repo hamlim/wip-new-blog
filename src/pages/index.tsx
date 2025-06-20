@@ -1,6 +1,6 @@
 import { reading } from "#/collections/bookshelf";
+import { recentMicroposts } from "#/collections/recent-microposts.gen";
 import { recentPosts } from "#/collections/recent-posts.gen";
-import { recentStatusUpdates } from "#/collections/recent-status-updates.gen";
 import { topPosts } from "#/collections/top-posts.gen";
 import { LinkAnchor } from "#/components/anchor";
 import { ProseContainer } from "#/components/container";
@@ -99,15 +99,15 @@ export default function Home() {
           ))}
         </ol>
         <LinkAnchor href="/bookshelf">View my bookshelf →</LinkAnchor>
-        <Heading level={3}>Recent Status Updates:</Heading>
+        <Heading level={3}>Recent Microposts:</Heading>
         <ol>
-          {recentStatusUpdates.map((update) => (
-            <li key={update.slug}>
-              <LinkAnchor href={update.path}>{update.title}</LinkAnchor>
+          {recentMicroposts.map((micropost) => (
+            <li key={micropost.slug}>
+              <LinkAnchor href={micropost.path}>{micropost.title}</LinkAnchor>
             </li>
           ))}
         </ol>
-        <LinkAnchor href="/status">View all status updates →</LinkAnchor>
+        <LinkAnchor href="/status">View all microposts →</LinkAnchor>
       </ProseContainer>
     </main>
   );

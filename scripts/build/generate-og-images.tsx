@@ -61,7 +61,7 @@ export async function generateOGImages() {
 
   for (let meta of metadata) {
     let description =
-      meta.type === "status-update"
+      meta.type === "micropost"
         ? `Status Update: ${new Date(meta.date).toLocaleDateString("en-US", {
             month: "long",
             day: "numeric",
