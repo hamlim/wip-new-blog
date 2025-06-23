@@ -376,6 +376,8 @@ import type { getConfig as File_2025JuneAllDocumentationShouldBeDated_getConfig 
 // prettier-ignore
 import type { getConfig as File_2025JuneAsyncClassCreationInJavascript_getConfig } from './pages/2025/june/async-class-creation-in-javascript';
 // prettier-ignore
+import type { getConfig as File_2025JuneBlankDrivenDevelopment_getConfig } from './pages/2025/june/blank-driven-development';
+// prettier-ignore
 import type { getConfig as File_2025JuneQuickTipThemeAwareImages_getConfig } from './pages/2025/june/quick-tip-theme-aware-images';
 // prettier-ignore
 import type { getConfig as File_2025JuneRoundupNotesInObsidianWithDataview_getConfig } from './pages/2025/june/roundup-notes-in-obsidian-with-dataview';
@@ -598,6 +600,7 @@ type Page =
 | ({ path: '/2025/june/adding-microposts' } & GetConfigResponse<typeof File_2025JuneAddingMicroposts_getConfig>)
 | ({ path: '/2025/june/all-documentation-should-be-dated' } & GetConfigResponse<typeof File_2025JuneAllDocumentationShouldBeDated_getConfig>)
 | ({ path: '/2025/june/async-class-creation-in-javascript' } & GetConfigResponse<typeof File_2025JuneAsyncClassCreationInJavascript_getConfig>)
+| ({ path: '/2025/june/blank-driven-development' } & GetConfigResponse<typeof File_2025JuneBlankDrivenDevelopment_getConfig>)
 | ({ path: '/2025/june/quick-tip-theme-aware-images' } & GetConfigResponse<typeof File_2025JuneQuickTipThemeAwareImages_getConfig>)
 | ({ path: '/2025/june/roundup-notes-in-obsidian-with-dataview' } & GetConfigResponse<typeof File_2025JuneRoundupNotesInObsidianWithDataview_getConfig>)
 | ({ path: '/2025/march/replacing-dropbox-capture-with-raycast' } & GetConfigResponse<typeof File_2025MarchReplacingDropboxCaptureWithRaycast_getConfig>)

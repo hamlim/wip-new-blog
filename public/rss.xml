@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 20 Jun 2025 18:07:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Jun 2025 15:08:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,42 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[<Blank> Driven Development]]></title>
+            <link>https://matthamlin.me//2025/june/blank-driven-development</link>
+            <guid>https://matthamlin.me//2025/june/blank-driven-development</guid>
+            <pubDate>Mon, 23 Jun 2025 15:02:50 GMT</pubDate>
+            <description><![CDATA[Status Update: June 23, 2025]]></description>
+            <content:encoded><![CDATA[<p>I&#x27;ve been collecting a personal note of various <strong>&quot;____ Driven Development&quot;</strong> patterns, I figured I&#x27;d share them here to help others adopt them!</p>
+<div class="rounded-lg bg-muted px-4 py-0.5"><p>Hint - I don&#x27;t actually strongly recommend some of these patterns 🤣</p></div>
+<ul>
+<li>Domain (name) Driven Development<!-- -->
+<ul>
+<li>Buying a domain name to motivate you to actually build something</li>
+<li>Rarely ever works</li>
+</ul>
+</li>
+<li>Meme Driven Development<!-- -->
+<ul>
+<li>&quot;Building it for the meme&quot;</li>
+</ul>
+</li>
+<li>Readme Driven Development<!-- -->
+<ul>
+<li>Outlining how the thing should work in the readme, and then implementing it from there</li>
+<li>May actually work really well</li>
+</ul>
+</li>
+<li>CI Driven Development<!-- -->
+<ul>
+<li>Slinging code changes to remote to see if the CI passes or fails</li>
+<li>It usually fails at least couple of times, don&#x27;t worry about trying to find the root issue locally, just keep pushing changes!</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/blank-driven-development.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[All Documentation Should Be Dated]]></title>
             <link>https://matthamlin.me//2025/june/all-documentation-should-be-dated</link>

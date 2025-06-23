@@ -5,6 +5,23 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "<Blank> Driven Development",
+    "slug": "blank-driven-development",
+    "path": "/2025/june/blank-driven-development",
+    "date": 1750690970088,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost"
+    ],
+    "month": "june",
+    "year": 2025,
+    "ogImage": "/og-images/blank-driven-development.png",
+    "blueskyPostUri": "",
+    "location": "",
+    "lastModified": null
+  },
+  {
     "title": "All Documentation Should Be Dated",
     "slug": "all-documentation-should-be-dated",
     "path": "/2025/june/all-documentation-should-be-dated",
@@ -18,8 +35,8 @@ export let metadata: Array<HydratedFrontmatter> = [
     "year": 2025,
     "ogImage": "/og-images/all-documentation-should-be-dated.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3ls22jksebk2n",
-    "location": "Boston",
-    "lastModified": 1750423061000
+    "location": "Boston, MA",
+    "lastModified": 1750533014000
   },
   {
     "title": "Adding Microposts",
@@ -36,7 +53,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/adding-microposts.png",
     "blueskyPostUri": "",
     "location": "Taking the train back to Boston from Stamford",
-    "lastModified": null
+    "lastModified": 1750442892000
   },
   {
     "title": "Roundup Notes in Obsidian with Dataview",
