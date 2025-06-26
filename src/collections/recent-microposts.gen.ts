@@ -18,7 +18,7 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/blank-driven-development.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lsbunpzuvc2a",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1750691628000
   },
   {
     "title": "All Documentation Should Be Dated",
@@ -35,7 +35,7 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/all-documentation-should-be-dated.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3ls22jksebk2n",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1750533014000
   },
   {
     "title": "Adding Microposts",
@@ -52,6 +52,6 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/adding-microposts.png",
     "blueskyPostUri": "",
     "location": "Taking the train back to Boston from Stamford",
-    "lastModified": null
+    "lastModified": 1750442892000
   }
 ]

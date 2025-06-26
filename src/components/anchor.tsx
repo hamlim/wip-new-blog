@@ -35,6 +35,11 @@ export function LinkAnchor({ href, ...props }: AnchorProps): ReactNode {
     isPostLink = true;
   }
 
+  // external links should not have tooltips
+  if (href?.startsWith("http")) {
+    isPostLink = false;
+  }
+
   // Don't worry about tooltips on touch devices
   if (isTouchLikeDevice) {
     isPostLink = false;
