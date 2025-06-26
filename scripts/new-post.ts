@@ -98,6 +98,8 @@ description: 'TODO'
 month: ${month.toLowerCase()}
 year: ${year}
 ogImage: /og-images/${slug}.png
+blueskyPostUri: ""
+location: ""
 ---
 
 `;

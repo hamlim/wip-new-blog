@@ -4,6 +4,47 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentPosts: Array<HydratedFrontmatter> = [
   {
+    "title": "Roundup Notes in Obsidian with Dataview",
+    "slug": "roundup-notes-in-obsidian-with-dataview",
+    "path": "/2025/june/roundup-notes-in-obsidian-with-dataview",
+    "date": 1750115552955,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Obsidian",
+      "Tip",
+      "Note Taking",
+      "Development"
+    ],
+    "description": "A quick tip for creating roundup or summary notes based on other notes in Obsidian using the Dataview plugin!",
+    "month": "june",
+    "year": 2025,
+    "ogImage": "/og-images/roundup-notes-in-obsidian-with-dataview.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lrr4ixwydc2d",
+    "location": "",
+    "lastModified": null
+  },
+  {
+    "title": "Quick Tip - Theme Aware Images",
+    "slug": "quick-tip-theme-aware-images",
+    "path": "/2025/june/quick-tip-theme-aware-images",
+    "date": 1750114295541,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Tip",
+      "Web Development",
+      "Development"
+    ],
+    "description": "Have you ever found the need to change the image you render on a web page based on the current preferred color scheme of your theme?",
+    "month": "june",
+    "year": 2025,
+    "ogImage": "/og-images/quick-tip-theme-aware-images.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lrr37qbdp22d",
+    "location": "",
+    "lastModified": null
+  },
+  {
     "title": "Async Class Creation In JavaScript",
     "slug": "async-class-creation-in-javascript",
     "path": "/2025/june/async-class-creation-in-javascript",
@@ -20,6 +61,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/async-class-creation-in-javascript.png",
+    "location": "",
     "lastModified": 1748981231000
   },
   {
@@ -39,6 +81,7 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2025,
     "ogImage": "/og-images/belroy-transit-workpack-pro-v2.png",
+    "location": "",
     "lastModified": 1748517256000
   },
   {
@@ -57,46 +100,8 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2025,
     "ogImage": "/og-images/website-redesign-v10.png",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lpzvssqktc23",
+    "location": "",
     "lastModified": 1748209751000
-  },
-  {
-    "title": "Server Side Rendering Compatible CSS Theming",
-    "slug": "server-side-rendering-compatible-css-theming",
-    "path": "/2025/april/server-side-rendering-compatible-css-theming",
-    "date": 1744749638305,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Theming",
-      "CSS",
-      "Next.js",
-      "Waku",
-      "React",
-      "Tip"
-    ],
-    "description": "A quick tip to implementing CSS theming that's compatible with Server Side Rendered applications!",
-    "month": "april",
-    "year": 2025,
-    "ogImage": "/og-images/server-side-rendering-compatible-css-theming.png",
-    "lastModified": 1747568207000
-  },
-  {
-    "title": "Podcasting By Hand",
-    "slug": "podcasting-by-hand",
-    "path": "/2025/april/podcasting-by-hand",
-    "date": 1744629340844,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Podcasting",
-      "The Bikeshed Pod"
-    ],
-    "description": "A brief overview on how we launched The Bikeshed Podcast, including a deep dive in our recording and distribution workflows!",
-    "month": "april",
-    "year": 2025,
-    "ogImage": "/og-images/podcasting-by-hand.png",
-    "lastModified": 1747568207000
   }
 ]

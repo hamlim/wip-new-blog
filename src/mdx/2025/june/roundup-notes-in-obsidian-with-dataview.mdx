@@ -1,0 +1,71 @@
+---
+title: Roundup Notes in Obsidian with Dataview
+slug: roundup-notes-in-obsidian-with-dataview
+path: /2025/june/roundup-notes-in-obsidian-with-dataview
+date: 1750115552955
+status: public
+type: blog-post
+tags:
+  - Obsidian
+  - Tip
+  - Note Taking
+  - Development
+description: >-
+  A quick tip for creating roundup or summary notes based on other notes in
+  Obsidian using the Dataview plugin!
+month: june
+year: 2025
+ogImage: /og-images/roundup-notes-in-obsidian-with-dataview.png
+blueskyPostUri: 'https://bsky.app/profile/matthamlin.me/post/3lrr4ixwydc2d'
+location: ''
+---
+
+For a while now I've been tweaking my [Obsidian](https://obsidian.md/) setup and leaning more and more into using the [Dataview plugin](https://blacksmithgu.github.io/obsidian-dataview/) to create dynamic sections or notes within my vault.
+
+Recently I've been re-using mostly the same snippet over and over to create quick access summary or roundup notes within my vault and I figured I'd share it for others to use if they find it useful!
+
+### Requirements:
+
+This setup only requires the [Dataview plugin](https://blacksmithgu.github.io/obsidian-dataview/).
+
+### Implementation:
+
+The snippet that I've continued to re-use has been the following:
+
+~~~md
+```dataviewjs
+let pages = dv.pages('<query>');
+
+// Optional - this reverses the order of notes
+// sorting from most recent to oldest based on file created time
+// but this can be replaced with other logic to sort based
+// on properties or other aspects of the pages!
+let sortedPages = pages.values.toSorted((a, b) => a.file.ctime > b.file.ctime ? -1 : 1);
+
+// "rendering" logic of the snippet
+// renders effectively a list of links and embeds for each page
+for (let page of sortedPages) {
+  dv.paragraph(`[[${page.file.path}]]`)
+  dv.paragraph(`![[${page.file.path}]]`)
+}
+```
+~~~
+
+The `<query>` can be replaced with effectively anything that you want to match on - it can be file paths/folders or tags (e.g. `#meeting`). See the [`dv.pages(source)` docs](https://blacksmithgu.github.io/obsidian-dataview/api/code-reference/#dvpagessource) for more details.
+
+<Callout>
+
+You can swap `dv.pages()` out for `await dv.query()` for a bit more control over the content that you query for, however the resulting value will be a different shape - so the sorting and rendering logic may need to change!
+
+</Callout>
+
+### Examples:
+
+In practice, I've used this for a few different use cases:
+
+- A single note to see recurring 1-on-1 meeting notes with a specific individual
+	- I've found this to be easier to scan for the previous iteration of the 1-on-1 and see if there are any topics I need to follow up on
+- A roundup note for `#self-reflection` notes
+	- Every so often I take some zettel-like notes adding some top of mind reflections on how I've been doing / how productive I've been / etc - so now I have a single roundup of those notes that I can scan through and come away with any deeper insights
+- Daily note collection of Zettel-like notes
+	- I now mostly take notes within "zettel-like" nodes (titled with a timestamp), so to connect them back to my daily notes I have used this pattern to render them all in order making it easier to see them all for a single day in one place

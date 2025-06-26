@@ -370,7 +370,17 @@ import type { getConfig as File_2025JanuaryResettingControlledComponentsInForms_
 // prettier-ignore
 import type { getConfig as File_2025JanuaryTheAiDevelopmentConundrum_getConfig } from './pages/2025/january/the-ai-development-conundrum';
 // prettier-ignore
+import type { getConfig as File_2025JuneAddingMicroposts_getConfig } from './pages/2025/june/adding-microposts';
+// prettier-ignore
+import type { getConfig as File_2025JuneAllDocumentationShouldBeDated_getConfig } from './pages/2025/june/all-documentation-should-be-dated';
+// prettier-ignore
 import type { getConfig as File_2025JuneAsyncClassCreationInJavascript_getConfig } from './pages/2025/june/async-class-creation-in-javascript';
+// prettier-ignore
+import type { getConfig as File_2025JuneBlankDrivenDevelopment_getConfig } from './pages/2025/june/blank-driven-development';
+// prettier-ignore
+import type { getConfig as File_2025JuneQuickTipThemeAwareImages_getConfig } from './pages/2025/june/quick-tip-theme-aware-images';
+// prettier-ignore
+import type { getConfig as File_2025JuneRoundupNotesInObsidianWithDataview_getConfig } from './pages/2025/june/roundup-notes-in-obsidian-with-dataview';
 // prettier-ignore
 import type { getConfig as File_2025MarchReplacingDropboxCaptureWithRaycast_getConfig } from './pages/2025/march/replacing-dropbox-capture-with-raycast';
 // prettier-ignore
@@ -399,6 +409,8 @@ import type { getConfig as File_Index_getConfig } from './pages/index';
 import type { getConfig as File_Projects_getConfig } from './pages/projects';
 // prettier-ignore
 import type { getConfig as File_Resume_getConfig } from './pages/resume';
+// prettier-ignore
+import type { getConfig as File_StatusIndex_getConfig } from './pages/status/index';
 
 // prettier-ignore
 type Page =
@@ -585,7 +597,12 @@ type Page =
 | ({ path: '/2025/february/youre-building-software-wrong' } & GetConfigResponse<typeof File_2025FebruaryYoureBuildingSoftwareWrong_getConfig>)
 | ({ path: '/2025/january/resetting-controlled-components-in-forms' } & GetConfigResponse<typeof File_2025JanuaryResettingControlledComponentsInForms_getConfig>)
 | ({ path: '/2025/january/the-ai-development-conundrum' } & GetConfigResponse<typeof File_2025JanuaryTheAiDevelopmentConundrum_getConfig>)
+| ({ path: '/2025/june/adding-microposts' } & GetConfigResponse<typeof File_2025JuneAddingMicroposts_getConfig>)
+| ({ path: '/2025/june/all-documentation-should-be-dated' } & GetConfigResponse<typeof File_2025JuneAllDocumentationShouldBeDated_getConfig>)
 | ({ path: '/2025/june/async-class-creation-in-javascript' } & GetConfigResponse<typeof File_2025JuneAsyncClassCreationInJavascript_getConfig>)
+| ({ path: '/2025/june/blank-driven-development' } & GetConfigResponse<typeof File_2025JuneBlankDrivenDevelopment_getConfig>)
+| ({ path: '/2025/june/quick-tip-theme-aware-images' } & GetConfigResponse<typeof File_2025JuneQuickTipThemeAwareImages_getConfig>)
+| ({ path: '/2025/june/roundup-notes-in-obsidian-with-dataview' } & GetConfigResponse<typeof File_2025JuneRoundupNotesInObsidianWithDataview_getConfig>)
 | ({ path: '/2025/march/replacing-dropbox-capture-with-raycast' } & GetConfigResponse<typeof File_2025MarchReplacingDropboxCaptureWithRaycast_getConfig>)
 | ({ path: '/2025/may/belroy-transit-workpack-pro-v2' } & GetConfigResponse<typeof File_2025MayBelroyTransitWorkpackProV2_getConfig>)
 | ({ path: '/2025/may/website-redesign-v10' } & GetConfigResponse<typeof File_2025MayWebsiteRedesignV10_getConfig>)
@@ -600,7 +617,8 @@ type Page =
 | ({ path: '/bookshelf' } & GetConfigResponse<typeof File_Bookshelf_getConfig>)
 | ({ path: '/' } & GetConfigResponse<typeof File_Index_getConfig>)
 | ({ path: '/projects' } & GetConfigResponse<typeof File_Projects_getConfig>)
-| ({ path: '/resume' } & GetConfigResponse<typeof File_Resume_getConfig>);
+| ({ path: '/resume' } & GetConfigResponse<typeof File_Resume_getConfig>)
+| ({ path: '/status' } & GetConfigResponse<typeof File_StatusIndex_getConfig>);
 
 // prettier-ignore
 declare module 'waku/router' {

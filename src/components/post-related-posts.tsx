@@ -15,7 +15,7 @@ function getRelatedPosts(
       if (
         post.tags.includes(tag) &&
         post.path !== frontmatter.path &&
-        post.description.length > 0
+        (post.type === "blog-post" ? post.description.length > 0 : true)
       ) {
         relatedPosts[tag].push(post);
       }

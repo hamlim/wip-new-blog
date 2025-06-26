@@ -1,0 +1,49 @@
+---
+title: Quick Tip - Theme Aware Images
+slug: quick-tip-theme-aware-images
+path: /2025/june/quick-tip-theme-aware-images
+date: 1750114295541
+status: public
+type: blog-post
+tags:
+  - Tip
+  - Web Development
+  - Development
+description: >-
+  Have you ever found the need to change the image you render on a web page
+  based on the current preferred color scheme of your theme?
+month: june
+year: 2025
+ogImage: /og-images/quick-tip-theme-aware-images.png
+blueskyPostUri: 'https://bsky.app/profile/matthamlin.me/post/3lrr37qbdp22d'
+location: ''
+---
+
+The other day [Dan Abramov](https://bsky.app/profile/danabra.mov) [posted](https://bsky.app/profile/danabra.mov/post/3lqe3az4u3k2e) asking how folks have handled showing visual graphics from tools like TLDraw / Excalidraw on a webpage that uses a light and a dark theme, to which [I replied with a quick tip](https://bsky.app/profile/matthamlin.me/post/3lqe3rn57f222) that I have used in the past (albeit it's been a while since I've utilized this trick). I figured I'd expand a bit more on the trick here in a short blog post!
+
+I've written a similar blog post about [selecting custom favicons based on media queries](/2024/march/custom-favicon-recipes), this trick works in effectively the same way but for inline images!
+
+### "The Trick"
+
+The trick is to use the [`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture) HTML element, and to use two `<source>`'s, one for the light theme image and the other for the dark theme image.
+
+Example:
+
+```html
+<picture>
+  <source
+    srcset="/dark-theme-image.png"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="/light-theme-image.png"
+    media="(prefers-color-scheme: light)"
+  />
+  <img src="/fallback-asset.png" alt="<descriptive-text-here>" />
+</picture>
+```
+
+This will then use the media query on each `<source>` to render the correct image based on the `prefers-color-scheme` media query. So if the user prefers a dark color scheme then it will render the first source, otherwise it will render the second source. The final `<img />` element is used as a fallback if the browser doesn't support the `<picture>` element.
+
+The `<picture>` element is pretty powerful - you can use any kind of media query within the `media` attribute, and the browser will pick the first one that matches in the list (almost like a `<Switch />` component).
+
