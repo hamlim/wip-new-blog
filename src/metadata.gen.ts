@@ -17,9 +17,9 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/blank-driven-development.png",
-    "blueskyPostUri": "",
-    "location": "",
-    "lastModified": null
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lsbunpzuvc2a",
+    "location": "Boston, MA",
+    "lastModified": 1750691628000
   },
   {
     "title": "All Documentation Should Be Dated",
