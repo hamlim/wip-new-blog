@@ -2,4 +2,22 @@
 /* do not edit */
 import type { HydratedFrontmatter } from "#/types";
 
-export let recentSnippets: Array<HydratedFrontmatter> = []
+export let recentSnippets: Array<HydratedFrontmatter> = [
+  {
+    "title": "useInterval",
+    "slug": "use-interval",
+    "path": "/2025/june/use-interval",
+    "date": 1751206166699,
+    "status": "public",
+    "type": "snippet",
+    "tags": [
+      "snippet"
+    ],
+    "month": "june",
+    "year": 2025,
+    "ogImage": "/og-images/use-interval.png",
+    "blueskyPostUri": "",
+    "location": "",
+    "lastModified": 1751208939000
+  }
+]

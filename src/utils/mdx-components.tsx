@@ -3,6 +3,7 @@ import type { ComponentProps, ReactNode } from "react";
 import { Abbr } from "#/components/abbr";
 import { Anchor, LinkAnchor } from "#/components/anchor";
 import { BlueskyMention } from "#/components/bluesky-mention";
+import { Code, Pre } from "#/components/code-block";
 import { Figure } from "#/components/figure";
 import { Footnote, FootnoteRef } from "#/components/footnote";
 import { GitHubMention } from "#/components/github-mention";
@@ -45,9 +46,8 @@ export function useMDXComponents() {
     blockquote(props: ComponentProps<"blockquote">) {
       return <blockquote {...props} />;
     },
-    pre(props: ComponentProps<"pre">) {
-      return <pre data-mdx="true" {...props} />;
-    },
+    pre: Pre,
+    code: Code,
 
     // custom components
     Heading,

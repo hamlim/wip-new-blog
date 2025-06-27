@@ -1,7 +1,5 @@
 import { Post } from "#/components/post";
-import Content, {
-  frontmatter,
-} from "#/mdx/2025/may/belroy-transit-workpack-pro-v2.mdx";
+import Content, { frontmatter } from "#/mdx/2025/june/use-interval.mdx";
 
 export default function Page() {
   return (

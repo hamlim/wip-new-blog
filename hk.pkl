@@ -2,7 +2,7 @@ amends "package://github.com/jdx/hk/releases/download/v1.2.0/hk@1.2.0#/Config.pk
 import "package://github.com/jdx/hk/releases/download/v1.2.0/hk@1.2.0#/Builtins.pkl"
 
 local linters = new Mapping<String, Step> {
-    ["biome"] = Builtins.prettier
+    // ["biome"] = Builtins.biome
 
     // define a custom linter
     ["pkl"] {
@@ -22,7 +22,7 @@ hooks {
                 check = "mise run prebuild"
                 exclusive = true // ensures that the step runs in isolation
             }
-            ...linters // add all linters defined above
+            // ...linters // add all linters defined above
             ["postlint"] {
                 check = "mise run postlint"
                 exclusive = true

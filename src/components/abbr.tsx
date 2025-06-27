@@ -1,5 +1,9 @@
 import type { ComponentProps } from "react";
-import { Tooltip, TooltipTrigger, TooltipContent } from "#/components/ui/tooltip";
+import {
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+} from "#/components/ui/tooltip";
 
 export function Abbr(props: ComponentProps<"abbr">) {
   return (
@@ -7,9 +11,7 @@ export function Abbr(props: ComponentProps<"abbr">) {
       <TooltipTrigger>
         <abbr {...props} />
       </TooltipTrigger>
-      <TooltipContent>
-        {props.title}
-      </TooltipContent>
+      <TooltipContent>{props.title}</TooltipContent>
     </Tooltip>
-  )
+  );
 }

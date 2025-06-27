@@ -13,9 +13,7 @@ export function FootnoteRef({
       <span className="inline-flex md:hidden">
         <Tooltip>
           <TooltipTrigger>
-            <span
-              className="bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full"
-            >
+            <span className="bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">
               fn-{id}
             </span>
           </TooltipTrigger>

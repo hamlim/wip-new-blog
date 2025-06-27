@@ -1,12 +1,12 @@
 import { reading } from "#/collections/bookshelf";
 import { recentMicroposts } from "#/collections/recent-microposts.gen";
 import { recentPosts } from "#/collections/recent-posts.gen";
+import { recentSnippets } from "#/collections/recent-snippets.gen";
 import { topPosts } from "#/collections/top-posts.gen";
 import { LinkAnchor } from "#/components/anchor";
 import { ProseContainer } from "#/components/container";
 import { FormattedDateTime } from "#/components/formatted-date";
 import { Heading } from "#/components/heading";
-import { PostCard } from "#/components/post-card";
 import { projects } from "#/projects-list";
 
 export default function Home() {
@@ -108,6 +108,15 @@ export default function Home() {
           ))}
         </ol>
         <LinkAnchor href="/status">View all microposts →</LinkAnchor>
+        <Heading level={3}>Recent Snippets:</Heading>
+        <ol>
+          {recentSnippets.map((snippet) => (
+            <li key={snippet.slug}>
+              <LinkAnchor href={snippet.path}>{snippet.title}</LinkAnchor>
+            </li>
+          ))}
+        </ol>
+        <LinkAnchor href="/snippets">View all snippets →</LinkAnchor>
       </ProseContainer>
     </main>
   );

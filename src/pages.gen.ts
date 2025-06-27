@@ -384,6 +384,8 @@ import type { getConfig as File_2025JuneQuickTipThemeAwareImages_getConfig } fro
 // prettier-ignore
 import type { getConfig as File_2025JuneRoundupNotesInObsidianWithDataview_getConfig } from './pages/2025/june/roundup-notes-in-obsidian-with-dataview';
 // prettier-ignore
+import type { getConfig as File_2025JuneUseInterval_getConfig } from './pages/2025/june/use-interval';
+// prettier-ignore
 import type { getConfig as File_2025MarchReplacingDropboxCaptureWithRaycast_getConfig } from './pages/2025/march/replacing-dropbox-capture-with-raycast';
 // prettier-ignore
 import type { getConfig as File_2025MayBelroyTransitWorkpackProV2_getConfig } from './pages/2025/may/belroy-transit-workpack-pro-v2';
@@ -411,6 +413,8 @@ import type { getConfig as File_Index_getConfig } from './pages/index';
 import type { getConfig as File_Projects_getConfig } from './pages/projects';
 // prettier-ignore
 import type { getConfig as File_Resume_getConfig } from './pages/resume';
+// prettier-ignore
+import type { getConfig as File_SnippetsIndex_getConfig } from './pages/snippets/index';
 // prettier-ignore
 import type { getConfig as File_StatusIndex_getConfig } from './pages/status/index';
 
@@ -606,6 +610,7 @@ type Page =
 | ({ path: '/2025/june/polish-is-important' } & GetConfigResponse<typeof File_2025JunePolishIsImportant_getConfig>)
 | ({ path: '/2025/june/quick-tip-theme-aware-images' } & GetConfigResponse<typeof File_2025JuneQuickTipThemeAwareImages_getConfig>)
 | ({ path: '/2025/june/roundup-notes-in-obsidian-with-dataview' } & GetConfigResponse<typeof File_2025JuneRoundupNotesInObsidianWithDataview_getConfig>)
+| ({ path: '/2025/june/use-interval' } & GetConfigResponse<typeof File_2025JuneUseInterval_getConfig>)
 | ({ path: '/2025/march/replacing-dropbox-capture-with-raycast' } & GetConfigResponse<typeof File_2025MarchReplacingDropboxCaptureWithRaycast_getConfig>)
 | ({ path: '/2025/may/belroy-transit-workpack-pro-v2' } & GetConfigResponse<typeof File_2025MayBelroyTransitWorkpackProV2_getConfig>)
 | ({ path: '/2025/may/website-redesign-v10' } & GetConfigResponse<typeof File_2025MayWebsiteRedesignV10_getConfig>)
@@ -621,6 +626,7 @@ type Page =
 | ({ path: '/' } & GetConfigResponse<typeof File_Index_getConfig>)
 | ({ path: '/projects' } & GetConfigResponse<typeof File_Projects_getConfig>)
 | ({ path: '/resume' } & GetConfigResponse<typeof File_Resume_getConfig>)
+| ({ path: '/snippets' } & GetConfigResponse<typeof File_SnippetsIndex_getConfig>)
 | ({ path: '/status' } & GetConfigResponse<typeof File_StatusIndex_getConfig>);
 
 // prettier-ignore

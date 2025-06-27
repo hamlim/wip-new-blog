@@ -1,5 +1,7 @@
 import { Post } from "#/components/post";
-import Content, { frontmatter } from "#/mdx/2025/june/async-class-creation-in-javascript.mdx";
+import Content, {
+  frontmatter,
+} from "#/mdx/2025/june/async-class-creation-in-javascript.mdx";
 
 export default function Page() {
   return (

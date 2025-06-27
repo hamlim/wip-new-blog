@@ -1,5 +1,7 @@
 import { Post } from "#/components/post";
-import Content, { frontmatter } from "#/mdx/2025/june/roundup-notes-in-obsidian-with-dataview.mdx";
+import Content, {
+  frontmatter,
+} from "#/mdx/2025/june/roundup-notes-in-obsidian-with-dataview.mdx";
 
 export default function Page() {
   return (
