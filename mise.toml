@@ -8,4 +8,4 @@ run = "bun run prebuild"
 
 [tasks.postlint]
 description = "Add any changed files to the commit"
-run = "git add . && git commit --amend --no-edit"
+run = "git add . && git commit --amend --no-edit --no-verify"
