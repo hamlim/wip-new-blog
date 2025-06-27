@@ -17,9 +17,9 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/polish-is-important.png",
-    "blueskyPostUri": "",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lslorqxyck26",
     "location": "Flying from BOS to PDX",
-    "lastModified": 1751028712000
+    "lastModified": 1751028932000
   },
   {
     "title": "<Blank> Driven Development",
