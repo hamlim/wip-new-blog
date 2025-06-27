@@ -1,0 +1,7 @@
+[tools]
+hk = "latest"
+pkl = "latest"
+
+[tasks.prebuild]
+description = "Build generated assets"
+run = "bun run prebuild"
