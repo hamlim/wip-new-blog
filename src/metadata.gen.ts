@@ -5,6 +5,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Polish is Important",
+    "slug": "polish-is-important",
+    "path": "/2025/june/polish-is-important",
+    "date": 1751028430594,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Software Development"
+    ],
+    "month": "june",
+    "year": 2025,
+    "ogImage": "/og-images/polish-is-important.png",
+    "blueskyPostUri": "",
+    "location": "Flying from BOS to PDX",
+    "lastModified": 1751028712000
+  },
+  {
     "title": "<Blank> Driven Development",
     "slug": "blank-driven-development",
     "path": "/2025/june/blank-driven-development",

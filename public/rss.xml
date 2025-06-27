@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Thu, 26 Jun 2025 15:07:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Jun 2025 12:48:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,30 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Polish is Important]]></title>
+            <link>https://matthamlin.me//2025/june/polish-is-important</link>
+            <guid>https://matthamlin.me//2025/june/polish-is-important</guid>
+            <pubDate>Fri, 27 Jun 2025 12:47:10 GMT</pubDate>
+            <description><![CDATA[Status Update: June 27, 2025]]></description>
+            <content:encoded><![CDATA[<p>I think a key difference that distinguishes between good software and great software is polish. Often that polish can take the form of things that seem invisible to the user yet still make the user experience orders of magnitude better.</p>
+<p>Polish in software development can take the form of almost anything, it can mean;</p>
+<ul>
+<li>choosing the 90% correct default for an option automatically</li>
+<li>providing a <mark class="flexible-marker flexible-marker-default">blazingly fast</mark> experience</li>
+<li>reducing the amount of steps to complete an action</li>
+</ul>
+<p>generally most of this boils down to <em>anticipating the user&#x27;s needs and solving for them quickly</em>.</p>
+<p>Some common examples that I often want/reach for include:</p>
+<ul>
+<li>offering comprehensive <a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="/2022/may/upgrade-guides">upgrade guides</a> in addition to changelogs</li>
+<li>prefetching high intent links/actions within a website</li>
+<li>providing off ramps when introducing potentially undesired changes (e.g. allowing for <a href="https://newsletter.squishy.computer/p/credible-exit" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">credible exit</a>, or supporting previous versions of APIs)</li>
+</ul>
+<p>In the same vein as polish being the difference between good and great software, investing effort into polish can be a difference between good and great software engineers.</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/polish-is-important.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[<Blank> Driven Development]]></title>
             <link>https://matthamlin.me//2025/june/blank-driven-development</link>
