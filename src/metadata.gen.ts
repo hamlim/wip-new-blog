@@ -19,7 +19,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/use-interval.png",
     "blueskyPostUri": "",
     "location": "",
-    "lastModified": 1751208939000
+    "lastModified": 1751208963000
   },
   {
     "title": "Polish is Important",

@@ -18,6 +18,6 @@ export let recentSnippets: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/use-interval.png",
     "blueskyPostUri": "",
     "location": "",
-    "lastModified": 1751208939000
+    "lastModified": 1751208963000
   }
 ]
