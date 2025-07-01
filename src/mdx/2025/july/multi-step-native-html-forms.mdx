@@ -1,0 +1,38 @@
+---
+title: Multi-step Native HTML Forms
+slug: multi-step-native-html-forms
+path: /2025/july/multi-step-native-html-forms
+date: 1751389774207
+status: public
+type: snippet
+tags:
+  - snippet
+  - HTML
+  - React
+month: july
+year: 2025
+ogImage: /og-images/multi-step-native-html-forms.png
+blueskyPostUri: ""
+location: "Portland, OR"
+---
+
+If you have a multi-step form and you want to allow the user to go back a step _without writing client side JS to manage the current step_, you can use another `type="submit"` button with a special `name`, `value`, and importantly `formNoValidate` attributes:
+
+```html
+<button
+  type="submit"
+  // this can be any value you want
+  name="back"
+  // again can be any value you want
+  value="true"
+  // ✨✨✨
+  // allow form submissions even if there are required form fields
+  // not currently filled in
+  // ✨✨✨
+  formNoValidate
+>
+  Go Back
+</button>
+```
+
+This tip works with plain old HTML forms, and can also work with React forms (server actions/functions, server components, etc)!

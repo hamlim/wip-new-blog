@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Tue, 01 Jul 2025 04:22:29 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Jul 2025 17:14:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,30 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Multi-step Native HTML Forms]]></title>
+            <link>https://matthamlin.me//2025/july/multi-step-native-html-forms</link>
+            <guid>https://matthamlin.me//2025/july/multi-step-native-html-forms</guid>
+            <pubDate>Tue, 01 Jul 2025 17:09:34 GMT</pubDate>
+            <content:encoded><![CDATA[<p>If you have a multi-step form and you want to allow the user to go back a step <em>without writing client side JS to manage the current step</em>, you can use another <code>type=&quot;submit&quot;</code> button with a special <code>name</code>, <code>value</code>, and importantly <code>formNoValidate</code> attributes:</p>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#999999;--shiki-dark:#666666">&lt;</span><span style="color:#1E754F;--shiki-dark:#4D9375">button</span></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">  type</span><span style="color:#999999;--shiki-dark:#666666">=</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">submit</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span></span>
+<span class="line"><span style="color:#999999;font-style:italic;--shiki-dark:#666666;--shiki-dark-font-style:italic">  //</span><span style="color:#B07D48;--shiki-dark:#BD976A"> this</span><span style="color:#B07D48;--shiki-dark:#BD976A"> can</span><span style="color:#B07D48;--shiki-dark:#BD976A"> be</span><span style="color:#B07D48;--shiki-dark:#BD976A"> any</span><span style="color:#B07D48;--shiki-dark:#BD976A"> value</span><span style="color:#B07D48;--shiki-dark:#BD976A"> you</span><span style="color:#B07D48;--shiki-dark:#BD976A"> want</span></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">  name</span><span style="color:#999999;--shiki-dark:#666666">=</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">back</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span></span>
+<span class="line"><span style="color:#999999;font-style:italic;--shiki-dark:#666666;--shiki-dark-font-style:italic">  //</span><span style="color:#B07D48;--shiki-dark:#BD976A"> again</span><span style="color:#B07D48;--shiki-dark:#BD976A"> can</span><span style="color:#B07D48;--shiki-dark:#BD976A"> be</span><span style="color:#B07D48;--shiki-dark:#BD976A"> any</span><span style="color:#B07D48;--shiki-dark:#BD976A"> value</span><span style="color:#B07D48;--shiki-dark:#BD976A"> you</span><span style="color:#B07D48;--shiki-dark:#BD976A"> want</span></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">  value</span><span style="color:#999999;--shiki-dark:#666666">=</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span><span style="color:#B56959;--shiki-dark:#C98A7D">true</span><span style="color:#B5695977;--shiki-dark:#C98A7D77">&quot;</span></span>
+<span class="line"><span style="color:#999999;font-style:italic;--shiki-dark:#666666;--shiki-dark-font-style:italic">  //</span><span style="color:#B07D48;--shiki-dark:#BD976A"> ✨✨✨</span></span>
+<span class="line"><span style="color:#999999;font-style:italic;--shiki-dark:#666666;--shiki-dark-font-style:italic">  //</span><span style="color:#B07D48;--shiki-dark:#BD976A"> allow</span><span style="color:#B07D48;--shiki-dark:#BD976A"> form</span><span style="color:#B07D48;--shiki-dark:#BD976A"> submissions</span><span style="color:#B07D48;--shiki-dark:#BD976A"> even</span><span style="color:#B07D48;--shiki-dark:#BD976A"> if</span><span style="color:#B07D48;--shiki-dark:#BD976A"> there</span><span style="color:#B07D48;--shiki-dark:#BD976A"> are</span><span style="color:#B07D48;--shiki-dark:#BD976A"> required</span><span style="color:#B07D48;--shiki-dark:#BD976A"> form</span><span style="color:#B07D48;--shiki-dark:#BD976A"> fields</span></span>
+<span class="line"><span style="color:#999999;font-style:italic;--shiki-dark:#666666;--shiki-dark-font-style:italic">  //</span><span style="color:#B07D48;--shiki-dark:#BD976A"> not</span><span style="color:#B07D48;--shiki-dark:#BD976A"> currently</span><span style="color:#B07D48;--shiki-dark:#BD976A"> filled</span><span style="color:#B07D48;--shiki-dark:#BD976A"> in</span></span>
+<span class="line"><span style="color:#999999;font-style:italic;--shiki-dark:#666666;--shiki-dark-font-style:italic">  //</span><span style="color:#B07D48;--shiki-dark:#BD976A"> ✨✨✨</span></span>
+<span class="line"><span style="color:#B07D48;--shiki-dark:#BD976A">  formNoValidate</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">&gt;</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">  Go Back</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">&lt;/</span><span style="color:#1E754F;--shiki-dark:#4D9375">button</span><span style="color:#999999;--shiki-dark:#666666">&gt;</span></span></code></pre>
+<p>This tip works with plain old HTML forms, and can also work with React forms (server actions/functions, server components, etc)!</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/multi-step-native-html-forms.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Git Co-Authorship]]></title>
             <link>https://matthamlin.me//2025/june/git-co-authorship</link>

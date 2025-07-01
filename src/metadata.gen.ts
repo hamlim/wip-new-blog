@@ -5,6 +5,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Multi-step Native HTML Forms",
+    "slug": "multi-step-native-html-forms",
+    "path": "/2025/july/multi-step-native-html-forms",
+    "date": 1751389774207,
+    "status": "public",
+    "type": "snippet",
+    "tags": [
+      "snippet",
+      "HTML",
+      "React"
+    ],
+    "month": "july",
+    "year": 2025,
+    "ogImage": "/og-images/multi-step-native-html-forms.png",
+    "blueskyPostUri": "",
+    "location": "Portland, OR",
+    "lastModified": null
+  },
+  {
     "title": "Git Co-Authorship",
     "slug": "git-co-authorship",
     "path": "/2025/june/git-co-authorship",
