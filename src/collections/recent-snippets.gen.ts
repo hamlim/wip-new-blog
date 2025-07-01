@@ -4,6 +4,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentSnippets: Array<HydratedFrontmatter> = [
   {
+    "title": "Git Co-Authorship",
+    "slug": "git-co-authorship",
+    "path": "/2025/june/git-co-authorship",
+    "date": 1751343573518,
+    "status": "public",
+    "type": "snippet",
+    "tags": [
+      "snippet",
+      "Git"
+    ],
+    "month": "june",
+    "year": 2025,
+    "ogImage": "/og-images/git-co-authorship.png",
+    "blueskyPostUri": "",
+    "location": "Portland, OR",
+    "lastModified": 1751343614000
+  },
+  {
     "title": "useInterval",
     "slug": "use-interval",
     "path": "/2025/june/use-interval",
@@ -11,13 +29,14 @@ export let recentSnippets: Array<HydratedFrontmatter> = [
     "status": "public",
     "type": "snippet",
     "tags": [
-      "snippet"
+      "snippet",
+      "React"
     ],
     "month": "june",
     "year": 2025,
     "ogImage": "/og-images/use-interval.png",
     "blueskyPostUri": "",
-    "location": "",
-    "lastModified": 1751208963000
+    "location": "Netarts, OR",
+    "lastModified": 1751292854000
   }
 ]

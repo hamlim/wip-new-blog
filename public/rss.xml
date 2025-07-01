@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Sun, 29 Jun 2025 14:56:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Jul 2025 04:22:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,15 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Git Co-Authorship]]></title>
+            <link>https://matthamlin.me//2025/june/git-co-authorship</link>
+            <guid>https://matthamlin.me//2025/june/git-co-authorship</guid>
+            <pubDate>Tue, 01 Jul 2025 04:19:33 GMT</pubDate>
+            <content:encoded><![CDATA[<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#59873A;--shiki-dark:#80A665">Co-authored-by:</span><span style="color:#B56959;--shiki-dark:#C98A7D"> NAME</span><span style="color:#AB5959;--shiki-dark:#CB7676"> &lt;</span><span style="color:#B56959;--shiki-dark:#C98A7D">NAME@EXAMPLE.CO</span><span style="color:#393A34;--shiki-dark:#DBD7CAEE">M</span><span style="color:#AB5959;--shiki-dark:#CB7676">&gt;</span></span></code></pre>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/git-co-authorship.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[useInterval]]></title>
             <link>https://matthamlin.me//2025/june/use-interval</link>
