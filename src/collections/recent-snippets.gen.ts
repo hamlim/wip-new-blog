@@ -20,7 +20,7 @@ export let recentSnippets: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/multi-step-native-html-forms.png",
     "blueskyPostUri": "",
     "location": "Portland, OR",
-    "lastModified": null
+    "lastModified": 1751390105000
   },
   {
     "title": "Git Co-Authorship",

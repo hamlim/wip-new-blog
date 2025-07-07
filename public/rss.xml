@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Tue, 01 Jul 2025 17:14:44 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Jul 2025 14:36:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,21 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Vacation (and streaks)]]></title>
+            <link>https://matthamlin.me//2025/july/vacation-and-streaks</link>
+            <guid>https://matthamlin.me//2025/july/vacation-and-streaks</guid>
+            <pubDate>Mon, 07 Jul 2025 14:28:06 GMT</pubDate>
+            <description><![CDATA[Status Update: July 7, 2025]]></description>
+            <content:encoded><![CDATA[<p>I&#x27;ve been on vacation the past week and we still have another week of the trip remaining as well. It&#x27;s been a great trip so far - I&#x27;ll have to do a longer write up of the whole thing<span class="inline-flex md:hidden"><button data-state="closed" data-slot="tooltip-trigger"><span class="bg-neutral-300 px-1 text-sm mx-1 align-baseline items-center justify-center rounded-full">fn-<!-- -->1</span></button></span><sup id="fn-1" class="hidden md:inline [&amp;:target]:border-dashed [&amp;:target]:border-primary border-1\ [&amp;:not(:target)]:border-transparent"><a href="#fnref-1" class="text-primary hover:underline focus:underline">[<!-- -->1<!-- -->]<span class="sr-only">Jump to footnote</span></a></sup>.</p>
+<p>At the same time I&#x27;ve been attempting to get a GitHub contribution every day for the rest of the year - now I know that this sounds silly, the little green squares on my profile aren&#x27;t real indicators of anything - however it feels nice building on a long term habit of working on things on the side.</p>
+<p>Unfortunately, I didn&#x27;t get a contribution in yesterday (July 6th), which I think is the first missed day after about a 119 days of contributions! However it&#x27;s not the end of the world to miss a single day, I&#x27;ll just have to start a new streak starting today!</p>
+<hr/>
+<h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="footnotes">Footnotes:</h2>
+<p id="fnref-1" class="hidden md:inline-block [&amp;:target]:border-dashed [&amp;:target]:border-primary border-2 border-transparent"><a href="#fn-1" class="text-primary hover:underline focus:underline">👆<span class="sr-only">Back to reference</span></a> <!-- -->Although thats what I say about every trip for the past few years and I still haven&#x27;t written up any posts about them either! But this one will be different!</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/vacation-and-streaks.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Multi-step Native HTML Forms]]></title>
             <link>https://matthamlin.me//2025/july/multi-step-native-html-forms</link>

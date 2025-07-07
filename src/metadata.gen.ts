@@ -5,6 +5,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Vacation (and streaks)",
+    "slug": "vacation-and-streaks",
+    "path": "/2025/july/vacation-and-streaks",
+    "date": 1751898486318,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "vacation"
+    ],
+    "month": "july",
+    "year": 2025,
+    "ogImage": "/og-images/vacation-and-streaks.png",
+    "blueskyPostUri": "",
+    "location": "Gold Beach, Vashon, WA.",
+    "lastModified": null
+  },
+  {
     "title": "Multi-step Native HTML Forms",
     "slug": "multi-step-native-html-forms",
     "path": "/2025/july/multi-step-native-html-forms",
@@ -21,7 +39,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/multi-step-native-html-forms.png",
     "blueskyPostUri": "",
     "location": "Portland, OR",
-    "lastModified": null
+    "lastModified": 1751390105000
   },
   {
     "title": "Git Co-Authorship",

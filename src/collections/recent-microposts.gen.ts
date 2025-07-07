@@ -4,6 +4,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentMicroposts: Array<HydratedFrontmatter> = [
   {
+    "title": "Vacation (and streaks)",
+    "slug": "vacation-and-streaks",
+    "path": "/2025/july/vacation-and-streaks",
+    "date": 1751898486318,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "vacation"
+    ],
+    "month": "july",
+    "year": 2025,
+    "ogImage": "/og-images/vacation-and-streaks.png",
+    "blueskyPostUri": "",
+    "location": "Gold Beach, Vashon, WA.",
+    "lastModified": null
+  },
+  {
     "title": "Polish is Important",
     "slug": "polish-is-important",
     "path": "/2025/june/polish-is-important",
