@@ -450,7 +450,15 @@
     "title": "The Way Of Kings",
     "author": "Brandon Sanderson",
     "url": "https://www.goodreads.com/book/show/7235533-the-way-of-kings",
+    "status": "read",
+    "dateStarted": "June 16 2025",
+    "dateFinished": "July 3 2025"
+  },
+  {
+    "title": "Words of Radiance",
+    "author": "Brandon Sanderson",
+    "url": "https://www.goodreads.com/book/show/17332218",
     "status": "reading",
-    "dateStarted": "June 16 2025"
+    "dateStarted": "July 3 2025"
   }
 ]
