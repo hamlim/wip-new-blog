@@ -18,9 +18,9 @@ export let metadata: Array<HydratedFrontmatter> = [
     "month": "july",
     "year": 2025,
     "ogImage": "/og-images/link-how-i-build-software-quickly.png",
-    "blueskyPostUri": "",
+    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3ltwbyktpvk24",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1752492295000
   },
   {
     "title": "Vacation (and streaks)",
