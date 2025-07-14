@@ -4,6 +4,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentMicroposts: Array<HydratedFrontmatter> = [
   {
+    "title": "Link: How I build software quickly",
+    "slug": "link-how-i-build-software-quickly",
+    "path": "/2025/july/link-how-i-build-software-quickly",
+    "date": 1752491842222,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Links"
+    ],
+    "month": "july",
+    "year": 2025,
+    "ogImage": "/og-images/link-how-i-build-software-quickly.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Vacation (and streaks)",
     "slug": "vacation-and-streaks",
     "path": "/2025/july/vacation-and-streaks",
@@ -12,14 +30,14 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "type": "micropost",
     "tags": [
       "micropost",
-      "vacation"
+      "Travel"
     ],
     "month": "july",
     "year": 2025,
     "ogImage": "/og-images/vacation-and-streaks.png",
     "blueskyPostUri": "",
     "location": "Gold Beach, Vashon, WA.",
-    "lastModified": null
+    "lastModified": 1751899155000
   },
   {
     "title": "Polish is Important",
@@ -72,22 +90,5 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3ls22jksebk2n",
     "location": "Boston, MA",
     "lastModified": 1750533014000
-  },
-  {
-    "title": "Adding Microposts",
-    "slug": "adding-microposts",
-    "path": "/2025/june/adding-microposts",
-    "date": 1750379756763,
-    "status": "public",
-    "type": "micropost",
-    "tags": [
-      "micropost"
-    ],
-    "month": "june",
-    "year": 2025,
-    "ogImage": "/og-images/adding-microposts.png",
-    "blueskyPostUri": "",
-    "location": "Taking the train back to Boston from Stamford",
-    "lastModified": 1750442892000
   }
 ]

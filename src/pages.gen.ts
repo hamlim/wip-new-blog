@@ -370,6 +370,8 @@ import type { getConfig as File_2025JanuaryResettingControlledComponentsInForms_
 // prettier-ignore
 import type { getConfig as File_2025JanuaryTheAiDevelopmentConundrum_getConfig } from './pages/2025/january/the-ai-development-conundrum';
 // prettier-ignore
+import type { getConfig as File_2025JulyLinkHowIBuildSoftwareQuickly_getConfig } from './pages/2025/july/link-how-i-build-software-quickly';
+// prettier-ignore
 import type { getConfig as File_2025JulyMultiStepNativeHtmlForms_getConfig } from './pages/2025/july/multi-step-native-html-forms';
 // prettier-ignore
 import type { getConfig as File_2025JulyVacationAndStreaks_getConfig } from './pages/2025/july/vacation-and-streaks';
@@ -609,6 +611,7 @@ type Page =
 | ({ path: '/2025/february/youre-building-software-wrong' } & GetConfigResponse<typeof File_2025FebruaryYoureBuildingSoftwareWrong_getConfig>)
 | ({ path: '/2025/january/resetting-controlled-components-in-forms' } & GetConfigResponse<typeof File_2025JanuaryResettingControlledComponentsInForms_getConfig>)
 | ({ path: '/2025/january/the-ai-development-conundrum' } & GetConfigResponse<typeof File_2025JanuaryTheAiDevelopmentConundrum_getConfig>)
+| ({ path: '/2025/july/link-how-i-build-software-quickly' } & GetConfigResponse<typeof File_2025JulyLinkHowIBuildSoftwareQuickly_getConfig>)
 | ({ path: '/2025/july/multi-step-native-html-forms' } & GetConfigResponse<typeof File_2025JulyMultiStepNativeHtmlForms_getConfig>)
 | ({ path: '/2025/july/vacation-and-streaks' } & GetConfigResponse<typeof File_2025JulyVacationAndStreaks_getConfig>)
 | ({ path: '/2025/june/adding-microposts' } & GetConfigResponse<typeof File_2025JuneAddingMicroposts_getConfig>)

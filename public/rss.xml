@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Mon, 07 Jul 2025 14:36:31 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Jul 2025 11:24:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,22 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Link: How I build software quickly]]></title>
+            <link>https://matthamlin.me//2025/july/link-how-i-build-software-quickly</link>
+            <guid>https://matthamlin.me//2025/july/link-how-i-build-software-quickly</guid>
+            <pubDate>Mon, 14 Jul 2025 11:17:22 GMT</pubDate>
+            <description><![CDATA[Status Update: July 14, 2025]]></description>
+            <content:encoded><![CDATA[<p>I recently stumbled upon <a href="https://evanhahn.com/how-i-build-software-quickly/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">this blog post titled &quot;How I build software quickly&quot;</a> from <button data-state="closed" data-slot="tooltip-trigger"><abbr title="HackerNews">the orange site</abbr></button>.</p>
+<p>I highly recommend giving the whole post a read, but these two points really stood out to me:</p>
+<blockquote>
+<p><strong>Build “top to bottom”.</strong> For example, in an application, I prefer to scaffold the UI before the business logic, even if lots of stuff is hard-coded. I’ve sometimes written business logic <em>first</em>, which I later discarded once the UI came into play, because I miscalculated how it would be used. Build the top layer first—the “dream code” I want to write or the API I wish existed—rather than trying to build the “bottom” layer first. It’s easier to make the right API decisions when I start with how it will be used. It can also be easier to gather feedback on.</p>
+<p><strong>Extract smaller changes while working.</strong> Sometimes, during a rough draft, I realize that some improvement needs to be made elsewhere in the code. Maybe there’s a dependency that needs updating. Before finishing the final draft, make a separate patch to just update that dependency. This is useful on its own <em>and</em> will benefit the upcoming change. I can push it for code review separately, and hopefully, it’ll be merged by the time I finish my final draft.</p>
+</blockquote>
+<p>The first point aligns well with my <a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="/2025/february/youre-building-software-wrong">&quot;vertical slice&quot; methodology</a>, and the second is something I&#x27;ve been trying to improve upon in my own development process over the past year or so!</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/link-how-i-build-software-quickly.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Vacation (and streaks)]]></title>
             <link>https://matthamlin.me//2025/july/vacation-and-streaks</link>

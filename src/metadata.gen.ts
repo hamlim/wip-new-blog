@@ -5,6 +5,24 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Link: How I build software quickly",
+    "slug": "link-how-i-build-software-quickly",
+    "path": "/2025/july/link-how-i-build-software-quickly",
+    "date": 1752491842222,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Links"
+    ],
+    "month": "july",
+    "year": 2025,
+    "ogImage": "/og-images/link-how-i-build-software-quickly.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Vacation (and streaks)",
     "slug": "vacation-and-streaks",
     "path": "/2025/july/vacation-and-streaks",
@@ -13,14 +31,14 @@ export let metadata: Array<HydratedFrontmatter> = [
     "type": "micropost",
     "tags": [
       "micropost",
-      "vacation"
+      "Travel"
     ],
     "month": "july",
     "year": 2025,
     "ogImage": "/og-images/vacation-and-streaks.png",
     "blueskyPostUri": "",
     "location": "Gold Beach, Vashon, WA.",
-    "lastModified": null
+    "lastModified": 1751899155000
   },
   {
     "title": "Multi-step Native HTML Forms",

@@ -1,0 +1,26 @@
+---
+title: "Link: How I build software quickly"
+slug: link-how-i-build-software-quickly
+path: /2025/july/link-how-i-build-software-quickly
+date: 1752491842222
+status: public
+type: micropost
+tags:
+  - micropost
+  - Links
+month: july
+year: 2025
+ogImage: /og-images/link-how-i-build-software-quickly.png
+blueskyPostUri: ""
+location: "Boston, MA"
+---
+
+I recently stumbled upon [this blog post titled "How I build software quickly"](https://evanhahn.com/how-i-build-software-quickly/) from <Abbr title="HackerNews">the orange site</Abbr>.
+
+I highly recommend giving the whole post a read, but these two points really stood out to me:
+
+> **Build “top to bottom”.** For example, in an application, I prefer to scaffold the UI before the business logic, even if lots of stuff is hard-coded. I’ve sometimes written business logic *first*, which I later discarded once the UI came into play, because I miscalculated how it would be used. Build the top layer first—the “dream code” I want to write or the API I wish existed—rather than trying to build the “bottom” layer first. It’s easier to make the right API decisions when I start with how it will be used. It can also be easier to gather feedback on.
+> 
+> **Extract smaller changes while working.** Sometimes, during a rough draft, I realize that some improvement needs to be made elsewhere in the code. Maybe there’s a dependency that needs updating. Before finishing the final draft, make a separate patch to just update that dependency. This is useful on its own *and* will benefit the upcoming change. I can push it for code review separately, and hopefully, it’ll be merged by the time I finish my final draft.
+
+The first point aligns well with my ["vertical slice" methodology](/2025/february/youre-building-software-wrong), and the second is something I've been trying to improve upon in my own development process over the past year or so!
