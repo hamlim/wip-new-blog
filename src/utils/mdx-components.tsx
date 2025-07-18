@@ -10,6 +10,7 @@ import { GitHubMention } from "#/components/github-mention";
 import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Spacer } from "#/components/spacer";
+import { ThemeImage } from "#/components/theme-image";
 import { TLDR } from "#/components/tldr";
 import { TweetEmbed } from "#/components/tweet-embed";
 import { TwitterMention } from "#/components/twitter-mention";
@@ -104,5 +105,6 @@ export function useMDXComponents() {
     GitHubMention,
     TwitterMention,
     Tweet: TweetEmbed,
+    ThemeImage,
   };
 }
