@@ -19,7 +19,7 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/link-how-i-build-software-quickly.png",
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3ltwbyktpvk24",
     "location": "Boston, MA",
-    "lastModified": 1752492295000
+    "lastModified": 1752492696000
   },
   {
     "title": "Vacation (and streaks)",
