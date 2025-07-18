@@ -18,6 +18,7 @@ import { Heading } from "#/components/heading";
 import { Image } from "#/components/image";
 import { Marquee } from "#/components/marquee";
 import { Spacer } from "#/components/spacer";
+import { ThemeImage } from "#/components/theme-image";
 import { TLDR } from "#/components/tldr";
 import { TweetEmbed } from "#/components/tweet-embed";
 import { TwitterMention } from "#/components/twitter-mention";
@@ -313,6 +314,14 @@ export default function Sandbox() {
             <div className="rounded h-18 w-18 bg-background text-foreground" />
           </div>
         </div>
+      </DemoWrap>
+      <Heading level={2}>Theme Image:</Heading>
+      <DemoWrap>
+        <ThemeImage
+          alt="A beautiful image"
+          lightSrc="/sandbox/bridge.webp"
+          darkSrc="/sandbox/mountain-panarama.webp"
+        />
       </DemoWrap>
     </main>
   );
