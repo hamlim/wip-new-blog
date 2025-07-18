@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 18 Jul 2025 19:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Jul 2025 20:15:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,53 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[31]]></title>
+            <link>https://matthamlin.me//2025/july/31</link>
+            <guid>https://matthamlin.me//2025/july/31</guid>
+            <pubDate>Fri, 18 Jul 2025 20:03:56 GMT</pubDate>
+            <description><![CDATA[A quick recap of my goals from the past year and a few goals looking forward as well.]]></description>
+            <content:encoded><![CDATA[<link rel="preload" as="image" href="/images/31/weight-per-day-light.png"/><link rel="preload" as="image" href="/images/31/steps-per-day-light.png"/><p>Yet another year has passed since <a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="/2024/july/30">my last birthday post</a>, and as always the year seemed to fly by incredibly quickly!</p>
+<p>In the past year I&#x27;ve:</p>
+<ul>
+<li>Changed jobs (<em>yes, again</em>, from Fireworks to HubSpot)</li>
+<li>Published a few new blog posts ✍️</li>
+<li>Got engaged! 💍</li>
+<li><a href="https://bikeshedpod.com/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">launched a podcast with my friends</a> 🎙️</li>
+<li><a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="/2025/may/website-redesign-v10">redesigned / rewrote my personal website</a></li>
+</ul>
+<h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="recap">Recap:</h2>
+<p>As usual, I want to revisit the goals that I set for myself in my previous birthday post:</p>
+<ul>
+<li>Get serious about my health</li>
+<li>Build more</li>
+<li>[REDACTED]</li>
+</ul>
+<p>I think this year was a bit of a mixed bag in terms of my goals, lets dig in!</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="get-serious-about-my-health-">Get serious about my health 🫤</h3>
+<p>Without looking at the data yet (which I&#x27;ll get to below), I feel like I regressed a bit here rather than getting healthier. It&#x27;s been something that I&#x27;ve been thinking about more actively for the past month or so - and I hope I can keep up that mindset.</p>
+<img src="/images/31/weight-per-day-light.png" alt="A line graph plotting my weight on the y axis and days on the x axis, showing a slightly downward trend starting around January of 2025"/>
+<img src="/images/31/steps-per-day-light.png" alt="A line graph plotting my steps per day, with my total steps on the y axis and days on the x axis, showing a lot of variability, but with a slight upward trend nearing the end of the graph"/>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="build-more-">Build more 🫤</h3>
+<p>Although I roughly had ~2200 GitHub contributions over the past year, I feel like I dropped off around the holidays and then tried to pick it back up since the spring of this year.</p>
+<p>Increasingly I&#x27;m finding it difficult to get motivation to work on side projects, I think part of that is that before I was working closely to some of the things I want to do as side projects, but now my work is a bit different from some of my side projects.</p>
+<p>Additionally with AI and the advent of <button data-state="closed" data-slot="tooltip-trigger"><abbr title="Agentic Development Environments">ADE&#x27;s</abbr></button> like Claude Code or Cursor, <a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="/2025/january/the-ai-development-conundrum">I&#x27;ve lost a bit of interest in writing code outside of work</a>.</p>
+<p>I had the goal of launching 2 projects this year, but I unfortunately didn&#x27;t do that this year.</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="redacted">[REDACTED]</h3>
+<p>If you couldn&#x27;t tell, this goal was to ask Katie to marry me - and she said yes!</p>
+<h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200" id="goals">Goals:</h2>
+<p>Looking forward for the next year I want to tackle the following:</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="health">Health</h3>
+<p>While this has been a recurring goal for the past <a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="/2024/july/30">two</a> <a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="/2023/july/29">years</a>, one key aspect I want to get better at is monitoring the food I eat on top of my steps and weight. At the moment I&#x27;m using <a href="https://apps.apple.com/us/app/calorie-counter-cronometer/id1145935738" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">Cronometer</a> to track my food - the problem I think I&#x27;ll eventually run into is how to track food from restaurants or on the go.</p>
+<p>I may look at building something for this since I&#x27;m not a huge fan of the various ads within the app at the moment and I&#x27;m not sure I want to pay monthly for it either.</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="read-more">Read more</h3>
+<p>Over the past year or so I&#x27;ve been reading a lot more books than I had in previous years, I&#x27;m hoping that I can continue reading often. I don&#x27;t really have any data backing it up at the moment but I think that I&#x27;ve picked up my reading pace as well.</p>
+<p>This past year I have read approximately 15 books I think - check my <a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline" href="/bookshelf">bookshelf</a> to see what they were!</p>
+<h3 class="text-2xl font-medium text-gray-700 dark:text-gray-300" id="write-more">Write more</h3>
+<p>I have a backlog of 56 blog post ideas in my vault at the moment, while I don&#x27;t want to set any specific goal on the number of posts I do generally want to write more posts, and hopefully burn down that list a bit more!</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/31.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Link: How I build software quickly]]></title>
             <link>https://matthamlin.me//2025/july/link-how-i-build-software-quickly</link>

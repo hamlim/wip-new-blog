@@ -4,6 +4,27 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentPosts: Array<HydratedFrontmatter> = [
   {
+    "title": "31",
+    "slug": "31",
+    "path": "/2025/july/31",
+    "date": 1752869036580,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Birthday",
+      "Goal",
+      "Resolutions"
+    ],
+    "description": "A quick recap of my goals from the past year and a few goals looking forward as well.",
+    "month": "july",
+    "year": 2025,
+    "ogImage": "/og-images/31.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Roundup Notes in Obsidian with Dataview",
     "slug": "roundup-notes-in-obsidian-with-dataview",
     "path": "/2025/june/roundup-notes-in-obsidian-with-dataview",
@@ -81,26 +102,6 @@ export let recentPosts: Array<HydratedFrontmatter> = [
     "month": "may",
     "year": 2025,
     "ogImage": "/og-images/belroy-transit-workpack-pro-v2.png",
-    "location": "",
-    "lastModified": 1750380818000
-  },
-  {
-    "title": "Website Redesign v10",
-    "slug": "website-redesign-v10",
-    "path": "/2025/may/website-redesign-v10",
-    "date": 1748209536031,
-    "status": "public",
-    "type": "blog-post",
-    "tags": [
-      "Web Development",
-      "Development",
-      "Redesign"
-    ],
-    "description": "I recently launched a rewrite and redesign of this personal website, I figured I'd talk a bit about the changes and new features that I added along the way!",
-    "month": "may",
-    "year": 2025,
-    "ogImage": "/og-images/website-redesign-v10.png",
-    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lpzvssqktc23",
     "location": "",
     "lastModified": 1750380818000
   }

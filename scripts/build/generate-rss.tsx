@@ -44,6 +44,13 @@ export async function generateRSS() {
               }): ReactNode {
                 return <a href={props.src}>{props.src}</a>;
               },
+              ThemeImage(props: {
+                lightSrc: string;
+                darkSrc: string;
+                alt: string;
+              }): ReactNode {
+                return <img src={props.lightSrc} alt={props.alt} />;
+              },
             };
           },
         } as Parameters<typeof transformMdx>[1]);

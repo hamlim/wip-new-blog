@@ -5,6 +5,27 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "31",
+    "slug": "31",
+    "path": "/2025/july/31",
+    "date": 1752869036580,
+    "status": "public",
+    "type": "blog-post",
+    "tags": [
+      "Random",
+      "Birthday",
+      "Goal",
+      "Resolutions"
+    ],
+    "description": "A quick recap of my goals from the past year and a few goals looking forward as well.",
+    "month": "july",
+    "year": 2025,
+    "ogImage": "/og-images/31.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Link: How I build software quickly",
     "slug": "link-how-i-build-software-quickly",
     "path": "/2025/july/link-how-i-build-software-quickly",
