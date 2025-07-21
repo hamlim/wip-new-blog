@@ -20,7 +20,7 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/zombie-retros.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1753125409000
   },
   {
     "title": "Link: How I build software quickly",

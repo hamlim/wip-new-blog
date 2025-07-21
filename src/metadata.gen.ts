@@ -21,7 +21,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/zombie-retros.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1753125409000
   },
   {
     "title": "31",
@@ -541,7 +541,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "type": "blog-post",
     "tags": [
       "Culture",
-      "Team",
+      "Teams",
       "Random",
       "Organizations"
     ],
