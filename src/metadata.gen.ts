@@ -5,6 +5,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let metadata: Array<HydratedFrontmatter> = [
   {
+    "title": "Zombie Retros",
+    "slug": "zombie-retros",
+    "path": "/2025/july/zombie-retros",
+    "date": 1753124861470,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Teams",
+      "Culture"
+    ],
+    "month": "july",
+    "year": 2025,
+    "ogImage": "/og-images/zombie-retros.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "31",
     "slug": "31",
     "path": "/2025/july/31",
@@ -23,7 +42,7 @@ export let metadata: Array<HydratedFrontmatter> = [
     "ogImage": "/og-images/31.png",
     "blueskyPostUri": "",
     "location": "Boston, MA",
-    "lastModified": null
+    "lastModified": 1752869812000
   },
   {
     "title": "Link: How I build software quickly",

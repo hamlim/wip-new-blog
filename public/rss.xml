@@ -4,7 +4,7 @@
         <title>Matt Hamlin's Blog</title>
         <link>https://matthamlin.me</link>
         <description>Matt Hamlin's Blog</description>
-        <lastBuildDate>Fri, 18 Jul 2025 20:15:47 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Jul 2025 19:16:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Matt by Hand</generator>
         <language>en</language>
@@ -14,6 +14,20 @@
             <link>https://matthamlin.me</link>
         </image>
         <copyright>© 2025 Matt Hamlin</copyright>
+        <item>
+            <title><![CDATA[Zombie Retros]]></title>
+            <link>https://matthamlin.me//2025/july/zombie-retros</link>
+            <guid>https://matthamlin.me//2025/july/zombie-retros</guid>
+            <pubDate>Mon, 21 Jul 2025 19:07:41 GMT</pubDate>
+            <description><![CDATA[Status Update: July 21, 2025]]></description>
+            <content:encoded><![CDATA[<p><strong>Zombie retrospectives are worse than doing no retros at all.</strong></p>
+<p>A zombie retro can easily be spotted by most folks (and yet never seems to be discussed by the team, nor noticed by the facilitator), and it is one of the worst things that can happen for a team.</p>
+<p>Retros are meant to be lively discussions about the team&#x27;s process or progress over the last period of time (monthly or bi-weekly or whatever works), you should be having (respectful) disagreements and (positive) arguments with your team, it&#x27;s intentionally meant as an opportunity to hash out process topics with the team as a whole. Yet, far too often these meetings actively drain the team of any and all energy they have to improve the process.</p>
+<p>One of my former managers talks about retros frequently on <a href="https://critter.blog/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">their blog</a>, and this post really stands out to me as a call to action to kill <a href="https://critter.blog/2021/02/03/snowflake-retros/" class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-primary underline-offset-4 hover:underline focus:underline">zombie retros</a>.</p>
+<p>If you&#x27;re suffering from zombie retros, try giving some of those ideas a try!</p>]]></content:encoded>
+            <author>matthewjameshamlin@gmail.com (Matt Hamlin)</author>
+            <enclosure url="https://matthamlin.me/og-images/zombie-retros.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[31]]></title>
             <link>https://matthamlin.me//2025/july/31</link>

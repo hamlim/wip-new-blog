@@ -378,6 +378,8 @@ import type { getConfig as File_2025JulyMultiStepNativeHtmlForms_getConfig } fro
 // prettier-ignore
 import type { getConfig as File_2025JulyVacationAndStreaks_getConfig } from './pages/2025/july/vacation-and-streaks';
 // prettier-ignore
+import type { getConfig as File_2025JulyZombieRetros_getConfig } from './pages/2025/july/zombie-retros';
+// prettier-ignore
 import type { getConfig as File_2025JuneAddingMicroposts_getConfig } from './pages/2025/june/adding-microposts';
 // prettier-ignore
 import type { getConfig as File_2025JuneAllDocumentationShouldBeDated_getConfig } from './pages/2025/june/all-documentation-should-be-dated';
@@ -617,6 +619,7 @@ type Page =
 | ({ path: '/2025/july/link-how-i-build-software-quickly' } & GetConfigResponse<typeof File_2025JulyLinkHowIBuildSoftwareQuickly_getConfig>)
 | ({ path: '/2025/july/multi-step-native-html-forms' } & GetConfigResponse<typeof File_2025JulyMultiStepNativeHtmlForms_getConfig>)
 | ({ path: '/2025/july/vacation-and-streaks' } & GetConfigResponse<typeof File_2025JulyVacationAndStreaks_getConfig>)
+| ({ path: '/2025/july/zombie-retros' } & GetConfigResponse<typeof File_2025JulyZombieRetros_getConfig>)
 | ({ path: '/2025/june/adding-microposts' } & GetConfigResponse<typeof File_2025JuneAddingMicroposts_getConfig>)
 | ({ path: '/2025/june/all-documentation-should-be-dated' } & GetConfigResponse<typeof File_2025JuneAllDocumentationShouldBeDated_getConfig>)
 | ({ path: '/2025/june/async-class-creation-in-javascript' } & GetConfigResponse<typeof File_2025JuneAsyncClassCreationInJavascript_getConfig>)

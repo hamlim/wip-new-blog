@@ -4,6 +4,25 @@ import type { HydratedFrontmatter } from "#/types";
 
 export let recentMicroposts: Array<HydratedFrontmatter> = [
   {
+    "title": "Zombie Retros",
+    "slug": "zombie-retros",
+    "path": "/2025/july/zombie-retros",
+    "date": 1753124861470,
+    "status": "public",
+    "type": "micropost",
+    "tags": [
+      "micropost",
+      "Teams",
+      "Culture"
+    ],
+    "month": "july",
+    "year": 2025,
+    "ogImage": "/og-images/zombie-retros.png",
+    "blueskyPostUri": "",
+    "location": "Boston, MA",
+    "lastModified": null
+  },
+  {
     "title": "Link: How I build software quickly",
     "slug": "link-how-i-build-software-quickly",
     "path": "/2025/july/link-how-i-build-software-quickly",
@@ -73,22 +92,5 @@ export let recentMicroposts: Array<HydratedFrontmatter> = [
     "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3lsbunpzuvc2a",
     "location": "Boston, MA",
     "lastModified": 1750691628000
-  },
-  {
-    "title": "All Documentation Should Be Dated",
-    "slug": "all-documentation-should-be-dated",
-    "path": "/2025/june/all-documentation-should-be-dated",
-    "date": 1750422391010,
-    "status": "public",
-    "type": "micropost",
-    "tags": [
-      "micropost"
-    ],
-    "month": "june",
-    "year": 2025,
-    "ogImage": "/og-images/all-documentation-should-be-dated.png",
-    "blueskyPostUri": "https://bsky.app/profile/matthamlin.me/post/3ls22jksebk2n",
-    "location": "Boston, MA",
-    "lastModified": 1750533014000
   }
 ]
